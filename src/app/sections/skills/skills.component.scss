@@ -1,0 +1,117 @@
+/* ======== Estilo da Seção Skills ======== */
+.skills{
+    width: 100%;
+}
+  
+  .section-title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%; 
+    color: #00ff00; // Cor verde neon
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  /* ======== Estilização da Grade de Skills ======== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0c8c34; // Fundo verde
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px rgba(0, 255, 0, 0.5);
+  }
+  
+  /* ======== Cartões de Skills ======== */
+  .skill-card {
+    align-items: center;
+    background: #021709;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 1 18%;
+    flex-direction: row; // Ícone e texto na mesma linha
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1%;
+    padding: 10px;
+  }
+  
+  .skill-card i,fa-icon  {
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg) brightness(100%) contrast(100%);
+  }
+  
+  .skill-card span {
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .skill-card img  {
+    width: 30px;
+    height: 30px;
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg) brightness(100%) contrast(100%);
+  }
+  
+  /* ======== Efeito ao Passar o Mouse ======== */
+  .skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 255, 0, 0.7);
+  }
+  
+  .csharp img {
+    content: url('../../../assets/images/c-sharp-logo.png');
+  }
+
+  .netcore img {
+    content: url('../../../assets/images/netcore.png');
+  }
+
+  .netFreme img {
+    content: url('../../../assets/images/framework.png');
+  }
+
+  .ef img {
+    width: 20PX;
+    height: 20PX;
+    content: url('../../../assets/images/ef.png');
+  }
+
+  .postgree img {
+    content: url('../../../assets/images/postgree.png');
+  }
+
+  .api img {
+    content: url('../../../assets/images/api.png');
+  }
+
+  .kubernetes img {
+    content: url('../../../assets/images/kubernetes.png');
+  }
+
+  .mongo img{
+    content: url('../../../assets/images/mongo.png');
+  }
+
+  .azure img{
+    content: url('../../../assets/images/azure.png');
+  }
+
+ 
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+  

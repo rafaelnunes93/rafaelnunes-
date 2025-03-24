@@ -1,0 +1,114 @@
+.tamanho{
+  width: 100%;
+} 
+  .tooling-title {
+    width: fit-content;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background: rgb(18, 20, 29);
+    border-radius: 12px;
+    box-shadow: rgb(20, 233, 86) 0px 0px 4px 1px inset;
+    color: #14e956;
+    font-family: Cyborg;
+    text-transform: uppercase;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .tab {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+    padding: 10px 20px;
+    cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+    transition: 0.3s;
+    
+  }
+  
+  .tab.active {
+    color: #14e956;
+    border-bottom: 3px solid #14e956;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #14e956;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    background: #14e956;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-content {
+    background: #12141d;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 49%;
+    text-align: right;
+  }
+  
+  .timeline-content h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .timeline-content h4 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #14e956;
+  }
+  
+  .timeline-content span {
+    display: block;
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 5px;
+  }
+  
+  .timeline-content.left {
+    text-align: right;
+    margin-right: auto;
+  }
+  
+  .timeline-content.right {
+    text-align: left;
+    margin-left: auto;
+  }
+  

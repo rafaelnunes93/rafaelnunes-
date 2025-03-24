@@ -1,0 +1,61 @@
+<section id="contact" class="contact-section">
+    <div class="row sm-m-25px-b m-35px-b">
+        <div class="col-md-12">
+            <div class="tooling-title"><h2>Contato</h2></div>          
+        </div>
+    </div>
+    <div class="Box">
+        <div class="row">
+            <!-- Formulário -->
+            <div class="col-lg-7 col-md-12">
+                <div class="contact-form">
+                    <h2 class="contact-title">CONTATO</h2>
+                    <p>PRECISA DE AJUDA OU TEM ALGUMA DÚVIDA?</p>
+                    <form (submit)="enviarMensagem()">
+                        <div class="form-group">
+                            <input type="text" class="form-control" [(ngModel)]="nome" name="nome" placeholder="Nome *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" [(ngModel)]="email" name="email" placeholder="Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" [(ngModel)]="assunto" name="assunto" placeholder="Assunto *" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" [(ngModel)]="mensagem" name="mensagem" placeholder="Sua Mensagem *" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-enviar">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Informações de contato -->
+            <div class="col-lg-5 col-md-12">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Endereço</strong>
+                            <p>Paulínia - SP, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Telefone</strong>
+                            <p>Celular: +55 19 99185-6553</p>
+                            <p>WhatsApp: <a href="https://wa.me/5519991856553">+55 19 99185-6553</a></p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>E-mail</strong>
+                            <p>davrafaelnunes&#64;gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

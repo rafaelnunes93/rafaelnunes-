@@ -1,0 +1,30 @@
+<section id="experiencias">
+    <div class="tamanho">
+      <div class="col-md-12">
+            <div class="tooling-title"><h2>EXPERIÊNCIA PROFISSIONAL</h2></div>      
+        </div>
+        <p>Minha jornada até aqui</p>
+  
+      <div class="tabs">
+        <button class="tab" [class.active]="activeTab === 'trabalhos'" (click)="changeTab('trabalhos')">
+          <i class="fa-solid fa-briefcase"></i> Trabalhos
+        </button>
+        <button class="tab" [class.active]="activeTab === 'formacoes'" (click)="changeTab('formacoes')">
+          <i class="fa-solid fa-graduation-cap"></i> Formações
+        </button>
+      </div>
+  
+      <div class="timeline">
+        <div *ngFor="let item of getFilteredItems(); let i = index" class="timeline-item">
+          <div class="timeline-content" [class.left]="i % 2 === 0" [class.right]="i % 2 !== 0">
+            <h3>{{ item.titulo }}</h3>
+            <h4>{{ item.local }}</h4>
+            <span class="date"><i class="fa-solid fa-calendar"></i> {{ item.periodo }}</span>
+            <p class="descricao">{{ item.descricao }}</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

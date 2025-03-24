@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #050810;
+    box-sizing: border-box;
+    color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html {
+    cursor: url(../src/assets/images/arrowPoint.svg) 15 15, move;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.tooling-title {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgb(20, 233, 86) 0px 0px 4px 1px inset;
+    margin: 0 auto 5rem auto; // 🔹 Garante centralização horizontalmente
+    background: rgb(18, 20, 29);
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+}
+
+ .tooling-title h2 {
+    color: #14e956;
+    font-family: Cyborg;
+    font-weight: 900;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-transform: uppercase;
+    align-items: center;
+    background: #12141d;
+}
+
+img {
+    max-width: 100%;
+  }
+  
+// .section-tag {
+//     color: #14e956; // Cor roxa
+//     font-family: "Courier New", monospace;
+//     font-size: 1.2rem;
+//     font-weight: bold;
+//     margin: 10px 0;
+//     display: block;
+//   }
+

@@ -1,0 +1,166 @@
+/* ======== Estilização da Seção Sobre Mim ======== */
+  
+  
+  /* ======== Estilização da Imagem e Redes Sociais ======== */
+ 
+  .about-me-img img {
+    content: url('../../../assets/images/rafael.png');
+  }
+
+  .about-me-img {
+	border: 14px solid #fff;
+	border-radius: 5px;
+	position: relative;
+	.social-icon {
+		width: 50px;
+	    position: absolute;
+	    top: 20px;
+	    left: -10px;
+	    background: #fff;
+	    padding: 8px;
+		a {
+			width: 34px;
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+			background: #14e956 ;
+			color: #fff;
+			margin: 3px 0;
+			font-size: 12px; 
+            cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+			&:hover {
+				background: #141414;
+			}
+		}
+	}
+	
+}
+
+.small{
+    font-size: 24px;
+}
+
+.about-me,
+.about-me h4,
+.about-me h6,
+.about-me p,
+.btn-bar,
+.about-list {
+  text-align: left;
+  padding-left: 40px;
+}
+
+/* Ajusta a lista de informações pessoais */
+.about-list .media {
+    display: flex;
+    align-items: center; // Mantém as labels e textos alinhados verticalmente
+    justify-content: space-between; // Garante espaçamento adequado
+    gap: 10px; // Espaçamento entre label e p
+    margin-bottom: 10px;
+  }
+  
+  /* Estiliza a label */
+  .about-list .media label {
+    font-weight: bold;
+    color: #ffffff;
+    flex: 1; // Faz com que a label ocupe um espaço fixo
+    text-align: left;
+  }
+  
+  /* Estiliza o texto */
+  .about-list .media p {
+    margin: 0;
+    flex: 2; // O texto ocupa mais espaço que a label
+    text-align: left;
+  }
+
+  .about-list .media p a {
+    cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+    text-decoration: none;
+    color: #14e956;
+  }
+
+  .btn-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start; // Alinha o botão à esquerda
+  }
+  
+  .m-btn-theme {
+    background-color: #14e956; // Cor semelhante à da imagem
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    border: none;
+    cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); // Efeito de sombra para destacar o botão
+  }
+  
+  .m-btn-theme:hover {
+    background-color: #1cac1c; // Tom mais escuro ao passar o mouse
+    transform: translateY(-2px); // Pequeno efeito de elevação ao passar o mouse
+  }
+
+
+// /* Ajusta os elementos da lista de informações pessoais */
+// .about-list .media {
+//     display: flex;
+//     flex-direction: column; // Mantém os labels e textos organizados em coluna
+//     align-items: flex-start; // Alinha os textos à esquerda
+//     margin-bottom: 10px;
+//   }
+  
+//   /* Garante que a navbar continue centralizada */
+//   nav ul {
+//     display: flex;
+//     justify-content: center;
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//   }
+
+// .about-me {
+// 	padding-left: 40px;
+//     align-items: start;
+//     justify-content: start;
+// 	h4 {
+// 		font-weight: 600;
+// 	    font-size: 30px;
+// 	    margin: 0 0 10px;
+// 	    color: #c1c1c1;
+// 	}
+// 	h6 {
+// 		color: #c1c1c1;
+// 		font-weight: 400;
+//     	margin: 0 0 20px;
+// 	}
+// 	.about-list {
+// 		padding-top: 10px;
+// 	}
+// 	.media {
+// 	    padding: 6px 0;
+//     	line-height: normal;
+// 		label {
+// 		    margin: 0;
+// 		    color: #c1c1c1;
+// 		    font-weight: 500;
+// 		    font-size: 14px;
+// 		    flex: 0 0 90px;
+// 		    border-right: 1px solid #c1c1c1;
+// 		    max-width: 90px;
+// 		}
+// 		p {
+// 		    margin-bottom: 0;
+// 		    padding-left: 15px;
+// 		    font-size: 14px;
+// 		}
+// 	}
+// 	.btn-bar {
+// 		margin-top: 30px;
+// 	}
+// }

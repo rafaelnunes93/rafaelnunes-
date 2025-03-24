@@ -1,0 +1,139 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+  
+  .home-inner {
+    width: 100%;
+    max-width: calc(1280px + 2rem);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    gap: 2rem;
+  }
+
+  .hero-text {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+  
+  .home-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; // Garante que os elementos fiquem empilhados
+    align-items: center;
+    text-align: center;
+  }
+  
+  .word {
+    display: inline-block;
+    margin-left: 15px;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 1s forwards;
+  }
+  
+  .word.name {
+    display: block; // Garante que fique sozinho na linha de baixo
+    margin-top: 10px; // Adiciona espaçamento superior para separação
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'popins', Times, serif;
+  }
+
+  .wave {
+    display: inline-block;
+    font-size: 58px;
+    animation: waveAnimation 1.5s infinite ease-in-out;
+    transform-origin: 70% 70%; // Ponto de rotação da mão
+  }
+
+  .tertiary-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .content-tertiary {
+    width: max-content;
+    margin: 10px;
+
+    i {
+        margin: 5px;
+    }
+}
+
+.content-tertiary p {
+    color: rgb(20, 233, 86);
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    background: rgba(20, 233, 88, 0.157);
+    border-radius: 12px;
+    margin: 0px;
+    padding: 0.5rem 1rem;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 1s forwards;
+}
+
+  
+  .home-text .word:nth-child(1) { animation-delay: 0.2s; }
+  .home-text .word:nth-child(2) { animation-delay: 0.4s; }
+  .home-text .word:nth-child(3) { animation-delay: 0.6s; }
+  .home-text .word:nth-child(4) { animation-delay: 0.8s; }
+  .home-text .word.name { animation-delay: 1s; color: #10E956; }
+
+
+  .tertiary-list .anim:nth-child(1) { animation-delay: 1.2s; }
+  .tertiary-list .anim:nth-child(2) { animation-delay: 1.4s; }
+  .tertiary-list .anim:nth-child(3) { animation-delay: 1.6s; }
+
+  .hero-image {
+    animation: fadeIn .3s ease-in-out;
+}
+  
+.home-image {
+  width: 400px;
+  height: 400px;
+  background-size: cover;  /* Ajusta a imagem para cobrir o contêiner */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes waveAnimation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+ 

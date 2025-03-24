@@ -1,0 +1,87 @@
+#portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+    padding: 20px;
+  
+    article {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      display: block;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+      }
+  
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+      }
+  
+      &:hover .overlay {
+        opacity: 1;
+      }
+  
+      &.hidden {
+        display: none !important;
+      }
+  
+      // Tamanhos variados
+      &.tall {
+        grid-row: span 2;
+      }
+  
+      &.wide {
+        grid-column: span 2;
+      }
+  
+      &.big {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+    }
+  }
+  
+  .portfolio-filter-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+  
+    li a {
+      background: #14e956;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+      cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+  
+      &.active,
+      &:hover {
+        background: #07792b;
+      }
+    }
+  }
+  
+
+ 
