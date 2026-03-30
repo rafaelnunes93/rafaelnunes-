@@ -23,5 +23,5 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'Rafael Nunes dos Santos';
 }
