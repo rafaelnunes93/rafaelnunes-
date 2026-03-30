@@ -8,10 +8,15 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavbarComponent {
   isScrolled = false; // Variável para verificar se rolou a tela
+  isMenuOpen = false;
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     this.isScrolled = scrollTop > 50; // Se passar de 50px, torna visível
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }

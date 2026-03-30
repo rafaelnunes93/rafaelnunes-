@@ -2,12 +2,15 @@
   <div class="logo">
     <img src="assets/images/logofundobranco.png" alt="Logo" />
   </div>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#sobre-mim">Sobre Mim</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projetos</a></li>
-    <li><a href="#experiencias">Experiências</a></li>
-    <li><a href="#contact">Contato</a></li>
+  <div class="hamburger" (click)="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </div>
+  <ul [class.nav-open]="isMenuOpen">
+    <li><a href="#home" (click)="toggleMenu()">Home</a></li>
+    <li><a href="#sobre-mim" (click)="toggleMenu()">Sobre Mim</a></li>
+    <li><a href="#skills" (click)="toggleMenu()">Skills</a></li>
+    <li><a href="#projects" (click)="toggleMenu()">Projetos</a></li>
+    <li><a href="#experiencias" (click)="toggleMenu()">Experiências</a></li>
+    <li><a href="#contact" (click)="toggleMenu()">Contato</a></li>
   </ul>
 </nav>

@@ -1,6 +1,6 @@
 .contact-section {
     padding: 60px 0;
-    width: 120%;
+    width: 100%;
 
     .Box {
         display: flex;
@@ -9,10 +9,16 @@
         width: 100% !important;
         max-width: 1400px;
         margin: auto;
-        background: #12141d;;
+        background: #12141d;
+        ;
         padding: 40px;
         border-radius: 10px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            padding: 20px;
+        }
     }
 
     .contact-title {
@@ -35,7 +41,8 @@
     .form-group {
         margin-bottom: 15px;
 
-        input, textarea {
+        input,
+        textarea {
             width: 100%;
             padding: 12px;
             border: 1px solid #ccc;
@@ -60,26 +67,29 @@
         cursor: pointer;
         transition: 0.3s;
         cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+
         &:hover {
             background: #14c04a;
         }
     }
 
     .contact-info {
-        
+
         padding: 20px;
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
         margin-top: 60px;
 
         .info-box {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
-            background: #1f212c;;
+            background: #1f212c;
+            ;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;           
-            
+            padding: 20px;
+
 
             i {
                 font-size: 22px;
@@ -104,6 +114,7 @@
                 color: #14e956;
                 text-decoration: none;
                 cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
+
                 &:hover {
                     text-decoration: underline;
                 }
