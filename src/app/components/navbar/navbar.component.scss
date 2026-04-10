@@ -1,9 +1,14 @@
-nav {
+:host {
+  display: block;
+}
+
+nav.site-nav {
   position: fixed;
   width: 100%;
   height: 65px;
-  background-color: #0d0d0d; // escuro real
-  display: flex;
+  background-color: #0d0d0d;
+  display: flex !important;
+  flex-wrap: nowrap !important;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
@@ -13,6 +18,7 @@ nav {
 
   @media (max-width: 768px) {
     padding: 0 20px;
+    height: 65px;
   }
 
   .logo {
@@ -28,19 +34,24 @@ nav {
     }
   }
 
-  .hamburger {
+  .hamburger-btn {
     display: none;
     color: #10e956;
     font-size: 28px;
     cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    line-height: 1;
 
     @media (max-width: 768px) {
-      display: block;
+      display: flex;
+      align-items: center;
     }
   }
 
-  ul {
-    display: flex;
+  .nav-links {
+    display: flex !important;
     justify-content: center;
     list-style: none;
     padding: 0;
@@ -49,36 +60,50 @@ nav {
     gap: 30px;
 
     @media (max-width: 768px) {
-      display: none; // Hidden by default on mobile
+      display: none !important;
       flex-direction: column;
-      position: absolute;
+      position: fixed;
       top: 65px;
       left: 0;
+      right: 0;
       width: 100%;
       background-color: #0d0d0d;
       padding: 20px 0;
-      gap: 15px;
-      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+      gap: 0;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+      z-index: 999;
 
-      &.nav-open {
-        display: flex; // Show when toggled
+      &.open {
+        display: flex !important;
       }
     }
 
     li {
       a {
-        color: #ffffff; // texto branco visível
+        display: block;
+        color: #ffffff;
         text-decoration: none;
         font-size: 18px;
         padding: 10px 20px;
         transition: 0.3s;
-        position: relative;
         cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
 
         &:hover {
           font-size: 28px;
           font-weight: bolder;
-          color: #10e956; // cor verde no hover (opcional)
+          color: #10e956;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 16px;
+          padding: 15px 30px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+          text-align: center;
+
+          &:hover {
+            font-size: 18px;
+            color: #10e956;
+          }
         }
       }
     }
@@ -86,6 +111,6 @@ nav {
 }
 
 .scrolled {
-  background-color: #0d0d0d; // mantém escuro ao rolar
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); // sombra sutil
+  background-color: #0d0d0d;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }

@@ -20,3 +20,5 @@ export class NavbarComponent {
     this.isMenuOpen = !this.isMenuOpen;
   }
 }
+
+// trigger reload
