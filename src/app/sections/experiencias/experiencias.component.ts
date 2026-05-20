@@ -18,49 +18,55 @@ export class ExperienciasComponent {
   activeTab: string = 'trabalhos';
 
   trabalhos = [
-    { 
-      titulo: "Desenvolvedor .NET Júnior", 
-      local: "Smart Online", 
-      periodo: "Jan, 2023 - Atual", 
+    {
+      titulo: "Desenvolvedor .NET",
+      local: "Aplicativo .Net",
+      periodo: "Out, 2025 - Jan, 2026",
+      descricao: "Desenvolvimento de Aplicações .NET 8 banco de dados SQL Server"
+    },
+    {
+      titulo: "Desenvolvedor .NET Junior",
+      local: "Smart Online",
+      periodo: "nov, 2023 - Out, 2025",
       descricao: ""
     },
-    { 
-      titulo: "Desenvolvedor .NET Trainee", 
-      local: "Online Applications", 
-      periodo: "Nov, 2021 - Dez, 2022", 
+    {
+      titulo: "Desenvolvedor .NET Trainee",
+      local: "Online Applications",
+      periodo: "Nov, 2021 - Dez, 2022",
       descricao: ""
     },
-    { 
-      titulo: "Suporte em TI", 
-      local: "Online Applications", 
-      periodo: "jun, 2020 - nov, 2020", 
+    {
+      titulo: "Suporte em TI",
+      local: "Online Applications",
+      periodo: "jun, 2020 - nov, 2020",
       descricao: ""
     },
-    { 
-      titulo: "Estágio em TI", 
-      local: "Online Applications", 
-      periodo: "Ago, 2019 - mar, 2020", 
+    {
+      titulo: "Estágio em TI",
+      local: "Online Applications",
+      periodo: "Ago, 2019 - mar, 2020",
       descricao: ""
     }
   ];
 
   formacoes = [
-    { 
-      titulo: "POS TECH- Arquitetura de Sistemas .NET", 
-      local: "FIAP", 
-      periodo: "JAN, 2025 - Dez, 2025", 
+    {
+      titulo: "POS TECH- Arquitetura de Sistemas .NET",
+      local: "FIAP",
+      periodo: "JAN, 2025 - Maio, 2026",
       descricao: ""
     },
-    { 
-      titulo: "Ciencia da Computação (Curso não Concluido)", 
-      local: "Universidade Paulista UNIP", 
-      periodo: "Jaz, 2015 - Dez, 2020", 
+    {
+      titulo: "Ciencia da Computação (Curso não Concluido)",
+      local: "Universidade Paulista UNIP",
+      periodo: "Jaz, 2015 - Dez, 2020",
       descricao: ""
     },
-    { 
-      titulo: "Gestão em Tecnologia da Informação", 
-      local: "Universidade Paulista UNIP", 
-      periodo: "Jan, 2011 - Dez, 2013", 
+    {
+      titulo: "Gestão em Tecnologia da Informação",
+      local: "Universidade Paulista UNIP",
+      periodo: "Jan, 2011 - Dez, 2013",
       descricao: ""
     }
   ];

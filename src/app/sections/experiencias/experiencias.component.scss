@@ -61,7 +61,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 90%;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -80,7 +80,8 @@
   color: white;
   padding: 20px;
   border-radius: 8px;
-  width: 49%;
+  width: calc(50% - 15px);
+  overflow: hidden;
   text-align: right;
 
   @media (max-width: 768px) {
