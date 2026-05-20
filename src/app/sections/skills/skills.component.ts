@@ -33,17 +33,14 @@ export class SkillsComponent {
       skills: [
         { name: 'C#', letter: 'C#' },
         { name: '.NET', letter: '.N' },
-        { name: '.NET Framework', letter: '.N' },
-        { name: 'Entity Framework', letter: 'Ef' },
         { name: 'APIs REST', letter: 'A' },
-         { name: 'Unity 5', letter: 'U' }
+        { name: 'Entity Framework', letter: 'Ef' }
       ]
     },
     {
       title: 'ARQUITETURA',
       skills: [
         { name: 'Microsserviços', letter: 'M' },
-        { name: 'Mensageria', letter: 'Me' },
         { name: 'SOLID', letter: 'S' },
         { name: 'Clean Code', letter: 'Cc' },
         { name: 'TDD', letter: 'T' }
@@ -65,8 +62,14 @@ export class SkillsComponent {
         { name: 'Docker', letter: 'D' },
         { name: 'Kubernetes', letter: 'K' },
         { name: 'CI/CD', letter: 'Ci' },
-        { name: 'Observabilidade', letter: 'O' },
         { name: 'GIT', letter: 'G' }
+      ]
+    },
+     {
+      title: 'Games',
+      skills: [
+        { name: 'Unity 5', letter: 'U' },
+         { name: 'Construct 3', letter: 'C' }
       ]
     }
   ];

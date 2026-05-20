@@ -1,70 +1,269 @@
-#portfolio-items {
+$green: #00FF66;
+$dark-bg: #12141d;
+$darker-bg: #050810;
+$text-light: #f0f0f0;
+$text-muted: #9e9e9e;
+
+#projects {
+  position: relative;
+}
+
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  gap: 2rem;
+  margin-top: 2rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 992px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
+}
 
-  article {
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    aspect-ratio: 1 / 1;
-    background: #1a1a2e;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+// ---- Project Card ----
+.project-card {
+  background: $dark-bg;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 255, 102, 0.15);
+    
+    .card-image-wrapper img {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.card-image-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #1a1d27;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+}
+
+.card-bottom-bar {
+  background: $green;
+  padding: 1rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  span {
+    color: $darker-bg;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+  }
+
+  svg {
+    color: $darker-bg;
+    transition: transform 0.2s ease;
+  }
+}
+
+
+// ---- Modal Overlay ----
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(5, 8, 16, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.modal-content {
+  background: $dark-bg;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+  cursor: default;
+
+  .modal-overlay.open & {
+    transform: translateY(0);
+  }
+
+  // Scrollbar customizada para o modal
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $dark-bg;
+    border-radius: 0 12px 12px 0;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
     &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(20, 233, 86, 0.2);
+      background: rgba(255, 255, 255, 0.2);
     }
+  }
+}
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-      padding: 10px;
-      box-sizing: border-box;
-      cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
-    }
+.close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: transparent;
+  border: none;
+  color: $text-muted;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+  z-index: 10;
 
-    .overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
-      color: white;
-      padding: 20px 15px;
-      text-align: center;
-      opacity: 0;
-      transition: opacity 0.3s ease;
+  &:hover {
+    color: $green;
+    transform: scale(1.1) rotate(90deg);
+  }
+}
 
-      h3 {
-        font-size: 1.1rem;
-        margin: 0 0 5px;
-        font-weight: 700;
-      }
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
 
-      span {
-        font-size: 0.8rem;
-        color: #14e956;
-        font-weight: 500;
-      }
-    }
+.modal-image {
+  width: 100%;
+  background: #1a1d27;
+  
+  img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+  }
+}
 
-    &:hover .overlay {
-      opacity: 1;
-    }
+.modal-info {
+  padding: 2.5rem;
+}
+
+.modal-header {
+  margin-bottom: 1.5rem;
+  padding-right: 2rem; // Espaço para o botão fechar
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: $text-light;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .subtitle {
+    color: $green;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.tech-badge {
+  background: rgba(0, 255, 102, 0.1);
+  color: $green;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid rgba(0, 255, 102, 0.2);
+}
+
+.description-text {
+  margin-bottom: 2.5rem;
+  
+  p {
+    color: $text-muted;
+    line-height: 1.7;
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+.modal-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-return {
+  background: $green;
+  color: $darker-bg;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0, 255, 102, 0.2);
+
+  &:hover {
+    background: lighten($green, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 255, 102, 0.4);
+  }
+}
+
+.btn-link {
+  color: $text-light;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 }

@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     'Clean Architecture',
     'Microsserviços',
     'APIs de Alta Performance',
-    'Arquitetura de Software'
+    'Arquitetura de Sistemas .NET'
   ];
 
   private currentIndex = 0;

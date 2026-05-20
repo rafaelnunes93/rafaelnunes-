@@ -1,59 +1,74 @@
 <section id="projects">
-  <div class="row sm-m-25px-b m-35px-b">
-    <div class="col-md-12">
-      <div class="tooling-title">
-        <h2>Projetos</h2>
+  <div class="container">
+    <div class="row m-35px-b">
+      <div class="col-md-12">
+        <div class="tooling-title">
+          <h2>PROJETOS</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projetos Grid -->
+    <div class="projects-grid">
+      @for (project of projects; track project.id) {
+        <article class="project-card" (click)="openModal(project)">
+          <div class="card-image-wrapper">
+            <img [src]="project.image" [alt]="project.title" loading="lazy">
+          </div>
+          <div class="card-bottom-bar">
+            <span>{{ project.title }}</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </div>
+        </article>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Modal Overlay -->
+@if (isModalOpen && selectedProject) {
+  <div class="modal-overlay" (click)="closeModal()" [class.open]="isModalOpen">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="close-btn" (click)="closeModal()" aria-label="Fechar Modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-image">
+          <img [src]="selectedProject.image" [alt]="selectedProject.title">
+        </div>
+        
+        <div class="modal-info">
+          <div class="modal-header">
+            <h3>{{ selectedProject.title }}</h3>
+            <span class="subtitle">{{ selectedProject.subtitle }}</span>
+          </div>
+
+          <div class="tech-stack">
+            @for (tech of selectedProject.techStack; track tech) {
+              <span class="tech-badge">{{ tech }}</span>
+            }
+          </div>
+
+          <div class="description-text">
+            <p>{{ selectedProject.description }}</p>
+          </div>
+
+          <div class="modal-actions">
+            <button class="btn-return" (click)="closeModal()">Voltar</button>
+            @if (selectedProject.link) {
+              <a [href]="selectedProject.link" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+            }
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <div id="portfolio-items">
-    <article>
-      <img src="assets/images/cargo.png" alt="Cargo Online">
-      <div class="overlay">
-        <h3>Cargo Online</h3>
-        <span>Plataforma TMS | .Net 8 </span>
-      </div>
-    </article>
-
-    <article>
-      <img src="assets/images/ups.jpg" alt="EDI UPS">
-      <div class="overlay">
-        <h3>EDI UPS</h3>
-        <span>Plataforma EDI | .NET Framework / HTML / CSS / JavaScript </span>
-      </div>
-    </article>
-
-    <article>
-      <img src="assets/images/FoodFy.png" alt="Foodfy">
-      <div class="overlay">
-        <h3>Foodfy</h3>
-        <span>Web App | NODE JS</span>
-      </div>
-    </article>
-
-    <article>
-      <img src="assets/images/AppShapeOn.png" alt="AppShapeOn">
-      <div class="overlay">
-        <h3>App ShapeOn</h3>
-        <span>Mobile App | Flutter</span>
-      </div>
-    </article>
-
-    <article>
-      <img src="assets/images/chafManager.png" alt="Chef Manager">
-      <div class="overlay">
-        <h3>Chef Manager</h3>
-        <span>Web App | Angular</span>
-      </div>
-    </article>
-
-    <article>
-      <img src="assets/images/worthViking.png" alt="Worth Viking">
-      <div class="overlay">
-        <h3>Worth Viking</h3>
-        <span>Game | Unity 5/ C#</span>
-      </div>
-    </article>
-  </div>
-</section>
+}
