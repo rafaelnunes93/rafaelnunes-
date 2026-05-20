@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from './sections/home/home.component';
 import { AboutComponent } from './sections/about/about.component';
+import { ServicesComponent } from './sections/services/services.component';
 import { SkillsComponent } from './sections/skills/skills.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { ExperienciasComponent } from './sections/experiencias/experiencias.component';
@@ -13,6 +14,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [
     HomeComponent,
     AboutComponent,
+    ServicesComponent,
     SkillsComponent,
     ProjectsComponent,
     ExperienciasComponent,

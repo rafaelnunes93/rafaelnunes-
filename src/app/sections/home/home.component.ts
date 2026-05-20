@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit, OnDestroy {
     'Backend Engineer',
     'Desenvolvedor .NET',
     'Clean Architecture',
-    'Microsserviços',
     'APIs de Alta Performance',
     'Arquitetura de Sistemas .NET'
   ];

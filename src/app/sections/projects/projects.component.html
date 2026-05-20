@@ -12,7 +12,7 @@
     <div class="projects-grid">
       @for (project of projects; track project.id) {
         <article class="project-card" (click)="openModal(project)">
-          <div class="card-image-wrapper">
+          <div class="card-image-wrapper" [class.contain-img]="project.id === 'app-shapeon'">
             <img [src]="project.image" [alt]="project.title" loading="lazy">
           </div>
           <div class="card-bottom-bar">
@@ -41,7 +41,7 @@
       </button>
 
       <div class="modal-body">
-        <div class="modal-image">
+        <div class="modal-image" [class.contain-img]="selectedProject.id === 'app-shapeon'">
           <img [src]="selectedProject.image" [alt]="selectedProject.title">
         </div>
         
