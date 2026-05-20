@@ -1,127 +1,162 @@
-/* ======== Estilo da Seção Skills ======== */
-.skills {
-  width: 100%;
+$green:       #00FF66;
+$divider:     rgba(255, 255, 255, 0.08);
+$text-light:  #e0e0e0;
+$text-muted:  #9e9e9e;
+$bg-dark:     #080b12;
+
+#skills {
+  position: relative;
+  margin-top: -2rem; // Puxa a seção inteira mais para perto do menu/seção anterior
+  padding-top: 1rem;
 }
 
-.section-title h2 {
+.tooling-title h2 {
   font-size: 2rem;
-  font-weight: bold;
-  width: 100%;
-  color: #00ff00; // Cor verde neon
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
-/* ======== Estilização da Grade de Skills ======== */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #0c8c34;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0px 1px 4px rgba(0, 255, 0, 0.5);
-  box-sizing: border-box;
-  width: 100%;
-
-  @media (max-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 15px;
-  }
-
-  @media (max-width: 480px) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    padding: 10px;
-  }
-
-  @media (max-width: 360px) {
-    grid-template-columns: 1fr;
-    padding: 8px;
-  }
+.skills-subtitle {
+  color: $text-muted;
+  font-size: 0.95rem;
+  max-width: 600px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
-/* ======== Cartões de Skills ======== */
-.skill-card {
-  align-items: center;
-  background: #021709;
-  border-radius: 8px;
+// ---- The Board ----
+.skills-board {
   display: flex;
-  flex-direction: row; // Ícone e texto na mesma linha
-  height: 60px;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 10px;
-}
-
-.skill-card i,
-fa-icon {
-  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg) brightness(100%) contrast(100%);
-}
-
-.skill-card span {
-  color: #00ff00;
-  font-weight: bold;
-  font-size: 1rem;
-  white-space: nowrap;
+  flex-direction: row;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid $divider;
+  border-radius: 12px;
   overflow: hidden;
-  text-overflow: ellipsis;
 
-  @media (max-width: 480px) {
-    font-size: 0.8rem;
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
   }
 }
 
-.skill-card img {
-  width: 30px;
-  height: 30px;
-  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg) brightness(100%) contrast(100%);
+// ---- Columns ----
+.skills-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.2rem;
+  border-right: 1px solid $divider;
+
+  &.no-border {
+    border-right: none;
+  }
+
+  @media (max-width: 1024px) {
+    flex: 0 0 50%;
+    
+    // Manage borders on tablet
+    &:nth-child(2n) {
+      border-right: none;
+    }
+    border-bottom: 1px solid $divider;
+    
+    // Remove bottom border from last elements
+    &:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    flex: 0 0 100%;
+    border-right: none;
+    border-bottom: 1px solid $divider;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
 }
 
-/* ======== Efeito ao Passar o Mouse ======== */
-.skill-card:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 6px 12px rgba(0, 255, 0, 0.7);
+// ---- Header ----
+.column-header {
+  border-bottom: 1px solid $divider;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1rem;
+  
+  h3 {
+    margin: 0;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: $green;
+    text-shadow: 0 0 8px rgba(0, 255, 102, 0.3);
+  }
 }
 
-.csharp img {
-  content: url('../../../assets/images/c-sharp-logo.png');
+// ---- List ----
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem; // Skills mais juntas
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    margin-left: -0.6rem; // Compensa o padding para manter o alinhamento
+    margin-right: -0.6rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+
+    &:hover {
+      background: rgba(0, 255, 102, 0.06); // Fundo verde transparente
+      transform: translateX(4px);
+      
+      .skill-name {
+        color: #fff;
+      }
+      .skill-icon {
+        border-color: $green;
+        background: $green;
+        span {
+          color: $bg-dark; // Inverte a cor do texto do ícone
+        }
+      }
+    }
+  }
 }
 
-.netcore img {
-  content: url('../../../assets/images/netcore.png');
+// ---- Icons ----
+.skill-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid $divider;
+  background: rgba(255, 255, 255, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+
+  span {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: $green;
+    font-family: monospace;
+    line-height: 1;
+  }
 }
 
-.netFreme img {
-  content: url('../../../assets/images/framework.png');
-}
-
-.ef img {
-  width: 20PX;
-  height: 20PX;
-  content: url('../../../assets/images/ef.png');
-}
-
-.postgree img {
-  content: url('../../../assets/images/postgree.png');
-}
-
-.api img {
-  content: url('../../../assets/images/api.png');
-}
-
-.kubernetes img {
-  content: url('../../../assets/images/kubernetes.png');
-}
-
-.mongo img {
-  content: url('../../../assets/images/mongo.png');
-}
-
-.azure img {
-  content: url('../../../assets/images/azure.png');
+.skill-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: $text-light;
+  transition: color 0.2s ease;
 }

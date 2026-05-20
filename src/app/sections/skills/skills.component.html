@@ -1,113 +1,39 @@
 <section id="skills">
-    <div class="container">
-        <div class="col-md-12">
-            <div class="tooling-title">
-                <h2>SKILLS</h2>
-            </div>
+  <div class="container">
+    <div class="row m-35px-b">
+      <div class="col-md-12">
+        <div class="tooling-title">
+          <h2>SKILLS</h2>
         </div>
-        <div class="skills-grid">
-            <div class="skill-card csharp">
-                <img src="" alt="c#">
-                <span>C#</span>
-            </div>
-            <div class="skill-card netFreme">
-                <img src="/assets/icons/cSharp.svg" alt=">net">
-                <span>.Net Framework</span>
-            </div>
-            <div class="skill-card netcore">
-                <img src="/assets/icons/cSharp.svg" alt=">net">
-                <span>.Net Core/6+</span>
-            </div>
-            <div class="skill-card ef">
-                <img src="/assets/icons/cSharp.svg" alt=">net">
-                <span>Entity Framework</span>
-            </div>
-            <div class="skill-card api">
-                <img src="" alt=">API">
-                <span>APIs Rest</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-brands fa-angular fa-2x"></i>
-                <span>Angular</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-code fa-2x"></i>
-                <span>TypeScript</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-brands fa-js fa-2x"></i>
-                <span>JavaScript</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa fa-server" aria-hidden="true"></i>
-                <span>SQL Server</span>
-            </div>
-            <div class="skill-card mongo">
-                <img src="" alt="MongoDB">
-                <span>MongoDB</span>
-            </div>
-            <div class="skill-card postgree">
-                <img src="/assets/icons/javascript.svg" alt="PostgreSQL">
-                <span>PostgreSQL</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-brands fa-docker fa-2x"></i>
-                <span>Docker</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-envelope fa-2x"></i>
-                <span>Mensageria</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-cubes fa-2x"></i>
-                <span>Microserviços</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-brands fa-aws" style="font-size:28px"></i>
-                <span>AWS</span>
-            </div>
-            <div class="skill-card kubernetes">
-                <img src="/assets/icons/typescript.svg" alt="Kubernetes">
-                <span>Kubernetes</span>
-            </div>
-            <div class="skill-card azure">
-                <img src="/assets/icons/solidity.svg" alt="Devops">
-                <span>Azure Devops</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-cube fa-2x"></i>
-                <span>TDD</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-brands fa-git-alt fa-2x"></i>
-                <span>GIT</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-gears fa-2x"></i>
-                <span>SOLID</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa fa-eraser" style="font-size:24px"></i>
-                <span>Clean Code</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-rotate fa-2x"></i>
-                <span>CI/CD</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-solid fa-chart-line fa-2x"></i>
-                <span>Observabilidade</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa-brands fa-unity fa-2x"></i>
-                <span>Unity 5</span>
-            </div>
-        </div>
+        <p class="skills-subtitle">
+          Tecnologias que utilizo para construir soluções escaláveis e eficientes —
+          escolhidas pelo que entregam, não apenas pela moda.
+        </p>
+      </div>
     </div>
-</section>
 
-<section class="section">
+    <!-- Container Grid -->
+    <div class="skills-board">
+      @for (category of categories; track category.title; let lastCol = $last) {
+        <div class="skills-column" [class.no-border]="lastCol">
+          
+          <div class="column-header">
+            <h3>{{ category.title }}</h3>
+          </div>
+          
+          <ul class="skills-list">
+            @for (skill of category.skills; track skill.name) {
+              <li>
+                <div class="skill-icon">
+                  <span>{{ skill.letter }}</span>
+                </div>
+                <span class="skill-name">{{ skill.name }}</span>
+              </li>
+            }
+          </ul>
 
-
-
+        </div>
+      }
+    </div>
+  </div>
 </section>

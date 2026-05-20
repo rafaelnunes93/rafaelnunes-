@@ -48,6 +48,7 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   flex-shrink: 0;
   text-decoration: none;
   transition: opacity 0.2s;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
 
   &:hover { opacity: 0.85; }
 
@@ -81,6 +82,7 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   letter-spacing: 0.03em;
   padding: 0.3rem 0.1rem;
   transition: color 0.22s;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
 
   // Underline slide-in on hover
   &::after {
@@ -116,7 +118,7 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   background: rgba(16, 233, 86, 0.06);
   border: 1px solid rgba(16, 233, 86, 0.2);
   border-radius: 8px;
-  cursor: pointer;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
   padding: 0;
   transition:
     background 0.2s,
@@ -197,6 +199,7 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   font-weight: 500;
   letter-spacing: 0.03em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
   transition:
     color 0.2s,
     background 0.2s,
