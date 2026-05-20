@@ -1,116 +1,230 @@
+// ============================================================
+// NAVBAR – Premium Refactor
+// ============================================================
+
+$green: #10e956;
+$green-dim: rgba(16, 233, 86, 0.15);
+$nav-height: 68px;
+$bg: rgba(8, 9, 14, 0.92);
+$bg-scrolled: rgba(5, 8, 16, 0.97);
+
 :host {
   display: block;
 }
 
-nav.site-nav {
+// ---- Wrapper nav ----
+.site-nav {
   position: fixed;
-  width: 100%;
-  height: 65px;
-  background-color: #0d0d0d;
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 40px;
   top: 0;
   left: 0;
+  width: 100%;
+  height: $nav-height;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(1rem, 5vw, 3rem);
+  box-sizing: border-box;
+  background: $bg;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border-bottom: 1px solid transparent;
+  transition:
+    background 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 
-  @media (max-width: 768px) {
-    padding: 0 20px;
-    height: 65px;
+  &.scrolled {
+    background: $bg-scrolled;
+    border-bottom-color: rgba(16, 233, 86, 0.12);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
   }
+}
 
-  .logo {
-    width: 130px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
+// ---- Logo ----
+.nav-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+  transition: opacity 0.2s;
 
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+  &:hover { opacity: 0.85; }
+
+  img {
+    width: 110px;
+    height: auto;
+    display: block;
   }
+}
 
-  .hamburger-btn {
+// ---- Desktop nav links ----
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: clamp(0.5rem, 2.5vw, 2rem);
+  align-items: center;
+
+  @media (max-width: 860px) {
     display: none;
-    color: #10e956;
-    font-size: 28px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    padding: 5px 10px;
-    line-height: 1;
+  }
+}
 
-    @media (max-width: 768px) {
-      display: flex;
-      align-items: center;
-    }
+.nav-link {
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: clamp(0.85rem, 1.2vw, 0.95rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.3rem 0.1rem;
+  transition: color 0.22s;
+
+  // Underline slide-in on hover
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: $green;
+    border-radius: 2px;
+    transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
-  .nav-links {
-    display: flex !important;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-grow: 1;
-    gap: 30px;
+  &:hover {
+    color: $green;
 
-    @media (max-width: 768px) {
-      display: none !important;
-      flex-direction: column;
-      position: fixed;
-      top: 65px;
-      left: 0;
-      right: 0;
+    &::after {
       width: 100%;
-      background-color: #0d0d0d;
-      padding: 20px 0;
-      gap: 0;
-      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
-      z-index: 999;
-
-      &.open {
-        display: flex !important;
-      }
-    }
-
-    li {
-      a {
-        display: block;
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 18px;
-        padding: 10px 20px;
-        transition: 0.3s;
-        cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
-
-        &:hover {
-          font-size: 28px;
-          font-weight: bolder;
-          color: #10e956;
-        }
-
-        @media (max-width: 768px) {
-          font-size: 16px;
-          padding: 15px 30px;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-          text-align: center;
-
-          &:hover {
-            font-size: 18px;
-            color: #10e956;
-          }
-        }
-      }
     }
   }
 }
 
-.scrolled {
-  background-color: #0d0d0d;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+// ---- Hamburger ----
+.hamburger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 42px;
+  height: 42px;
+  background: rgba(16, 233, 86, 0.06);
+  border: 1px solid rgba(16, 233, 86, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
+
+  &:hover {
+    background: rgba(16, 233, 86, 0.12);
+    border-color: rgba(16, 233, 86, 0.4);
+  }
+
+  @media (max-width: 860px) {
+    display: flex;
+  }
+}
+
+.hamburger-bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: $green;
+  border-radius: 2px;
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.2s,
+    width 0.3s;
+
+  &:nth-child(1).open {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  &:nth-child(2).open {
+    opacity: 0;
+    width: 0;
+  }
+
+  &:nth-child(3).open {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+// ---- Mobile drawer ----
+.mobile-drawer {
+  position: fixed;
+  top: $nav-height;
+  left: 0;
+  width: 100%;
+  background: rgba(5, 8, 16, 0.98);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(16, 233, 86, 0.12);
+  z-index: 999;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+
+  &.open {
+    max-height: 420px;
+  }
+
+  @media (min-width: 861px) {
+    display: none;
+  }
+}
+
+.mobile-nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 1rem;
+}
+
+.mobile-link {
+  display: block;
+  padding: 1rem 2rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition:
+    color 0.2s,
+    background 0.2s,
+    padding-left 0.25s;
+
+  &:hover {
+    color: $green;
+    background: rgba(16, 233, 86, 0.05);
+    padding-left: 2.5rem;
+  }
+}
+
+// ---- Mobile overlay ----
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  &.open {
+    display: block;
+    opacity: 1;
+  }
+
+  @media (min-width: 861px) {
+    display: none !important;
+  }
 }

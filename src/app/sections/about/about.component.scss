@@ -1,5 +1,11 @@
 /* ======== Estilização da Seção Sobre Mim ======== */
 
+// ---- Stats wrapper ----
+.stats-wrapper {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  width: 100%;
+}
+
 
 /* ======== Estilização da Imagem e Redes Sociais ======== */
 

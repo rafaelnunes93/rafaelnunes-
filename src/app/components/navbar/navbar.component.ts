@@ -1,24 +1,26 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, signal } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
+  imports: [],
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-  isScrolled = false; // Variável para verificar se rolou a tela
-  isMenuOpen = false;
+  isScrolled = signal(false);
+  isMenuOpen = signal(false);
 
   @HostListener('window:scroll', [])
-  onWindowScroll() {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    this.isScrolled = scrollTop > 50; // Se passar de 50px, torna visível
+  onWindowScroll(): void {
+    this.isScrolled.set(window.scrollY > 60);
   }
 
-  toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
+  toggleMenu(): void {
+    this.isMenuOpen.update(v => !v);
+  }
+
+  closeMenu(): void {
+    this.isMenuOpen.set(false);
   }
 }
-
-// trigger reload

@@ -1,0 +1,12 @@
+<div class="stats-grid" [class.visible]="isVisible()" role="list" aria-label="Estatísticas profissionais">
+  @for (stat of stats; track stat.label; let i = $index) {
+    <div class="stat-card" role="listitem">
+      <div class="stat-number-row">
+        <span class="stat-number">{{ displayed[i] }}</span>
+        <span class="stat-suffix">{{ stat.suffix }}</span>
+      </div>
+      <p class="stat-label">{{ stat.label }}</p>
+      <div class="stat-glow" aria-hidden="true"></div>
+    </div>
+  }
+</div>

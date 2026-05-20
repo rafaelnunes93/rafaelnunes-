@@ -1,173 +1,101 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+// ============================================================
+// GLOBAL STYLES – Premium Refactor
+// ============================================================
+
+// ---- Font import ----
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+// ---- Reset / Base ----
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: #050810;
-    box-sizing: border-box;
-    color: #f5f5f5;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #050810;
+  color: #f0f0f0;
+  font-family: 'Sora', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
+// ---- Custom cursor ----
 body,
 html {
-    cursor: url(../src/assets/images/arrowPoint.svg) 15 15, move;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  cursor: url(../src/assets/images/arrowPoint.svg) 15 15, move;
+  height: 100%;
+  width: 100%;
 }
 
+// ---- Images ----
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// ---- Section headings ----
 .tooling-title {
-    width: 100%;
-    max-width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: rgb(20, 233, 86) 0px 0px 4px 1px inset;
-    margin: 0 auto 5rem auto;
-    background: rgb(18, 20, 29);
-    border-radius: 12px;
-    padding: 0.8rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: rgb(20, 233, 86) 0px 0px 4px 1px inset;
+  margin: 0 auto 5rem auto;
+  background: rgb(18, 20, 29);
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
 }
 
 .tooling-title h2 {
-    color: #14e956;
-    font-family: Cyborg;
-    font-weight: 900;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    text-transform: uppercase;
-    align-items: center;
-    background: #12141d;
+  color: #14e956;
+  font-family: Cyborg, 'Sora', sans-serif;
+  font-weight: 900;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-transform: uppercase;
+  align-items: center;
+  background: #12141d;
+  margin: 0;
 }
 
-img {
-    max-width: 100%;
+// ---- Anchor scroll offset (navbar compensation) ----
+// Modern approach: does NOT affect layout, only scroll position
+[id] {
+  scroll-margin-top: 72px;
 }
 
-// =============================================
-// NAVBAR GLOBAL OVERRIDES – derrota Bootstrap
-// =============================================
-nav.site-nav {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 65px;
-    background-color: #0d0d0d !important;
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    padding: 0 40px !important;
-    z-index: 9999 !important;
-    box-sizing: border-box;
+// ---- Scrollbar styling (Webkit) ----
+::-webkit-scrollbar {
+  width: 6px;
+}
 
-    .logo {
-        width: 130px;
-        flex-shrink: 0;
-        display: flex;
-        align-items: center;
+::-webkit-scrollbar-track {
+  background: #050810;
+}
 
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 233, 86, 0.3);
+  border-radius: 3px;
 
-    // Hamburger – oculto no desktop
-    .hamburger-btn {
-        display: none;
-        background: #e07b39;
-        border: none;
-        color: #fff;
-        font-size: 22px;
-        width: 44px;
-        height: 44px;
-        border-radius: 6px;
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-    }
+  &:hover {
+    background: rgba(16, 233, 86, 0.5);
+  }
+}
 
-    // Links – visíveis no desktop
-    .nav-links {
-        display: flex !important;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        flex-grow: 1;
-        justify-content: center;
-        gap: 25px;
-        align-items: center;
-
-        li a {
-            color: #fff !important;
-            text-decoration: none;
-            font-size: 17px;
-            padding: 8px 12px;
-            transition: color 0.2s;
-
-            &:hover {
-                color: #10e956 !important;
-            }
-        }
-    }
-
-    // -------- MOBILE --------
-    @media (max-width: 768px) {
-        padding: 0 16px !important;
-
-        // Mostrar hamburger
-        .hamburger-btn {
-            display: flex !important;
-        }
-
-        // Ocultar links por padrão
-        .nav-links {
-            display: none !important;
-            position: fixed !important;
-            top: 65px;
-            left: 0;
-            right: 0;
-            width: 100% !important;
-            flex-direction: column !important;
-            background-color: #111827 !important;
-            gap: 0 !important;
-            padding: 8px 0 !important;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
-            z-index: 9998 !important;
-
-            // Abrir quando classe .open presente
-            &.open {
-                display: flex !important;
-            }
-
-            li {
-                width: 100%;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-
-                a {
-                    display: block !important;
-                    padding: 16px 24px !important;
-                    font-size: 16px !important;
-                    text-align: left !important;
-                    width: 100%;
-
-                    &:hover {
-                        color: #10e956 !important;
-                        background: rgba(255, 255, 255, 0.04);
-                    }
-                }
-            }
-        }
-    }
+// ---- Selection color ----
+::selection {
+  background: rgba(16, 233, 86, 0.25);
+  color: #fff;
 }

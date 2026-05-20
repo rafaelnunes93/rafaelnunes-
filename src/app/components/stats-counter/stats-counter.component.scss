@@ -1,0 +1,104 @@
+// ============================================================
+// STATS COUNTER – Minimal layout, smaller numbers
+// ============================================================
+
+$green:       #10e956;
+$divider:     rgba(255, 255, 255, 0.08);
+$label-color: rgba(255, 255, 255, 0.38);
+
+// ---- Grid ----
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  border: 1px solid $divider;
+
+  // Fade-in on enter
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 860px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ---- Card ----
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: clamp(1.5rem, 3vw, 2.2rem) clamp(1.2rem, 2.5vw, 2rem);
+  border-right: 1px solid $divider;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @media (max-width: 860px) {
+    &:nth-child(2n) { border-right: none; }
+    &:nth-child(1),
+    &:nth-child(2) { border-bottom: 1px solid $divider; }
+  }
+
+  @media (max-width: 480px) {
+    border-right: none;
+    border-bottom: 1px solid $divider;
+    align-items: center;
+    text-align: center;
+    &:last-child { border-bottom: none; }
+  }
+
+  transition: background 0.25s ease;
+  &:hover {
+    background: rgba(16, 233, 86, 0.03);
+  }
+}
+
+// ---- Number row ----
+.stat-number-row {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.stat-number {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: $green;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.stat-suffix {
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-weight: 800;
+  color: $green;
+  line-height: 1;
+  margin-top: 0.08em;
+  opacity: 0.7;
+}
+
+// ---- Label ----
+.stat-label {
+  margin: 0;
+  font-size: clamp(0.58rem, 1vw, 0.68rem);
+  font-weight: 500;
+  color: $label-color;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+}
+
+.stat-glow { display: none; }

@@ -1,16 +1,64 @@
-<nav class="site-nav" [class.scrolled]="isScrolled">
-  <div class="logo">
-    <img src="assets/images/logofundobranco.png" alt="Logo" />
+<header role="banner">
+  <nav
+    class="site-nav"
+    [class.scrolled]="isScrolled()"
+    [class.menu-open]="isMenuOpen()"
+    aria-label="Navegação principal"
+  >
+    <!-- Logo -->
+    <a href="#home" class="nav-logo" aria-label="Ir ao início" (click)="closeMenu()">
+      <img src="assets/images/logofundobranco.png" alt="Rafael Nunes logo" width="110" height="auto" />
+    </a>
+
+    <!-- Desktop links -->
+    <ul class="nav-links" role="list">
+      <li><a href="#home"       class="nav-link" (click)="closeMenu()">Home</a></li>
+      <li><a href="#about"      class="nav-link" (click)="closeMenu()">Sobre</a></li>
+      <li><a href="#skills"     class="nav-link" (click)="closeMenu()">Skills</a></li>
+      <li><a href="#projects"   class="nav-link" (click)="closeMenu()">Projetos</a></li>
+      <li><a href="#experiencias" class="nav-link" (click)="closeMenu()">Experiências</a></li>
+      <li><a href="#contact"    class="nav-link" (click)="closeMenu()">Contato</a></li>
+    </ul>
+
+    <!-- Hamburger (mobile) -->
+    <button
+      class="hamburger-btn"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="isMenuOpen()"
+      aria-controls="mobile-menu"
+      aria-label="Abrir menu"
+      id="hamburger-btn"
+    >
+      <span class="hamburger-bar" [class.open]="isMenuOpen()"></span>
+      <span class="hamburger-bar" [class.open]="isMenuOpen()"></span>
+      <span class="hamburger-bar" [class.open]="isMenuOpen()"></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div
+    id="mobile-menu"
+    class="mobile-drawer"
+    [class.open]="isMenuOpen()"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Menu de navegação"
+  >
+    <ul class="mobile-nav-links" role="list">
+      <li><a href="#home"         class="mobile-link" (click)="closeMenu()">Home</a></li>
+      <li><a href="#about"        class="mobile-link" (click)="closeMenu()">Sobre</a></li>
+      <li><a href="#skills"       class="mobile-link" (click)="closeMenu()">Skills</a></li>
+      <li><a href="#projects"     class="mobile-link" (click)="closeMenu()">Projetos</a></li>
+      <li><a href="#experiencias" class="mobile-link" (click)="closeMenu()">Experiências</a></li>
+      <li><a href="#contact"      class="mobile-link" (click)="closeMenu()">Contato</a></li>
+    </ul>
   </div>
-  <button class="hamburger-btn" (click)="toggleMenu()" aria-label="Menu">
-    <i class="fa fa-bars"></i>
-  </button>
-  <ul class="nav-links" [class.open]="isMenuOpen">
-    <li><a href="#home" (click)="toggleMenu()">Home</a></li>
-    <li><a href="#sobre-mim" (click)="toggleMenu()">Sobre Mim</a></li>
-    <li><a href="#skills" (click)="toggleMenu()">Skills</a></li>
-    <li><a href="#projects" (click)="toggleMenu()">Projetos</a></li>
-    <li><a href="#experiencias" (click)="toggleMenu()">Experiências</a></li>
-    <li><a href="#contact" (click)="toggleMenu()">Contato</a></li>
-  </ul>
-</nav>
+
+  <!-- Overlay -->
+  <div
+    class="mobile-overlay"
+    [class.open]="isMenuOpen()"
+    (click)="closeMenu()"
+    aria-hidden="true"
+  ></div>
+</header>
