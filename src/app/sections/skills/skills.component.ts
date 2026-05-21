@@ -76,7 +76,8 @@ export class SkillsComponent {
       title: 'Games',
       skills: [
         { name: 'Unity 5', letter: 'U' },
-         { name: 'Construct', letter: 'C' }
+        { name: 'Construct', letter: 'C' },
+        { name: 'Photon', letter: 'P' },
       ]
     }
   ];
