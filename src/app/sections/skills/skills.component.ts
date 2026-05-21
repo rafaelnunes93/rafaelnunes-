@@ -25,7 +25,9 @@ export class SkillsComponent {
       skills: [
         { name: 'Angular', letter: 'A' },
         { name: 'TypeScript', letter: 'Ts' },
-        { name: 'JavaScript', letter: 'Js' }
+        { name: 'JavaScript', letter: 'Js' },
+        { name: 'HTML/CSS', letter: 'H' },
+        { name: 'Flutter', letter: 'F' }
        
       ]
     },
@@ -34,13 +36,16 @@ export class SkillsComponent {
       skills: [
         { name: 'C#', letter: 'C#' },
         { name: '.NET', letter: '.N' },
-        { name: 'APIs REST', letter: 'A' },
+        { name: 'APIs', letter: 'A' },
+        { name: 'EntityFramework', letter: 'EF' },
+        { name: 'Node.js', letter: 'N' }
       ]
     },
     {
       title: 'ARQUITETURA',
       skills: [
         { name: 'Microsserviços', letter: 'M' },
+        { name: 'CQRS', letter: 'C' },
         { name: 'SOLID', letter: 'S' },
         { name: 'Clean Code', letter: 'Cc' },
         { name: 'TDD', letter: 'T' }
@@ -51,7 +56,10 @@ export class SkillsComponent {
       skills: [
         { name: 'SQL Server', letter: 'Sq' },
         { name: 'PostgreSQL', letter: 'Pg' },
-        { name: 'MongoDB', letter: 'Mg' }
+        { name: 'Redis', letter: 'R' },
+        { name: 'MongoDB', letter: 'Mo' },
+        { name: 'Firebase', letter: 'Fb' }
+
       ]
     },
     {
@@ -60,7 +68,6 @@ export class SkillsComponent {
         { name: 'AWS', letter: 'Aw' },
         { name: 'Azure', letter: 'Az' },
         { name: 'Docker', letter: 'D' },
-        { name: 'Kubernetes', letter: 'K' },
         { name: 'CI/CD', letter: 'Ci' },
         { name: 'GIT', letter: 'G' }
       ]
