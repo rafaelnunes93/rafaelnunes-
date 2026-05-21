@@ -21,7 +21,7 @@ export class ScrollRevealDirective implements OnInit, OnDestroy {
       this.el.nativeElement.style.transitionDelay = `${this.revealDelay}s`;
     }
 
-    if (!isPlatformBrowser(this.platformId)) {
+    if (!isPlatformBrowser(this.platformId) || typeof IntersectionObserver === 'undefined') {
       // SSR: just show the element without animation
       this.el.nativeElement.classList.add('revealed');
       return;

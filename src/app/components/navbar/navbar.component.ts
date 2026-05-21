@@ -21,24 +21,26 @@ export class NavbarComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            this.activeSection.set(entry.target.id);
-          }
-        });
-      },
-      { threshold: 0.3, rootMargin: '-80px 0px -40% 0px' }
-    );
+    if (typeof IntersectionObserver !== 'undefined') {
+      this.observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              this.activeSection.set(entry.target.id);
+            }
+          });
+        },
+        { threshold: 0, rootMargin: '-120px 0px -50% 0px' }
+      );
 
-    // Observe after DOM is ready
-    setTimeout(() => {
-      this.sectionIds.forEach(id => {
-        const el = document.getElementById(id);
-        if (el) this.observer.observe(el);
-      });
-    }, 100);
+      // Observe after DOM is ready
+      setTimeout(() => {
+        this.sectionIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el) this.observer.observe(el);
+        });
+      }, 100);
+    }
   }
 
   ngOnDestroy(): void {
