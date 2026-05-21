@@ -5,7 +5,7 @@
 // ============================================================
 
 // ---- Font import ----
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 // ---- Reset / Base ----
@@ -25,7 +25,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #050810;
   color: #f0f0f0;
-  font-family: 'Sora', 'Inter', sans-serif;
+  font-family: 'Exo', sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -62,7 +62,7 @@ img {
 
 .tooling-title h2 {
   color: #14e956;
-  font-family: Cyborg, 'Sora', sans-serif;
+  font-family: Cyborg, 'Exo', sans-serif;
   font-weight: 900;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-transform: uppercase;

@@ -20,7 +20,7 @@ export class ExperienciasComponent {
   trabalhos = [
     {
       titulo: "Desenvolvedor .NET",
-      local: "Aplicativo .Net",
+      local: "Smart Online",
       periodo: "Out, 2025 - Jan, 2026",
       descricao: "Atuação no desenvolvimento e manutenção de aplicações utilizando .NET 8 e SQL Server, com foco em construção de APIs, melhoria de performance e aplicação de boas práticas como SOLID e arquitetura em camadas."
     },
@@ -52,7 +52,7 @@ export class ExperienciasComponent {
 
   formacoes = [
     {
-      titulo: "POS TECH- Arquitetura de Sistemas .NET",
+      titulo: "POS TECH - Arquitetura de Sistemas .NET",
       local: "FIAP",
       periodo: "JAN, 2025 - Maio, 2026",
       descricao: ""
