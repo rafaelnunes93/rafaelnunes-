@@ -23,20 +23,7 @@
   color: var(--text-muted);
 }
 
-.tooling-title {
-  width: fit-content;
-  max-width: 90%;
-  margin: 0 auto 20px;
-  padding: 10px 20px;
-  background: var(--bg-glass);
-  backdrop-filter: blur(12px);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-glow);
-  color: var(--green);
-  font-family: Cyborg;
-  text-transform: uppercase;
-  box-sizing: border-box;
-}
+
 
 .tabs {
   display: flex;

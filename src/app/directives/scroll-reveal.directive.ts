@@ -1,4 +1,5 @@
-import { Directive, ElementRef, OnInit, OnDestroy, Input } from '@angular/core';
+import { Directive, ElementRef, OnInit, OnDestroy, Input, PLATFORM_ID, Inject } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 @Directive({
   selector: '[appReveal]',
@@ -7,9 +8,12 @@ import { Directive, ElementRef, OnInit, OnDestroy, Input } from '@angular/core';
 export class ScrollRevealDirective implements OnInit, OnDestroy {
   @Input() revealDelay = 0;
 
-  private observer!: IntersectionObserver;
+  private observer: IntersectionObserver | null = null;
 
-  constructor(private el: ElementRef) {}
+  constructor(
+    private el: ElementRef,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   ngOnInit(): void {
     this.el.nativeElement.classList.add('reveal');
@@ -17,11 +21,17 @@ export class ScrollRevealDirective implements OnInit, OnDestroy {
       this.el.nativeElement.style.transitionDelay = `${this.revealDelay}s`;
     }
 
+    if (!isPlatformBrowser(this.platformId)) {
+      // SSR: just show the element without animation
+      this.el.nativeElement.classList.add('revealed');
+      return;
+    }
+
     this.observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           this.el.nativeElement.classList.add('revealed');
-          this.observer.unobserve(this.el.nativeElement);
+          this.observer?.unobserve(this.el.nativeElement);
         }
       },
       { threshold: 0.15 }

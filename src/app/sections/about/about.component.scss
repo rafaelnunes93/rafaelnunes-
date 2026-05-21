@@ -8,36 +8,14 @@
 
 // ---- Photo ----
 .about-me-img {
-  border: 2px solid transparent;
-  border-radius: var(--radius-lg);
+  border: 10px solid var(--green);
+  border-radius: 5px;
   position: relative;
-  background-clip: padding-box;
-  overflow: visible;
-
-  // Gradient border effect
-  &::before {
-    content: '';
-    position: absolute;
-    inset: -2px;
-    border-radius: inherit;
-    background: linear-gradient(135deg, var(--green), rgba(0, 255, 136, 0.2), transparent);
-    z-index: -1;
-  }
-
-  // Glow
-  &::after {
-    content: '';
-    position: absolute;
-    inset: -20px;
-    border-radius: 50%;
-    background: radial-gradient(ellipse at center, rgba(0, 255, 136, 0.08), transparent 70%);
-    z-index: -2;
-    pointer-events: none;
-  }
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.15);
 
   img {
-    border-radius: var(--radius-lg);
     display: block;
+    border-radius: 0;
   }
 
   .social-icon {
@@ -45,11 +23,13 @@
     position: absolute;
     top: 20px;
     left: -10px;
-    background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
+    background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), var(--bg-secondary) 60%);
+    border: 1px solid var(--border-glow);
     border-radius: var(--radius-md);
     padding: 8px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    overflow: hidden;
 
     a {
       width: 34px;
