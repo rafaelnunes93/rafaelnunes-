@@ -92,7 +92,7 @@ export class SkillsComponent {
       name: 'Angular',
       whatIs: 'Framework web de código aberto mantido pelo Google para desenvolvimento de aplicações SPA (Single Page Applications) robustas e escaláveis utilizando TypeScript.',
       whatFor: 'Construção de painéis administrativos de alta complexidade, dashboards SaaS, e sistemas empresariais que demandam arquitetura rígida, modularização e controle de estado eficiente.',
-      howTo: 'Criação de componentes standalone, injeção de dependências robusta, uso de Signals para gerenciamento de estado reativo e roteamento dinâmico com lazy loading.'
+      howTo: 'Criação de componentes standalone, injeção de dependências robusta, uso de Signals para gerenciamento de estado reativo e roteamento dinâmico com lazy loading.<br><br><strong>Estrutura de pastas típica de um projeto Angular:</strong><pre>src/app/\n├── components/     (Componentes reutilizáveis)\n├── directives/     (Diretivas customizadas, ex: appReveal)\n├── models/         (Interfaces e modelos TypeScript)\n├── services/       (Comunicação HTTP e lógica global)\n└── sections/       (Seções principais da página principal)</pre>'
     },
     'TypeScript': {
       name: 'TypeScript',
@@ -120,9 +120,9 @@ export class SkillsComponent {
     },
     'C#': {
       name: 'C#',
-      whatIs: 'Linguagem de programação moderna, de propósito geral, fortemente tipada e orientada a objetos desenvolvida pela Microsoft e otimizada para o ecossistema .NET.',
+      whatIs: 'Linguagem de programação moderna, fortemente tipada e puramente <strong>Orientada a Objetos (POO)</strong> desenvolvida pela Microsoft e otimizada para o ecossistema .NET.',
       whatFor: 'Desenvolvimento de APIs robustas, microsserviços de alto desempenho, aplicativos de nível corporativo e lógica de jogos utilizando o motor de jogos Unity.',
-      howTo: 'Empregar recursos modernos do C# como Pattern Matching, Records (imutabilidade), Expressões Lambda, manipulação de dados com LINQ e concorrência baseada em Task/async-await.'
+      howTo: 'Aplicar rigorosamente os <strong>4 pilares da POO</strong> no desenvolvimento:<ul><li><strong>Abstração:</strong> Representação de características essenciais de um objeto sem incluir detalhes de implementação de baixo nível.</li><li><strong>Encapsulamento:</strong> Ocultação de detalhes internos e restrição de acesso direto ao estado do objeto, expondo apenas o necessário por métodos ou propriedades públicas.</li><li><strong>Herança:</strong> Permite que novas classes herdem propriedades e comportamentos de outras classes base, evitando repetição de código.</li><li><strong>Polimorfismo:</strong> Capacidade de um objeto ser tratado como uma instância de sua classe pai, mas executando métodos específicos sobrescritos na classe filha.</li></ul>'
     },
     '.NET': {
       name: '.NET',
@@ -156,25 +156,25 @@ export class SkillsComponent {
     },
     'CQRS': {
       name: 'CQRS',
-      whatIs: 'Command Query Responsibility Segregation (Segregação de Responsabilidade de Comando e Consulta) é um padrão que separa o modelo de escrita do modelo de leitura de dados.',
-      whatFor: 'Otimizar o desempenho e escalabilidade de aplicações de alta concorrência, permitindo o uso de bancos de dados otimizados para buscas rápidas (leitura) e consistência estrutural (escrita).',
-      howTo: 'Dividir as ações do sistema em Commands (alteração de estado) e Queries (consulta de dados), orquestrando o roteamento das mensagens por meio de mediadores como o MediatR no .NET.'
+      whatIs: '<strong>Command Query Responsibility Segregation</strong> (Segregação de Responsabilidade de Comando e Consulta) é um padrão arquitetural que separa as rotas de leitura (Queries) e as rotas de escrita (Commands) de dados.',
+      whatFor: 'Otimizar o desempenho, a segurança e a escalabilidade de aplicações de alta concorrência, permitindo otimizar o modelo de leitura de forma independente do modelo de escrita.',
+      howTo: 'Organizar a estrutura do projeto separando as responsabilidades de escrita e leitura por casos de uso:<br><pre>src/Application/\n└── Features/Customers/\n    ├── Commands/\n    │   ├── CreateCustomer/\n    │   │   ├── CreateCustomerCommand.cs\n    │   │   ├── CreateCustomerCommandHandler.cs\n    │   │   └── CreateCustomerCommandValidator.cs\n    │   └── UpdateCustomer/\n    └── Queries/\n        ├── GetCustomerById/\n        │   ├── GetCustomerByIdQuery.cs\n        │   └── GetCustomerByIdQueryHandler.cs\n        └── GetCustomersList/</pre><strong>Commands:</strong> Executam regras de negócio e modificam estado.<br><strong>Queries:</strong> Retornam DTOs otimizados para a tela de forma rápida.'
     },
     'SOLID': {
       name: 'SOLID',
-      whatIs: 'Acrônimo para cinco princípios fundamentais de design orientado a objetos que promovem códigos estruturados, flexíveis e fáceis de evoluir.',
-      whatFor: 'Evitar o acúmulo de débito técnico, reduzir acoplamento prejudicial entre componentes de código, simplificar testes automatizados e guiar a extensibilidade lógica.',
-      howTo: 'Escrever classes de responsabilidade única (SRP), usar polimorfismo para extensão sem alteração direta (OCP), injetar interfaces abstratas ao invés de classes concretas (DIP).'
+      whatIs: 'Acrônimo para cinco princípios fundamentais de design de software orientado a objetos que promovem a criação de códigos mais limpos, flexíveis, modulares e fáceis de manter.',
+      whatFor: 'Evitar o acúmulo de débito técnico, reduzir acoplamento prejudicial entre componentes e guiar a extensibilidade de grandes sistemas corporativos.',
+      howTo: 'Implementar e respeitar os cinco princípios fundamentais no dia a dia do desenvolvimento:<ul><li><strong>S - Single Responsibility:</strong> Uma classe ou arquivo deve ter um, e apenas um, motivo para mudar.</li><li><strong>O - Open/Closed:</strong> Entidades de software devem estar abertas para extensão, mas fechadas para modificação.</li><li><strong>L - Liskov Substitution:</strong> Objetos de uma superclasse devem ser substituíveis por objetos de suas subclasses sem quebrar o comportamento do sistema.</li><li><strong>I - Interface Segregation:</strong> Uma classe não deve ser forçada a depender de interfaces e métodos que ela não utiliza.</li><li><strong>D - Dependency Inversion:</strong> Dependa de abstrações (interfaces/classes abstratas) e não de implementações concretas (injeção de dependências).</li></ul>'
     },
     'Clean Code': {
       name: 'Clean Code',
-      whatIs: 'Filosofia de desenvolvimento que defende a escrita de códigos limpos, legíveis e diretos, focando na intenção e expressividade das instruções.',
-      whatFor: 'Facilitar a leitura e entendimento imediato do código por outros desenvolvedores, reduzir a taxa de bugs e minimizar custos de manutenção de software no longo prazo.',
-      howTo: 'Escolher nomes significativos e pronunciáveis, estruturar funções pequenas que fazem apenas uma coisa, manter o código livre de redundâncias e refatorar continuamente.'
+      whatIs: 'Filosofia e conjunto de boas práticas focados na legibilidade, clareza, expressividade e manutenibilidade do código-fonte.',
+      whatFor: 'Garantir que o código seja autoexplicativo, diminuir a curva de aprendizado de novos desenvolvedores, reduzir a taxa de bugs e minimizar custos de manutenção de software no longo prazo.',
+      howTo: 'Adotar regras claras de escrita (como nomes significativos, métodos curtos que fazem apenas uma coisa, evitar comentários redundantes) organizando o projeto em uma arquitetura limpa (<strong>Clean Architecture</strong>):<br><pre>src/\n├── Domain/          (Entidades de negócio, Value Objects e regras core)\n├── Application/     (Casos de uso da aplicação, CQRS e interfaces)\n├── Infrastructure/  (EF Core DbContext, logs, integrações e caches)\n└── WebAPI/          (Pontos de entrada HTTP, controllers e middlewares)</pre>'
     },
     'TDD': {
       name: 'TDD',
-      whatIs: 'Test-Driven Development (Desenvolvimento Guiado por Testes) é uma técnica de design de software em que os testes unitários são escritos antes do código de produção.',
+      whatIs: 'Test-Driven Development (Desenvolvimento Guiado por Testes) é uma técnica de design de software em que os testes unitários são escritos antes do próprio código de produção.',
       whatFor: 'Garantir que os requisitos sejam cumpridos de ponta a ponta, construir uma cobertura sólida contra regressões de bugs e guiar o desenvolvedor para códigos desacoplados.',
       howTo: 'Ciclo Red-Green-Refactor: Escrever um teste que falhe (Red), escrever o código mínimo que faça o teste passar (Green), e refatorar o código sob segurança (Refactor).'
     },
@@ -198,26 +198,26 @@ export class SkillsComponent {
     },
     'MongoDB': {
       name: 'MongoDB',
-      whatIs: 'Banco de dados orientado a documentos NoSQL de código aberto que armazena informações em estruturas flexíveis conhecidas como documentos BSON (JSON binário).',
-      whatFor: 'Armazenar dados com estruturas dinâmicas e mutáveis (como catálogos de e-commerce, perfis e feeds de redes sociais) e escalar horizontalmente de forma simplificada.',
-      howTo: 'Modelar documentos focando em aninhamento de dados para otimizar a velocidade de leitura (reduzindo JOINs), criar índices em campos internos e rodar aggregation pipelines.'
+      whatIs: 'Banco de dados NoSQL orientado a documentos de alta performance, que armazena dados em estruturas flexíveis semelhantes a objetos JSON chamadas de documentos BSON.',
+      whatFor: 'Armazenar dados que requerem um esquema altamente dinâmico, alto throughput de escrita/leitura e necessidade de escalabilidade horizontal simplificada.',
+      howTo: '<strong>Por que usar o MongoDB em vez de bancos de dados relacionais (SQL)?</strong><ul><li><strong>Esquema Dinâmico e Flexível:</strong> Diferente de tabelas SQL que exigem migrações de esquema rígidas e alteração de colunas globais, documentos MongoDB em uma mesma coleção podem possuir formatos e campos diferentes sem interrupções.</li><li><strong>Escalabilidade Horizontal Nativa (Sharding):</strong> Suporta distribuição de dados automática por particionamento horizontal (sharding) através de múltiplos clusters, ideal para Big Data, enquanto bancos SQL exigem grande esforço para escalar além de um servidor principal.</li><li><strong>Consultas Atômicas sem JOINs complexos:</strong> Os dados relacionados podem ser aninhados de forma hierárquica em um único documento principal, eliminando consultas lentas e custosas com JOINs SQL em tabelas de grande escala.</li><li><strong>Performance Extrema:</strong> Otimizado para leitura e escrita massiva e em alta velocidade por persistir dados estruturados em memória de forma flexível.</li></ul>'
     },
     'Firebase': {
       name: 'Firebase',
-      whatIs: 'Plataforma integrada da Google que oferece serviços gerenciados em nuvem para acelerar o desenvolvimento de aplicativos mobile e web (Baas - Backend as a Service).',
-      whatFor: 'Prototipação rápida, gerenciamento de autenticação segura (OAuth/Senha), banco de dados NoSQL em tempo real (Firestore) e envio de notificações push.',
-      howTo: 'Inicializar o SDK do Firebase com as chaves do projeto no frontend, conectar aos serviços desejados (Auth/Firestore) e assinar transmissões em tempo real.'
+      whatIs: 'Plataforma BaaS (Backend as a Service) desenvolvida pela Google que fornece infraestrutura gerenciada, ferramentas e SDKs prontos para agilizar o desenvolvimento.',
+      whatFor: 'Construir e hospedar aplicações móveis ou web de forma acelerada, eliminando a necessidade de construir e manter uma infraestrutura de backend complexa desde o início.',
+      howTo: '<strong>Quando é melhor usar o Firebase?</strong><ul><li><strong>MVP e Prototipagem Rápida:</strong> Quando o principal objetivo é a velocidade de entrega para validar um produto no mercado rapidamente.</li><li><strong>Sincronização em Tempo Real (Realtime):</strong> Para aplicações como chats, jogos cooperativos simples ou painéis colaborativos que exigem sincronismo instantâneo de dados no cliente via WebSockets integrados.</li><li><strong>Autenticação sem Esforço:</strong> Perfeito para habilitar de imediato sistemas de login com e-mail/senha ou OAuth (Google, Facebook, Apple) seguro e sem código backend customizado.</li><li><strong>Foco Total no Frontend/Mobile:</strong> Indicado para pequenas e médias aplicações onde a equipe deseja focar 100% no desenvolvimento de telas de alta qualidade, delegando infraestrutura, hosting e banco para a nuvem da Google.</li></ul>'
     },
     'AWS': {
       name: 'AWS',
-      whatIs: 'Amazon Web Services é a plataforma de serviços em nuvem mais robusta e líder de mercado mundial, oferecendo servidores virtuais, bancos gerenciados e armazenamento.',
-      whatFor: 'Hospedar infraestruturas em nuvem elásticas de nível global, automatizar escalabilidade de microsserviços, armazenar arquivos estáticos e rodar funções serverless.',
-      howTo: 'Configurar instâncias EC2, armazenar uploads em buckets S3 protegidos, criar políticas de controle estritas com IAM e estruturar recursos usando Terraform.'
+      whatIs: 'Amazon Web Services é a plataforma de serviços em nuvem mais robusta, segura e líder global de mercado, oferecendo centenas de recursos integrados.',
+      whatFor: 'Hospedar infraestruturas em nuvem elásticas de nível global, automatizar a escalabilidade de microsserviços, armazenar arquivos e rodar código serverless.',
+      howTo: '<strong>Principais serviços utilizados na AWS e suas finalidades:</strong><ul><li><strong>EC2 (Elastic Compute Cloud):</strong> Servidores virtuais escaláveis sob demanda (computação virtualizada Linux/Windows).</li><li><strong>S3 (Simple Storage Service):</strong> Armazenamento de arquivos, backups e mídias estáticas altamente durável, seguro e econômico.</li><li><strong>RDS (Relational Database Service):</strong> Bancos de dados relacionais gerenciados (PostgreSQL, SQL Server, MySQL) com backups automáticos e alta disponibilidade.</li><li><strong>DynamoDB:</strong> Banco de dados NoSQL chave-valor totalmente gerenciado com latência ultra baixa e escalabilidade contínua.</li><li><strong>Lambda:</strong> Computação Serverless que executa trechos de códigos acionados por eventos sem custos com servidores ociosos.</li><li><strong>IAM (Identity and Access Management):</strong> Controle de acessos granular e políticas de segurança rigorosas para usuários e serviços AWS.</li><li><strong>ECS / EKS:</strong> Serviços altamente otimizados para orquestração de contêineres Docker e clusters Kubernetes (Elastic Kubernetes Service).</li></ul>'
     },
     'Azure': {
       name: 'Azure',
       whatIs: 'A plataforma de computação em nuvem da Microsoft que oferece uma vasta gama de serviços para criação, implantação e gerenciamento de aplicações.',
-      whatFor: 'Integrar persementes servidores virtuais à infraestrutura de desenvolvimento C# / .NET, implantar aplicativos web com o App Services e gerenciar chaves no Key Vault.',
+      whatFor: 'Integrar perfeitamente servidores virtuais à infraestrutura de desenvolvimento C# / .NET, implantar aplicativos web com o App Services e gerenciar chaves no Key Vault.',
       howTo: 'Configurar pipelines de deployment no Azure DevOps, hospedar APIs no Azure App Services, usar funções serverless (Azure Functions) e bancos gerenciados SQL Azure.'
     },
     'Docker': {

@@ -60,7 +60,7 @@
             <h4 class="section-title">
               <i class="fa-solid fa-circle-info section-icon"></i> O QUE É
             </h4>
-            <p class="section-text">{{ selectedSkillDetail.whatIs }}</p>
+            <div class="section-text" [innerHTML]="selectedSkillDetail.whatIs"></div>
           </div>
 
           <!-- Para que serve -->
@@ -68,7 +68,7 @@
             <h4 class="section-title">
               <i class="fa-solid fa-bullseye section-icon"></i> PARA QUE SERVE
             </h4>
-            <p class="section-text">{{ selectedSkillDetail.whatFor }}</p>
+            <div class="section-text" [innerHTML]="selectedSkillDetail.whatFor"></div>
           </div>
 
           <!-- Como implementar -->
@@ -76,7 +76,7 @@
             <h4 class="section-title">
               <i class="fa-solid fa-code section-icon"></i> COMO IMPLEMENTAR
             </h4>
-            <p class="section-text">{{ selectedSkillDetail.howTo }}</p>
+            <div class="section-text" [innerHTML]="selectedSkillDetail.howTo"></div>
           </div>
 
         </div>
