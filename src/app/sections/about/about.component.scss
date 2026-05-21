@@ -8,10 +8,10 @@
 
 // ---- Photo ----
 .about-me-img {
-  border: 10px solid var(--green);
+  border: 8px solid #0b381e;
   border-radius: 5px;
   position: relative;
-  box-shadow: 0 0 30px rgba(0, 255, 136, 0.15);
+  box-shadow: 0 0 30px rgba(11, 56, 30, 0.3);
 
   img {
     display: block;
@@ -22,13 +22,11 @@
     width: 50px;
     position: absolute;
     top: 20px;
-    left: -10px;
-    background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), var(--bg-secondary) 60%);
-    border: 1px solid var(--border-glow);
-    border-radius: var(--radius-md);
+    left: -9px;
+    background: #0b381e;
+    border: none;
+    border-radius: 0;
     padding: 8px;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
     overflow: hidden;
 
     a {
@@ -47,7 +45,7 @@
       &:hover {
         background: #fff;
         color: var(--bg-primary);
-        box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
       }
     }
   }
