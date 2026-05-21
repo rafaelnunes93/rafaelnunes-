@@ -7,6 +7,7 @@ import { ProjectsComponent } from './sections/projects/projects.component';
 import { ExperienciasComponent } from './sections/experiencias/experiencias.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ProjectsComponent,
     ExperienciasComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']

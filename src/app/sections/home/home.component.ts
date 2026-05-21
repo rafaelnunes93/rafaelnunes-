@@ -16,7 +16,16 @@ export class HomeComponent implements OnInit, OnDestroy {
     'Desenvolvedor .NET',
     'Clean Architecture',
     'APIs de Alta Performance',
-    'Arquitetura de Sistemas .NET'
+    'Ciência da Computação',
+    'Arquitetura de Sistemas .NET',    
+    'Desenvolvedor .Backend',
+    'Saas ponta-a-ponta',
+    'Desenvolvedor de Games',
+    'Desenvolvedor Mobile',
+    'Sistemas Web Escaláveis',
+    'Full Stack Developer',
+    'Flutter Developer',
+    'Unity Developer'
   ];
 
   private currentIndex = 0;
