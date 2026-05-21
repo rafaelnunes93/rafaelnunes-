@@ -7,7 +7,7 @@
         </div>
         <p class="skills-subtitle">
           Tecnologias que utilizo para construir soluções escaláveis e eficientes —
-          escolhidas pelo que entregam, não apenas pela moda.
+          escolhidas pelo que entregam, não apenas pela moda. Clique em qualquer uma para saber mais.
         </p>
       </div>
     </div>
@@ -23,7 +23,7 @@
           
           <ul class="skills-list">
             @for (skill of category.skills; track skill.name) {
-              <li>
+              <li (click)="openSkillModal(skill.name)">
                 <div class="skill-icon">
                   <span>{{ skill.letter }}</span>
                 </div>
@@ -37,3 +37,65 @@
     </div>
   </div>
 </section>
+
+<!-- Modal Overlay para Detalhes da Skill -->
+@if (isModalOpen && selectedSkillDetail) {
+  <div class="modal-overlay" (click)="closeSkillModal()" [class.open]="isModalOpen">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="close-btn" (click)="closeSkillModal()" aria-label="Fechar Modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-header-section">
+          <h3 class="modal-title">{{ selectedSkillDetail.name }}</h3>
+        </div>
+
+        <div class="modal-info">
+          <!-- O que é -->
+          <div class="info-section">
+            <h4 class="section-title">
+              <i class="fa-solid fa-circle-info section-icon"></i> O QUE É
+            </h4>
+            <p class="section-text">{{ selectedSkillDetail.whatIs }}</p>
+          </div>
+
+          <!-- Para que serve -->
+          <div class="info-section">
+            <h4 class="section-title">
+              <i class="fa-solid fa-bullseye section-icon"></i> PARA QUE SERVE
+            </h4>
+            <p class="section-text">{{ selectedSkillDetail.whatFor }}</p>
+          </div>
+
+          <!-- Como implementar -->
+          <div class="info-section">
+            <h4 class="section-title">
+              <i class="fa-solid fa-code section-icon"></i> COMO IMPLEMENTAR
+            </h4>
+            <p class="section-text">{{ selectedSkillDetail.howTo }}</p>
+          </div>
+
+          <!-- Exemplo Prático (Se houver snippet) -->
+          @if (selectedSkillDetail.codeSnippet) {
+            <div class="info-section code-section">
+              <h4 class="section-title">
+                <i class="fa-solid fa-terminal section-icon"></i> EXEMPLO PRÁTICO
+              </h4>
+              <div class="code-container">
+                <pre class="code-block"><code>{{ selectedSkillDetail.codeSnippet }}</code></pre>
+              </div>
+            </div>
+          }
+        </div>
+
+        <div class="modal-actions">
+          <button class="btn-return" (click)="closeSkillModal()">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+}
