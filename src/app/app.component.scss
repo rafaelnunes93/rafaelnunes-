@@ -50,4 +50,8 @@ section {
   text-align: center;
   position: relative;
   z-index: 1;
+
+  &:has(.modal-overlay.open) {
+    z-index: 2100;
+  }
 }
