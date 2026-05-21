@@ -1,3 +1,7 @@
+// ============================================================
+// EXPERIÊNCIAS — Premium Timeline
+// ============================================================
+
 :host {
   display: block;
   width: 100%;
@@ -16,7 +20,7 @@
 
 .header-area p {
   margin: 0 0 20px;
-  color: #bbb;
+  color: var(--text-muted);
 }
 
 .tooling-title {
@@ -24,10 +28,11 @@
   max-width: 90%;
   margin: 0 auto 20px;
   padding: 10px 20px;
-  background: rgb(18, 20, 29);
-  border-radius: 12px;
-  box-shadow: rgb(20, 233, 86) 0px 0px 4px 1px inset;
-  color: #14e956;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-glow);
+  color: var(--green);
   font-family: Cyborg;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -46,15 +51,22 @@
   border: none;
   font-size: 18px;
   font-weight: bold;
-  color: #999;
+  color: var(--text-muted);
   padding: 10px 20px;
   cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
-  transition: 0.3s;
-}
+  transition: all 0.3s var(--ease-out-expo);
+  border-radius: var(--radius-md);
 
-.tab.active {
-  color: #14e956;
-  border-bottom: 3px solid #14e956;
+  &:hover {
+    color: var(--text-secondary);
+    background: rgba(0, 255, 136, 0.04);
+  }
+
+  &.active {
+    color: var(--green);
+    border-bottom: 3px solid var(--green);
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+  }
 }
 
 /* ======== TIMELINE - DESKTOP ======== */
@@ -69,11 +81,13 @@
 .timeline::before {
   content: '';
   position: absolute;
-  width: 4px;
+  width: 3px;
   height: 100%;
-  background-color: #14e956;
+  background: linear-gradient(to bottom, var(--green), rgba(0, 255, 136, 0.1));
   left: 50%;
   transform: translateX(-50%);
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.15);
 }
 
 .timeline-item {
@@ -86,24 +100,50 @@
 }
 
 .timeline-dot {
-  width: 12px;
-  height: 12px;
-  background: #14e956;
+  width: 14px;
+  height: 14px;
+  background: var(--green);
   border-radius: 50%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+  animation: dotGlow 3s ease-in-out infinite;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 255, 136, 0.2);
+  }
+}
+
+@keyframes dotGlow {
+  0%, 100% { box-shadow: 0 0 15px rgba(0, 255, 136, 0.3); }
+  50% { box-shadow: 0 0 25px rgba(0, 255, 136, 0.6); }
 }
 
 .timeline-content {
-  background: #12141d;
+  background: var(--bg-card);
   color: white;
   padding: 24px 28px;
-  border-radius: 8px;
+  border-radius: var(--radius-lg);
   width: calc(40% - 20px);
   overflow: hidden;
   text-align: left;
   box-sizing: border-box;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
+  transition: all 0.4s var(--ease-out-expo);
+
+  &:hover {
+    border-color: var(--border-glow);
+    box-shadow:
+      0 0 25px rgba(0, 255, 136, 0.08),
+      var(--shadow-elevated);
+    transform: translateY(-2px);
+  }
 }
 
 .timeline-content h3 {
@@ -112,6 +152,7 @@
   margin: 0 0 4px 0;
   word-break: break-word;
   line-height: 1.3;
+  color: var(--text-primary);
 }
 
 .timeline-content h4 {
@@ -119,19 +160,19 @@
   font-weight: 400;
   font-style: italic;
   margin: 0 0 6px 0;
-  color: #14e956;
+  color: var(--green);
 }
 
 .timeline-content span {
   display: block;
   font-size: 13px;
-  color: #bbb;
+  color: var(--text-muted);
   margin-bottom: 12px;
 }
 
 .descricao {
   font-size: 16px;
-  color: #ccc;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin: 0;
 }

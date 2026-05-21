@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollRevealDirective } from '../../directives/scroll-reveal.directive';
 
 export interface Skill {
   name: string;
@@ -13,7 +14,7 @@ export interface SkillCategory {
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [],
+  imports: [ScrollRevealDirective],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss'
 })

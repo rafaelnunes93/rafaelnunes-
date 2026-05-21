@@ -1,18 +1,16 @@
 // ============================================================
-// NAVBAR – Premium Refactor
+// NAVBAR — Premium Glassmorphism
 // ============================================================
 
-$green: #10e956;
-$green-dim: rgba(16, 233, 86, 0.15);
+$green: #00ff88;
+$green-dim: rgba(0, 255, 136, 0.15);
 $nav-height: 68px;
-$bg: rgba(8, 9, 14, 0.92);
-$bg-scrolled: rgba(5, 8, 16, 0.97);
 
 :host {
   display: block;
 }
 
-// ---- Wrapper nav ----
+// ---- Main nav ----
 .site-nav {
   position: fixed;
   top: 0;
@@ -23,19 +21,21 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  background: $bg;
-  backdrop-filter: blur(18px) saturate(180%);
-  -webkit-backdrop-filter: blur(18px) saturate(180%);
-  border-bottom: 1px solid transparent;
+  background: rgba(5, 8, 22, 0.6);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
   transition:
-    background 0.35s ease,
-    border-color 0.35s ease,
-    box-shadow 0.35s ease;
+    background 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
 
   &.scrolled {
-    background: $bg-scrolled;
-    border-bottom-color: rgba(16, 233, 86, 0.12);
-    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
+    background: rgba(5, 8, 22, 0.92);
+    border-bottom-color: rgba(0, 255, 136, 0.08);
+    box-shadow:
+      0 1px 0 rgba(0, 255, 136, 0.06),
+      0 4px 40px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -56,10 +56,13 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   align-items: center;
   flex-shrink: 0;
   text-decoration: none;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
   cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
 
-  &:hover { opacity: 0.85; }
+  &:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+  }
 
   img {
     width: 110px;
@@ -84,33 +87,45 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
 
 .nav-link {
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.55);
   text-decoration: none;
   font-size: clamp(0.85rem, 1.2vw, 0.95rem);
   font-weight: 500;
   letter-spacing: 0.03em;
   padding: 0.3rem 0.1rem;
-  transition: color 0.22s;
+  transition: color 0.3s var(--ease-out-expo);
   cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
 
-  // Underline slide-in on hover
+  // Underline slide-in
   &::after {
     content: '';
     position: absolute;
-    bottom: -2px;
-    left: 0;
+    bottom: -4px;
+    left: 50%;
     width: 0;
     height: 2px;
     background: $green;
     border-radius: 2px;
-    transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    transform: translateX(-50%);
+    transition: width 0.35s var(--ease-out-expo);
+    box-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
   }
 
   &:hover {
+    color: rgba(255, 255, 255, 0.95);
+
+    &::after {
+      width: 100%;
+    }
+  }
+
+  // Active state
+  &.active {
     color: $green;
 
     &::after {
       width: 100%;
+      background: $green;
     }
   }
 }
@@ -124,18 +139,17 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   gap: 5px;
   width: 42px;
   height: 42px;
-  background: rgba(16, 233, 86, 0.06);
-  border: 1px solid rgba(16, 233, 86, 0.2);
-  border-radius: 8px;
+  background: rgba(0, 255, 136, 0.04);
+  border: 1px solid rgba(0, 255, 136, 0.15);
+  border-radius: 10px;
   cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
   padding: 0;
-  transition:
-    background 0.2s,
-    border-color 0.2s;
+  transition: all 0.3s ease;
 
   &:hover {
-    background: rgba(16, 233, 86, 0.12);
-    border-color: rgba(16, 233, 86, 0.4);
+    background: rgba(0, 255, 136, 0.1);
+    border-color: rgba(0, 255, 136, 0.3);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
   }
 
   @media (max-width: 860px) {
@@ -150,7 +164,7 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   background: $green;
   border-radius: 2px;
   transition:
-    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.3s var(--ease-out-expo),
     opacity 0.2s,
     width 0.3s;
 
@@ -174,14 +188,14 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
   top: $nav-height;
   left: 0;
   width: 100%;
-  background: rgba(5, 8, 16, 0.98);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(16, 233, 86, 0.12);
+  background: rgba(5, 8, 22, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(0, 255, 136, 0.08);
   z-index: 999;
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: max-height 0.4s var(--ease-out-expo);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
 
   &.open {
@@ -202,22 +216,24 @@ $bg-scrolled: rgba(5, 8, 16, 0.97);
 .mobile-link {
   display: block;
   padding: 1rem 2rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.03em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
   cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
-  transition:
-    color 0.2s,
-    background 0.2s,
-    padding-left 0.25s;
+  transition: all 0.25s ease;
 
   &:hover {
     color: $green;
-    background: rgba(16, 233, 86, 0.05);
+    background: rgba(0, 255, 136, 0.04);
     padding-left: 2.5rem;
+  }
+
+  &.active {
+    color: $green;
+    border-left: 3px solid $green;
   }
 }
 

@@ -3,11 +3,12 @@ import {
   StatsCounterComponent,
   StatItem,
 } from '../../components/stats-counter/stats-counter.component';
+import { ScrollRevealDirective } from '../../directives/scroll-reveal.directive';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [StatsCounterComponent],
+  imports: [StatsCounterComponent, ScrollRevealDirective],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss',
 })

@@ -13,13 +13,13 @@
 
       <!-- Desktop links -->
       <ul class="nav-links" role="list">
-        <li><a href="#home"       class="nav-link" (click)="closeMenu()">Home</a></li>
-        <li><a href="#about"      class="nav-link" (click)="closeMenu()">Sobre</a></li>
-        <li><a href="#services"   class="nav-link" (click)="closeMenu()">Serviços</a></li>
-        <li><a href="#skills"     class="nav-link" (click)="closeMenu()">Skills</a></li>
-        <li><a href="#projects"   class="nav-link" (click)="closeMenu()">Projetos</a></li>
-        <li><a href="#experiencias" class="nav-link" (click)="closeMenu()">Experiências</a></li>
-        <li><a href="#contact"    class="nav-link" (click)="closeMenu()">Contato</a></li>
+        <li><a href="#home" class="nav-link" [class.active]="activeSection() === 'home'" (click)="closeMenu()">Home</a></li>
+        <li><a href="#about" class="nav-link" [class.active]="activeSection() === 'about'" (click)="closeMenu()">Sobre</a></li>
+        <li><a href="#services" class="nav-link" [class.active]="activeSection() === 'services'" (click)="closeMenu()">Serviços</a></li>
+        <li><a href="#skills" class="nav-link" [class.active]="activeSection() === 'skills'" (click)="closeMenu()">Skills</a></li>
+        <li><a href="#projects" class="nav-link" [class.active]="activeSection() === 'projects'" (click)="closeMenu()">Projetos</a></li>
+        <li><a href="#experiencias" class="nav-link" [class.active]="activeSection() === 'experiencias'" (click)="closeMenu()">Experiências</a></li>
+        <li><a href="#contact" class="nav-link" [class.active]="activeSection() === 'contact'" (click)="closeMenu()">Contato</a></li>
       </ul>
 
       <!-- Hamburger (mobile) -->
@@ -48,13 +48,13 @@
     aria-label="Menu de navegação"
   >
     <ul class="mobile-nav-links" role="list">
-      <li><a href="#home"         class="mobile-link" (click)="closeMenu()">Home</a></li>
-      <li><a href="#about"        class="mobile-link" (click)="closeMenu()">Sobre</a></li>
-      <li><a href="#services"     class="mobile-link" (click)="closeMenu()">Serviços</a></li>
-      <li><a href="#skills"       class="mobile-link" (click)="closeMenu()">Skills</a></li>
-      <li><a href="#projects"     class="mobile-link" (click)="closeMenu()">Projetos</a></li>
-      <li><a href="#experiencias" class="mobile-link" (click)="closeMenu()">Experiências</a></li>
-      <li><a href="#contact"      class="mobile-link" (click)="closeMenu()">Contato</a></li>
+      <li><a href="#home" class="mobile-link" [class.active]="activeSection() === 'home'" (click)="closeMenu()">Home</a></li>
+      <li><a href="#about" class="mobile-link" [class.active]="activeSection() === 'about'" (click)="closeMenu()">Sobre</a></li>
+      <li><a href="#services" class="mobile-link" [class.active]="activeSection() === 'services'" (click)="closeMenu()">Serviços</a></li>
+      <li><a href="#skills" class="mobile-link" [class.active]="activeSection() === 'skills'" (click)="closeMenu()">Skills</a></li>
+      <li><a href="#projects" class="mobile-link" [class.active]="activeSection() === 'projects'" (click)="closeMenu()">Projetos</a></li>
+      <li><a href="#experiencias" class="mobile-link" [class.active]="activeSection() === 'experiencias'" (click)="closeMenu()">Experiências</a></li>
+      <li><a href="#contact" class="mobile-link" [class.active]="activeSection() === 'contact'" (click)="closeMenu()">Contato</a></li>
     </ul>
   </div>
 

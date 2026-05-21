@@ -13,7 +13,7 @@
     </div>
 
     <!-- Container Grid -->
-    <div class="skills-board">
+    <div class="skills-board" appReveal>
       @for (category of categories; track category.title; let lastCol = $last) {
         <div class="skills-column" [class.no-border]="lastCol">
           

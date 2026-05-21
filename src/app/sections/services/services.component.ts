@@ -1,5 +1,6 @@
 import { Component, ViewEncapsulation, inject } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { ScrollRevealDirective } from '../../directives/scroll-reveal.directive';
 
 export interface ServiceItem {
   id: string;
@@ -12,7 +13,7 @@ export interface ServiceItem {
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [],
+  imports: [ScrollRevealDirective],
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss',
   encapsulation: ViewEncapsulation.None

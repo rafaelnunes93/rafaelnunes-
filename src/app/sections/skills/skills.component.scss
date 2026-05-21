@@ -1,12 +1,10 @@
-$green:       #00FF66;
-$divider:     rgba(255, 255, 255, 0.08);
-$text-light:  #e0e0e0;
-$text-muted:  #9e9e9e;
-$bg-dark:     #080b12;
+// ============================================================
+// SKILLS — Dashboard SaaS Style
+// ============================================================
 
 #skills {
   position: relative;
-  margin-top: -2rem; // Puxa a seção inteira mais para perto do menu/seção anterior
+  margin-top: -2rem;
   padding-top: 1rem;
 }
 
@@ -18,7 +16,7 @@ $bg-dark:     #080b12;
 }
 
 .skills-subtitle {
-  color: $text-muted;
+  color: var(--text-muted);
   font-size: 0.95rem;
   max-width: 600px;
   line-height: 1.5;
@@ -30,10 +28,13 @@ $bg-dark:     #080b12;
   display: flex;
   flex-direction: row;
   width: 100%;
-  background: rgba(255, 255, 255, 0.015);
-  border: 1px solid $divider;
-  border-radius: 12px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
   overflow: hidden;
+  box-shadow: var(--shadow-card);
 
   @media (max-width: 1024px) {
     flex-wrap: wrap;
@@ -46,7 +47,7 @@ $bg-dark:     #080b12;
   display: flex;
   flex-direction: column;
   padding: 1.5rem 1.2rem;
-  border-right: 1px solid $divider;
+  border-right: 1px solid var(--border-subtle);
 
   &.no-border {
     border-right: none;
@@ -55,13 +56,11 @@ $bg-dark:     #080b12;
   @media (max-width: 1024px) {
     flex: 0 0 50%;
     
-    // Manage borders on tablet
     &:nth-child(2n) {
       border-right: none;
     }
-    border-bottom: 1px solid $divider;
+    border-bottom: 1px solid var(--border-subtle);
     
-    // Remove bottom border from last elements
     &:nth-last-child(-n+2) {
       border-bottom: none;
     }
@@ -70,7 +69,7 @@ $bg-dark:     #080b12;
   @media (max-width: 600px) {
     flex: 0 0 100%;
     border-right: none;
-    border-bottom: 1px solid $divider;
+    border-bottom: 1px solid var(--border-subtle);
     
     &:last-child {
       border-bottom: none;
@@ -80,7 +79,7 @@ $bg-dark:     #080b12;
 
 // ---- Header ----
 .column-header {
-  border-bottom: 1px solid $divider;
+  border-bottom: 1px solid var(--border-subtle);
   padding-bottom: 0.8rem;
   margin-bottom: 1rem;
   
@@ -90,8 +89,8 @@ $bg-dark:     #080b12;
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: $green;
-    text-shadow: 0 0 8px rgba(0, 255, 102, 0.3);
+    color: var(--green);
+    text-shadow: 0 0 12px rgba(0, 255, 136, 0.4);
   }
 }
 
@@ -102,31 +101,32 @@ $bg-dark:     #080b12;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem; // Skills mais juntas
+  gap: 0.3rem;
 
   li {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.4rem 0.6rem;
-    margin-left: -0.6rem; // Compensa o padding para manter o alinhamento
-    margin-right: -0.6rem;
-    border-radius: 6px;
-    transition: all 0.2s ease;
+    padding: 0.5rem 0.7rem;
+    margin-left: -0.7rem;
+    margin-right: -0.7rem;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s var(--ease-out-expo);
     cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
 
     &:hover {
-      background: rgba(0, 255, 102, 0.06); // Fundo verde transparente
+      background: rgba(0, 255, 136, 0.06);
       transform: translateX(4px);
       
       .skill-name {
         color: #fff;
       }
       .skill-icon {
-        border-color: $green;
-        background: $green;
+        border-color: var(--green);
+        background: var(--green);
+        box-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
         span {
-          color: $bg-dark; // Inverte a cor do texto do ícone
+          color: var(--bg-primary);
         }
       }
     }
@@ -135,28 +135,28 @@ $bg-dark:     #080b12;
 
 // ---- Icons ----
 .skill-icon {
-  width: 24px;
-  height: 24px;
-  border-radius: 5px;
-  border: 1px solid $divider;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
   background: rgba(255, 255, 255, 0.02);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
+  transition: all 0.3s var(--ease-out-expo);
 
   span {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     font-weight: 700;
-    color: $green;
+    color: var(--green);
     font-family: monospace;
     line-height: 1;
   }
 }
 
 .skill-name {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  color: $text-light;
-  transition: color 0.2s ease;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
 }
