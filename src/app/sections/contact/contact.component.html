@@ -1,60 +1,65 @@
 <section id="contact" class="contact-section">
-    <div class="row sm-m-25px-b m-35px-b">
-        <div class="col-md-12">
-            <div class="tooling-title"><h2>Contato</h2></div>          
-        </div>
+  <div class="tooling-title"><h2>Contato</h2></div>   
+  <div class="contact-container">
+    <!-- Left side: text + WhatsApp button -->
+    <div class="contact-left">
+      <h2 class="contact-heading">
+        Tem um projeto<br>
+        <em>em mente</em>?
+      </h2>
+      <p class="contact-description">
+        Estou disponível para projetos freelance e parcerias. Respondo geralmente em poucas horas. A forma mais rápida é pelo WhatsApp.
+      </p>
+      <a href="https://wa.me/5519991856553" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp direto
+      </a>
     </div>
-    <div class="Box">
-        <div class="row">
-            <!-- Formulário -->
-            <div class="col-lg-7 col-md-12">
-                <div class="contact-form">
-                    <h2 class="contact-title">CONTATO</h2>
-                    <p>PRECISA DE AJUDA OU TEM ALGUMA DÚVIDA?</p>
-                    <form (submit)="enviarMensagem()">
-                        <div class="form-group">
-                            <input type="text" class="form-control" [(ngModel)]="nome" name="nome" placeholder="Nome *" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" [(ngModel)]="email" name="email" placeholder="Email *" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" [(ngModel)]="assunto" name="assunto" placeholder="Assunto *" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" [(ngModel)]="mensagem" name="mensagem" placeholder="Sua Mensagem *" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-enviar">ENVIAR</button>
-                    </form>
-                </div>
-            </div>
 
-            <!-- Informações de contato -->
-            <div class="col-lg-5 col-md-12">
-                <div class="contact-info">
-                    <div class="info-box">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <strong>Endereço</strong>
-                            <p>Paulínia - SP, Brasil</p>
-                        </div>
-                    </div>
-                    <div class="info-box">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <strong>Telefone</strong>
-                            <p>WhatsApp: <a href="https://wa.me/5519991856553">+55 19 99185-6553</a></p>
-                        </div>
-                    </div>
-                    <div class="info-box">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong>E-mail</strong>
-                            <p>devrafaelnunes&#64;gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Right side: contact cards -->
+    <div class="contact-right">
+      <a href="https://wa.me/5519991856553" target="_blank" rel="noopener noreferrer" class="contact-card">
+        <div class="card-icon whatsapp-icon">
+          <i class="fab fa-whatsapp"></i>
         </div>
+        <div class="card-info">
+          <span class="card-label">WHATSAPP</span>
+          <span class="card-value">+55 (19) 99185-6553</span>
+        </div>
+        <span class="card-arrow">↗</span>
+      </a>
+
+      <a href="mailto:devrafaelnunes@gmail.com" class="contact-card">
+        <div class="card-icon email-icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">EMAIL</span>
+          <span class="card-value">devrafaelnunes&#64;gmail.com</span>
+        </div>
+        <span class="card-arrow">↗</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/rafaelnunesdossantos/" target="_blank" rel="noopener noreferrer" class="contact-card">
+        <div class="card-icon linkedin-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">LINKEDIN</span>
+          <span class="card-value">linkedin.com/in/rafaelnunesdossantos</span>
+        </div>
+        <span class="card-arrow">↗</span>
+      </a>
+
+      <a href="https://github.com/rafaelnunes93" target="_blank" rel="noopener noreferrer" class="contact-card">
+        <div class="card-icon github-icon">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="card-info">
+          <span class="card-label">GITHUB</span>
+          <span class="card-value">github.com/rafaelnunes93</span>
+        </div>
+        <span class="card-arrow">↗</span>
+      </a>
     </div>
+  </div>
 </section>

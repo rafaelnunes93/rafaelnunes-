@@ -1,143 +1,174 @@
+$green: #00FF66;
+$green-dim: #14e956;
+$bg-dark: #050810;
+$card-bg: #12141d;
+$text-light: #f0f0f0;
+$text-muted: #9e9e9e;
+$divider: rgba(255, 255, 255, 0.08);
+
 .contact-section {
-    padding: 60px 20px;
-    width: 100%;
-    box-sizing: border-box;
+  width: 100%;
+}
 
-    .Box {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        width: 100%;
-        max-width: 1400px;
-        margin: auto;
-        background: #12141d;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
+.contact-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, rgba(0, 255, 102, 0.04) 0%, rgba(18, 20, 29, 0.95) 50%, rgba(18, 20, 29, 1) 100%);
+  border: 1px solid $divider;
+  border-radius: 20px;
+  padding: 3.5rem 3rem;
 
-        @media (max-width: 768px) {
-            flex-direction: column;
-            padding: 20px 16px;
-        }
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+}
+
+// ---- Left side ----
+.contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.availability-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $green;
+  margin-bottom: 1.5rem;
+}
+
+.contact-heading {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0 0 1.2rem 0;
+
+  em {
+    font-style: italic;
+    color: $green;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+  }
+}
+
+.contact-description {
+  font-size: 0.95rem;
+  color: $text-muted;
+  line-height: 1.7;
+  margin: 0 0 2rem 0;
+  max-width: 400px;
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: $green;
+  color: $bg-dark;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.85rem 1.8rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 255, 102, 0.25);
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+
+  i {
+    font-size: 1.15rem;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(0, 255, 102, 0.4);
+    background: lighten($green, 5%);
+    color: $bg-dark;
+  }
+}
+
+// ---- Right side ----
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid $divider;
+  border-radius: 14px;
+  padding: 1.2rem 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+
+  &:hover {
+    background: rgba(0, 255, 102, 0.04);
+    border-color: rgba(0, 255, 102, 0.2);
+    transform: translateX(4px);
+
+    .card-arrow {
+      color: $green;
+      transform: translate(2px, -2px);
     }
+  }
+}
 
-    .contact-title {
-        font-size: 24px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
+.card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  background: rgba(0, 255, 102, 0.08);
+  color: $green;
+  border: 1px solid rgba(0, 255, 102, 0.15);
+}
 
-    p {
-        color: #777;
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
 
-    .contact-form {
-        padding-right: 30px;
-        flex: 1;
-        width: 100%;
-        box-sizing: border-box;
+.card-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $text-muted;
+}
 
-        @media (max-width: 768px) {
-            padding-right: 0;
-        }
-    }
+.card-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $text-light;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-    .form-group {
-        margin-bottom: 15px;
-
-        input,
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-            box-sizing: border-box;
-        }
-
-        textarea {
-            height: 120px;
-            resize: none;
-        }
-    }
-
-    .btn-enviar {
-        background: #14e956;
-        color: white;
-        border: none;
-        padding: 12px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.3s;
-        cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
-
-        &:hover {
-            background: #14c04a;
-        }
-    }
-
-    .contact-info {
-        padding: 20px;
-        width: 100%;
-        max-width: 400px;
-        margin-top: 0;
-        box-sizing: border-box;
-
-        @media (max-width: 768px) {
-            max-width: 100%;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-
-        .info-box {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 20px;
-            background: #1f212c;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            box-sizing: border-box;
-            width: 100%;
-
-            i {
-                font-size: 22px;
-                color: #14e956;
-                margin-bottom: 10px;
-            }
-
-            strong {
-                font-size: 16px;
-                color: #fafafa;
-                margin-bottom: 5px;
-            }
-
-            p {
-                margin: 0;
-                font-size: 14px;
-                color: #e4e4e4;
-                text-align: center;
-                word-break: break-word;
-            }
-
-            a {
-                color: #14e956;
-                text-decoration: none;
-                word-break: break-word;
-                cursor: url('../../../assets/images/arrowClick.svg') 15 15, auto !important;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
+.card-arrow {
+  font-size: 1rem;
+  color: $text-muted;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
 }
