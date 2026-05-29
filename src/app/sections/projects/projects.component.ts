@@ -37,12 +37,13 @@ export class ProjectsComponent {
       techStack: ['.NET Framework', 'HTML', 'CSS', 'JavaScript', 'SQL Server']
     },
     {
-      id: 'foodfy',
-      title: 'Foodfy',
-      subtitle: 'Web App',
-      image: 'assets/images/FoodFy.png',
-      description: 'O Foodfy é uma aplicação web voltada para o mundo da culinária, servindo como um catálogo de receitas interativo. Desenvolvido no ecossistema Node.js, ele conta com área administrativa para que chefs possam cadastrar novas receitas, ingredientes e fotos.',
-      techStack: ['Node.js', 'PostgreSQL', 'HTML', 'CSS']
+      id: 'art-pisos',
+      title: 'Art Pisos E Assoalhos',
+      subtitle: 'Landing Page',
+      image: 'assets/images/ArtPisosEAssoalhos.png',
+      description: 'Website institucional e comercial desenvolvido para a Art Pisos E Assoalhos, empresa especializada em raspagem, calafetação, aplicação de resinas (Bona, Synteko) e manutenção completa de pisos de madeira, tacos e assoalhos. A plataforma foi projetada para apresentar o portfólio de serviços realizados e facilitar o contato para orçamentos rápidos.',
+      techStack: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://www.artpisoseassoalhos.com.br/'
     },
     {
       id: 'app-shapeon',
