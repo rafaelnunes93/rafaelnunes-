@@ -42,7 +42,7 @@ export class ProjectsComponent {
       subtitle: 'Landing Page',
       image: 'assets/images/ArtPisosEAssoalhos.png',
       description: 'Website institucional e comercial desenvolvido para a Art Pisos E Assoalhos, empresa especializada em raspagem, calafetação, aplicação de resinas (Bona, Synteko) e manutenção completa de pisos de madeira, tacos e assoalhos. A plataforma foi projetada para apresentar o portfólio de serviços realizados e facilitar o contato para orçamentos rápidos.',
-      techStack: ['HTML', 'CSS', 'JavaScript'],
+      techStack: ['Angular'],
       link: 'https://www.artpisoseassoalhos.com.br/'
     },
     {

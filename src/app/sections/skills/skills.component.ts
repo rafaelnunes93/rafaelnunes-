@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import { ScrollRevealDirective } from '../../directives/scroll-reveal.directive';
 
 export interface Skill {
@@ -18,6 +18,27 @@ export interface SkillDetail {
   howTo: string;
 }
 
+export interface SphereSkill {
+  name: string;
+  letter: string;
+  category: string;
+  iconType: 'fa' | 'img' | 'text';
+  iconValue: string;
+  color: string;
+  priority: number;
+  x: number;
+  y: number;
+  z: number;
+  cx: number;
+  cy: number;
+  cz: number;
+  screenX: number;
+  screenY: number;
+  opacity: number;
+  scale: number;
+  zIndex: number;
+}
+
 @Component({
   selector: 'app-skills',
   standalone: true,
@@ -25,7 +46,7 @@ export interface SkillDetail {
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss'
 })
-export class SkillsComponent {
+export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
   categories: SkillCategory[] = [
     {
       title: 'FRONTEND',
@@ -86,6 +107,403 @@ export class SkillsComponent {
       ]
     }
   ];
+
+  @ViewChild('sphereContainer') containerRef!: ElementRef<HTMLDivElement>;
+  @ViewChild('sphereCanvas') canvasRef!: ElementRef<HTMLCanvasElement>;
+
+  sphereSkills: SphereSkill[] = [];
+  animationFrameId: any;
+
+  // Velocidades de rotação
+  speedX = 0.0015;
+  speedY = 0.0015;
+
+  currentRotationX = 0;
+  currentRotationY = 0;
+
+  // Estados de arrastar/drag
+  isDragging = false;
+  startX = 0;
+  startY = 0;
+  lastMouseX = 0;
+  lastMouseY = 0;
+  dragDistance = 0;
+
+  // Centro e raio
+  centerX = 250;
+  centerY = 250;
+  radius = 200;
+
+  rotatePoint(x: number, y: number, z: number, ax: number, ay: number): { x: number, y: number, z: number } {
+    const cosX = Math.cos(ax);
+    const sinX = Math.sin(ax);
+    const cosY = Math.cos(ay);
+    const sinY = Math.sin(ay);
+
+    // Rotate Y
+    const x1 = x * cosY - z * sinY;
+    const z1 = x * sinY + z * cosY;
+
+    // Rotate X
+    const y2 = y * cosX - z1 * sinX;
+    const z2 = y * sinX + z1 * cosX;
+
+    return { x: x1, y: y2, z: z2 };
+  }
+
+  skillConfigs: Record<string, { iconType: 'fa' | 'img' | 'text', iconValue: string, color: string, priority: number }> = {
+    'Angular': { iconType: 'fa', iconValue: 'fa-brands fa-angular', color: '#dd0031', priority: 1 },
+    'TypeScript': { iconType: 'text', iconValue: 'TS', color: '#3178c6', priority: 1 },
+    'JavaScript': { iconType: 'text', iconValue: 'JS', color: '#f7df1e', priority: 2 },
+    'HTML/CSS': { iconType: 'fa', iconValue: 'fa-brands fa-html5', color: '#e34f26', priority: 2 },
+    'Flutter': { iconType: 'text', iconValue: 'F', color: '#02569b', priority: 3 },
+    'C#': { iconType: 'img', iconValue: 'assets/images/c-sharp-logo.png', color: '#512bd4', priority: 1 },
+    '.NET': { iconType: 'img', iconValue: 'assets/images/net8.png', color: '#512bd4', priority: 1 },
+    'APIs': { iconType: 'img', iconValue: 'assets/images/api.png', color: '#14e956', priority: 1 },
+    'EntityFramework': { iconType: 'img', iconValue: 'assets/images/ef.png', color: '#512bd4', priority: 1 },
+    'Node.js': { iconType: 'fa', iconValue: 'fa-brands fa-node-js', color: '#339933', priority: 3 },
+    'Microsserviços': { iconType: 'fa', iconValue: 'fa-solid fa-cubes', color: '#a855f7', priority: 1 },
+    'CQRS': { iconType: 'fa', iconValue: 'fa-solid fa-shuffle', color: '#a855f7', priority: 2 },
+    'SOLID': { iconType: 'fa', iconValue: 'fa-solid fa-ruler-combined', color: '#a855f7', priority: 1 },
+    'Clean Code': { iconType: 'fa', iconValue: 'fa-solid fa-sparkles', color: '#a855f7', priority: 1 },
+    'TDD': { iconType: 'fa', iconValue: 'fa-solid fa-flask', color: '#a855f7', priority: 3 },
+    'SQL Server': { iconType: 'img', iconValue: 'assets/images/sql.png', color: '#cc292b', priority: 1 },
+    'PostgreSQL': { iconType: 'img', iconValue: 'assets/images/postgree.png', color: '#336791', priority: 2 },
+    'Redis': { iconType: 'fa', iconValue: 'fa-solid fa-layer-group', color: '#d82c20', priority: 2 },
+    'MongoDB': { iconType: 'img', iconValue: 'assets/images/mongo.png', color: '#47a248', priority: 2 },
+    'Firebase': { iconType: 'fa', iconValue: 'fa-solid fa-fire', color: '#ffca28', priority: 3 },
+    'AWS': { iconType: 'fa', iconValue: 'fa-brands fa-aws', color: '#ff9900', priority: 2 },
+    'Azure': { iconType: 'img', iconValue: 'assets/images/azure.png', color: '#0078d4', priority: 2 },
+    'Docker': { iconType: 'fa', iconValue: 'fa-brands fa-docker', color: '#2496ed', priority: 2 },
+    'CI/CD': { iconType: 'fa', iconValue: 'fa-solid fa-infinity', color: '#00ff88', priority: 2 },
+    'GIT': { iconType: 'fa', iconValue: 'fa-brands fa-git-alt', color: '#f05032', priority: 2 },
+    'Unity 5': { iconType: 'fa', iconValue: 'fa-brands fa-unity', color: '#ffffff', priority: 3 },
+    'Construct': { iconType: 'fa', iconValue: 'fa-solid fa-gamepad', color: '#ff5c00', priority: 3 },
+    'Photon': { iconType: 'fa', iconValue: 'fa-solid fa-bolt', color: '#00c0ff', priority: 3 }
+  };
+
+  ngOnInit(): void {
+    this.initializeSphere();
+  }
+
+  ngAfterViewInit(): void {
+    if (typeof window !== 'undefined') {
+      setTimeout(() => {
+        this.resizeCanvas();
+        this.animate();
+      }, 50);
+    }
+  }
+
+  ngOnDestroy(): void {
+    if (this.animationFrameId && typeof window !== 'undefined') {
+      cancelAnimationFrame(this.animationFrameId);
+    }
+  }
+
+  initializeSphere(): void {
+    const N = 28;
+    const tempSkills: SphereSkill[] = [];
+    
+    // Flatten categories into list of skills
+    for (const cat of this.categories) {
+      for (const skill of cat.skills) {
+        const config = this.skillConfigs[skill.name] || { iconType: 'text', iconValue: skill.letter, color: '#00ff88', priority: 3 };
+        tempSkills.push({
+          name: skill.name,
+          letter: skill.letter,
+          category: cat.title,
+          iconType: config.iconType,
+          iconValue: config.iconValue,
+          color: config.color,
+          priority: config.priority,
+          x: 0, y: 0, z: 0,
+          cx: 0, cy: 0, cz: 0,
+          screenX: 0, screenY: 0,
+          opacity: 0, scale: 0, zIndex: 0
+        });
+      }
+    }
+    
+    // Sort skills by priority (1 is highest, 3 is lowest)
+    // Primary skills (.NET, C#, etc.) will be at the beginning of the list
+    tempSkills.sort((a, b) => a.priority - b.priority);
+    
+    // Generate 28 points on the unit sphere
+    const points: Array<{x: number, y: number, z: number}> = [];
+    const phi = Math.PI * (3 - Math.sqrt(5)); // Golden angle
+    for (let i = 0; i < N; i++) {
+      const y = 1 - (i / (N - 1)) * 2; // y goes from 1 to -1
+      const radiusAtY = Math.sqrt(1 - y * y);
+      const theta = phi * i;
+      const x = Math.cos(theta) * radiusAtY;
+      const z = Math.sin(theta) * radiusAtY;
+      points.push({ x, y, z });
+    }
+    
+    // Sort points by z descending (closest to camera first, i.e. z values closest to 1)
+    points.sort((a, b) => b.z - a.z);
+    
+    // Assign sorted points to sorted skills
+    for (let i = 0; i < N; i++) {
+      if (tempSkills[i] && points[i]) {
+        tempSkills[i].x = points[i].x;
+        tempSkills[i].y = points[i].y;
+        tempSkills[i].z = points[i].z;
+        
+        tempSkills[i].cx = points[i].x;
+        tempSkills[i].cy = points[i].y;
+        tempSkills[i].cz = points[i].z;
+      }
+    }
+    
+    this.sphereSkills = tempSkills;
+  }
+
+  resizeCanvas(): void {
+    if (typeof window === 'undefined' || !this.containerRef || !this.canvasRef) return;
+    const container = this.containerRef.nativeElement;
+    const canvas = this.canvasRef.nativeElement;
+    
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    
+    canvas.width = width;
+    canvas.height = height;
+    
+    this.centerX = width / 2;
+    this.centerY = height / 2;
+    
+    // Adjust sphere radius based on client width (increased size)
+    if (width < 600) {
+      this.radius = 150;
+    } else if (width < 992) {
+      this.radius = 210;
+    } else {
+      this.radius = 250;
+    }
+  }
+
+  @HostListener('window:resize')
+  onResize(): void {
+    this.resizeCanvas();
+  }
+
+  animate(): void {
+    if (typeof window === 'undefined') return;
+    
+    this.updateRotation();
+    this.projectPoints();
+    this.drawCanvas();
+    
+    this.animationFrameId = requestAnimationFrame(() => this.animate());
+  }
+
+  updateRotation(): void {
+    const friction = 0.96;
+    const idleSpeedX = 0.0015;
+    const idleSpeedY = 0.0015;
+
+    if (!this.isDragging) {
+      // Return slowly to idle rotation speeds
+      this.speedX = this.speedX * friction + idleSpeedX * (1 - friction);
+      this.speedY = this.speedY * friction + idleSpeedY * (1 - friction);
+    }
+
+    this.currentRotationX += this.speedX;
+    this.currentRotationY += this.speedY;
+
+    // Keep angles within [0, 2*PI]
+    this.currentRotationX = this.currentRotationX % (2 * Math.PI);
+    this.currentRotationY = this.currentRotationY % (2 * Math.PI);
+
+    // Calculate current positions based on initial coordinates
+    for (const skill of this.sphereSkills) {
+      const rotated = this.rotatePoint(skill.x, skill.y, skill.z, this.currentRotationX, this.currentRotationY);
+      skill.cx = rotated.x;
+      skill.cy = rotated.y;
+      skill.cz = rotated.z;
+    }
+  }
+
+  projectPoints(): void {
+    const d = 2.2; // Perspective depth divisor
+
+    for (const skill of this.sphereSkills) {
+      const depthScale = d / (d - skill.cz);
+      
+      skill.screenX = this.centerX + skill.cx * this.radius * depthScale;
+      skill.screenY = this.centerY + skill.cy * this.radius * depthScale;
+      
+      skill.scale = depthScale;
+      skill.opacity = 0.15 + 0.85 * (skill.cz + 1) / 2;
+      skill.zIndex = Math.round((skill.cz + 1) * 100);
+    }
+  }
+
+  drawCanvas(): void {
+    if (!this.canvasRef) return;
+    const canvas = this.canvasRef.nativeElement;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const latRings = 9; // Number of latitude rings
+    const lonRings = 8; // Number of longitude meridians
+    const segments = 60; // Smoothness of rings
+
+    // Draw latitude circles
+    for (let i = 1; i < latRings; i++) {
+      const lat = -Math.PI / 2 + (i / latRings) * Math.PI;
+      const rLat = Math.cos(lat);
+      const yLat = Math.sin(lat);
+      
+      ctx.beginPath();
+      for (let s = 0; s <= segments; s++) {
+        const lon = (s / segments) * 2 * Math.PI;
+        const x = Math.cos(lon) * rLat;
+        const z = Math.sin(lon) * rLat;
+        
+        const rotated = this.rotatePoint(x, yLat, z, this.currentRotationX, this.currentRotationY);
+        
+        const depthScale = 2.2 / (2.2 - rotated.z);
+        const screenX = this.centerX + rotated.x * this.radius * depthScale;
+        const screenY = this.centerY + rotated.y * this.radius * depthScale;
+        
+        if (s === 0) {
+          ctx.moveTo(screenX, screenY);
+        } else {
+          ctx.lineTo(screenX, screenY);
+        }
+      }
+      
+      const avgZ = Math.sin(lat); // approximate depth for color gradient
+      const alpha = 0.05 + 0.08 * (Math.sin(lat) + 1) / 2; // subtle depth-based alpha
+      ctx.strokeStyle = `rgba(0, 255, 136, ${alpha})`;
+      ctx.lineWidth = 0.6;
+      ctx.stroke();
+    }
+
+    // Draw longitude meridians
+    for (let i = 0; i < lonRings; i++) {
+      const lon = (i / lonRings) * Math.PI;
+      
+      ctx.beginPath();
+      for (let s = 0; s <= segments; s++) {
+        const lat = (s / segments) * 2 * Math.PI;
+        const x = Math.cos(lat) * Math.cos(lon);
+        const y = Math.sin(lat);
+        const z = Math.cos(lat) * Math.sin(lon);
+        
+        const rotated = this.rotatePoint(x, y, z, this.currentRotationX, this.currentRotationY);
+        
+        const depthScale = 2.2 / (2.2 - rotated.z);
+        const screenX = this.centerX + rotated.x * this.radius * depthScale;
+        const screenY = this.centerY + rotated.y * this.radius * depthScale;
+        
+        if (s === 0) {
+          ctx.moveTo(screenX, screenY);
+        } else {
+          ctx.lineTo(screenX, screenY);
+        }
+      }
+      
+      ctx.strokeStyle = 'rgba(0, 255, 136, 0.06)';
+      ctx.lineWidth = 0.6;
+      ctx.stroke();
+    }
+  }
+
+  onMouseDown(event: MouseEvent): void {
+    this.isDragging = true;
+    this.dragDistance = 0;
+    this.startX = event.clientX;
+    this.startY = event.clientY;
+    this.lastMouseX = event.clientX;
+    this.lastMouseY = event.clientY;
+  }
+
+  onMouseMove(event: MouseEvent): void {
+    if (!this.isDragging) {
+      if (!this.containerRef) return;
+      const container = this.containerRef.nativeElement;
+      const rect = container.getBoundingClientRect();
+      const clientX = event.clientX - rect.left;
+      const clientY = event.clientY - rect.top;
+      
+      const mouseX = clientX - this.centerX;
+      const mouseY = clientY - this.centerY;
+      const dist = Math.sqrt(mouseX * mouseX + mouseY * mouseY);
+      
+      if (dist < this.radius * 1.5) {
+        const targetSpeedX = -(mouseY / this.centerY) * 0.005;
+        const targetSpeedY = (mouseX / this.centerX) * 0.005;
+        
+        this.speedX = this.speedX * 0.9 + targetSpeedX * 0.1;
+        this.speedY = this.speedY * 0.9 + targetSpeedY * 0.1;
+      }
+      return;
+    }
+
+    const dx = event.clientX - this.lastMouseX;
+    const dy = event.clientY - this.lastMouseY;
+    
+    this.speedY = dx * 0.003;
+    this.speedX = -dy * 0.003;
+    
+    this.lastMouseX = event.clientX;
+    this.lastMouseY = event.clientY;
+    
+    const totalDx = event.clientX - this.startX;
+    const totalDy = event.clientY - this.startY;
+    this.dragDistance = Math.sqrt(totalDx * totalDx + totalDy * totalDy);
+  }
+
+  onMouseUp(): void {
+    this.isDragging = false;
+  }
+
+  onMouseLeave(): void {
+    this.isDragging = false;
+  }
+
+  onTouchStart(event: TouchEvent): void {
+    if (event.touches.length === 0) return;
+    const touch = event.touches[0];
+    this.isDragging = true;
+    this.dragDistance = 0;
+    this.startX = touch.clientX;
+    this.startY = touch.clientY;
+    this.lastMouseX = touch.clientX;
+    this.lastMouseY = touch.clientY;
+  }
+
+  onTouchMove(event: TouchEvent): void {
+    if (!this.isDragging || event.touches.length === 0) return;
+    const touch = event.touches[0];
+    
+    const dx = touch.clientX - this.lastMouseX;
+    const dy = touch.clientY - this.lastMouseY;
+    
+    this.speedY = dx * 0.004;
+    this.speedX = -dy * 0.004;
+    
+    this.lastMouseX = touch.clientX;
+    this.lastMouseY = touch.clientY;
+    
+    const totalDx = touch.clientX - this.startX;
+    const totalDy = touch.clientY - this.startY;
+    this.dragDistance = Math.sqrt(totalDx * totalDx + totalDy * totalDy);
+  }
+
+  onSkillClick(event: MouseEvent, skillName: string): void {
+    if (this.dragDistance > 8) {
+      return; // It was a spin action, not a click
+    }
+    this.openSkillModal(skillName);
+  }
+
   skillDetails: Record<string, SkillDetail> = {
     'Angular': {
       name: 'Angular',

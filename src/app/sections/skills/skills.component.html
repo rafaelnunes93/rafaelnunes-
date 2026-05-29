@@ -11,28 +11,44 @@
       </div>
     </div>
 
-    <!-- Container Grid -->
-    <div class="skills-board" appReveal>
-      @for (category of categories; track category.title; let lastCol = $last) {
-        <div class="skills-column" [class.no-border]="lastCol">
-          
-          <div class="column-header">
-            <h3>{{ category.title }}</h3>
+    <!-- 3D Tag Sphere Container -->
+    <div class="skills-sphere-wrapper" appReveal>
+      <div class="sphere-container" #sphereContainer 
+           (mousedown)="onMouseDown($event)"
+           (mousemove)="onMouseMove($event)"
+           (mouseup)="onMouseUp()"
+           (mouseleave)="onMouseLeave()"
+           (touchstart)="onTouchStart($event)"
+           (touchmove)="onTouchMove($event)"
+           (touchend)="onMouseUp()">
+        
+        <canvas #sphereCanvas class="sphere-canvas"></canvas>
+        
+        @for (skill of sphereSkills; track skill.name) {
+          <div class="sphere-item" 
+               [style.left.px]="skill.screenX" 
+               [style.top.px]="skill.screenY" 
+               [style.transform]="'translate(-50%, -50%) scale(' + skill.scale + ')'" 
+               [style.opacity]="skill.opacity" 
+               [style.z-index]="skill.zIndex"
+               (click)="onSkillClick($event, skill.name)">
+            
+            <div class="skill-badge-wrapper" [style.border-color]="skill.color">
+              <div class="skill-badge-icon" [style.background-color]="skill.color + '1a'">
+                @if (skill.iconType === 'img') {
+                  <img [src]="skill.iconValue" [alt]="skill.name">
+                } @else if (skill.iconType === 'fa') {
+                  <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                } @else {
+                  <span class="tech-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                }
+              </div>
+              <span class="skill-badge-name" [class.show]="skill.cz > 0.2">{{ skill.name }}</span>
+            </div>
+            
           </div>
-          
-          <ul class="skills-list">
-            @for (skill of category.skills; track skill.name) {
-              <li (click)="openSkillModal(skill.name)">
-                <div class="skill-icon">
-                  <span>{{ skill.letter }}</span>
-                </div>
-                <span class="skill-name">{{ skill.name }}</span>
-              </li>
-            }
-          </ul>
-
-        </div>
-      }
+        }
+      </div>
     </div>
   </div>
 </section>
