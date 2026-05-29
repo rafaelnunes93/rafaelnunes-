@@ -114,6 +114,16 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
   sphereSkills: SphereSkill[] = [];
   animationFrameId: any;
 
+  // Board layout groups
+  boardLeftCol1: SphereSkill[] = [];
+  boardLeftCol2: SphereSkill[] = [];
+  boardLeftCol3: SphereSkill[] = [];
+  boardRightCol4: SphereSkill[] = [];
+  boardRightCol5: SphereSkill[] = [];
+  boardRightCol6: SphereSkill[] = [];
+  extremityLeft: SphereSkill[] = [];
+  extremityRight: SphereSkill[] = [];
+
   // Velocidades de rotação
   speedX = 0.0015;
   speedY = 0.0015;
@@ -165,7 +175,7 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
     'Microsserviços': { iconType: 'fa', iconValue: 'fa-solid fa-cubes', color: '#a855f7', priority: 1 },
     'CQRS': { iconType: 'fa', iconValue: 'fa-solid fa-shuffle', color: '#a855f7', priority: 2 },
     'SOLID': { iconType: 'fa', iconValue: 'fa-solid fa-ruler-combined', color: '#a855f7', priority: 1 },
-    'Clean Code': { iconType: 'fa', iconValue: 'fa-solid fa-sparkles', color: '#a855f7', priority: 1 },
+    'Clean Code': { iconType: 'fa', iconValue: 'fa-solid fa-broom', color: '#a855f7', priority: 1 },
     'TDD': { iconType: 'fa', iconValue: 'fa-solid fa-flask', color: '#a855f7', priority: 3 },
     'SQL Server': { iconType: 'img', iconValue: 'assets/images/sql.png', color: '#cc292b', priority: 1 },
     'PostgreSQL': { iconType: 'img', iconValue: 'assets/images/postgree.png', color: '#336791', priority: 2 },
@@ -258,6 +268,45 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
     }
     
     this.sphereSkills = tempSkills;
+    this.setupBoardGroups();
+  }
+
+  setupBoardGroups(): void {
+    const findSkill = (name: string) => this.sphereSkills.find(s => s.name === name);
+    
+    // Left side columns (Backend & Database)
+    this.boardLeftCol1 = [findSkill('C#')].filter(Boolean) as SphereSkill[];
+    this.boardLeftCol2 = [findSkill('APIs'), findSkill('MongoDB')].filter(Boolean) as SphereSkill[];
+    this.boardLeftCol3 = [findSkill('.NET'), findSkill('EntityFramework'), findSkill('SQL Server')].filter(Boolean) as SphereSkill[];
+    
+    // Right side columns (Frontend & DevOps)
+    this.boardRightCol4 = [findSkill('Angular'), findSkill('TypeScript'), findSkill('Flutter')].filter(Boolean) as SphereSkill[];
+    this.boardRightCol5 = [findSkill('JavaScript'), findSkill('AWS')].filter(Boolean) as SphereSkill[];
+    this.boardRightCol6 = [findSkill('HTML/CSS')].filter(Boolean) as SphereSkill[];
+    
+    // Left extremity panel (8 tools/skills - Backend / Architecture / less important)
+    this.extremityLeft = [
+      findSkill('Node.js'),
+      findSkill('Redis'),
+      findSkill('PostgreSQL'),
+      findSkill('Firebase'),
+      findSkill('Microsserviços'),
+      findSkill('CQRS'),
+      findSkill('SOLID'),
+      findSkill('Clean Code')
+    ].filter(Boolean) as SphereSkill[];
+    
+    // Right extremity panel (8 tools/skills - Frontend / DevOps / Games / less important)
+    this.extremityRight = [
+      findSkill('Docker'),
+      findSkill('GIT'),
+      findSkill('CI/CD'),
+      findSkill('Azure'),
+      findSkill('TDD'),
+      findSkill('Unity 5'),
+      findSkill('Construct'),
+      findSkill('Photon')
+    ].filter(Boolean) as SphereSkill[];
   }
 
   resizeCanvas(): void {
@@ -274,13 +323,13 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
     this.centerX = width / 2;
     this.centerY = height / 2;
     
-    // Adjust sphere radius based on client width (increased size)
+    // Adjust sphere radius based on client width (reduced size)
     if (width < 600) {
-      this.radius = 150;
+      this.radius = 110;
     } else if (width < 992) {
-      this.radius = 210;
+      this.radius = 165;
     } else {
-      this.radius = 250;
+      this.radius = 195;
     }
   }
 

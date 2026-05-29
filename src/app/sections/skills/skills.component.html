@@ -50,6 +50,221 @@
         }
       </div>
     </div>
+
+    <!-- ====================================================== -->
+    <!-- DUEL BOARD — Card Battlefield Layout                    -->
+    <!-- ====================================================== -->
+    <div class="skills-board-wrapper" appReveal>
+      <div class="board-section-label">
+        <span class="board-label-line"></span>
+        <span class="board-label-text">TECH ARENA</span>
+        <span class="board-label-line"></span>
+      </div>
+
+      <div class="battlefield-frame">
+        <div class="battlefield-container">
+
+          <!-- Extremity Panel Left -->
+          <div class="extremity-panel left-extremity">
+            <div class="extremity-label">POWERUPS</div>
+            <div class="extremity-slots">
+              @for (skill of extremityLeft; track skill.name) {
+                <div class="extremity-slot"
+                     [style.--slot-color]="skill.color"
+                     [attr.data-tooltip]="skill.name"
+                     (click)="openSkillModal(skill.name)">
+                  <div class="slot-inner">
+                    @if (skill.iconType === 'img') {
+                      <img [src]="skill.iconValue" [alt]="skill.name">
+                    } @else if (skill.iconType === 'fa') {
+                      <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                    } @else {
+                      <span class="slot-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                    }
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Main Duel Board Center (Cards & Divider) -->
+          <div class="battle-center-board">
+            <!-- ───── LEFT SIDE: Backend & Databases ───── -->
+            <div class="battle-side left-side">
+              <!-- Main Board Columns Left -->
+              <div class="columns-container left-columns">
+                <!-- Column 3 (3 cards) -->
+                <div class="board-column board-col-3">
+                  @for (skill of boardLeftCol3; track skill.name) {
+                    <div class="skill-card"
+                         [style.--card-color]="skill.color"
+                         (click)="openSkillModal(skill.name)">
+                      <div class="card-icon-wrap">
+                        @if (skill.iconType === 'img') {
+                          <img [src]="skill.iconValue" [alt]="skill.name">
+                        } @else if (skill.iconType === 'fa') {
+                          <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                        } @else {
+                          <span class="card-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                        }
+                      </div>
+                      <span class="card-name">{{ skill.name }}</span>
+                    </div>
+                  }
+                </div>
+
+                <!-- Column 2 (2 cards) -->
+                <div class="board-column board-col-2">
+                  @for (skill of boardLeftCol2; track skill.name) {
+                    <div class="skill-card"
+                         [style.--card-color]="skill.color"
+                         (click)="openSkillModal(skill.name)">
+                      <div class="card-icon-wrap">
+                        @if (skill.iconType === 'img') {
+                          <img [src]="skill.iconValue" [alt]="skill.name">
+                        } @else if (skill.iconType === 'fa') {
+                          <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                        } @else {
+                          <span class="card-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                        }
+                      </div>
+                      <span class="card-name">{{ skill.name }}</span>
+                    </div>
+                  }
+                </div>
+
+                <!-- Column 1 (1 card) -->
+                <div class="board-column board-col-1">
+                  @for (skill of boardLeftCol1; track skill.name) {
+                    <div class="skill-card primary-card"
+                         [style.--card-color]="skill.color"
+                         (click)="openSkillModal(skill.name)">
+                      <div class="card-icon-wrap">
+                        @if (skill.iconType === 'img') {
+                          <img [src]="skill.iconValue" [alt]="skill.name">
+                        } @else if (skill.iconType === 'fa') {
+                          <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                        } @else {
+                          <span class="card-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                        }
+                      </div>
+                      <span class="card-name">{{ skill.name }}</span>
+                    </div>
+                  }
+                </div>
+              </div>
+            </div>
+
+            <!-- ───── CENTER DIVIDER ───── -->
+            <div class="battlefield-divider">
+              <div class="divider-line"></div>
+              <div class="divider-core">
+                <span class="vs-text">VS</span>
+              </div>
+              <div class="divider-line"></div>
+            </div>
+
+            <!-- ───── RIGHT SIDE: Frontend & DevOps ───── -->
+            <div class="battle-side right-side">
+              <!-- Main Board Columns Right -->
+              <div class="columns-container right-columns">
+                <!-- Column 4 (3 cards) -->
+                <div class="board-column board-col-4">
+                  @for (skill of boardRightCol4; track skill.name) {
+                    <div class="skill-card"
+                         [class.primary-card]="skill.name === 'Angular'"
+                         [style.--card-color]="skill.color"
+                         (click)="openSkillModal(skill.name)">
+                      <div class="card-icon-wrap">
+                        @if (skill.iconType === 'img') {
+                          <img [src]="skill.iconValue" [alt]="skill.name">
+                        } @else if (skill.iconType === 'fa') {
+                          <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                        } @else {
+                          <span class="card-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                        }
+                      </div>
+                      <span class="card-name">{{ skill.name }}</span>
+                    </div>
+                  }
+                </div>
+
+                <!-- Column 5 (2 cards) -->
+                <div class="board-column board-col-5">
+                  @for (skill of boardRightCol5; track skill.name) {
+                    <div class="skill-card"
+                         [style.--card-color]="skill.color"
+                         (click)="openSkillModal(skill.name)">
+                      <div class="card-icon-wrap">
+                        @if (skill.iconType === 'img') {
+                          <img [src]="skill.iconValue" [alt]="skill.name">
+                        } @else if (skill.iconType === 'fa') {
+                          <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                        } @else {
+                          <span class="card-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                        }
+                      </div>
+                      <span class="card-name">{{ skill.name }}</span>
+                    </div>
+                  }
+                </div>
+
+                <!-- Column 6 (1 card) -->
+                <div class="board-column board-col-6">
+                  @for (skill of boardRightCol6; track skill.name) {
+                    <div class="skill-card"
+                         [style.--card-color]="skill.color"
+                         (click)="openSkillModal(skill.name)">
+                      <div class="card-icon-wrap">
+                        @if (skill.iconType === 'img') {
+                          <img [src]="skill.iconValue" [alt]="skill.name">
+                        } @else if (skill.iconType === 'fa') {
+                          <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                        } @else {
+                          <span class="card-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                        }
+                      </div>
+                      <span class="card-name">{{ skill.name }}</span>
+                    </div>
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extremity Panel Right -->
+          <div class="extremity-panel right-extremity">
+            <div class="extremity-label">POWERUPS</div>
+            <div class="extremity-slots">
+              @for (skill of extremityRight; track skill.name) {
+                <div class="extremity-slot"
+                     [style.--slot-color]="skill.color"
+                     [attr.data-tooltip]="skill.name"
+                     (click)="openSkillModal(skill.name)">
+                  <div class="slot-inner">
+                    @if (skill.iconType === 'img') {
+                      <img [src]="skill.iconValue" [alt]="skill.name">
+                    } @else if (skill.iconType === 'fa') {
+                      <i [class]="skill.iconValue" [style.color]="skill.color"></i>
+                    } @else {
+                      <span class="slot-text" [style.color]="skill.color">{{ skill.iconValue }}</span>
+                    }
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+
+        </div><!-- /battlefield-container -->
+
+        <!-- Side category labels -->
+        <div class="board-side-tags">
+          <span class="side-tag backend-tag">BACKEND &amp; DB</span>
+          <span class="side-tag frontend-tag">FRONTEND &amp; DEVOPS</span>
+        </div>
+      </div><!-- /battlefield-frame -->
+    </div><!-- /skills-board-wrapper -->
+
   </div>
 </section>
 
