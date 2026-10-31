@@ -1,5 +1,6 @@
-import { Component, HostListener, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
+import { Component, HostListener, OnInit, AfterViewInit, OnDestroy, ViewChild, ElementRef, inject } from '@angular/core';
 import { ScrollRevealDirective } from '../../directives/scroll-reveal.directive';
+import { TranslationService } from '../../services/translation.service';
 
 export interface Skill {
   name: string;
@@ -47,6 +48,8 @@ export interface SphereSkill {
   styleUrl: './skills.component.scss'
 })
 export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
+  readonly tr = inject(TranslationService);
+
   categories: SkillCategory[] = [
     {
       title: 'FRONTEND',

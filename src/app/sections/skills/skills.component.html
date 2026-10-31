@@ -3,10 +3,10 @@
     <div class="row m-35px-b">
       <div class="col-md-12">
         <div class="tooling-title">
-          <h2>SKILLS</h2>
+          <h2>{{ tr.t('skills_title') }}</h2>
         </div>
         <p class="skills-subtitle">
-          Tecnologias que utilizo para construir soluções escaláveis e eficientes.
+          {{ tr.currentLang() === 'en' ? 'Technologies I use to build scalable and efficient solutions.' : 'Tecnologias que utilizo para construir soluções escaláveis e eficientes.' }}
         </p>
       </div>
     </div>
@@ -159,7 +159,7 @@
             <div class="battlefield-divider">
               <div class="divider-line"></div>
               <div class="divider-core">
-                <span class="vs-text">VS</span>
+                <span class="vs-text">{{ tr.t('skills_vs') }}</span>
               </div>
               <div class="divider-line"></div>
             </div>

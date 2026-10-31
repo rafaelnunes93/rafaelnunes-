@@ -1,4 +1,5 @@
-import { Component, HostListener, signal, OnInit, OnDestroy } from '@angular/core';
+import { Component, HostListener, signal, OnInit, OnDestroy, inject } from '@angular/core';
+import { TranslationService } from '../../services/translation.service';
 
 @Component({
   selector: 'app-navbar',
@@ -11,6 +12,8 @@ export class NavbarComponent implements OnInit, OnDestroy {
   isScrolled = signal(false);
   isMenuOpen = signal(false);
   activeSection = signal('home');
+
+  readonly tr = inject(TranslationService);
 
   private observer!: IntersectionObserver;
   private sectionIds = ['home', 'about', 'services', 'skills', 'projects', 'experiencias', 'contact'];
@@ -53,5 +56,9 @@ export class NavbarComponent implements OnInit, OnDestroy {
 
   closeMenu(): void {
     this.isMenuOpen.set(false);
+  }
+
+  setLang(lang: 'en' | 'pt'): void {
+    this.tr.setLang(lang);
   }
 }

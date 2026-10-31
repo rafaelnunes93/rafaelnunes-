@@ -1,10 +1,8 @@
 <footer class="site-footer">
   <!-- Big headline -->
   <div class="footer-headline">
-    <span class="headline-light">Let’s create some</span><em class="headline-accent">thing exceptional</em>
+    <span class="headline-light">{{ tr.t('footer_headline_light') }}</span><em class="headline-accent">{{ tr.t('footer_headline_accent') }}</em>
   </div>
-
-
 
   <!-- Bottom bar -->
   <div class="footer-bottom">
@@ -13,13 +11,13 @@
       <img src="assets/images/rafael.png" alt="Rafael Nunes" class="footer-avatar" />
       <div class="footer-name-block">
         <span class="footer-name">Rafael Nunes</span>
-        <span class="footer-role">Desenvolvedor Back-end · BR</span>
+        <span class="footer-role">{{ tr.t('footer_role') }}</span>
       </div>
     </div>
 
     <!-- Center: copyright -->
     <div class="footer-copy">
-      © {{ currentYear }} · Construído à mão · Movido a café ☕
+      {{ tr.t('footer_copy').replace('{year}', currentYear.toString()) }}
     </div>
 
     <!-- Right: social icons -->

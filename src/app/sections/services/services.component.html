@@ -1,15 +1,15 @@
 <section id="services">
   <div class="container">
     <div class="services-header">
-      <h2>Como posso te ajudar?</h2>
+      <h2>{{ tr.t('services_heading') }}</h2>
       <p class="services-subtitle">
-        Se você precisa de um sistema web, aplicativo mobile ou um jogo, está no lugar certo!
+        {{ tr.t('services_subtitle') }}
       </p>
     </div>
 
     <!-- Tabela / Grid de Serviços -->
     <div class="services-board" appReveal>
-      @for (service of services; track service.id) {
+      @for (service of services(); track service.id) {
         <div class="service-cell">
           <div class="cell-top">
             <span class="service-index">{{ service.id }}</span>

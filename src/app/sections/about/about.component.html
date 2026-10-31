@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row sm-m-25px-b m-35px-b">
             <div class="col-md-12">
-                <div class="tooling-title"><h2>SOBRE MIM</h2></div>
+                <div class="tooling-title"><h2>{{ tr.t('about_title') }}</h2></div>
             </div>
         </div>
         <div class="row align-items-center">
@@ -17,64 +17,64 @@
                     </div>
                     <div class="card-info">
                         <div class="info-row">
-                            <span class="info-label">STACK</span>
+                            <span class="info-label">{{ tr.t('about_label_stack') }}</span>
                             <span class="info-value">.Net 8+ | SQL Server</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-label">STATUS</span>
+                            <span class="info-label">{{ tr.t('about_label_status') }}</span>
                             <span class="info-value status-available">
-                                <span class="dot glow"></span> Disponível para novos projetos
+                                <span class="dot glow"></span> {{ tr.t('about_status_text') }}
                             </span>
                         </div>
                         <a href="https://wa.me/5519991856553" target="_blank" rel="noopener noreferrer" class="btn-message">
-                            <i class="fab fa-whatsapp"></i> Enviar mensagem
+                            <i class="fab fa-whatsapp"></i> {{ tr.t('about_btn_message') }}
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-7 m-15px-tb" appReveal [revealDelay]="0.15">
                 <div class="about-me">
-                    <h4>Sou Rafael Nunes dos Santos</h4>
+                    <h4>{{ tr.t('about_name') }}</h4>
                     <h6>
-                        Desenvolvedor backend
+                        {{ tr.t('about_role') }}
                     </h6>
                     <p>
                         Atuo como desenvolvedor <span class="highlight">.NET</span> especializado em backend, criando soluções 
                         escaláveis e integrações críticas para operações logísticas.
-                         Possuo experiência com sistemas <span class="highlight">TMS</span>, <span class="highlight">EDI</span> e <span class="highlight">arquiteturas modernas</span>, 
+                         Possuo experiência com sistemas <span class="highlight">TMS</span>, <span class="highlight">EDI</span> e <span class="highlight">{{ tr.currentLang() === 'en' ? 'modern architectures' : 'arquiteturas modernas' }}</span>, 
                         desenvolvendo aplicações de alta performance com foco em confiabilidade,
                         manutenção e evolução contínua dos sistemas.
                     <br>
-                        Apaixonado por tecnologia, estou sempre em busca de aprimorar minhas habilidades e desenvolver soluções que agreguem valor ao negócio.
+                        {{ tr.t('about_bio2') }}
                     </p>
                     <div class="row about-list">
                         <div class="col-md-6">
                             <div class="media">
-                                <label>Nascimento</label>
-                                <p>Junho/1993 🥳</p>
+                                <label>{{ tr.t('about_label_birth') }}</label>
+                                <p>{{ tr.currentLang() === 'en' ? 'June/1993 🥳' : 'Junho/1993 🥳' }}</p>
                             </div>
                             <div class="media">
-                                <label>Idade</label>
-                                <p>33 Anos</p>
+                                <label>{{ tr.t('about_label_age') }}</label>
+                                <p>{{ tr.t('about_label_age_value') }}</p>
                             </div>
                             <div class="media">
-                                <label>Residência</label>
+                                <label>{{ tr.t('about_label_residence') }}</label>
                                 <p>Paulinia-SP</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="media">
-                                <label>E-mail</label>
+                                <label>{{ tr.t('about_label_email') }}</label>
                                 <p>devrafaelnunes&#64;gmail.com</p>
                             </div>
                             <div class="media">
-                                <label>Telefone</label>
+                                <label>{{ tr.t('about_label_phone') }}</label>
                                 <p>
                                     <a href="https://wa.me/5519991856553">+55 19 991856553</a>
                                 </p>
                             </div>
                             <div class="media">
-                                <label>GitHub</label>
+                                <label>{{ tr.t('about_label_github') }}</label>
                                 <p>
                                     <a href="https://github.com/rafaelnunes93" target="_blank" rel="noopener noreferrer">github.com/rafaelnunes93</a>
                                 </p>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="btn-bar">
-                        <a class="m-btn m-btn-theme" href="assets/images/CVRafael.pdf" download aria-label="Baixar Currículo em PDF">Baixar Currículo</a>
+                        <a class="m-btn m-btn-theme" href="assets/images/CVRafael.pdf" download aria-label="Baixar Currículo em PDF">{{ tr.t('about_btn_cv') }}</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
 
         <!-- ── Animated Stats ── -->
         <div class="stats-wrapper">
-            <app-stats-counter [stats]="stats" />
+            <app-stats-counter [stats]="stats()" />
         </div>
 
     </div>

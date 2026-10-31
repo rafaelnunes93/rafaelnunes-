@@ -237,6 +237,70 @@ $nav-height: 68px;
   }
 }
 
+// ---- Language Switcher ----
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: rgba(0, 255, 136, 0.05);
+  border: 1px solid rgba(0, 255, 136, 0.18);
+  border-radius: 20px;
+  padding: 3px 4px;
+  backdrop-filter: blur(8px);
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+
+  @media (max-width: 860px) {
+    display: none;
+  }
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 4px 10px;
+  border-radius: 16px;
+  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  &.active {
+    background: rgba(0, 255, 136, 0.18);
+    color: $green;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.25);
+  }
+}
+
+.lang-divider {
+  width: 1px;
+  height: 14px;
+  background: rgba(0, 255, 136, 0.2);
+  flex-shrink: 0;
+}
+
+// Mobile lang switcher (inside drawer)
+.mobile-lang-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 1rem 2rem 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+
+  .lang-btn {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+}
+
 // ---- Mobile overlay ----
 .mobile-overlay {
   display: none;

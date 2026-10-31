@@ -3,16 +3,16 @@
     <div class="row m-35px-b">
       <div class="col-md-12">
         <div class="tooling-title">
-          <h2>PORTFÓLIO</h2>
+          <h2>{{ tr.t('projects_title') }}</h2>
         </div>
       </div>
     </div>
 
     <!-- Projetos Grid -->
     <div class="projects-grid">
-      @for (project of projects; track project.id) {
+      @for (project of projects(); track project.id) {
         <article class="project-card" (click)="openModal(project)">
-          <div class="card-image-wrapper" [class.contain-img]="project.id === 'app-shapeon'">
+          <div class="card-image-wrapper" [class.contain-img]="project.id === 'clipnest'">
             <img [src]="project.image" [alt]="project.title" loading="lazy">
           </div>
           <div class="card-bottom-bar">
@@ -41,7 +41,7 @@
       </button>
 
       <div class="modal-body">
-        <div class="modal-image" [class.contain-img]="selectedProject.id === 'app-shapeon'">
+        <div class="modal-image" [class.contain-img]="selectedProject.id === 'clipnest'">
           <img [src]="selectedProject.image" [alt]="selectedProject.title">
         </div>
         
@@ -62,9 +62,9 @@
           </div>
 
           <div class="modal-actions">
-            <button class="btn-return" (click)="closeModal()">Voltar</button>
+            <button class="btn-return" (click)="closeModal()">{{ tr.t('modal_back') }}</button>
             @if (selectedProject.link) {
-              <a [href]="selectedProject.link" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+              <a [href]="selectedProject.link" target="_blank" rel="noopener noreferrer" class="btn-link">{{ tr.t('modal_view_project') }}</a>
             }
           </div>
         </div>

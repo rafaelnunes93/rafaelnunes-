@@ -1,14 +1,14 @@
 <section id="experiencias" class="tamanho">
   <div class="header-area">
-    <div class="tooling-title"><h2>EXPERIÊNCIA</h2></div>
+    <div class="tooling-title"><h2>{{ tr.t('exp_title') }}</h2></div>
   </div>
 
   <div class="tabs">
     <button class="tab" [class.active]="activeTab === 'trabalhos'" (click)="changeTab('trabalhos')">
-      <i class="fa-solid fa-briefcase"></i> Profissional
+      <i class="fa-solid fa-briefcase"></i> {{ tr.t('exp_tab_professional') }}
     </button>
     <button class="tab" [class.active]="activeTab === 'formacoes'" (click)="changeTab('formacoes')">
-      <i class="fa-solid fa-graduation-cap"></i> Acadêmica
+      <i class="fa-solid fa-graduation-cap"></i> {{ tr.t('exp_tab_academic') }}
     </button>
   </div>
 

@@ -1,5 +1,6 @@
-import { Component, OnInit, OnDestroy, PLATFORM_ID, Inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, PLATFORM_ID, Inject, inject, effect } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { TranslationService } from '../../services/translation.service';
 
 @Component({
   selector: 'app-home',
@@ -11,23 +12,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   displayedText = '';
   showCursor = true;
 
-  private roles = [
-    'Backend Engineer',
-    'Desenvolvedor .NET',
-    'Clean Architecture',
-    'APIs de Alta Performance',
-    'Ciência da Computação',
-    'Arquitetura de Sistemas .NET',    
-    'Desenvolvedor Backend',
-    'Saas ponta-a-ponta',
-    'Desenvolvedor de Games',
-    'Desenvolvedor Mobile',
-    'Backend Developer',
-    'Sistemas Web Escaláveis',
-    'Full Stack Developer',
-    'Flutter Developer',
-    'Unity Developer'
-  ];
+  readonly tr = inject(TranslationService);
 
   private currentIndex = 0;
   private charIndex = 0;
@@ -39,7 +24,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   private timeoutId: ReturnType<typeof setTimeout> | null = null;
   private cursorIntervalId: ReturnType<typeof setInterval> | null = null;
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    // React to language changes: reset typewriter
+    effect(() => {
+      this.tr.currentLang(); // subscribe to lang signal
+      this.resetTypewriter();
+    });
+  }
 
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
@@ -51,6 +42,24 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     if (this.timeoutId) clearTimeout(this.timeoutId);
     if (this.cursorIntervalId) clearInterval(this.cursorIntervalId);
+  }
+
+  private get roles(): string[] {
+    return this.tr.t('home_roles') as string[];
+  }
+
+  private resetTypewriter(): void {
+    if (this.timeoutId) {
+      clearTimeout(this.timeoutId);
+      this.timeoutId = null;
+    }
+    this.currentIndex = 0;
+    this.charIndex = 0;
+    this.isDeleting = false;
+    this.displayedText = '';
+    if (isPlatformBrowser(this.platformId)) {
+      this.startTypewriter();
+    }
   }
 
   private startCursorBlink(): void {
