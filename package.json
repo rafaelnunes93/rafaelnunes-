@@ -14,7 +14,8 @@
     "ghpages": "angular-cli-ghpages --dir=dist/rafaelnunes-/browser --no-notfound",
     "deploy": "npm run build && npm run ghpages",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "covers": "node scripts/generate-covers.mjs"
   },
   "private": true,
   "dependencies": {

@@ -17,6 +17,11 @@
 
 <div class="container-x narrow layout">
   <article class="content">
+    @if (post.cover) {
+      <figure class="post-cover">
+        <img [src]="post.cover" [alt]="post.coverAlt ?? post.title" width="1200" height="630" fetchpriority="high" />
+      </figure>
+    }
     @if (post.headings.length) {
       <details class="toc-mobile">
         <summary>{{ tr.pick(t.toc) }}</summary>

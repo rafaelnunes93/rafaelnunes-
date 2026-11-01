@@ -13,7 +13,7 @@ export function seedFrom(text: string): number {
   selector: 'app-post-cover',
   standalone: true,
   template: `
-    <div class="cover">
+    <div class="cover" [class.cover--image]="!!image()">
       @if (image()) {
         <img [src]="image()" [alt]="alt() ?? ''" loading="lazy" />
       } @else {
@@ -34,11 +34,14 @@ export function seedFrom(text: string): number {
           }
         </svg>
       }
-      <span class="cat">{{ category().name }}</span>
+      @if (!image()) {
+        <span class="cat">{{ category().name }}</span>
+      }
     </div>
   `,
   styles: `
     .cover { position: relative; aspect-ratio: 5 / 2; overflow: hidden; background: var(--surface-2); }
+    .cover--image { aspect-ratio: 40 / 21; }
     svg, img { display: block; width: 100%; height: 100%; object-fit: cover; }
     .cat {
       position: absolute; left: 12px; bottom: 12px;

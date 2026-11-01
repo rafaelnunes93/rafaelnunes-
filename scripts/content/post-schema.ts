@@ -19,6 +19,7 @@ export const postSchema = z.object({
   author: z.string().default('rafael-nunes'),
   cover: z.string().optional(), // caminho dentro de public/ ou src/assets; ausente => capa SVG gerada
   coverAlt: z.string().optional(),
+  kicker: z.string().max(30).optional(), // selo da capa gerada (ex.: Guia prático, Review, Alerta)
   draft: z.boolean().default(false),
   source: z.enum(['manual', 'n8n']).default('manual'),
   seoTitle: z.string().max(65).optional(),

@@ -67,7 +67,7 @@ export const FACTS_PAGE = {
     pt: 'Resumo objetivo para quem precisa citar, verificar ou apresentar Rafael Nunes. Atualizado em {date}.',
     en: 'An objective summary for anyone who needs to cite, verify or introduce Rafael Nunes. Updated on {date}.',
   },
-  updated: '2026-10-31',
+  updated: '2026-11-01',
   whoTitle: { pt: 'Quem é Rafael Nunes?', en: 'Who is Rafael Nunes?' },
   who: {
     pt: 'Rafael Nunes dos Santos é desenvolvedor full stack especializado em .NET, baseado em Paulínia/SP. Pós-graduado em Arquitetura de Sistemas .NET pela FIAP, desenvolve sistemas web, APIs e integrações, com experiência em logística (TMS e EDI) e ERPs, além de apps em Flutter e React Native, sites em Angular e jogos em Unity. Usa inteligência artificial no dia a dia do desenvolvimento, com revisão técnica e foco em qualidade.',
@@ -104,7 +104,7 @@ export const PRIVACY_PAGE = {
   crumb: { pt: 'Política de privacidade', en: 'Privacy policy' },
   eyebrow: { pt: 'Privacidade', en: 'Privacy' },
   title: { pt: 'Política de privacidade e cookies', en: 'Privacy and cookie policy' },
-  updated: { pt: 'Atualizada em 31 de outubro de 2026.', en: 'Updated on October 31, 2026.' },
+  updated: { pt: 'Atualizada em 1º de novembro de 2026.', en: 'Updated on November 1, 2026.' },
   summaryTitle: { pt: 'Resumo em linguagem simples', en: 'Plain-language summary' },
   summary: {
     pt: 'Este site só coleta os dados que você mesmo envia pelo formulário de contato, para responder ao seu pedido. Métricas de uso e anúncios só são ativados se você aceitar. Você pode mudar essa escolha a qualquer momento e pedir a exclusão dos seus dados.',
@@ -154,21 +154,28 @@ export const PRIVACY_PAGE = {
       },
     },
     {
-      title: { pt: '7. Seus direitos', en: '7. Your rights' },
+      title: { pt: '7. Anúncios do Google (AdSense)', en: '7. Google ads (AdSense)' },
+      text: {
+        pt: 'O blog pode exibir anúncios do Google AdSense. Fornecedores terceiros, incluindo o Google, usam cookies para veicular anúncios com base em visitas anteriores do usuário a este e a outros sites. O uso de cookies de publicidade permite que o Google e seus parceiros exibam anúncios com base nas suas visitas a este site e/ou a outros sites na internet. Você pode desativar a publicidade personalizada nas Configurações de anúncios do Google (adssettings.google.com) e saber mais sobre como o Google usa dados em policies.google.com/technologies/ads. Também é possível desativar cookies de fornecedores terceiros em www.aboutads.info. Os anúncios só são carregados se você aceitar os cookies de Marketing.',
+        en: 'The blog may display Google AdSense ads. Third-party vendors, including Google, use cookies to serve ads based on a user’s prior visits to this website or other websites. Google’s use of advertising cookies enables it and its partners to serve ads based on your visits to this site and/or other sites on the internet. You can opt out of personalized advertising in Google Ads Settings (adssettings.google.com) and learn how Google uses data at policies.google.com/technologies/ads. You can also opt out of third-party vendor cookies at www.aboutads.info. Ads only load if you accept Marketing cookies.',
+      },
+    },
+    {
+      title: { pt: '8. Seus direitos', en: '8. Your rights' },
       text: {
         pt: 'Você pode pedir acesso, correção, portabilidade ou exclusão dos seus dados e revogar consentimentos, escrevendo para devrafaelnunes@gmail.com.',
         en: 'You can request access, correction, portability or deletion of your data and withdraw consent by writing to devrafaelnunes@gmail.com.',
       },
     },
     {
-      title: { pt: '8. Segurança', en: '8. Security' },
+      title: { pt: '9. Segurança', en: '9. Security' },
       text: {
         pt: 'O site é servido via HTTPS e os dados do formulário trafegam criptografados. O acesso às ferramentas que recebem os pedidos é restrito.',
         en: 'The site is served over HTTPS and form data travels encrypted. Access to the tools that receive requests is restricted.',
       },
     },
     {
-      title: { pt: '9. Alterações', en: '9. Changes' },
+      title: { pt: '10. Alterações', en: '10. Changes' },
       text: {
         pt: 'Esta política pode ser atualizada. A data da última atualização fica no topo da página.',
         en: 'This policy may be updated. The date of the last update is shown at the top of the page.',

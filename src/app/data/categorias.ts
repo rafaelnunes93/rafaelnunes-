@@ -55,6 +55,60 @@ export const CATEGORIES = [
     },
   },
   {
+    slug: 'ia-no-trabalho',
+    name: 'IA no trabalho e carreira',
+    gradient: ['#4338ca', '#06b6d4'],
+    cta: {
+      title: 'Quer automatizar tarefas repetitivas da sua equipe?',
+      text: 'Mostro onde a IA e a automação economizam horas por semana na sua operação, sem complicar.',
+    },
+  },
+  {
+    slug: 'ferramentas-de-ia',
+    name: 'Ferramentas de IA',
+    gradient: ['#7c3aed', '#ec4899'],
+    cta: {
+      title: 'Quer usar IA dentro do seu sistema?',
+      text: 'Integro modelos como ChatGPT, Claude e Gemini aos sistemas que a sua empresa já usa.',
+    },
+  },
+  {
+    slug: 'ia-para-negocios',
+    name: 'IA para negócios',
+    gradient: ['#047857', '#0ea5e9'],
+    cta: {
+      title: 'Quer colocar IA para trabalhar no seu negócio?',
+      text: 'Do atendimento à análise de dados: desenho uma solução do tamanho da sua empresa.',
+    },
+  },
+  {
+    slug: 'seguranca-digital',
+    name: 'Segurança digital',
+    gradient: ['#b91c1c', '#7c2d12'],
+    cta: {
+      title: 'Seu sistema protege bem os dados dos clientes?',
+      text: 'Reviso autenticação, permissões e exposição de dados em sistemas web e APIs.',
+    },
+  },
+  {
+    slug: 'programacao-com-ia',
+    name: 'Programação com IA',
+    gradient: ['#0f766e', '#22c55e'],
+    cta: {
+      title: 'Precisa de um desenvolvedor que usa IA com responsabilidade?',
+      text: 'Desenvolvo sistemas, APIs e apps usando IA no dia a dia, com revisão técnica e testes.',
+    },
+  },
+  {
+    slug: 'conteudo-com-ia',
+    name: 'Conteúdo com IA',
+    gradient: ['#c2410c', '#db2777'],
+    cta: {
+      title: 'Quer um site rápido para publicar o seu conteúdo?',
+      text: 'Crio sites e blogs otimizados para o Google, prontos para crescer e monetizar.',
+    },
+  },
+  {
     slug: 'custos-e-contratacao',
     name: 'Custos e contratação',
     gradient: ['#be123c', '#f97316'],

@@ -5,13 +5,13 @@ import type { L } from '../services/translation.service';
 export const BLOG_UI = {
   crumb: { pt: 'Blog', en: 'Blog' } as L,
   eyebrow: { pt: 'Blog', en: 'Blog' } as L,
-  title: { pt: 'Guias para quem vai desenvolver ou contratar software', en: 'Guides for anyone building or hiring software' } as L,
+  title: { pt: 'Tecnologia, IA e software explicados sem enrolação', en: 'Technology, AI and software explained plainly' } as L,
   lead: {
-    pt: 'Custos, arquitetura, integrações, logística e produto — respostas diretas de quem desenvolve sistemas em produção, sem jargão.',
-    en: 'Costs, architecture, integrations, logistics and product — straight answers from someone who builds production systems.',
+    pt: 'Inteligência artificial no trabalho e nos negócios, segurança digital, programação e desenvolvimento de software — guias práticos e baseados em dados, escritos por quem desenvolve sistemas em produção.',
+    en: 'AI at work and in business, digital security, programming and software development — practical, data-backed guides from someone who builds production systems.',
   } as L,
   searchLabel: { pt: 'Buscar artigos', en: 'Search articles' } as L,
-  searchPlaceholder: { pt: 'Buscar: custo, API, TMS, .NET…', en: 'Search: cost, API, TMS, .NET…' } as L,
+  searchPlaceholder: { pt: 'Buscar: ChatGPT, golpes, prompts, API…', en: 'Search: ChatGPT, scams, prompts, API…' } as L,
   clear: { pt: 'Limpar busca', en: 'Clear search' } as L,
   all: { pt: 'Todos', en: 'All' } as L,
   categories: { pt: 'Categorias', en: 'Categories' } as L,
@@ -45,9 +45,9 @@ export const BLOG_UI = {
   authorMore: { pt: 'Trajetória completa', en: 'Full journey' } as L,
   continue: { pt: 'Continue lendo', en: 'Keep reading' } as L,
   ad: { pt: 'Publicidade', en: 'Advertisement' } as L,
-  seoTitle: { pt: 'Blog: desenvolvimento, arquitetura e contratação de software', en: 'Blog' } as L,
+  seoTitle: { pt: 'Blog: inteligência artificial, segurança digital e software', en: 'Blog' } as L,
   seoDescription: {
-    pt: 'Artigos sobre custo de software, arquitetura .NET, APIs e integrações, logística e TMS, SaaS e apps — escritos por Rafael Nunes, desenvolvedor full stack.',
+    pt: 'Guias sobre inteligência artificial no trabalho e nos negócios, ferramentas de IA, segurança digital, programação e software — por Rafael Nunes, desenvolvedor full stack.',
     en: 'Articles about software costs, .NET architecture, APIs, logistics, SaaS and apps (in Portuguese).',
   } as L,
 };
