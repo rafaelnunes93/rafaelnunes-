@@ -87,6 +87,16 @@
 - [Sua profissão está em risco? Os sinais de que a IA já está mudando seu cargo](https://rafaelnunes93.github.io/rafaelnunes-/blog/sinais-de-que-a-ia-esta-mudando-sua-profissao/): O que estudos da OIT e do Fórum Econômico Mundial dizem sobre exposição à IA, os sinais práticos de que seu cargo está mudando e como reagir.
 - [Como automatizar relatórios semanais com IA sem saber programar](https://rafaelnunes93.github.io/rafaelnunes-/blog/automatizar-relatorios-semanais-com-ia-sem-programar/): Passo a passo para montar um relatório semanal automático com planilhas, uma ferramenta de automação e IA para escrever o resumo — sem código.
 - [Como usar IA para reduzir pela metade o tempo gasto com e-mails](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-reduzir-tempo-com-emails/): Um método prático para triar, resumir e responder e-mails com Gemini, Copilot ou ChatGPT sem perder o controle do que sai da sua caixa.
+- [Melhores plataformas para criar sites e apps com IA (no-code): comparativo](https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-plataformas-no-code-com-ia/): Lovable, Bolt, v0, Replit, Bubble, FlutterFlow e outras: o que cada plataforma faz melhor, exportação de código, riscos de dependência e como escolher.
+- [Programador júnior na era da IA: por que o mercado mudou e como se adaptar](https://rafaelnunes93.github.io/rafaelnunes-/blog/programador-junior-na-era-da-ia/): O que o estudo de Stanford mostra sobre vagas de início de carreira, por que tarefas de júnior mudaram e o que fazer para conquistar a primeira vaga em tecnologia.
+- [Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-integrar-api-do-chatgpt-ou-claude/): Passo a passo para usar as APIs da OpenAI e da Anthropic: chave de API, primeira chamada em Python, proteção da chave, controle de custos e erros comuns.
+- [Qual linguagem de programação aprender primeiro em 2026?](https://rafaelnunes93.github.io/rafaelnunes-/blog/qual-linguagem-de-programacao-aprender-primeiro/): Python, JavaScript, C#, Java ou outra? O que os rankings mostram, qual linguagem combina com cada objetivo e como escolher sem perder meses na dúvida.
+- [Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?](https://rafaelnunes93.github.io/rafaelnunes-/blog/cursor-vs-github-copilot-vs-claude-code/): Comparativo entre Cursor, GitHub Copilot e Claude Code: como cada um funciona, planos de referência, pontos fortes e qual escolher para o seu tipo de trabalho.
+- [Como usar IA para encontrar e corrigir bugs mais rápido](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-corrigir-bugs/): Um método prático para depurar com IA: como dar contexto, reproduzir o erro, pedir hipóteses, validar a correção com testes e evitar consertos que criam novos bugs.
+- [Código gerado por IA: riscos de segurança que ninguém te conta](https://rafaelnunes93.github.io/rafaelnunes-/blog/riscos-de-seguranca-do-codigo-gerado-por-ia/): As falhas de segurança mais comuns em código gerado por IA, o que dizem estudos como o da Veracode, e um checklist para revisar antes de colocar em produção.
+- [Como criar seu primeiro app sem saber programar usando IA](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-app-sem-saber-programar-com-ia/): Passo a passo para criar um aplicativo simples com plataformas de IA e no-code: da ideia ao protótipo publicado, com os limites e cuidados que ninguém conta.
+- [Vale a pena aprender a programar com o avanço da IA?](https://rafaelnunes93.github.io/rafaelnunes-/blog/vale-a-pena-aprender-a-programar-com-ia/): Por que aprender programação continua valendo a pena, o que muda no jeito de estudar com a IA como tutora e um roteiro prático para começar com o pé direito.
+- [A IA vai substituir programadores? O que os dados mostram](https://rafaelnunes93.github.io/rafaelnunes-/blog/a-ia-vai-substituir-programadores/): O que pesquisas do Stack Overflow, de Stanford, do METR e do Fórum Econômico Mundial dizem sobre IA e programação, e como a profissão está mudando de verdade.
 - [Quando vale a pena migrar do .NET Framework para o .NET 8](https://rafaelnunes93.github.io/rafaelnunes-/blog/migrar-do-net-framework-para-o-net-8/): Sinais de que é hora de modernizar um sistema em .NET Framework, os riscos de adiar e como migrar por partes sem parar a operação.
 - [O que um TMS precisa ter para organizar a sua operação](https://rafaelnunes93.github.io/rafaelnunes-/blog/o-que-um-tms-precisa-ter/): Os módulos essenciais de um sistema de gestão de transporte, do rastreio ao CT-e, e como decidir entre um TMS pronto e um sob medida.
 - [API ou EDI: como trocar dados com clientes e parceiros](https://rafaelnunes93.github.io/rafaelnunes-/blog/api-ou-edi-como-trocar-dados-com-parceiros/): Diferenças práticas entre API REST e EDI, quando cada uma faz sentido e como evitar integrações frágeis que quebram sem ninguém perceber.
@@ -3896,6 +3906,1024 @@ Antes de colar e-mails em qualquer ferramenta, verifique:
 5. Transforme as cinco respostas mais repetidas em modelos.
 
 A IA não vai zerar sua caixa de entrada sozinha, mas, combinada com um processo simples, ela tira de você o trabalho mais mecânico do e-mail: ler e escrever o óbvio. O tempo que sobra pode ir para o que realmente precisa da sua cabeça.
+
+---
+
+## Melhores plataformas para criar sites e apps com IA (no-code): comparativo
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-plataformas-no-code-com-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Para criar aplicações web a partir de texto, Lovable, Bolt e Replit são opções fortes; o v0 se destaca em interfaces. Para quem prefere montar visualmente, com mais controle, Bubble é uma das plataformas mais completas, mas sem exportação limpa de código. Para apps móveis, o FlutterFlow gera aplicativos em Flutter. Para ferramentas internas simples, Glide e Softr são rápidos. Para sites, Wix e Framer têm recursos de IA. Antes de escolher, verifique a exportação de código, os custos com o crescimento e a segurança.
+
+Nunca foi tão fácil tirar uma ideia do papel. Plataformas no-code e geradores de aplicativos com IA prometem criar sites e sistemas a partir de uma descrição em texto. A oferta é grande e muda rápido, e nem toda ferramenta serve para todo projeto. Este comparativo organiza as principais opções por tipo de uso.
+
+> **Como este comparativo foi feito:** a análise se baseia na documentação e nas páginas oficiais das plataformas e em comparações públicas. Não é um teste de laboratório. Preços e recursos mudam com frequência, então confirme nos sites oficiais antes de decidir.
+
+## Dois tipos de plataforma
+
+- **Geradores por texto:** você descreve o que quer e a IA escreve o código. Rápido para começar, e o resultado geralmente é código real.
+- **Construtores visuais:** você monta telas e regras em um editor, muitas vezes com ajuda de IA. Mais controle visual, mas frequentemente com maior dependência da plataforma.
+
+## Geradores de aplicativos por texto
+
+### Lovable
+
+Gera aplicações web completas a partir de conversa, com interface e integração a serviços de banco de dados e login. É uma das opções mais citadas para quem não tem experiência técnica. [Site oficial](https://lovable.dev/).
+
+**Melhor para:** protótipos e MVPs de aplicações web.
+
+### Bolt
+
+Cria e executa aplicações full stack no próprio navegador, com código editável e facilidade para levar o projeto a outro ambiente. [Site oficial](https://bolt.new/).
+
+**Melhor para:** quem quer rapidez e também acesso direto ao código.
+
+### Replit
+
+Ambiente completo que reúne editor, agente de IA, banco de dados e publicação. O código pode ser exportado, mas aplicações podem depender de serviços da plataforma. [Site oficial](https://replit.com/).
+
+**Melhor para:** construir e publicar tudo em um só lugar.
+
+### v0
+
+Da Vercel, é especialmente forte em gerar interfaces web modernas, com integração natural à hospedagem da empresa. [Site oficial](https://v0.dev/).
+
+**Melhor para:** telas e interfaces, principalmente em projetos com React e Next.js.
+
+## Construtores visuais
+
+### Bubble
+
+Uma das plataformas no-code mais maduras, permite criar aplicações web complexas com banco de dados e regras de negócio, e tem recursos para apps móveis. A curva de aprendizado é maior, e não há exportação limpa de código. [Site oficial](https://bubble.io/).
+
+**Melhor para:** produtos web mais complexos, para quem aceita permanecer na plataforma.
+
+### FlutterFlow
+
+Constrói aplicativos em Flutter em um editor visual, com geração de código para Android, iOS e web. A exportação de código costuma depender de planos pagos. [Site oficial](https://flutterflow.io/).
+
+**Melhor para:** aplicativos móveis, com caminho para um desenvolvedor continuar depois.
+
+### Glide e Softr
+
+Criam aplicativos e portais a partir de dados em planilhas ou bases simples. Veja [Glide](https://www.glideapps.com/) e [Softr](https://www.softr.io/).
+
+**Melhor para:** ferramentas internas, portais de clientes e controles simples.
+
+## Para sites e landing pages
+
+### Wix e Framer
+
+O [Wix](https://www.wix.com/) oferece criação de sites com assistentes de IA, além de hospedagem, loja e blog. O [Framer](https://www.framer.com/) é voltado a sites com visual elaborado e publicação rápida.
+
+**Melhor para:** sites institucionais, portfólios e páginas de campanha.
+
+## Tabela comparativa
+
+| Plataforma | Tipo | Melhor para | Exportação de código |
+|---|---|---|---|
+| Lovable | Texto | MVPs web | Sim |
+| Bolt | Texto | Full stack rápido | Sim |
+| Replit | Texto + ambiente | Criar e publicar em um lugar | Sim, com possíveis dependências |
+| v0 | Texto | Interfaces | Sim |
+| Bubble | Visual | Produtos web complexos | Não, de forma limpa |
+| FlutterFlow | Visual | Apps móveis | Sim, em planos pagos |
+| Glide/Softr | Visual | Ferramentas internas | Limitada |
+| Wix/Framer | Visual | Sites | Limitada |
+
+## Como escolher: 6 perguntas
+
+1. **O que estou construindo?** Site, ferramenta interna, MVP web ou app para as lojas?
+2. **Consigo sair da plataforma?** Verifique a exportação de código e de dados.
+3. **Quanto vai custar com crescimento?** Muitos planos cobram por uso de IA, usuários ou registros. Simule o cenário com o negócio funcionando.
+4. **E a segurança?** Confira regras de acesso aos dados e onde ficam as chaves.
+5. **Atende às regras da LGPD?** Se houver dados pessoais, verifique onde ficam e como são protegidos.
+6. **Quem vai manter?** Todo sistema precisa de ajustes.
+
+## Quanto custa
+
+A maioria tem plano gratuito para testes, e muitos planos pagos individuais começam na faixa de algumas dezenas de dólares por mês. O custo real depende do uso: geradores por texto costumam cobrar por créditos, e construções longas ou cheias de correções consomem mais. Plataformas visuais podem encarecer com volume de dados e usuários.
+
+## Os limites dessas ferramentas
+
+- **Segurança:** aplicações geradas podem expor dados se as regras de acesso não forem revisadas. Veja os [riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+- **Complexidade:** quanto mais regras o sistema tem, mais difícil fica ajustar apenas por conversa.
+- **Manutenção:** código que ninguém entende é difícil de evoluir.
+- **Dependência:** mudanças de preço ou de política da plataforma podem afetar o seu negócio.
+
+## Quando migrar para desenvolvimento sob medida
+
+Considere a migração quando o produto ganhar clientes pagantes, exigir integrações complexas, lidar com dados sensíveis ou esbarrar em limites de desempenho e custo. O protótipo terá cumprido o seu papel: validar a ideia e mostrar o que construir. Veja como funciona um [SaaS de ponta a ponta](/servicos/saas-ponta-a-ponta).
+
+## Conclusão
+
+Não existe plataforma melhor para tudo: Lovable, Bolt e Replit são ótimas para começar rápido, Bubble para produtos visuais mais complexos, FlutterFlow para aplicativos e Wix ou Framer para sites. Escolha pelo tipo de projeto, confira as saídas antes de entrar e trate segurança com seriedade desde o início. Para dar o primeiro passo, veja [como criar seu primeiro app sem saber programar](/blog/como-criar-app-sem-saber-programar-com-ia).
+
+---
+
+## Programador júnior na era da IA: por que o mercado mudou e como se adaptar
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/programador-junior-na-era-da-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** O mercado para iniciantes ficou mais difícil. Um estudo de Stanford encontrou queda relativa de 16% no emprego de profissionais de 22 a 25 anos nas ocupações mais expostas à IA, incluindo desenvolvimento de software, embora outros fatores também possam influenciar. Tarefas simples, antes dadas a juniores, agora são aceleradas por IA. Para se destacar: domine fundamentos, publique projetos completos, saiba revisar e testar código gerado por IA, aprenda o básico de segurança e mostre que entende o problema de negócio.
+
+Se você está começando em tecnologia e sente que conseguir a primeira vaga ficou mais difícil, não é impressão. A inteligência artificial mudou o que as empresas esperam de um iniciante. Mas o caminho não fechou — ele mudou de forma. Entender o que aconteceu é o primeiro passo para se adaptar.
+
+## O que os dados mostram
+
+O estudo [Canaries in the Coal Mine](https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine/), do Laboratório de Economia Digital de Stanford, analisou dados de folha de pagamento nos Estados Unidos e encontrou:
+
+- **Queda relativa de 16%** no emprego de trabalhadores de **22 a 25 anos** nas ocupações mais expostas à IA, como desenvolvimento de software e atendimento ao cliente, depois de controlar fatores específicos de cada empresa.
+- Profissionais mais experientes nas mesmas ocupações tiveram desempenho melhor no período.
+- As quedas se concentram onde a IA tende a **automatizar** tarefas, e não onde ela **amplia** o trabalho humano.
+
+Os autores fazem uma ressalva importante: outros fatores, como juros e ciclos de contratação, também podem contribuir, e o tema segue em estudo. Além disso, os dados são dos Estados Unidos, e o Brasil tem suas próprias condições. Ainda assim, o padrão combina com o relato de muitos recrutadores e profissionais.
+
+Por outro lado, o [Fórum Econômico Mundial](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) projeta crescimento da função de desenvolvedor de software até 2030. A demanda continua existindo, mas o perfil procurado mudou.
+
+## Por que o júnior foi o mais afetado
+
+Tradicionalmente, iniciantes aprendiam com tarefas pequenas: corrigir bugs simples, criar telas de cadastro, escrever testes, ajustar textos. São justamente as tarefas que a IA acelera melhor. Com isso:
+
+- Um desenvolvedor experiente consegue fazer sozinho parte do que antes delegava.
+- Algumas empresas reduziram as contratações de entrada.
+- A expectativa sobre o que um júnior entrega no início subiu.
+
+Há também um risco no longo prazo para as empresas: sem juniores hoje, faltarão seniores amanhã. Muitas organizações já percebem isso e continuam investindo em quem chega com boa base e disposição para aprender.
+
+## O erro que mais prejudica iniciantes
+
+Usar IA como atalho para não aprender. Quem copia código sem entender até entrega exercícios, mas trava na entrevista, na revisão de código e no primeiro bug de produção.
+
+Na [pesquisa do Stack Overflow de 2025](https://survey.stackoverflow.co/2025/ai), 46% dos desenvolvedores disseram desconfiar da precisão das ferramentas de IA. Um júnior só agrega valor se conseguir identificar quando a IA errou.
+
+## O que fazer para se destacar
+
+### 1. Domine os fundamentos
+
+Lógica, estruturas de dados, bancos de dados e SQL, HTTP e APIs, Git, testes. Esse conhecimento permite avaliar o que a IA gera e aprender qualquer tecnologia nova.
+
+### 2. Use IA como um profissional
+
+Mostre que você sabe:
+
+- Dar contexto e dividir o problema.
+- Ler e questionar o código gerado.
+- Escrever testes que comprovem o funcionamento.
+- Identificar [riscos de segurança](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+
+### 3. Construa projetos completos
+
+Um projeto publicado, com login, banco de dados, testes e deploy, vale mais do que dez tutoriais. Melhor ainda se resolver um problema real: um sistema para a loja de um parente, uma automação para uma ONG ou uma ferramenta que outras pessoas usam.
+
+No README, explique o problema, as decisões técnicas, como a IA foi usada e o que você faria diferente.
+
+### 4. Aprenda a depurar
+
+Saber investigar um problema é uma das habilidades mais valorizadas. Veja [como usar IA para encontrar e corrigir bugs](/blog/como-usar-ia-para-corrigir-bugs).
+
+### 5. Entenda de negócio
+
+Pergunte por que uma funcionalidade existe e quem vai usá-la. Quem conecta código a resultado é mais difícil de substituir.
+
+### 6. Contribua e apareça
+
+Contribuições em projetos de código aberto, posts sobre o que você aprendeu e participação em comunidades criam provas públicas do seu trabalho. Veja também [como colocar habilidades em IA no currículo e no LinkedIn](/blog/habilidades-em-ia-no-curriculo-e-linkedin).
+
+### 7. Considere portas de entrada alternativas
+
+- **Estágios e programas de formação.**
+- **Empresas pequenas e médias**, que costumam dar mais responsabilidade cedo.
+- **Áreas de suporte técnico e dados**, que podem levar ao desenvolvimento. Muitos desenvolvedores começaram atendendo chamados e consultando bancos de dados.
+- **Freelas pequenos** para ganhar experiência real.
+
+## Como se preparar para a entrevista
+
+- Saiba explicar **cada linha** dos seus projetos.
+- Treine resolver problemas **sem IA**, porque alguns processos exigem.
+- Pratique também **com IA**, porque outros permitem ou até incentivam.
+- Prepare um exemplo de quando a IA errou e como você percebeu.
+- Faça perguntas sobre como a equipe usa IA, revisa código e orienta iniciantes.
+
+## Conclusão
+
+O mercado para juniores ficou mais exigente, e os dados mostram que o impacto é real. Mas programadores iniciantes que dominam os fundamentos, usam IA com senso crítico e publicam projetos completos continuam tendo espaço. Em vez de competir com a IA naquilo que ela faz bem, foque em aprender a revisar, decidir e resolver problemas reais. É isso que transforma um júnior no sênior de amanhã.
+
+---
+
+## Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-integrar-api-do-chatgpt-ou-claude/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Crie uma conta de desenvolvedor na OpenAI ou na Anthropic, gere uma chave de API, guarde-a em uma variável de ambiente e instale o SDK oficial. Depois, faça a chamada a partir do seu back-end, enviando as instruções e a mensagem do usuário e recebendo o texto gerado. Nunca coloque a chave no front-end, defina limites de gasto, trate erros e limites de taxa e não confie cegamente na resposta do modelo. A cobrança é feita por tokens, ou seja, por volume de texto processado.
+
+Colocar IA dentro do seu próprio sistema é mais simples do que parece. Com algumas linhas de código, um aplicativo consegue resumir textos, classificar mensagens, responder perguntas ou extrair dados de documentos. O que separa um teste de uma integração confiável são os cuidados com segurança, custo e qualidade.
+
+Este guia mostra o caminho com as duas APIs mais usadas: a da **OpenAI** (modelos do ChatGPT) e a da **Anthropic** (modelos Claude).
+
+## O que você precisa saber antes
+
+- **API não é o mesmo que o aplicativo.** A assinatura do ChatGPT ou do Claude normalmente não inclui o uso da API, que é cobrado à parte.
+- **Cobrança por tokens.** Você paga pelo texto que envia e pelo que recebe.
+- **O modelo não tem memória própria entre chamadas.** Para manter uma conversa, sua aplicação envia o histórico relevante a cada chamada, ou usa os recursos de estado que a API oferecer.
+- **Modelos mudam.** Consulte sempre a lista de modelos atual na documentação.
+
+## Passo 1: crie a conta e a chave
+
+1. Acesse a plataforma de desenvolvedores: [OpenAI](https://platform.openai.com/) ou [Anthropic](https://docs.anthropic.com/).
+2. Configure o pagamento e **defina um limite de gastos**, se disponível.
+3. Gere uma chave de API.
+
+A chave é como uma senha: quem a tiver pode gastar em seu nome.
+
+## Passo 2: guarde a chave com segurança
+
+Nunca escreva a chave no código. Use uma variável de ambiente.
+
+```bash
+export ANTHROPIC_API_KEY="sua-chave"
+export OPENAI_API_KEY="sua-chave"
+```
+
+Em projetos, use um arquivo `.env` listado no `.gitignore` ou o cofre de segredos da sua hospedagem.
+
+**Regra de ouro:** a chave fica sempre no **back-end**. Se ela estiver em um aplicativo de celular ou em JavaScript no navegador, qualquer pessoa consegue extraí-la.
+
+## Passo 3: faça a primeira chamada
+
+### Com a API da Anthropic (Python)
+
+```bash
+pip install anthropic
+```
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()  # lê ANTHROPIC_API_KEY do ambiente
+
+message = client.messages.create(
+    model="claude-sonnet-5-5",
+    max_tokens=500,
+    system="Você resume textos em português, de forma objetiva.",
+    messages=[
+        {"role": "user", "content": "Resuma em 3 tópicos: ..."}
+    ],
+)
+
+print(message.content[0].text)
+```
+
+### Com a API da OpenAI (Python)
+
+```bash
+pip install openai
+```
+
+```python
+from openai import OpenAI
+
+client = OpenAI()  # lê OPENAI_API_KEY do ambiente
+
+response = client.responses.create(
+    model="NOME_DO_MODELO",  # consulte a lista atual na documentação
+    instructions="Você resume textos em português, de forma objetiva.",
+    input="Resuma em 3 tópicos: ...",
+)
+
+print(response.output_text)
+```
+
+Existem SDKs oficiais para outras linguagens, como JavaScript/TypeScript, e as APIs também podem ser chamadas diretamente por HTTP, a partir de qualquer linguagem, incluindo C#. Veja a documentação da [OpenAI](https://platform.openai.com/docs/quickstart) e da [Anthropic](https://docs.anthropic.com/en/docs/get-started).
+
+## Passo 4: escreva boas instruções
+
+A instrução de sistema define o comportamento do modelo:
+
+- Qual é o papel dele e o objetivo.
+- O formato da resposta.
+- O que fazer quando não souber.
+- O que é proibido responder.
+
+Veja técnicas em [como escrever prompts que funcionam](/blog/como-escrever-prompts-que-funcionam).
+
+Quando a resposta precisa alimentar outro sistema, prefira os recursos de **saída estruturada** das APIs, que retornam JSON em um formato definido, em vez de tentar extrair dados de um texto livre.
+
+## Passo 5: prepare para o mundo real
+
+### Trate erros
+
+Chamadas podem falhar por limite de taxa, instabilidade ou tempo de espera. Implemente novas tentativas com intervalo crescente e uma resposta alternativa para o usuário.
+
+### Controle custos
+
+- Defina limites de gasto na plataforma.
+- Limite o tamanho das respostas com o parâmetro de tokens máximos.
+- Envie apenas o contexto necessário.
+- Use modelos mais baratos para tarefas simples.
+- Limite o uso por usuário na sua aplicação.
+- Registre o consumo por funcionalidade.
+
+### Melhore a experiência
+
+Use **streaming** para mostrar a resposta enquanto ela é gerada, o que reduz a sensação de espera em respostas longas.
+
+### Avalie a qualidade
+
+Monte um conjunto de exemplos reais com a resposta esperada e rode sempre que trocar o modelo ou o prompt. Sem isso, melhorias em um caso podem piorar outros sem ninguém perceber.
+
+## Segurança: o que não pode faltar
+
+1. **Trate a entrada do usuário como não confiável.** Usuários podem tentar manipular o modelo com textos como "ignore suas instruções". Isso se chama *injeção de prompt* e é um dos principais riscos listados pelo [OWASP para aplicações com modelos de linguagem](https://owasp.org/www-project-top-10-for-large-language-model-applications/).
+2. **Trate a saída do modelo como não confiável.** Nunca execute diretamente código ou comandos gerados, e sanitize textos antes de exibi-los em páginas.
+3. **Dê permissões mínimas.** Se o modelo aciona funções do sistema, limite o que elas podem fazer e confirme ações sensíveis.
+4. **Proteja dados pessoais.** Envie só o necessário e verifique os termos do fornecedor. Veja [LGPD e IA](/blog/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots).
+5. **Autentique os usuários** da sua aplicação, para que ninguém use sua API como um serviço gratuito.
+
+## Arquitetura recomendada
+
+```text
+Aplicativo ou site → Seu back-end (autenticação, regras, limites) → API do modelo
+```
+
+O back-end guarda a chave, aplica as regras do negócio, registra o uso e protege o sistema. Esse desenho também facilita trocar de fornecedor no futuro, se você isolar a chamada em um único serviço.
+
+## Ideias para o primeiro projeto
+
+- Classificador de chamados de suporte.
+- Resumo automático de avaliações de clientes.
+- Extração de dados de textos para uma planilha.
+- Assistente que responde com base em uma base de conhecimento própria.
+
+## Conclusão
+
+A primeira chamada leva minutos. O trabalho de verdade está em proteger a chave, controlar custos, tratar erros, avaliar a qualidade e cuidar da segurança. Comece com um caso de uso pequeno, meça o resultado e evolua a partir daí. Quando precisar conectar a IA aos sistemas da empresa, uma [integração bem projetada](/servicos/apis-e-integracoes) evita muita dor de cabeça.
+
+---
+
+## Qual linguagem de programação aprender primeiro em 2026?
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/qual-linguagem-de-programacao-aprender-primeiro/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Para a maioria dos iniciantes, a melhor primeira linguagem é Python (dados, automação e IA) ou JavaScript (sites e aplicações web). Python lidera o índice TIOBE, e JavaScript é a linguagem mais usada na pesquisa do Stack Overflow. Se o objetivo é trabalhar com sistemas corporativos, C# e Java são escolhas sólidas. O mais importante é escolher pelo que você quer construir e começar: os fundamentos se transferem para outras linguagens depois.
+
+Essa é uma das dúvidas mais comuns de quem começa — e uma das que mais faz gente perder tempo. Passar meses comparando linguagens não ensina nada. A boa notícia é que a escolha é mais simples do que parece, porque depende principalmente do que você quer construir.
+
+## O que os rankings mostram
+
+Dois indicadores ajudam a enxergar o cenário:
+
+- **Índice TIOBE:** mede a popularidade com base em buscas e referências na web. Na edição de outubro de 2026, segundo o [próprio índice](https://www.tiobe.com/tiobe-index/) e a imprensa especializada, **Python** segue em primeiro lugar, à frente de C, C++ e Java.
+- **Pesquisa do Stack Overflow:** pergunta aos desenvolvedores o que eles usam. Na [edição de 2025](https://survey.stackoverflow.co/2025/technology), **JavaScript** aparece como a linguagem mais usada, seguida por HTML/CSS, SQL e Python.
+
+Rankings mostram tendências, não o que é melhor para você. Eles medem coisas diferentes — e é por isso que nem sempre concordam.
+
+## Escolha pelo objetivo
+
+### Quero trabalhar com dados, automação ou IA → Python
+
+Python tem sintaxe simples e é a principal linguagem em ciência de dados e aprendizado de máquina. Também é excelente para automatizar tarefas e criar scripts. [Site oficial](https://www.python.org/).
+
+**Exemplos de projetos:** automatizar uma planilha, analisar dados de vendas, integrar um modelo de IA a uma ferramenta.
+
+### Quero criar sites e aplicações web → JavaScript
+
+JavaScript roda em todos os navegadores e permite criar a interface e também o back-end, com Node.js. Combinada com TypeScript, é o padrão de boa parte do mercado web. Comece com o [guia da MDN](https://developer.mozilla.org/pt-BR/docs/Learn).
+
+**Exemplos de projetos:** um site interativo, um painel, uma pequena aplicação com login.
+
+### Quero trabalhar com sistemas corporativos → C# ou Java
+
+Bancos, varejo, logística e grandes empresas têm muitos sistemas nessas linguagens. São mais estruturadas, com forte demanda por profissionais. C#, com a plataforma [.NET](https://dotnet.microsoft.com/), também serve para APIs, jogos em Unity e aplicativos.
+
+**Exemplos de projetos:** uma API de cadastro, um sistema de pedidos com banco de dados.
+
+### Quero criar aplicativos para celular → Dart (Flutter) ou TypeScript (React Native)
+
+Com [Flutter](https://flutter.dev/) ou React Native, um único código gera apps para Android e iOS. Quem já sabe JavaScript tem um caminho natural para o React Native.
+
+### Quero criar jogos → C# (Unity)
+
+A [Unity](https://unity.com/) usa C# e é uma das engines mais populares, com muito material para iniciantes.
+
+### Quero sistemas de alto desempenho → C, C++, Rust ou Go
+
+São linguagens poderosas para sistemas, infraestrutura e aplicações críticas. Em geral, não são a primeira escolha de quem começa, com exceção de cursos de computação que usam C para ensinar os fundamentos.
+
+## Tabela rápida
+
+| Objetivo | Linguagem recomendada | Dificuldade inicial |
+|---|---|---|
+| Dados, automação, IA | Python | Baixa |
+| Sites e web | JavaScript/TypeScript | Baixa a média |
+| Sistemas corporativos | C# ou Java | Média |
+| Apps mobile | Dart ou TypeScript | Média |
+| Jogos | C# | Média |
+| Alto desempenho | C++, Rust, Go | Média a alta |
+
+## E se eu não sei o que quero?
+
+Comece com **Python** se você se interessa por dados e automação, ou com **JavaScript** se gosta de ver resultados visuais rapidamente. Os dois têm comunidades enormes e muito material gratuito. Também vale aprender **SQL** cedo: ele aparece em quase toda área de tecnologia.
+
+## O que a IA muda nessa escolha
+
+- **Aprender ficou mais fácil:** a IA explica erros e conceitos a qualquer hora.
+- **Trocar de linguagem ficou mais rápido:** quem domina os fundamentos aprende outra sintaxe com menos esforço.
+- **Fundamentos valem mais:** para avaliar o código gerado, você precisa entender bem pelo menos uma linguagem.
+
+Leia mais em [vale a pena aprender a programar com o avanço da IA](/blog/vale-a-pena-aprender-a-programar-com-ia).
+
+## Os erros mais comuns
+
+1. **Trocar de linguagem toda hora** porque viu um vídeo novo.
+2. **Só assistir a aulas**, sem construir nada.
+3. **Copiar código da IA** sem entender.
+4. **Escolher só pelo salário**, ignorando o que você gosta de fazer e as vagas da sua região.
+5. **Ignorar Git e bancos de dados**, que serão usados em qualquer linguagem.
+
+## Um plano de 90 dias
+
+- **Mês 1:** lógica, variáveis, condições, repetições e funções, com exercícios diários.
+- **Mês 2:** estruturas de dados, arquivos, bibliotecas e Git. Comece um projeto pequeno.
+- **Mês 3:** banco de dados e um projeto completo publicado, como portfólio.
+
+## Conclusão
+
+Não existe linguagem perfeita, e sim a linguagem certa para o seu objetivo. Python e JavaScript são as portas de entrada mais versáteis; C# e Java abrem caminho no mundo corporativo. Escolha uma, fique nela até construir projetos reais e use a IA como professora. A segunda linguagem será muito mais fácil do que a primeira.
+
+---
+
+## Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/cursor-vs-github-copilot-vs-claude-code/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Os três são excelentes, mas têm propostas diferentes. O GitHub Copilot é a escolha mais barata e natural para quem já vive no GitHub e quer IA dentro do editor atual. O Cursor é um editor completo construído em torno da IA, com autocompletar forte e agentes visuais. O Claude Code é um agente que roda principalmente no terminal e se destaca em tarefas longas, que envolvem vários arquivos. Muitos desenvolvedores combinam um assistente de editor com um agente. Teste no seu próprio código antes de decidir.
+
+Escolher um assistente de código deixou de ser uma curiosidade e virou decisão de produtividade. Segundo a [pesquisa do Stack Overflow de 2025](https://survey.stackoverflow.co/2025/ai), 84% dos desenvolvedores usam ou pretendem usar ferramentas de IA. Entre as mais citadas estão **GitHub Copilot**, **Cursor** e **Claude Code** — três produtos com filosofias bem diferentes.
+
+> **Como este comparativo foi feito:** a análise se baseia na documentação oficial e nas páginas públicas de cada produto. Planos, limites e modelos mudam com frequência, então os preços são apenas referência. Confira em [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://cursor.com/pricing) e [Claude Code](https://code.claude.com/docs/en/overview).
+
+## As três filosofias
+
+- **GitHub Copilot:** IA dentro das ferramentas que você já usa, com forte integração ao GitHub (issues, pull requests e revisão).
+- **Cursor:** um editor de código próprio, derivado do VS Code, redesenhado em torno da IA.
+- **Claude Code:** um agente que você conversa no terminal (também disponível em extensões e outras interfaces), que lê o projeto, edita arquivos e executa comandos com a sua permissão.
+
+## GitHub Copilot
+
+**Pontos fortes:**
+
+- Funciona em VS Code, Visual Studio, JetBrains e outros editores.
+- Autocompletar maduro e chat integrado.
+- Agente que pode trabalhar a partir de uma issue e abrir um pull request.
+- Revisão de código no próprio GitHub.
+- Controles administrativos para empresas.
+
+**Pontos de atenção:** a cobrança de recursos de agente e modelos premium passou a depender de cotas e créditos, então quem usa agentes intensamente precisa acompanhar o consumo.
+
+**Referência de preço:** plano individual Pro em torno de US$ 10/mês e Business em torno de US$ 19 por usuário/mês.
+
+## Cursor
+
+**Pontos fortes:**
+
+- Autocompletar muito elogiado, que prevê as próximas edições.
+- Modo agente com visualização clara das alterações em cada arquivo.
+- Boa indexação do projeto para dar contexto às respostas.
+- Escolha entre modelos de diferentes empresas.
+- Por ser baseado no VS Code, a maior parte das extensões e atalhos funciona.
+
+**Pontos de atenção:** exige trocar de editor, e uso intenso de agentes pode pedir planos superiores.
+
+**Referência de preço:** há plano gratuito limitado, Pro em torno de US$ 20/mês e faixas mais altas para uso intenso.
+
+## Claude Code
+
+**Pontos fortes:**
+
+- Agente completo: lê o repositório, edita vários arquivos, roda testes e comandos.
+- Muito forte em tarefas longas, como refatorações e funcionalidades que passam por várias camadas.
+- Altamente configurável, com arquivo CLAUDE.md, skills, hooks, subagentes e integrações via MCP.
+- Funciona bem em automações e fluxos de terminal.
+
+**Pontos de atenção:** a experiência centrada em terminal tem uma curva de aprendizado para quem prefere interface gráfica, e o uso intenso tende a pedir planos mais altos.
+
+**Referência de preço:** incluído em planos pagos do Claude, a partir do Pro, em torno de US$ 20/mês, com faixas Max para uso intenso. Também pode ser cobrado pelo uso da API.
+
+## Comparativo direto
+
+| Critério | GitHub Copilot | Cursor | Claude Code |
+|---|---|---|---|
+| Onde roda | Vários editores e GitHub | Editor próprio | Terminal e extensões |
+| Autocompletar | Forte | Muito forte | Não é o foco |
+| Tarefas longas com agente | Boas | Boas | Muito fortes |
+| Integração com GitHub | A mais completa | Boa | Boa, via CLI |
+| Personalização | Média | Alta | Muito alta |
+| Entrada (referência) | ~US$ 10/mês | Grátis limitado, ~US$ 20/mês | ~US$ 20/mês |
+
+## Qual escolher
+
+**Escolha o GitHub Copilot se** sua equipe já usa GitHub, você não quer trocar de editor, precisa de controles corporativos ou busca o menor custo de entrada.
+
+**Escolha o Cursor se** você quer a melhor experiência visual de edição com IA e não se importa em adotar um novo editor.
+
+**Escolha o Claude Code se** você se sente em casa no terminal, trabalha com tarefas grandes ou quer automatizar fluxos e personalizar o comportamento do agente.
+
+**Combine** se fizer sentido: um assistente no editor para o dia a dia e um agente para tarefas maiores.
+
+## Como testar de verdade
+
+1. Escolha três tarefas reais: um bug, uma funcionalidade pequena e uma refatoração.
+2. Faça cada uma com as ferramentas, usando seu próprio repositório.
+3. Meça o tempo total, incluindo a revisão — e não só a sensação. Um [estudo do METR](https://metr.org/) mostrou que desenvolvedores experientes podem se sentir mais rápidos sem estar.
+4. Avalie a qualidade: testes passando, tamanho do diff e necessidade de retrabalho.
+5. Calcule o custo com o seu volume de uso.
+
+## Cuidados, seja qual for a escolha
+
+- **Revise tudo.** Veja os [riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+- **Controle permissões:** agentes que executam comandos devem ter limites claros.
+- **Proteja segredos:** não deixe chaves e senhas acessíveis no contexto.
+- **Siga a política da empresa** sobre código proprietário.
+
+## Conclusão
+
+Não há um vencedor absoluto: o Copilot brilha em integração e custo, o Cursor na experiência de edição e o Claude Code em tarefas longas e personalização. A melhor ferramenta é a que acelera o seu fluxo sem reduzir a qualidade — e só dá para descobrir isso testando no seu código. Para depurar melhor com qualquer uma delas, veja [como usar IA para encontrar e corrigir bugs](/blog/como-usar-ia-para-corrigir-bugs).
+
+---
+
+## Como usar IA para encontrar e corrigir bugs mais rápido
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-corrigir-bugs/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Para depurar com IA, dê contexto completo: o comportamento esperado, o que acontece, a mensagem de erro e o stack trace, o trecho de código relevante e o que você já tentou. Peça hipóteses ordenadas por probabilidade e formas de confirmar cada uma, em vez de pedir 'conserte'. Reproduza o bug com um teste antes de corrigir, aplique a menor correção possível e rode os testes de novo. Ferramentas com acesso ao repositório, como agentes de código, ajudam a investigar, mas a revisão continua sendo sua.
+
+Depurar costuma consumir uma parte enorme do tempo de quem desenvolve software. A IA pode acelerar muito esse trabalho — explicando mensagens de erro, levantando hipóteses e sugerindo correções. Mas usada sem método, ela também pode gerar "consertos" que escondem o problema ou criam bugs novos.
+
+Este guia mostra um método que funciona no dia a dia.
+
+## O erro mais comum: "conserta pra mim"
+
+Colar um trecho de código com "isso não funciona, conserta" quase sempre produz uma resposta genérica, que pode até mudar o comportamento sem resolver a causa. A IA não sabe o que o código deveria fazer, em que ambiente roda nem o que você já tentou.
+
+## Passo 1: dê o contexto completo
+
+Um bom pedido de depuração inclui:
+
+- **Comportamento esperado:** o que deveria acontecer.
+- **Comportamento observado:** o que acontece de fato.
+- **Mensagem de erro e stack trace** completos.
+- **Código relevante:** a função com problema e as que ela chama.
+- **Ambiente:** linguagem, versões, sistema, banco de dados.
+- **Como reproduzir:** passos e dados de entrada.
+- **O que já tentou** e o resultado.
+
+Exemplo:
+
+> Em uma API em ASP.NET Core 8, o endpoint de criar pedido retorna 500 quando o cliente não tem endereço cadastrado. Esperado: retornar 400 com uma mensagem clara. Stack trace abaixo. Já confirmei que o cliente existe no banco. Liste as causas mais prováveis, em ordem, e como confirmar cada uma antes de corrigir.
+> [stack trace]
+> [código do controller e do serviço]
+
+## Passo 2: peça hipóteses, não soluções
+
+Pedir hipóteses ordenadas por probabilidade, com uma forma de confirmar cada uma, transforma a IA em parceira de investigação. Você aprende sobre o sistema e evita correções às cegas.
+
+## Passo 3: reproduza o bug com um teste
+
+Antes de corrigir, escreva um teste que falha por causa do bug. A IA ajuda bastante aqui:
+
+> Escreva um teste unitário que reproduza este bug: ao criar um pedido para um cliente sem endereço, o serviço deve lançar uma exceção de validação, e não uma NullReferenceException.
+
+Se o teste falhar pelo motivo esperado, você confirmou a causa. Se passar, a hipótese estava errada.
+
+## Passo 4: aplique a menor correção possível
+
+Peça uma correção focada:
+
+> Proponha a menor alteração possível para corrigir a causa confirmada, sem mudar outros comportamentos. Explique o que muda e por quê.
+
+Desconfie de correções que reescrevem grandes trechos, mudam assinaturas de métodos ou "aproveitam para melhorar" outras partes.
+
+## Passo 5: valide
+
+- Rode o teste que reproduz o bug: ele deve passar.
+- Rode toda a suíte de testes: nada mais pode quebrar.
+- Teste manualmente o fluxo afetado.
+- Revise o diff completo antes do commit.
+
+## Usos específicos que economizam tempo
+
+### Entender mensagens de erro
+
+> Explique o que esta mensagem de erro significa, em que situações costuma ocorrer e o que verificar primeiro.
+
+### Analisar logs
+
+> Estes são os logs dos 5 minutos antes da falha. Identifique eventos anormais e uma possível sequência que levou ao erro.
+
+Remova dados pessoais e segredos dos logs antes de colar.
+
+### Bugs intermitentes
+
+> Este erro acontece em cerca de 1 a cada 100 requisições. Quais causas típicas geram falhas intermitentes nesse tipo de código (concorrência, timeouts, cache) e que logs eu deveria adicionar para investigar?
+
+### Revisão preventiva
+
+> Revise esta função e aponte possíveis bugs, casos de borda não tratados e problemas de concorrência.
+
+## Agentes de código e acesso ao repositório
+
+Ferramentas como Claude Code, Cursor e GitHub Copilot podem ler o repositório inteiro, executar testes e propor alterações em vários arquivos. Isso acelera a investigação em sistemas grandes, porque a ferramenta encontra sozinha onde a função é chamada e como os dados fluem. Compare as opções em [Cursor vs GitHub Copilot vs Claude Code](/blog/cursor-vs-github-copilot-vs-claude-code).
+
+Mesmo assim: revise cada alteração, rode os testes e não aceite mudanças que você não entende.
+
+## Cuidados
+
+- **Não compartilhe segredos:** chaves, senhas e tokens devem ser removidos de código e logs.
+- **Respeite a política da empresa** sobre ferramentas de IA.
+- **Atenção à segurança:** correções sugeridas também podem introduzir vulnerabilidades — veja os [riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+- **Meça de verdade:** um estudo do METR em 2025 mostrou que desenvolvedores experientes podem se sentir mais rápidos com IA mesmo quando não estão. Acompanhe o tempo real gasto.
+
+## Conclusão
+
+A IA é uma excelente parceira de depuração quando recebe contexto completo e é usada para investigar, não para adivinhar. Contexto, hipóteses, teste que reproduz o bug, correção mínima e validação: com esse método, você corrige mais rápido e com mais segurança — e entende melhor o próprio sistema no processo.
+
+---
+
+## Código gerado por IA: riscos de segurança que ninguém te conta
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/riscos-de-seguranca-do-codigo-gerado-por-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Código gerado por IA pode funcionar e, ainda assim, ser inseguro. Em um estudo de 2025, a Veracode testou mais de 100 modelos em 80 tarefas e encontrou falhas de segurança em 45% dos casos. Os problemas mais comuns são injeção de SQL e de comandos, validação de entrada ausente, segredos expostos no código, autenticação e autorização fracas, dependências inexistentes ou vulneráveis e configurações inseguras. A solução é tratar todo código gerado como código de terceiros: revisar, testar, usar ferramentas de análise e seguir referências como o OWASP Top 10.
+
+Assistentes de código aceleram o desenvolvimento de forma impressionante. O problema é que **código que funciona não é o mesmo que código seguro**. A IA aprende com enormes volumes de código público — incluindo código com falhas — e tende a gerar a solução mais comum, não necessariamente a mais segura. Quem coloca código gerado em produção sem revisão está assumindo riscos que muitas vezes não enxerga.
+
+## O que os estudos mostram
+
+O [relatório de segurança de código gerado por IA de 2025 da Veracode](https://www.veracode.com/) avaliou mais de 100 modelos de linguagem em 80 tarefas de programação. Os principais achados:
+
+- Em **45%** dos casos, o código gerado introduziu vulnerabilidades de segurança.
+- Quando havia uma forma segura e uma insegura de resolver a tarefa, os modelos escolheram a insegura em cerca de 45% das vezes.
+- O desempenho em segurança **não melhorou** no mesmo ritmo que a capacidade de gerar código funcional.
+
+O número vem de um conjunto controlado de tarefas, não de todo o código escrito com IA no mundo — mas é um alerta claro de que a revisão é obrigatória.
+
+## As falhas mais comuns
+
+### 1. Injeção (SQL, comandos, scripts)
+
+A IA frequentemente monta consultas concatenando texto do usuário diretamente:
+
+```python
+# Inseguro: o valor do usuário vai direto na consulta
+cursor.execute("SELECT * FROM usuarios WHERE email = '" + email + "'")
+
+# Seguro: consulta parametrizada
+cursor.execute("SELECT * FROM usuarios WHERE email = %s", (email,))
+```
+
+O mesmo vale para comandos do sistema operacional e para conteúdo exibido em páginas web (XSS).
+
+### 2. Validação de entrada ausente
+
+Código gerado costuma confiar nos dados recebidos: não verifica tamanho, formato, tipo ou valores permitidos.
+
+### 3. Segredos no código
+
+Chaves de API, senhas e tokens escritos diretamente no código-fonte, que acabam em repositórios e aplicativos publicados. Segredos devem ficar em variáveis de ambiente ou cofres de segredos.
+
+### 4. Autenticação e autorização fracas
+
+É comum a IA criar rotas que verificam se o usuário está logado, mas não se ele tem **permissão** para acessar aquele recurso específico — permitindo que um cliente veja os dados de outro só trocando um número na URL.
+
+### 5. Dependências inventadas ou vulneráveis
+
+Modelos às vezes sugerem bibliotecas que não existem (*package hallucination*). Atacantes registram pacotes com esses nomes contendo código malicioso. Também é comum a sugestão de versões antigas, com vulnerabilidades conhecidas.
+
+### 6. Criptografia ultrapassada
+
+Uso de algoritmos fracos para senhas, geração de números aleatórios inadequada para segurança e chaves fixas no código.
+
+### 7. Configurações inseguras
+
+CORS liberado para qualquer origem, modo de depuração ativado em produção, mensagens de erro que expõem detalhes internos e permissões amplas demais em bancos de dados e nuvem.
+
+## Por que isso acontece
+
+- **Dados de treinamento:** a IA aprendeu com código público, que inclui muitos exemplos inseguros.
+- **Foco em "funcionar":** o pedido típico é "faça funcionar", não "faça de forma segura".
+- **Falta de contexto:** a IA não conhece as regras de acesso, os dados sensíveis e as ameaças do seu sistema.
+- **Confiança excessiva:** o código parece profissional, e o desenvolvedor revisa menos.
+
+## Checklist antes de ir para produção
+
+### No pedido
+
+- [ ] Peça explicitamente práticas seguras: consultas parametrizadas, validação de entrada, tratamento de erros sem expor detalhes.
+- [ ] Informe o contexto: quem pode acessar o quê, quais dados são sensíveis.
+
+### Na revisão
+
+- [ ] Leia e entenda **cada linha** antes de aceitar.
+- [ ] Verifique **autorização**, não apenas autenticação, em cada rota e operação.
+- [ ] Procure **segredos** no código.
+- [ ] Confira se **todas as dependências existem**, são mantidas e estão atualizadas.
+- [ ] Use as referências do [OWASP Top 10](https://owasp.org/www-project-top-ten/) como guia.
+
+### Nas ferramentas
+
+- [ ] **Análise estática (SAST)** no repositório.
+- [ ] **Varredura de dependências** (alertas do GitHub, ferramentas de composição de software).
+- [ ] **Detecção de segredos** antes do commit.
+- [ ] **Testes automatizados**, incluindo casos de abuso (entradas inválidas, acesso indevido).
+
+### No processo
+
+- [ ] **Revisão de código por outra pessoa** para mudanças relevantes.
+- [ ] **Permissões mínimas** para aplicações, bancos e serviços de nuvem.
+- [ ] **Monitoramento e registros** para detectar comportamentos anormais.
+
+## E nos aplicativos criados sem programar?
+
+Plataformas que geram aplicativos inteiros a partir de texto também podem produzir falhas: bancos de dados acessíveis sem login, regras de acesso mal configuradas e chaves expostas no navegador. Se o seu app tem dados de usuários, revise as regras de acesso da plataforma e considere uma avaliação técnica. Veja [como criar um app sem saber programar](/blog/como-criar-app-sem-saber-programar-com-ia).
+
+## Conclusão
+
+A IA é uma ferramenta poderosa para escrever código, mas não é uma especialista em segurança confiável. Trate todo código gerado como código de um desenvolvedor desconhecido: revise, teste, use ferramentas de análise e siga boas práticas. A velocidade que a IA traz só vale a pena se não vier acompanhada de vulnerabilidades que custam muito mais caro depois.
+
+---
+
+## Como criar seu primeiro app sem saber programar usando IA
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-app-sem-saber-programar-com-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Para criar seu primeiro app sem programar: defina um problema pequeno e um usuário específico, escreva uma descrição clara das telas e funções, use uma plataforma que gera aplicativos a partir de texto (como Lovable, Bolt, Replit ou v0) ou uma ferramenta no-code visual (como Bubble, Glide ou FlutterFlow), teste com usuários reais e só depois evolua. Esse caminho é ótimo para protótipos e ferramentas simples; para sistemas com dados sensíveis, pagamentos ou muitos usuários, revise segurança e considere apoio técnico.
+
+Até pouco tempo atrás, transformar uma ideia de aplicativo em realidade exigia aprender a programar ou contratar um desenvolvedor. Hoje, plataformas com inteligência artificial geram aplicativos funcionais a partir de uma descrição em texto. Isso abriu a porta para empreendedores, profissionais e curiosos criarem protótipos e ferramentas simples em poucas horas.
+
+Este guia mostra como fazer isso — e onde estão os limites.
+
+## O que dá para criar (e o que não dá)
+
+**Bons projetos para começar:**
+
+- Uma ferramenta interna: controle de pedidos, agenda de atendimentos, cadastro de clientes.
+- Um protótipo para validar uma ideia de negócio com usuários reais.
+- Uma calculadora ou simulador para o seu site.
+- Um formulário inteligente com painel de respostas.
+- Uma landing page com cadastro de interessados.
+
+**Projetos que exigem mais cuidado:**
+
+- Apps com pagamentos, dados de saúde ou dados pessoais sensíveis.
+- Sistemas com muitos usuários simultâneos.
+- Integrações complexas com outros sistemas.
+- Produtos que precisam de manutenção e evolução por anos.
+
+Nesses casos, a plataforma de IA pode servir para o protótipo, mas a versão final costuma precisar de apoio técnico.
+
+## Passo 1: comece pelo problema, não pelo app
+
+Responda em uma frase: **quem** vai usar e **qual problema** o app resolve.
+
+> "Um app para a recepção da minha clínica registrar os pacientes que chegam e avisar o profissional por mensagem."
+
+Quanto mais específico, melhor. Apps que tentam fazer tudo costumam não fazer nada bem.
+
+## Passo 2: descreva as telas e funções
+
+Antes de abrir qualquer ferramenta, escreva:
+
+- **Usuários:** quem acessa e o que cada um pode fazer.
+- **Telas:** lista de telas e o que aparece em cada uma.
+- **Dados:** o que precisa ser guardado (nome, telefone, horário, status).
+- **Ações:** botões e o que acontece ao clicar.
+
+Você pode pedir ajuda a um assistente como ChatGPT ou Claude:
+
+> Quero criar um app simples para [problema]. Me ajude a definir usuários, telas, dados e funções de uma primeira versão mínima. Faça perguntas antes de propor.
+
+## Passo 3: escolha a ferramenta
+
+Há dois grandes tipos:
+
+### Geradores de aplicativo com IA
+
+Você descreve o app em texto e a plataforma gera o código e a interface, que você ajusta conversando. Exemplos: [Lovable](https://lovable.dev/), [Bolt](https://bolt.new/), [Replit](https://replit.com/) e [v0](https://v0.dev/). São rápidos para protótipos e aplicações web.
+
+### Plataformas no-code visuais
+
+Você monta o app arrastando componentes e configurando regras, muitas vezes com ajuda de IA. Exemplos: [Bubble](https://bubble.io/), [Glide](https://www.glideapps.com/), [FlutterFlow](https://flutterflow.io/) e [Softr](https://www.softr.io/). Dão mais controle visual e algumas facilitam a publicação em lojas de aplicativos.
+
+Compare as opções em [melhores plataformas para criar sites e apps com IA](/blog/melhores-plataformas-no-code-com-ia).
+
+## Passo 4: construa a primeira versão
+
+Com a descrição do passo 2 em mãos:
+
+1. Cole a descrição na ferramenta e peça a primeira versão.
+2. Teste cada tela e cada botão.
+3. Peça ajustes específicos, um de cada vez: "adicione um campo de telefone obrigatório no cadastro", "ordene a lista por horário".
+4. Configure o banco de dados e o login, se necessário (muitas plataformas integram serviços prontos).
+
+**Dica:** pedidos pequenos e específicos funcionam muito melhor do que "melhore o app".
+
+## Passo 5: teste com usuários reais
+
+Mostre o app para três a cinco pessoas que realmente teriam o problema. Observe onde elas travam, o que não entendem e o que pedem. Isso vale mais do que qualquer recurso extra.
+
+## Passo 6: publique com cuidado
+
+- **App web:** o caminho mais simples — a plataforma gera um link acessível pelo navegador, inclusive no celular.
+- **Lojas de aplicativos:** exigem conta de desenvolvedor, cumprimento de políticas e revisão. Algumas plataformas ajudam nesse processo.
+
+## Os cuidados que ninguém conta
+
+- **Segurança:** apps gerados por IA podem ter falhas, como dados acessíveis sem login ou chaves de acesso expostas. Revise permissões e regras de acesso aos dados. Leia sobre os [riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+- **LGPD:** se o app coleta dados pessoais, informe a finalidade, colete só o necessário e proteja as informações.
+- **Dependência da plataforma:** verifique se dá para exportar código e dados.
+- **Custos crescentes:** planos podem ficar caros com mais usuários e mais uso de IA.
+- **Manutenção:** todo app precisa de ajustes ao longo do tempo.
+
+## Quando chamar um desenvolvedor
+
+Considere apoio técnico quando o app:
+
+- Começar a ter muitos usuários ou dados importantes.
+- Precisar de pagamentos, integrações ou regras complexas.
+- Apresentar erros que você não consegue resolver.
+- Virar o centro do seu negócio.
+
+Nesse momento, o protótipo feito com IA vale ouro: ele mostra exatamente o que precisa ser construído. Saiba como funciona o [desenvolvimento de aplicativos mobile](/servicos/aplicativos-mobile) sob medida.
+
+## Conclusão
+
+Criar o primeiro app sem saber programar é real e acessível. Comece com um problema pequeno, descreva bem o que quer, escolha uma plataforma adequada e teste com usuários de verdade. Use a IA para validar ideias rapidamente — e trate segurança, dados e manutenção com a seriedade que um produto real exige.
+
+---
+
+## Vale a pena aprender a programar com o avanço da IA?
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/vale-a-pena-aprender-a-programar-com-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Sim, vale a pena — mas o objetivo mudou. Aprender a programar hoje é aprender a resolver problemas com software, entender o que a IA gera e saber corrigir quando ela erra. Mesmo quem não pretende ser desenvolvedor ganha ao entender lógica, dados e automação. A IA é uma excelente tutora para quem estuda, desde que seja usada para explicar e revisar, não para fazer os exercícios no seu lugar.
+
+"Para que aprender a programar se a IA já escreve código?" Essa dúvida tem feito muita gente adiar ou desistir de estudar programação. É compreensível, mas parte de uma premissa errada: a de que programar é apenas digitar código. Nunca foi — e com a IA, isso fica ainda mais claro.
+
+## O que mudou
+
+Antes, boa parte do esforço de um iniciante ia para lembrar a sintaxe, encontrar o comando certo e escrever código repetitivo. Hoje, a IA faz isso em segundos. O que ganhou valor:
+
+- **Entender o problema** e dividi-lo em partes.
+- **Saber o que pedir** à IA, com clareza.
+- **Ler e avaliar código**, identificando erros e riscos.
+- **Testar** e garantir que o sistema funciona de verdade.
+- **Projetar** soluções que continuem funcionando com o tempo.
+
+Em resumo: programar virou menos "escrever" e mais "pensar, decidir e verificar".
+
+## Por que ainda vale a pena
+
+### 1. A demanda por software continua crescendo
+
+O Fórum Econômico Mundial coloca desenvolvedores de software entre as funções que mais crescem até 2030. Empresas de todos os setores precisam de sistemas, integrações e automações — e de pessoas que saibam construí-los e mantê-los.
+
+### 2. Sem fundamentos, você não sabe se a IA acertou
+
+A [pesquisa do Stack Overflow de 2025](https://survey.stackoverflow.co/2025/ai) mostrou que 46% dos desenvolvedores desconfiam da precisão das ferramentas de IA. Se profissionais experientes revisam tudo, quem não sabe programar fica refém de um código que não entende — e que pode conter bugs e falhas de segurança.
+
+### 3. Programar é útil mesmo fora da área de tecnologia
+
+Analistas, profissionais de marketing, financeiro, logística e pesquisa ganham muito ao saber automatizar planilhas, consultar dados e criar pequenas ferramentas. Com IA, quem entende o básico de programação vai muito mais longe do que quem não entende.
+
+### 4. A IA amplifica quem sabe
+
+Quanto mais você entende, melhores são os pedidos que faz, mais rápido identifica erros e maiores são os projetos que consegue entregar. A IA multiplica a capacidade de quem tem base.
+
+## Como estudar programação com a IA
+
+A IA pode ser a melhor professora particular que já existiu — paciente, disponível a qualquer hora e capaz de explicar de vários jeitos. O segredo é usá-la para aprender, não para pular etapas.
+
+**Bons usos:**
+
+- "Explique este conceito com um exemplo simples e uma analogia."
+- "Por que este código dá erro? Não me dê a resposta, me dê uma pista."
+- "Revise minha solução e aponte o que pode melhorar."
+- "Crie 5 exercícios de nível iniciante sobre laços de repetição."
+- "Explique linha por linha o que este código faz."
+
+**Maus usos:**
+
+- Pedir a solução completa de todo exercício.
+- Copiar código sem entender.
+- Pular os fundamentos porque "a IA resolve".
+
+## Um roteiro para começar
+
+1. **Lógica de programação:** variáveis, condições, repetições, funções.
+2. **Uma linguagem principal:** Python e JavaScript são ótimas portas de entrada. Veja [qual linguagem aprender primeiro](/blog/qual-linguagem-de-programacao-aprender-primeiro).
+3. **Fundamentos de dados:** bancos de dados e SQL.
+4. **Controle de versão:** Git e GitHub.
+5. **Projetos reais:** uma calculadora, um site, uma automação para sua rotina, um pequeno sistema.
+6. **IA no fluxo de trabalho:** aprenda a usar assistentes de código com revisão e testes.
+7. **Segurança básica:** entenda os riscos — veja [os riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+
+Cursos gratuitos de qualidade, como o CS50 de Harvard e as trilhas do Microsoft Learn, ajudam a estruturar o caminho.
+
+## Para quem não quer ser desenvolvedor
+
+Se o seu objetivo é usar tecnologia no trabalho, sem seguir carreira em programação, aprender o básico ainda compensa: automatizar tarefas, analisar dados e conversar melhor com equipes técnicas. Plataformas no-code com IA também ajudam, mas quem entende os fundamentos vai mais longe com elas — veja [como criar um app sem saber programar](/blog/como-criar-app-sem-saber-programar-com-ia).
+
+## Conclusão
+
+Aprender a programar continua valendo a pena, mas o objetivo mudou: não é decorar sintaxe, e sim aprender a resolver problemas com software e a trabalhar lado a lado com a IA. Use a tecnologia como tutora, invista em fundamentos e construa projetos reais. Quem fizer isso vai estar entre os profissionais que a IA potencializa — não entre os que ela substitui.
+
+---
+
+## A IA vai substituir programadores? O que os dados mostram
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/a-ia-vai-substituir-programadores/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Os dados indicam transformação, não substituição em massa. A pesquisa do Stack Overflow de 2025 mostrou que 84% dos desenvolvedores usam ou pretendem usar IA, mas 46% desconfiam da precisão das ferramentas. Um estudo controlado do METR encontrou desenvolvedores experientes 19% mais lentos com IA em projetos que já conheciam. Ao mesmo tempo, Stanford identificou queda no emprego de profissionais de 22 a 25 anos nas ocupações mais expostas à IA, incluindo desenvolvimento de software. O mercado valoriza cada vez mais quem projeta sistemas, revisa código e usa IA com critério.
+
+Poucas profissões foram tão impactadas pela IA generativa quanto a programação. Assistentes escrevem funções inteiras, agentes abrem pull requests e plataformas criam aplicativos a partir de uma descrição em texto. A pergunta é inevitável: ainda vai existir emprego para programadores?
+
+Como desenvolvedor que usa IA no dia a dia, posso dizer que a resposta curta é "sim, mas diferente". A resposta longa está nos dados.
+
+## O que os desenvolvedores dizem
+
+A [pesquisa anual do Stack Overflow de 2025](https://survey.stackoverflow.co/2025/ai) ouviu dezenas de milhares de desenvolvedores no mundo todo:
+
+- **84%** usam ou pretendem usar ferramentas de IA no desenvolvimento (eram 76% no ano anterior).
+- Cerca de **47%** usam IA diariamente.
+- Mas **46%** desconfiam da precisão das ferramentas, contra **33%** que confiam — e apenas **3%** confiam muito.
+
+Ou seja: a IA virou parte do trabalho, mas os próprios profissionais sabem que o resultado precisa de revisão.
+
+## A produtividade é mais complicada do que parece
+
+Em 2025, o instituto de pesquisa METR fez um estudo controlado com 16 desenvolvedores experientes de projetos de código aberto, que resolveram 246 tarefas reais em repositórios que já conheciam bem. Resultado: **com ferramentas de IA, eles levaram 19% mais tempo**. O dado mais curioso: antes, esperavam ficar 24% mais rápidos e, mesmo depois, acreditavam ter ganhado cerca de 20% de velocidade.
+
+Os autores alertam para não generalizar: o estudo envolveu ferramentas do início de 2025, projetos grandes e maduros e profissionais experientes nesses projetos. Em outras situações — código novo, tarefas repetitivas, linguagens desconhecidas — os ganhos tendem a ser maiores. A lição é que a percepção de produtividade pode enganar, e que medir importa.
+
+## O impacto no início de carreira
+
+O sinal mais preocupante vem do Laboratório de Economia Digital de Stanford. O estudo [Canaries in the Coal Mine](https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine/), de Erik Brynjolfsson e colegas, analisou dados de folha de pagamento nos Estados Unidos e encontrou **queda no emprego de trabalhadores de 22 a 25 anos nas ocupações mais expostas à IA** — incluindo desenvolvedores de software e atendentes — enquanto profissionais mais experientes nas mesmas ocupações tiveram estabilidade ou crescimento.
+
+Os próprios autores ressaltam que outros fatores, como juros e ciclos de contratação, também podem influenciar. Mas o padrão é consistente com o que se vê no mercado: as tarefas tradicionalmente dadas a iniciantes são justamente as que a IA faz melhor. Falamos mais disso em [programador júnior na era da IA](/blog/programador-junior-na-era-da-ia).
+
+## O que as projeções dizem
+
+O [Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/), do Fórum Econômico Mundial, coloca **desenvolvedores de software e aplicativos** entre as funções que mais crescem em proporção até 2030, ao lado de especialistas em IA, big data e segurança da informação. A demanda por software continua crescendo — o que muda é o perfil de quem o constrói.
+
+## O que a IA faz bem — e o que não faz
+
+**Faz bem:**
+
+- Código repetitivo e padrões conhecidos.
+- Testes, documentação e comentários.
+- Explicar código desconhecido.
+- Protótipos e primeiras versões.
+- Conversão entre linguagens e frameworks.
+
+**Ainda depende de pessoas:**
+
+- Entender o problema de negócio e transformar em requisitos.
+- Decisões de arquitetura e trade-offs.
+- Segurança, desempenho e confiabilidade em produção.
+- Revisão crítica do que foi gerado.
+- Responsabilidade pelo resultado.
+
+## Como a profissão está mudando
+
+O trabalho do programador está se deslocando de **escrever cada linha** para **definir, orquestrar e revisar**:
+
+1. **Mais tempo especificando** o que deve ser feito, com clareza suficiente para a IA executar.
+2. **Mais tempo revisando** código gerado, procurando bugs e falhas de segurança.
+3. **Mais foco em arquitetura**, integrações e qualidade.
+4. **Mais proximidade com o negócio**, porque entender o problema vale mais do que digitar a solução.
+
+## Como se preparar
+
+- **Domine fundamentos:** lógica, estruturas de dados, bancos de dados, redes, segurança. Sem eles, não dá para avaliar o que a IA entrega.
+- **Use IA todos os dias**, mas com método: testes, revisão e medição.
+- **Aprenda segurança:** código gerado por IA tem riscos específicos — veja [os riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
+- **Construa projetos reais**, do início ao deploy.
+- **Desenvolva habilidades de comunicação** e entendimento de negócio.
+
+## Conclusão
+
+A IA não está acabando com a programação, mas está mudando quem é valorizado. Profissionais que só traduzem instruções em código perdem espaço; os que entendem problemas, projetam soluções e usam IA com senso crítico ganham produtividade e relevância. O momento exige adaptação — e, para quem se adapta, as oportunidades continuam grandes.
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T02:23:09.256Z",
+  "generatedAt": "2026-11-01T13:28:23.968Z",
   "site": "https://rafaelnunes93.github.io/rafaelnunes-",
   "categories": [
     {
@@ -53,6 +53,7 @@
   ],
   "slugs": [
     "a-ia-guarda-minhas-conversas",
+    "a-ia-vai-substituir-programadores",
     "alucinacoes-de-ia-perigo-de-confiar-no-chatbot",
     "api-ou-edi-como-trocar-dados-com-parceiros",
     "atendimento-no-whatsapp-com-ia-para-pequenas-empresas",
@@ -61,19 +62,23 @@
     "chatgpt-gemini-ou-claude-qual-a-melhor-ia",
     "chatgpt-gratis-ou-pago-diferencas",
     "como-criar-agentes-de-ia-para-tarefas-repetitivas",
+    "como-criar-app-sem-saber-programar-com-ia",
     "como-criar-plano-de-negocios-com-ia",
     "como-criar-um-assistente-de-ia-pessoal",
     "como-escrever-prompts-que-funcionam",
     "como-ganhar-dinheiro-com-inteligencia-artificial",
     "como-identificar-deepfake",
+    "como-integrar-api-do-chatgpt-ou-claude",
     "como-proteger-conta-bancaria-e-pix-contra-golpes",
     "como-saber-se-meus-dados-vazaram",
     "como-saber-se-o-celular-esta-sendo-espionado",
     "como-saber-se-um-texto-foi-escrito-por-ia",
     "como-usar-ia-no-celular-por-voz",
+    "como-usar-ia-para-corrigir-bugs",
     "como-usar-ia-para-precificar-e-analisar-concorrencia",
     "como-usar-ia-para-reduzir-tempo-com-emails",
     "como-usar-ia-para-resumir-pdfs-longos",
+    "cursor-vs-github-copilot-vs-claude-code",
     "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
     "flutter-ou-react-native",
     "golpes-com-ia-clonagem-de-voz-e-rosto",
@@ -83,6 +88,7 @@
     "melhores-ferramentas-de-ia-para-e-commerce",
     "melhores-gerenciadores-de-senha",
     "melhores-ias-gratuitas",
+    "melhores-plataformas-no-code-com-ia",
     "microsoft-copilot-no-office-vale-a-pena",
     "migrar-do-net-framework-para-o-net-8",
     "notebooklm-review-estudar-com-ia",
@@ -92,10 +98,14 @@
     "o-que-um-tms-precisa-ter",
     "perplexity-vale-a-pena-review",
     "profissoes-que-a-ia-vai-substituir-ate-2030",
+    "programador-junior-na-era-da-ia",
+    "qual-linguagem-de-programacao-aprender-primeiro",
     "quanto-custa-desenvolver-um-sistema-web-sob-medida",
     "quanto-custa-implementar-ia-em-pequena-empresa",
+    "riscos-de-seguranca-do-codigo-gerado-por-ia",
     "sinais-de-que-a-ia-esta-mudando-sua-profissao",
     "sinais-de-que-sua-empresa-perde-clientes-sem-ia",
+    "vale-a-pena-aprender-a-programar-com-ia",
     "vpn-vale-a-pena",
     "whatsapp-clonado-o-que-fazer"
   ],
@@ -421,6 +431,86 @@
       "pubDate": "2026-10-31T12:00:00.000Z"
     },
     {
+      "slug": "melhores-plataformas-no-code-com-ia",
+      "title": "Melhores plataformas para criar sites e apps com IA (no-code): comparativo",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-plataformas-no-code-com-ia/",
+      "path": "/blog/melhores-plataformas-no-code-com-ia/",
+      "pubDate": "2026-10-31T11:00:00.000Z"
+    },
+    {
+      "slug": "programador-junior-na-era-da-ia",
+      "title": "Programador júnior na era da IA: por que o mercado mudou e como se adaptar",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/programador-junior-na-era-da-ia/",
+      "path": "/blog/programador-junior-na-era-da-ia/",
+      "pubDate": "2026-10-31T10:40:00.000Z"
+    },
+    {
+      "slug": "como-integrar-api-do-chatgpt-ou-claude",
+      "title": "Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-integrar-api-do-chatgpt-ou-claude/",
+      "path": "/blog/como-integrar-api-do-chatgpt-ou-claude/",
+      "pubDate": "2026-10-31T10:20:00.000Z"
+    },
+    {
+      "slug": "qual-linguagem-de-programacao-aprender-primeiro",
+      "title": "Qual linguagem de programação aprender primeiro em 2026?",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/qual-linguagem-de-programacao-aprender-primeiro/",
+      "path": "/blog/qual-linguagem-de-programacao-aprender-primeiro/",
+      "pubDate": "2026-10-31T10:00:00.000Z"
+    },
+    {
+      "slug": "cursor-vs-github-copilot-vs-claude-code",
+      "title": "Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/cursor-vs-github-copilot-vs-claude-code/",
+      "path": "/blog/cursor-vs-github-copilot-vs-claude-code/",
+      "pubDate": "2026-10-31T09:40:00.000Z"
+    },
+    {
+      "slug": "como-usar-ia-para-corrigir-bugs",
+      "title": "Como usar IA para encontrar e corrigir bugs mais rápido",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-corrigir-bugs/",
+      "path": "/blog/como-usar-ia-para-corrigir-bugs/",
+      "pubDate": "2026-10-31T09:20:00.000Z"
+    },
+    {
+      "slug": "riscos-de-seguranca-do-codigo-gerado-por-ia",
+      "title": "Código gerado por IA: riscos de segurança que ninguém te conta",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/riscos-de-seguranca-do-codigo-gerado-por-ia/",
+      "path": "/blog/riscos-de-seguranca-do-codigo-gerado-por-ia/",
+      "pubDate": "2026-10-31T09:00:00.000Z"
+    },
+    {
+      "slug": "como-criar-app-sem-saber-programar-com-ia",
+      "title": "Como criar seu primeiro app sem saber programar usando IA",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-app-sem-saber-programar-com-ia/",
+      "path": "/blog/como-criar-app-sem-saber-programar-com-ia/",
+      "pubDate": "2026-10-31T08:40:00.000Z"
+    },
+    {
+      "slug": "vale-a-pena-aprender-a-programar-com-ia",
+      "title": "Vale a pena aprender a programar com o avanço da IA?",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/vale-a-pena-aprender-a-programar-com-ia/",
+      "path": "/blog/vale-a-pena-aprender-a-programar-com-ia/",
+      "pubDate": "2026-10-31T08:20:00.000Z"
+    },
+    {
+      "slug": "a-ia-vai-substituir-programadores",
+      "title": "A IA vai substituir programadores? O que os dados mostram",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/a-ia-vai-substituir-programadores/",
+      "path": "/blog/a-ia-vai-substituir-programadores/",
+      "pubDate": "2026-10-31T08:00:00.000Z"
+    },
+    {
       "slug": "migrar-do-net-framework-para-o-net-8",
       "title": "Quando vale a pena migrar do .NET Framework para o .NET 8",
       "category": "arquitetura-e-backend",
@@ -460,23 +550,23 @@
     },
     {
       "tag": "produtividade",
+      "count": 11
+    },
+    {
+      "tag": "carreira",
       "count": 10
+    },
+    {
+      "tag": "claude",
+      "count": 8
+    },
+    {
+      "tag": "segurança",
+      "count": 7
     },
     {
       "tag": "gemini",
       "count": 7
-    },
-    {
-      "tag": "claude",
-      "count": 7
-    },
-    {
-      "tag": "segurança",
-      "count": 6
-    },
-    {
-      "tag": "carreira",
-      "count": 6
     },
     {
       "tag": "golpes",
@@ -491,11 +581,31 @@
       "count": 4
     },
     {
+      "tag": "comparativo",
+      "count": 4
+    },
+    {
       "tag": "pequenas empresas",
       "count": 4
     },
     {
+      "tag": "ia",
+      "count": 3
+    },
+    {
       "tag": "review",
+      "count": 3
+    },
+    {
+      "tag": "mercado de trabalho",
+      "count": 3
+    },
+    {
+      "tag": "no-code",
+      "count": 3
+    },
+    {
+      "tag": "iniciantes",
       "count": 3
     },
     {
@@ -516,10 +626,6 @@
     },
     {
       "tag": "whatsapp",
-      "count": 2
-    },
-    {
-      "tag": "comparativo",
       "count": 2
     },
     {
@@ -551,28 +657,12 @@
       "count": 2
     },
     {
-      "tag": "futuro do trabalho",
+      "tag": "estudos",
       "count": 2
     },
     {
-      "tag": "oit",
+      "tag": "openai",
       "count": 2
-    },
-    {
-      "tag": "logística",
-      "count": 2
-    },
-    {
-      "tag": "vazamento de dados",
-      "count": 1
-    },
-    {
-      "tag": "cpf",
-      "count": 1
-    },
-    {
-      "tag": "registrato",
-      "count": 1
     }
   ],
   "services": [
