@@ -1,0 +1,77 @@
+# Rafael Nunes dos Santos — Desenvolvimento de software sob medida
+
+> Rafael Nunes dos Santos é desenvolvedor full stack especializado em .NET, baseado em Paulínia/SP. Pós-graduado em Arquitetura de Sistemas .NET pela FIAP, desenvolve sistemas web, APIs e integrações, com experiência em logística (TMS e EDI) e ERPs, além de apps em Flutter e React Native, sites em Angular e jogos em Unity. Usa inteligência artificial no dia a dia do desenvolvimento, com revisão técnica e foco em qualidade.
+
+## Fatos
+- Nome: Rafael Nunes dos Santos
+- Atuação: Desenvolvimento de software: sistemas web, APIs, integrações, SaaS, apps e jogos
+- Função: Desenvolvedor full stack (.NET e Angular)
+- Cargo atual: Desenvolvedor de Software Pleno na Aplicativo.NET
+- Experiência: Na área de desenvolvimento desde 2019
+- Inteligência artificial: Desenvolvimento assistido por IA (agentes de código e LLMs) em ambiente AI First
+- Base: Paulínia/SP, Brasil
+- Atendimento: Remoto, para todo o Brasil
+- Idiomas: Português e inglês
+- Formação: Pós-graduação (Pós Tech) em Arquitetura de Sistemas .NET, concluída (FIAP); Gestão em TI (UNIP)
+- Produtos próprios: ClipNest Video Download (extensão para Chrome)
+- Primeiro passo: Conversa inicial sem compromisso, pelo formulário ou WhatsApp
+- Site: https://rafaelnunes93.github.io/rafaelnunes-/
+- E-mail: devrafaelnunes@gmail.com
+- LinkedIn: https://www.linkedin.com/in/rafaelnunesdossantos/
+- GitHub: https://github.com/rafaelnunes93
+
+## Produtos próprios
+- [ClipNest Video Download](https://rafaelnunes93.github.io/rafaelnunes-/cases/clipnest/): extensão para Chrome que detecta e baixa vídeos e streams HLS em MP4.
+
+## Serviços
+- [Desenvolvimento full stack com .NET e Angular](https://rafaelnunes93.github.io/rafaelnunes-/servicos/desenvolvimento-full-stack/): Sistemas web completos, com back-end robusto em C# e interface moderna em Angular.
+- [APIs REST e integração entre sistemas](https://rafaelnunes93.github.io/rafaelnunes-/servicos/apis-e-integracoes/): Seus sistemas, parceiros e fornecedores trocando dados sozinhos, sem digitação manual.
+- [SaaS ponta a ponta: da ideia à operação](https://rafaelnunes93.github.io/rafaelnunes-/servicos/saas-ponta-a-ponta/): Do MVP ao produto em escala: arquitetura, cobrança, multiempresa e operação.
+- [Aplicativos mobile com Flutter ou React Native](https://rafaelnunes93.github.io/rafaelnunes-/servicos/aplicativos-mobile/): Um único código para Android e iOS, integrado às suas APIs e com performance nativa.
+- [Landing pages e sites institucionais](https://rafaelnunes93.github.io/rafaelnunes-/servicos/landing-pages/): Páginas rápidas, responsivas e pensadas para transformar visitas em contatos.
+- [Desenvolvimento de jogos com Unity](https://rafaelnunes93.github.io/rafaelnunes-/servicos/desenvolvimento-de-jogos/): Jogos 2D e 3D com mecânicas, interface e publicação para várias plataformas.
+
+## Projetos
+- [ClipNest Video Download — Extensão para Chrome](https://rafaelnunes93.github.io/rafaelnunes-/cases/clipnest/): Extensão publicada na Chrome Web Store que detecta vídeos e áudios nas páginas e baixa arquivos diretos e streams HLS, convertidos automaticamente para MP4.
+- [ControleODONTO — ERP odontológico (SaaS)](https://rafaelnunes93.github.io/rafaelnunes-/cases/controle-odonto/): Software em nuvem para gestão de clínicas odontológicas — agenda, prontuário, financeiro, CRM e odontograma 3D. Atuo no time da Aplicativo.NET desenvolvendo novas funcionalidades e corrigindo bugs em um produto que já está em produção.
+- [Cargo Online — Plataforma TMS](https://rafaelnunes93.github.io/rafaelnunes-/cases/cargo-online/): Desenvolvimento e sustentação de um Transport Management System (TMS) completo: rastreamento, faturamento, emissão de CT-e e MDF-e e roteirização de entregas.
+- [EDI UPS — Plataforma EDI](https://rafaelnunes93.github.io/rafaelnunes-/cases/edi-ups/): Plataforma de EDI desenvolvida para a UPS, que padroniza a troca de informações entre clientes e fornecedores e processa grandes volumes de dados todos os dias.
+- [App ShapeOn — Aplicativo mobile (Flutter)](https://rafaelnunes93.github.io/rafaelnunes-/cases/app-shapeon/): Aplicativo multiplataforma para o segmento fitness: treinos personalizados, registro de desempenho diário, acompanhamento de dieta e agendamento de aulas com personal trainers, com uma única base de código em Flutter.
+- [Art Pisos E Assoalhos — Site e landing page](https://rafaelnunes93.github.io/rafaelnunes-/cases/art-pisos/): Site institucional e comercial para a Art Pisos E Assoalhos, especializada em raspagem, calafetação, resinas e manutenção de pisos de madeira, tacos e assoalhos.
+- [Chef Manager — Sistema web de gestão](https://rafaelnunes93.github.io/rafaelnunes-/cases/chef-manager/): Sistema de gestão para restaurantes que centraliza pedidos de mesa, delivery, estoque e financeiro, com telas atualizadas em tempo real para cozinha e gerência.
+- [Worth Viking — Jogo em Unity](https://rafaelnunes93.github.io/rafaelnunes-/cases/worth-viking/): Jogo desenvolvido inteiramente na Unity com C#, com mecânicas de combate, inventário, física customizada e inteligência artificial para os inimigos.
+
+## Experiência
+- Comecei em 2019 como estagiário de TI na Online Applications, analisando chamados, reproduzindo falhas e consultando bancos SQL Server para entender as regras de negócio. Foi ali que aprendi a olhar o software pelo lado de quem usa — e de quem precisa que ele funcione todos os dias.
+- Passei por suporte, trainee e júnior até me tornar desenvolvedor .NET na Smart Online, construindo APIs em .NET 8, aplicações MVC e integrações com SQL Server, com foco em performance, SOLID e arquitetura em camadas. Boa parte desse trabalho foi em logística: plataformas TMS, emissão de CT-e e MDF-e e uma plataforma EDI para a UPS.
+- Hoje sou desenvolvedor de software pleno na Aplicativo.NET, onde desenvolvo um ERP para clínicas médicas e odontológicas com .NET e Razor, numa cultura AI First: a inteligência artificial faz parte de todo o processo de desenvolvimento, do entendimento dos requisitos à revisão do código.
+
+## Artigos
+- [Quando vale a pena migrar do .NET Framework para o .NET 8](https://rafaelnunes93.github.io/rafaelnunes-/blog/migrar-do-net-framework-para-o-net-8/): Sinais de que é hora de modernizar um sistema em .NET Framework, os riscos de adiar e como migrar por partes sem parar a operação.
+- [O que um TMS precisa ter para organizar a sua operação](https://rafaelnunes93.github.io/rafaelnunes-/blog/o-que-um-tms-precisa-ter/): Os módulos essenciais de um sistema de gestão de transporte, do rastreio ao CT-e, e como decidir entre um TMS pronto e um sob medida.
+- [API ou EDI: como trocar dados com clientes e parceiros](https://rafaelnunes93.github.io/rafaelnunes-/blog/api-ou-edi-como-trocar-dados-com-parceiros/): Diferenças práticas entre API REST e EDI, quando cada uma faz sentido e como evitar integrações frágeis que quebram sem ninguém perceber.
+- [Quanto custa desenvolver um sistema web sob medida](https://rafaelnunes93.github.io/rafaelnunes-/blog/quanto-custa-desenvolver-um-sistema-web-sob-medida/): O que faz o preço de um sistema web variar, como comparar propostas e por que começar por um módulo costuma ser o caminho mais barato e seguro.
+
+## Perguntas frequentes
+- **Quanto custa desenvolver um sistema?** Depende do escopo: telas, regras de negócio, integrações e prazo. Depois de uma conversa inicial eu envio uma proposta por escrito com valor fechado ou por etapas — sem surpresas no meio do caminho.
+- **Quanto tempo leva?** Uma primeira versão utilizável costuma ficar pronta em semanas. Projetos maiores são entregues por módulos para que você comece a usar cedo.
+- **Com quais tecnologias você trabalha?** No dia a dia: C#, .NET 8, ASP.NET Core, SQL Server e Angular. Também desenvolvo apps em Flutter e React Native, jogos em Unity e publico na Azure.
+- **O código e os dados ficam com a minha empresa?** Sim. Repositório, banco de dados, domínio e contas de nuvem ficam em nome da sua empresa desde o início.
+- **Você consegue dar manutenção em um sistema que já existe?** Sim. Tenho experiência com sistemas legados em .NET Framework, MVC e Razor. Avalio o código e proponho evoluir por partes ou reescrever.
+- **Você atende empresas de outras cidades?** Sim. Trabalho de forma remota a partir de Paulínia/SP, com reuniões por vídeo e acompanhamento pelo WhatsApp.
+- **Como funciona o suporte depois da entrega?** Todo projeto inclui um período de acompanhamento. Depois, você pode contratar evolução contínua ou chamados sob demanda.
+- **Você trabalha com contrato?** Sim. Escopo, prazo, valor, propriedade do código e confidencialidade ficam definidos por escrito antes de começar.
+
+## Páginas
+- [Início](https://rafaelnunes93.github.io/rafaelnunes-/)
+- [Serviços](https://rafaelnunes93.github.io/rafaelnunes-/servicos/)
+- [Projetos](https://rafaelnunes93.github.io/rafaelnunes-/cases/)
+- [Blog](https://rafaelnunes93.github.io/rafaelnunes-/blog/)
+- [Sobre](https://rafaelnunes93.github.io/rafaelnunes-/sobre/)
+- [Fatos oficiais](https://rafaelnunes93.github.io/rafaelnunes-/rafael-nunes/)
+- [English](https://rafaelnunes93.github.io/rafaelnunes-/en/)
+
+## Optional
+- [Feed RSS](https://rafaelnunes93.github.io/rafaelnunes-/feed.xml)
+- [Sitemap](https://rafaelnunes93.github.io/rafaelnunes-/sitemap.xml)
+- [Versão completa para LLMs](https://rafaelnunes93.github.io/rafaelnunes-/llms-full.txt)

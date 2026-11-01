@@ -1,0 +1,599 @@
+# Rafael Nunes dos Santos — Desenvolvimento de software sob medida
+
+> Rafael Nunes dos Santos é desenvolvedor full stack especializado em .NET, baseado em Paulínia/SP. Pós-graduado em Arquitetura de Sistemas .NET pela FIAP, desenvolve sistemas web, APIs e integrações, com experiência em logística (TMS e EDI) e ERPs, além de apps em Flutter e React Native, sites em Angular e jogos em Unity. Usa inteligência artificial no dia a dia do desenvolvimento, com revisão técnica e foco em qualidade.
+
+## Fatos
+- Nome: Rafael Nunes dos Santos
+- Atuação: Desenvolvimento de software: sistemas web, APIs, integrações, SaaS, apps e jogos
+- Função: Desenvolvedor full stack (.NET e Angular)
+- Cargo atual: Desenvolvedor de Software Pleno na Aplicativo.NET
+- Experiência: Na área de desenvolvimento desde 2019
+- Inteligência artificial: Desenvolvimento assistido por IA (agentes de código e LLMs) em ambiente AI First
+- Base: Paulínia/SP, Brasil
+- Atendimento: Remoto, para todo o Brasil
+- Idiomas: Português e inglês
+- Formação: Pós-graduação (Pós Tech) em Arquitetura de Sistemas .NET, concluída (FIAP); Gestão em TI (UNIP)
+- Produtos próprios: ClipNest Video Download (extensão para Chrome)
+- Primeiro passo: Conversa inicial sem compromisso, pelo formulário ou WhatsApp
+- Site: https://rafaelnunes93.github.io/rafaelnunes-/
+- E-mail: devrafaelnunes@gmail.com
+- LinkedIn: https://www.linkedin.com/in/rafaelnunesdossantos/
+- GitHub: https://github.com/rafaelnunes93
+
+## Produtos próprios
+- [ClipNest Video Download](https://rafaelnunes93.github.io/rafaelnunes-/cases/clipnest/): extensão para Chrome que detecta e baixa vídeos e streams HLS em MP4.
+
+## Serviços
+- [Desenvolvimento full stack com .NET e Angular](https://rafaelnunes93.github.io/rafaelnunes-/servicos/desenvolvimento-full-stack/): Sistemas web completos, com back-end robusto em C# e interface moderna em Angular.
+- [APIs REST e integração entre sistemas](https://rafaelnunes93.github.io/rafaelnunes-/servicos/apis-e-integracoes/): Seus sistemas, parceiros e fornecedores trocando dados sozinhos, sem digitação manual.
+- [SaaS ponta a ponta: da ideia à operação](https://rafaelnunes93.github.io/rafaelnunes-/servicos/saas-ponta-a-ponta/): Do MVP ao produto em escala: arquitetura, cobrança, multiempresa e operação.
+- [Aplicativos mobile com Flutter ou React Native](https://rafaelnunes93.github.io/rafaelnunes-/servicos/aplicativos-mobile/): Um único código para Android e iOS, integrado às suas APIs e com performance nativa.
+- [Landing pages e sites institucionais](https://rafaelnunes93.github.io/rafaelnunes-/servicos/landing-pages/): Páginas rápidas, responsivas e pensadas para transformar visitas em contatos.
+- [Desenvolvimento de jogos com Unity](https://rafaelnunes93.github.io/rafaelnunes-/servicos/desenvolvimento-de-jogos/): Jogos 2D e 3D com mecânicas, interface e publicação para várias plataformas.
+
+## Projetos
+- [ClipNest Video Download — Extensão para Chrome](https://rafaelnunes93.github.io/rafaelnunes-/cases/clipnest/): Extensão publicada na Chrome Web Store que detecta vídeos e áudios nas páginas e baixa arquivos diretos e streams HLS, convertidos automaticamente para MP4.
+- [ControleODONTO — ERP odontológico (SaaS)](https://rafaelnunes93.github.io/rafaelnunes-/cases/controle-odonto/): Software em nuvem para gestão de clínicas odontológicas — agenda, prontuário, financeiro, CRM e odontograma 3D. Atuo no time da Aplicativo.NET desenvolvendo novas funcionalidades e corrigindo bugs em um produto que já está em produção.
+- [Cargo Online — Plataforma TMS](https://rafaelnunes93.github.io/rafaelnunes-/cases/cargo-online/): Desenvolvimento e sustentação de um Transport Management System (TMS) completo: rastreamento, faturamento, emissão de CT-e e MDF-e e roteirização de entregas.
+- [EDI UPS — Plataforma EDI](https://rafaelnunes93.github.io/rafaelnunes-/cases/edi-ups/): Plataforma de EDI desenvolvida para a UPS, que padroniza a troca de informações entre clientes e fornecedores e processa grandes volumes de dados todos os dias.
+- [App ShapeOn — Aplicativo mobile (Flutter)](https://rafaelnunes93.github.io/rafaelnunes-/cases/app-shapeon/): Aplicativo multiplataforma para o segmento fitness: treinos personalizados, registro de desempenho diário, acompanhamento de dieta e agendamento de aulas com personal trainers, com uma única base de código em Flutter.
+- [Art Pisos E Assoalhos — Site e landing page](https://rafaelnunes93.github.io/rafaelnunes-/cases/art-pisos/): Site institucional e comercial para a Art Pisos E Assoalhos, especializada em raspagem, calafetação, resinas e manutenção de pisos de madeira, tacos e assoalhos.
+- [Chef Manager — Sistema web de gestão](https://rafaelnunes93.github.io/rafaelnunes-/cases/chef-manager/): Sistema de gestão para restaurantes que centraliza pedidos de mesa, delivery, estoque e financeiro, com telas atualizadas em tempo real para cozinha e gerência.
+- [Worth Viking — Jogo em Unity](https://rafaelnunes93.github.io/rafaelnunes-/cases/worth-viking/): Jogo desenvolvido inteiramente na Unity com C#, com mecânicas de combate, inventário, física customizada e inteligência artificial para os inimigos.
+
+## Experiência
+- Comecei em 2019 como estagiário de TI na Online Applications, analisando chamados, reproduzindo falhas e consultando bancos SQL Server para entender as regras de negócio. Foi ali que aprendi a olhar o software pelo lado de quem usa — e de quem precisa que ele funcione todos os dias.
+- Passei por suporte, trainee e júnior até me tornar desenvolvedor .NET na Smart Online, construindo APIs em .NET 8, aplicações MVC e integrações com SQL Server, com foco em performance, SOLID e arquitetura em camadas. Boa parte desse trabalho foi em logística: plataformas TMS, emissão de CT-e e MDF-e e uma plataforma EDI para a UPS.
+- Hoje sou desenvolvedor de software pleno na Aplicativo.NET, onde desenvolvo um ERP para clínicas médicas e odontológicas com .NET e Razor, numa cultura AI First: a inteligência artificial faz parte de todo o processo de desenvolvimento, do entendimento dos requisitos à revisão do código.
+
+## Artigos
+- [Quando vale a pena migrar do .NET Framework para o .NET 8](https://rafaelnunes93.github.io/rafaelnunes-/blog/migrar-do-net-framework-para-o-net-8/): Sinais de que é hora de modernizar um sistema em .NET Framework, os riscos de adiar e como migrar por partes sem parar a operação.
+- [O que um TMS precisa ter para organizar a sua operação](https://rafaelnunes93.github.io/rafaelnunes-/blog/o-que-um-tms-precisa-ter/): Os módulos essenciais de um sistema de gestão de transporte, do rastreio ao CT-e, e como decidir entre um TMS pronto e um sob medida.
+- [API ou EDI: como trocar dados com clientes e parceiros](https://rafaelnunes93.github.io/rafaelnunes-/blog/api-ou-edi-como-trocar-dados-com-parceiros/): Diferenças práticas entre API REST e EDI, quando cada uma faz sentido e como evitar integrações frágeis que quebram sem ninguém perceber.
+- [Quanto custa desenvolver um sistema web sob medida](https://rafaelnunes93.github.io/rafaelnunes-/blog/quanto-custa-desenvolver-um-sistema-web-sob-medida/): O que faz o preço de um sistema web variar, como comparar propostas e por que começar por um módulo costuma ser o caminho mais barato e seguro.
+
+## Perguntas frequentes
+- **Quanto custa desenvolver um sistema?** Depende do escopo: telas, regras de negócio, integrações e prazo. Depois de uma conversa inicial eu envio uma proposta por escrito com valor fechado ou por etapas — sem surpresas no meio do caminho.
+- **Quanto tempo leva?** Uma primeira versão utilizável costuma ficar pronta em semanas. Projetos maiores são entregues por módulos para que você comece a usar cedo.
+- **Com quais tecnologias você trabalha?** No dia a dia: C#, .NET 8, ASP.NET Core, SQL Server e Angular. Também desenvolvo apps em Flutter e React Native, jogos em Unity e publico na Azure.
+- **O código e os dados ficam com a minha empresa?** Sim. Repositório, banco de dados, domínio e contas de nuvem ficam em nome da sua empresa desde o início.
+- **Você consegue dar manutenção em um sistema que já existe?** Sim. Tenho experiência com sistemas legados em .NET Framework, MVC e Razor. Avalio o código e proponho evoluir por partes ou reescrever.
+- **Você atende empresas de outras cidades?** Sim. Trabalho de forma remota a partir de Paulínia/SP, com reuniões por vídeo e acompanhamento pelo WhatsApp.
+- **Como funciona o suporte depois da entrega?** Todo projeto inclui um período de acompanhamento. Depois, você pode contratar evolução contínua ou chamados sob demanda.
+- **Você trabalha com contrato?** Sim. Escopo, prazo, valor, propriedade do código e confidencialidade ficam definidos por escrito antes de começar.
+
+## Páginas
+- [Início](https://rafaelnunes93.github.io/rafaelnunes-/)
+- [Serviços](https://rafaelnunes93.github.io/rafaelnunes-/servicos/)
+- [Projetos](https://rafaelnunes93.github.io/rafaelnunes-/cases/)
+- [Blog](https://rafaelnunes93.github.io/rafaelnunes-/blog/)
+- [Sobre](https://rafaelnunes93.github.io/rafaelnunes-/sobre/)
+- [Fatos oficiais](https://rafaelnunes93.github.io/rafaelnunes-/rafael-nunes/)
+- [English](https://rafaelnunes93.github.io/rafaelnunes-/en/)
+
+## Optional
+- [Feed RSS](https://rafaelnunes93.github.io/rafaelnunes-/feed.xml)
+- [Sitemap](https://rafaelnunes93.github.io/rafaelnunes-/sitemap.xml)
+- [Versão completa para LLMs](https://rafaelnunes93.github.io/rafaelnunes-/llms-full.txt)
+
+
+# Serviços em detalhe
+
+## Desenvolvimento full stack com .NET e Angular
+
+Desenvolvimento full stack é construir todas as camadas de um sistema web: o banco de dados, as regras de negócio e APIs no back-end e as telas que o usuário vê no front-end. No meu caso, isso significa C# e .NET com SQL Server no back-end e Angular no front-end, com uma única pessoa responsável pela solução de ponta a ponta.
+
+**Para quem é:**
+- Empresas que controlam a operação em planilhas e precisam de um sistema próprio
+- Times que querem evoluir ou reescrever um sistema MVC antigo
+- Negócios com regras específicas que sistemas prontos não atendem
+- Empresas de logística, saúde e serviços que precisam de ERP sob medida
+
+**O que dá para fazer:**
+- Painéis e telas de cadastro com regras de negócio validadas
+- Login, perfis de acesso e permissões por função
+- Relatórios, exportação para Excel/PDF e filtros
+- Consultas otimizadas no SQL Server para alto volume
+- Integração com APIs, ERPs e serviços externos
+- Publicação em nuvem (Azure) com ambientes separados
+
+**Prazo:** Uma primeira versão utilizável costuma ficar pronta em semanas, não em meses. Sistemas maiores são entregues por módulos, para que a equipe comece a usar cedo. O prazo exato vai na proposta.
+
+**Perguntas frequentes:**
+- **Por que .NET e Angular?** São tecnologias maduras, com suporte de longo prazo da Microsoft e do Google, ótima performance e muitos profissionais no mercado. Isso reduz o risco de o sistema ficar sem manutenção no futuro.
+- **Você consegue evoluir um sistema que já existe?** Sim. Tenho experiência com sistemas em .NET Framework, MVC e Razor. Avalio o código atual e proponho evoluir por partes ou reescrever, conforme o custo e o risco de cada caminho.
+- **O código fica com a minha empresa?** Sim. Repositório, banco de dados e acessos de nuvem ficam em nome da sua empresa desde o início.
+- **O sistema funciona no celular?** Sim. As telas são responsivas. Se o uso em campo for intenso, também posso desenvolver um app em Flutter ou React Native consumindo a mesma API.
+
+## APIs REST e integração entre sistemas
+
+Uma integração entre sistemas é uma ponte automática que faz dois ou mais softwares trocarem informações — por API REST, webhooks, arquivos ou padrões como EDI. Em vez de alguém copiar dados de uma tela para outra, o próprio sistema envia, recebe, valida e registra cada troca.
+
+**Para quem é:**
+- Empresas que digitam os mesmos dados em mais de um sistema
+- Operações logísticas que trocam arquivos com clientes e transportadoras
+- Produtos que precisam expor uma API para parceiros
+- Times com sistemas legados que precisam conversar com serviços novos
+
+**O que dá para fazer:**
+- APIs REST em ASP.NET Core com documentação Swagger
+- Webhooks e filas para processar eventos com segurança
+- EDI e troca de arquivos com clientes e transportadoras
+- Autenticação por token, chaves de API e limites de uso
+- Logs de cada troca, reprocessamento e alertas de falha
+- Integração com SQL Server e sistemas legados
+
+**Prazo:** Uma integração pontual entre dois sistemas costuma levar poucas semanas. APIs completas ou integrações EDI com vários parceiros são entregues por etapas, começando pelo fluxo de maior volume.
+
+**Perguntas frequentes:**
+- **Dá para integrar com um sistema que não tem API?** Muitas vezes sim: por banco de dados, troca de arquivos ou automação. Avalio o que o sistema oferece e escolho o caminho mais estável.
+- **O que é EDI?** EDI (troca eletrônica de dados) é um padrão para empresas trocarem documentos como pedidos, notas e status de entrega de forma automática. Já desenvolvi uma plataforma EDI para a UPS.
+- **E se a integração falhar de madrugada?** Cada troca fica registrada, falhas geram alerta e podem ser reprocessadas sem perder dados.
+- **Você documenta a API para os meus parceiros?** Sim. Entrego documentação OpenAPI/Swagger e um guia de uso com exemplos.
+
+## SaaS ponta a ponta: da ideia à operação
+
+SaaS (software como serviço) é um sistema acessado pela internet e vendido por assinatura, em que várias empresas clientes usam a mesma aplicação com os dados separados (multi-tenant). Construir um SaaS envolve, além das telas, cadastro de contas, planos, cobrança recorrente, segurança e uma arquitetura que aguente crescer.
+
+**Para quem é:**
+- Empreendedores com uma ideia de produto digital
+- Empresas que querem transformar um sistema interno em produto
+- Startups que precisam de um desenvolvedor sênior para o MVP
+- SaaS existentes que precisam evoluir a arquitetura
+
+**O que dá para fazer:**
+- Cadastro de contas, convites de equipe e multiempresa
+- Planos, período de teste e cobrança recorrente
+- Painel administrativo com métricas de uso
+- Segurança, isolamento de dados e auditoria
+- Recursos com IA quando fazem sentido para o produto
+- Infraestrutura em nuvem pronta para escalar
+
+**Prazo:** Um MVP focado costuma ir ao ar em algumas semanas. A partir daí o produto evolui em ciclos curtos, guiado pelo que os primeiros clientes realmente usam.
+
+**Perguntas frequentes:**
+- **Você ajuda a definir o que entra no MVP?** Sim. Parte do trabalho é cortar o que não é essencial para validar a ideia com clientes reais o quanto antes.
+- **O SaaS aguenta crescer?** A arquitetura é pensada desde o início para multiempresa e escala, sem exagerar na complexidade antes da hora.
+- **Dá para ter app mobile junto?** Sim. A mesma API pode atender o painel web em Angular e um app em Flutter ou React Native para Android e iOS.
+- **Você continua depois do lançamento?** Posso seguir na evolução e operação do produto, ou preparar a documentação para o seu time assumir.
+
+## Aplicativos mobile com Flutter ou React Native
+
+Um aplicativo cross-platform é escrito uma única vez e publicado para Android e iOS. Com Flutter ou React Native, o app tem desempenho próximo do nativo e interface consistente nas duas plataformas, o que reduz o custo de desenvolvimento e de manutenção em comparação com dois apps separados.
+
+**Para quem é:**
+- Empresas com equipe em campo que precisa registrar dados no celular
+- Negócios que querem um app próprio para os clientes
+- SaaS que precisa de uma versão mobile
+- Academias, clínicas e serviços com agendamento
+
+**O que dá para fazer:**
+- Interface fluida e consistente em Android e iOS
+- Notificações push e lembretes
+- Uso offline com sincronização posterior
+- Câmera, fotos, assinatura e localização
+- Firebase para login, banco e análises
+- Publicação na Google Play e App Store
+
+**Prazo:** Um app focado em poucas funções principais costuma ficar pronto em algumas semanas, mais o tempo de revisão das lojas. Funcionalidades extras entram em versões seguintes.
+
+**Perguntas frequentes:**
+- **Flutter ou React Native: qual você usa?** Os dois. Flutter costuma ser a escolha para interfaces ricas e desempenho consistente; React Native encaixa bem quando a empresa já usa JavaScript/TypeScript ou React na web. Nos dois casos é um único código para Android e iOS — metade do esforço de manter dois apps.
+- **O app conversa com o meu sistema atual?** Sim, por API. Se o sistema não tiver API, posso criá-la em .NET.
+- **Você publica nas lojas?** Sim. Cuido da publicação na Google Play e App Store, com as contas em nome da sua empresa.
+- **Funciona sem internet?** Pode funcionar. Dados ficam no aparelho e sincronizam quando a conexão volta.
+
+## Landing pages e sites institucionais
+
+Uma landing page é uma página criada com um único objetivo — gerar um contato, um orçamento ou uma venda. Diferente de um site com muitas seções soltas, ela conduz o visitante por uma sequência clara: problema, solução, prova e chamada para ação, carregando rápido e bem posicionada no Google.
+
+**Para quem é:**
+- Prestadores de serviço que dependem de indicação e querem aparecer no Google
+- Empresas lançando um produto ou serviço novo
+- Negócios com site antigo, lento ou que não funciona no celular
+- Profissionais que querem um portfólio próprio
+
+**O que dá para fazer:**
+- Layout responsivo para celular, tablet e desktop
+- Páginas pré-renderizadas e otimizadas para velocidade
+- SEO técnico: metadados, dados estruturados e sitemap
+- Botões de WhatsApp com mensagem pronta
+- Formulários de orçamento integrados ao seu e-mail ou CRM
+- Google Analytics e métricas de conversão
+
+**Prazo:** Com os textos e imagens definidos, uma landing page costuma ir ao ar em poucos dias a duas semanas.
+
+**Perguntas frequentes:**
+- **Você escreve os textos?** Ajudo a estruturar e revisar. Você conhece o seu negócio; eu organizo a mensagem para ficar clara e convencer.
+- **A página aparece no Google?** Ela sai com SEO técnico completo. O posicionamento depende também de conteúdo e tempo, mas a base fica pronta.
+- **Dá para editar depois?** Sim. Você recebe todos os arquivos, e ajustes podem ser feitos sob demanda.
+- **Você já fez algum site parecido?** Sim, por exemplo o site da Art Pisos E Assoalhos, que está no ar e aparece na lista de projetos.
+
+## Desenvolvimento de jogos com Unity
+
+Desenvolver um jogo com Unity envolve programar em C# as mecânicas de jogo, a física, a inteligência dos inimigos, o inventário e as interfaces, além de integrar arte, som e publicar para PC, web ou mobile. A Unity é uma das engines mais usadas do mundo, o que facilita encontrar recursos e portar o jogo para outras plataformas.
+
+**Para quem é:**
+- Estúdios independentes que precisam de um programador Unity
+- Empresas que querem um advergame ou jogo para eventos
+- Escolas e projetos de jogos educativos
+- Criadores com um protótipo para tirar do papel
+
+**O que dá para fazer:**
+- Mecânicas de movimento, combate e plataforma
+- Inventário, coleta de itens e progressão
+- Inteligência artificial para inimigos
+- Física customizada e colisões
+- Interfaces, menus e HUD
+- Build para PC, web e mobile
+
+**Prazo:** Um protótipo jogável costuma sair em poucas semanas. O jogo completo depende do número de fases, da arte e das plataformas.
+
+**Perguntas frequentes:**
+- **Você faz a arte do jogo?** Meu foco é a programação e o game design. A arte pode vir de um artista parceiro ou de pacotes de assets licenciados.
+- **Dá para publicar no celular?** Sim. A Unity gera builds para Android e iOS, além de PC e web.
+- **Você já desenvolveu algum jogo?** Sim, o Worth Viking, um jogo de aventura e sobrevivência em Unity que está na lista de projetos.
+- **Faz jogos educativos ou para empresas?** Sim. Jogos educativos e advergames seguem o mesmo processo, com foco no objetivo pedagógico ou de marca.
+
+# Projetos em detalhe
+
+## ClipNest Video Download: Uma extensão que encontra vídeos na página e baixa em um clique
+
+Extensão publicada na Chrome Web Store que detecta vídeos e áudios nas páginas e baixa arquivos diretos e streams HLS, convertidos automaticamente para MP4.
+
+- Problema: Baixar vídeos de páginas web, principalmente streams HLS divididos em partes, exige ferramentas técnicas e vários passos.
+- Solução: Extensão para Chrome que detecta as mídias da página, junta os segmentos HLS e entrega um MP4 pronto.
+- Resultado: Produto próprio publicado na Chrome Web Store e disponível para qualquer usuário do Chrome.
+- Papel: Produto próprio: ideia, desenvolvimento e publicação
+- Tecnologias: JavaScript, Chrome Extension, HLS
+
+## ControleODONTO: Evolução de um dos maiores softwares de gestão odontológica da América Latina
+
+Software em nuvem para gestão de clínicas odontológicas — agenda, prontuário, financeiro, CRM e odontograma 3D. Atuo no time da Aplicativo.NET desenvolvendo novas funcionalidades e corrigindo bugs em um produto que já está em produção.
+
+- Problema: Um sistema grande e já usado por milhares de clínicas precisa ganhar recursos novos sem quebrar o que funciona no dia a dia dos dentistas.
+- Solução: Desenvolvimento de novas funcionalidades e correção de bugs em .NET e Razor, no back-end e no front-end, num time com cultura AI First.
+- Resultado: Entregas contínuas em um produto em produção, com foco em estabilidade e qualidade para as clínicas que usam o sistema.
+- Papel: Desenvolvedor no time do produto (Aplicativo.NET): novas funcionalidades e correção de bugs. Não criei o sistema do zero.
+- Tecnologias: .NET, C#, Razor, SQL Server
+
+## Cargo Online: Uma plataforma de gestão de transporte, do rastreio ao documento fiscal
+
+Desenvolvimento e sustentação de um Transport Management System (TMS) completo: rastreamento, faturamento, emissão de CT-e e MDF-e e roteirização de entregas.
+
+- Problema: Transportadoras e embarcadores precisavam controlar entregas, documentos fiscais e faturamento em um só lugar.
+- Solução: Back-end em .NET 8 e C# com SQL Server, front-end em Angular e publicação no Azure, cobrindo o ciclo inteiro da operação.
+- Resultado: Plataforma em produção com rastreio, CT-e, MDF-e e roteirização integrados, evoluindo continuamente.
+- Papel: Desenvolvimento e sustentação full stack (.NET e Angular)
+- Tecnologias: .NET 8, C#, SQL Server, Angular, Azure
+
+## EDI UPS: Troca eletrônica de dados para a operação logística da UPS
+
+Plataforma de EDI desenvolvida para a UPS, que padroniza a troca de informações entre clientes e fornecedores e processa grandes volumes de dados todos os dias.
+
+- Problema: Clientes e fornecedores do setor logístico trocavam informações em formatos diferentes, exigindo conciliação manual.
+- Solução: Plataforma em .NET Framework com SQL Server que recebe, valida, converte e integra os arquivos EDI automaticamente.
+- Resultado: Troca de dados padronizada e conciliação das operações logísticas diárias com menos intervenção manual.
+- Papel: Desenvolvimento back-end e front-end (.NET Framework)
+- Tecnologias: .NET Framework, C#, HTML, CSS, JavaScript, SQL Server
+
+## App ShapeOn: Um app fitness com treinos, dieta e agenda com o personal na palma da mão
+
+Aplicativo multiplataforma para o segmento fitness: treinos personalizados, registro de desempenho diário, acompanhamento de dieta e agendamento de aulas com personal trainers, com uma única base de código em Flutter.
+
+- Problema: Alunos e personal trainers controlavam treinos, dietas e horários em planilhas, papel e mensagens soltas.
+- Solução: App em Flutter para Android e iOS que reúne treinos, desempenho, dieta e agenda em um só lugar, com Firebase no back-end.
+- Resultado: Uma experiência fluida e consistente nas duas plataformas, a partir de um único código.
+- Papel: Desenvolvimento do aplicativo (Flutter e Firebase)
+- Tecnologias: Flutter, Dart, Firebase
+
+## Art Pisos E Assoalhos: Um site que apresenta o serviço e leva o visitante direto ao orçamento
+
+Site institucional e comercial para a Art Pisos E Assoalhos, especializada em raspagem, calafetação, resinas e manutenção de pisos de madeira, tacos e assoalhos.
+
+- Problema: A empresa precisava apresentar os serviços e o portfólio de trabalhos e facilitar pedidos de orçamento.
+- Solução: Site em Angular, responsivo, com seções de serviços, portfólio e botões diretos para orçamento pelo WhatsApp.
+- Resultado: Site no ar, com o portfólio de serviços organizado e um caminho curto do visitante até o contato.
+- Papel: Planejamento, design e desenvolvimento do site
+- Tecnologias: Angular, TypeScript, SCSS
+
+## Chef Manager: Gestão de restaurante com pedidos, estoque e financeiro em tempo real
+
+Sistema de gestão para restaurantes que centraliza pedidos de mesa, delivery, estoque e financeiro, com telas atualizadas em tempo real para cozinha e gerência.
+
+- Problema: Restaurantes perdem pedidos e controle de estoque quando salão, cozinha e delivery usam canais separados.
+- Solução: Aplicação em Angular com back-end .NET Core e SQL Server, com telas em tempo real para cozinha e gerência.
+- Resultado: Pedidos, estoque e financeiro no mesmo sistema, com a cozinha vendo cada pedido assim que é feito.
+- Papel: Desenvolvimento full stack
+- Tecnologias: Angular, TypeScript, .NET Core, SQL Server
+
+## Worth Viking: Um jogo de aventura e sobrevivência ambientado no universo nórdico
+
+Jogo desenvolvido inteiramente na Unity com C#, com mecânicas de combate, inventário, física customizada e inteligência artificial para os inimigos.
+
+- Problema: Criar um jogo completo de plataforma e sobrevivência, com sistemas que conversam entre si.
+- Solução: Programação em C# na Unity de combate, inventário, física e IA de inimigos, com game design próprio.
+- Resultado: Jogo jogável que demonstra domínio de Unity, C# e game design.
+- Papel: Programação e game design
+- Tecnologias: Unity, C#, Game Design, 3D Modeling
+
+# Artigos completos
+
+## Quando vale a pena migrar do .NET Framework para o .NET 8
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/migrar-do-net-framework-para-o-net-8/
+Publicado em: 2026-10-29
+
+**Resposta rápida:** Vale a pena migrar quando o sistema em .NET Framework precisa de novas funcionalidades com frequência, sofre com performance, depende de servidores Windows caros ou tem dificuldade para contratar quem mantenha. A migração não precisa ser um big bang: o caminho mais seguro é separar o sistema em partes e mover uma de cada vez para o .NET 8, mantendo tudo funcionando durante a transição.
+
+Muitos sistemas que sustentam empresas há anos foram escritos em .NET Framework, com ASP.NET MVC ou WebForms. Eles funcionam — e por isso mesmo a migração vive sendo adiada. Mas existe um momento em que manter o legado custa mais do que modernizar.
+
+Passei boa parte da minha carreira trabalhando com .NET Framework e com .NET 8, muitas vezes no mesmo sistema. Estes são os sinais que eu observo.
+
+## Sinais de que está na hora
+
+- **Toda mudança demora demais.** Pequenas funcionalidades levam semanas porque o código é acoplado e frágil.
+- **Performance ruim.** Telas lentas, consultas que travam no fim do mês, servidor sempre no limite.
+- **Infraestrutura cara.** O sistema exige servidores Windows específicos e não aproveita contêineres ou nuvem de forma eficiente.
+- **Bibliotecas abandonadas.** Componentes de terceiros sem atualização e sem suporte.
+- **Dificuldade para contratar.** Poucos desenvolvedores querem trabalhar em WebForms.
+
+Se dois ou mais desses sinais aparecem, vale ao menos fazer um diagnóstico.
+
+## O risco de adiar
+
+O .NET Framework 4.8 ainda recebe correções de segurança, mas parou no tempo. Cada ano de adiamento acumula mais código no modelo antigo, mais dependências presas e mais distância das práticas atuais. A migração fica mais cara justamente quando a empresa mais precisa evoluir.
+
+## Migrar por partes, não de uma vez
+
+O maior medo é parar a operação. E com razão: reescrever tudo do zero e virar a chave num fim de semana é arriscado. O caminho que funciona melhor é incremental:
+
+1. **Mapear o sistema** em módulos e dependências.
+2. **Extrair as regras de negócio** para bibliotecas compatíveis com o .NET moderno (.NET Standard ou .NET 8).
+3. **Criar novas APIs em ASP.NET Core** para as partes mais críticas ou que mais mudam.
+4. **Mover telas aos poucos**, por exemplo para Angular consumindo essas APIs.
+5. **Desligar o legado** quando a última parte tiver migrado.
+
+Durante a transição, o sistema antigo e o novo convivem. Isso exige cuidado com autenticação e com o banco de dados compartilhado, mas evita o "dia D".
+
+## O que muda no dia a dia depois
+
+- Deploys mais simples, inclusive em contêineres e Linux.
+- Melhor performance com o mesmo hardware.
+- Código organizado em camadas, com testes, mais fácil de evoluir.
+- Acesso a recursos modernos de C# e do ecossistema.
+
+Se o sistema também troca dados com parceiros, a migração é uma boa oportunidade para revisar as integrações — veja [API ou EDI](/blog/api-ou-edi-como-trocar-dados-com-parceiros/).
+
+## Os pontos que mais dão trabalho
+
+Nem tudo migra com a mesma facilidade. Na minha experiência, estes são os pontos que mais consomem tempo:
+
+- **WebForms**: não existe no .NET moderno. As telas precisam ser refeitas, seja em Razor, seja em um front-end como Angular. É aqui que vale mais a pena migrar aos poucos.
+- **Acesso a dados**: Entity Framework 6 e consultas espalhadas pelo código costumam ser migrados para Entity Framework Core ou para consultas organizadas em repositórios. É uma boa hora para revisar índices e consultas lentas no SQL Server.
+- **Configuração e autenticação**: `web.config`, sessão em memória e autenticação por formulário mudam bastante. Planejar a convivência entre o sistema antigo e o novo evita que o usuário precise fazer login duas vezes.
+- **Bibliotecas de terceiros**: algumas têm versão para o .NET moderno; outras precisam ser substituídas.
+
+Levantar esses pontos logo no início deixa a estimativa muito mais realista.
+
+## Testes como rede de segurança
+
+Antes de mover qualquer parte, vale escrever testes automatizados para as regras de negócio mais importantes. Eles garantem que o cálculo de um frete, de um imposto ou de uma comissão continua dando o mesmo resultado depois da migração. Sem eles, cada etapa vira uma aposta.
+
+## Por onde começar
+
+Comece por um diagnóstico: quais módulos mudam mais, quais são mais lentos e quais dependências estão travadas. Com esse mapa, dá para escolher a primeira parte a migrar — normalmente a que traz mais ganho com menos risco. É assim que costumo conduzir esse tipo de trabalho em [desenvolvimento full stack](/servicos/desenvolvimento-full-stack/).
+
+---
+
+## O que um TMS precisa ter para organizar a sua operação
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/o-que-um-tms-precisa-ter/
+Publicado em: 2026-10-22
+
+**Resposta rápida:** Um TMS útil precisa cobrir quatro frentes: cadastro e planejamento das cargas, rastreamento das entregas, emissão dos documentos fiscais de transporte (CT-e e MDF-e) e faturamento. Integrações com embarcadores e com o financeiro completam o quadro. O TMS pronto atende operações padrão; o sob medida compensa quando a operação tem regras próprias ou precisa se integrar a muitos parceiros.
+
+Transportadoras e operações logísticas costumam crescer apoiadas em planilhas, grupos de mensagem e muita memória da equipe. Funciona — até não funcionar mais. Um TMS (Transport Management System) organiza essa operação em um só lugar. Mas o que ele precisa ter, de fato?
+
+Eu trabalhei no desenvolvimento e na sustentação de uma plataforma TMS completa, e o que segue é o que vi fazer diferença no dia a dia.
+
+## 1. Cadastro e planejamento das cargas
+
+Tudo começa aqui: clientes, embarcadores, destinatários, veículos, motoristas e tabelas de frete. Parece básico, mas é onde mora a maior parte dos erros quando os dados estão espalhados.
+
+Um bom módulo de planejamento permite:
+
+- Registrar coletas e entregas com prazos.
+- Calcular o frete pelas regras de cada cliente.
+- Agrupar cargas e montar viagens.
+
+## 2. Rastreamento das entregas
+
+É o módulo que o cliente final percebe. Saber em que etapa está cada entrega — coletada, em trânsito, entregue, com ocorrência — reduz drasticamente as ligações perguntando status.
+
+O rastreamento pode vir de atualizações da equipe, de um app do motorista ou de integrações com parceiros. O importante é ter **um status único e confiável** para cada entrega.
+
+## 3. Documentos fiscais: CT-e e MDF-e
+
+Para transportadoras, emitir CT-e e MDF-e não é opcional. Quando a emissão está integrada ao fluxo da entrega, o documento sai com os dados certos, no momento certo, sem redigitação.
+
+Esse é um ponto em que sistemas genéricos costumam deixar a desejar: a emissão fica num software separado, e alguém precisa copiar os dados de um lado para o outro.
+
+## 4. Faturamento
+
+Com cargas, entregas e documentos no mesmo sistema, o faturamento deixa de ser uma maratona no fim do mês. As cobranças saem com base no que foi efetivamente transportado, com menos divergência e menos contestação.
+
+## 5. Integrações
+
+Nenhum TMS vive sozinho. Ele precisa conversar com:
+
+- **Embarcadores**, que enviam pedidos por API, planilha ou EDI.
+- **O financeiro e o ERP**, para lançar receitas e custos.
+- **Parceiros e redespachos**, que atualizam status.
+
+Integrações bem feitas são o que transforma o TMS em fonte única de verdade. Escrevi mais sobre isso em [API ou EDI: como trocar dados com parceiros](/blog/api-ou-edi-como-trocar-dados-com-parceiros/).
+
+## TMS pronto ou sob medida?
+
+Um TMS pronto atende bem operações com processo padrão e poucos parceiros. Ele tem custo inicial baixo e entra em uso rápido.
+
+O sob medida passa a compensar quando:
+
+- A operação tem **regras de frete e de serviço próprias**.
+- É preciso integrar com **muitos embarcadores**, cada um do seu jeito.
+- As licenças por usuário ou por veículo ficam caras demais.
+- O processo logístico é parte do diferencial da empresa.
+
+Nesses casos, um sistema em .NET com front-end em Angular, como os que desenvolvo em [desenvolvimento full stack](/servicos/desenvolvimento-full-stack/), permite crescer módulo a módulo, com o código em nome da empresa.
+
+## Indicadores que um TMS deve mostrar
+
+Com os dados organizados, o sistema passa a responder perguntas que antes exigiam horas de planilha:
+
+- Percentual de entregas no prazo, por cliente e por rota.
+- Ocorrências mais frequentes (ausência de destinatário, avaria, endereço incorreto).
+- Custo e receita por viagem.
+- Tempo médio entre coleta e entrega.
+
+Esses indicadores ajudam a negociar com clientes, rever rotas e identificar gargalos antes que virem reclamação.
+
+## Por onde começar
+
+Se a operação ainda roda em planilhas, comece pelo rastreamento e pelo cadastro único. Eles organizam a base de dados e já reduzem o atendimento. Documentos fiscais e faturamento vêm em seguida, aproveitando dados que já estarão corretos. É um caminho com retorno rápido e risco baixo.
+
+---
+
+## API ou EDI: como trocar dados com clientes e parceiros
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/api-ou-edi-como-trocar-dados-com-parceiros/
+Publicado em: 2026-10-15
+
+**Resposta rápida:** API REST é a melhor escolha quando os sistemas precisam conversar em tempo real e os dois lados podem desenvolver a integração. EDI continua sendo o padrão em logística, varejo e indústria quando grandes parceiros exigem arquivos em formatos definidos. Muitas empresas precisam das duas: EDI com os grandes parceiros e APIs para o resto. Em ambos os casos, logs, validação e reprocessamento são o que separa uma integração estável de uma dor de cabeça.
+
+Toda empresa que cresce chega a um ponto em que digitar dados de um sistema para outro deixa de ser viável. Pedidos chegam por e-mail, status de entrega é copiado para planilhas, notas são lançadas duas vezes. A solução é integrar — e logo aparece a dúvida: **API ou EDI?**
+
+## O que é cada uma, sem jargão
+
+**API REST** é uma porta de comunicação que um sistema oferece para outro. O sistema A faz uma requisição ("me envie os pedidos de hoje" ou "registre esta entrega") e o sistema B responde na hora, normalmente em JSON. É o padrão da maioria dos softwares modernos.
+
+**EDI** (troca eletrônica de dados) é um conjunto de padrões para empresas trocarem documentos de negócio — pedidos, avisos de embarque, notas, status — em formatos rígidos e acordados. Em vez de conversa em tempo real, há troca de arquivos, muitas vezes em lotes e por canais dedicados.
+
+## Quando usar API
+
+API é a escolha natural quando:
+
+- Os dois sistemas precisam de **informação em tempo real** (estoque, preço, status).
+- Os dois lados conseguem desenvolver e manter a integração.
+- Você quer oferecer um canal próprio para clientes e parceiros se conectarem.
+
+Uma boa API tem autenticação, documentação (Swagger/OpenAPI), versionamento e limites de uso. Sem isso, ela vira uma porta aberta difícil de manter. Em .NET, o ASP.NET Core facilita bastante esse trabalho.
+
+## Quando usar EDI
+
+EDI faz sentido quando:
+
+- Um **grande parceiro exige** o padrão — comum em operadores logísticos, varejo e indústria.
+- O volume é alto e o processamento em lote é aceitável.
+- Vários participantes precisam falar a mesma "língua" de documentos.
+
+Quando desenvolvi uma plataforma EDI para a UPS, o desafio não era só ler arquivos: era **validar, converter e conciliar** grandes volumes todos os dias, garantindo que nenhum registro se perdesse no caminho.
+
+## O que deixa uma integração frágil
+
+A maior parte dos problemas não vem da escolha entre API e EDI, mas da falta de cuidado com o que acontece quando algo dá errado:
+
+1. **Sem logs**: ninguém sabe o que foi enviado, recebido ou rejeitado.
+2. **Sem validação**: dados ruins entram no sistema e só aparecem no fim do mês.
+3. **Sem reprocessamento**: quando o parceiro fica fora do ar, os dados daquele período se perdem.
+4. **Sem alerta**: a integração para numa sexta-feira e alguém descobre na segunda.
+
+Toda integração que eu desenvolvo registra cada troca, valida os campos, permite reprocessar e avisa quando falha. Isso custa pouco no início e economiza muito depois. Veja mais em [APIs e integrações](/servicos/apis-e-integracoes/).
+
+## Um exemplo concreto
+
+Imagine uma transportadora que recebe pedidos de três embarcadores. O maior envia arquivos EDI; os outros dois mandam planilhas por e-mail. Um desenho possível:
+
+- Conector EDI para o embarcador maior, com validação e conciliação diária.
+- API REST simples para os outros dois enviarem pedidos direto do sistema deles.
+- Um painel com o status de cada troca e alertas de falha.
+
+O resultado é o fim da digitação manual e uma fonte única de verdade para os pedidos — algo que um [sistema de gestão de transporte](/blog/o-que-um-tms-precisa-ter/) aproveita muito bem.
+
+## Segurança e responsabilidade nas trocas
+
+Integração também é uma questão de segurança. Algumas práticas que considero obrigatórias:
+
+- **Credenciais por parceiro**: cada cliente ou parceiro tem a sua chave de API ou o seu certificado. Se um vazar, você revoga só aquele acesso.
+- **HTTPS sempre** e, no EDI, canais seguros como SFTP ou AS2.
+- **Limites de uso** para que um parceiro com problema não derrube o sistema de todos.
+- **Registro de quem enviou o quê e quando**, o que ajuda tanto na auditoria quanto em discussões comerciais sobre um pedido que "nunca chegou".
+
+Esses cuidados também facilitam o atendimento à LGPD, porque deixam claro que dados pessoais circulam, para quem e com que finalidade.
+
+## Por onde começar
+
+Liste quais dados entram e saem da sua empresa, com que frequência e em que formato. Marque onde há digitação manual ou retrabalho. Esse mapa, por si só, já mostra qual integração traz mais retorno — e é o primeiro passo de qualquer projeto sério de integração.
+
+---
+
+## Quanto custa desenvolver um sistema web sob medida
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/quanto-custa-desenvolver-um-sistema-web-sob-medida/
+Publicado em: 2026-10-08
+
+**Resposta rápida:** O custo de um sistema web sob medida depende de quatro fatores: quantidade de telas e regras de negócio, integrações com outros sistemas, exigências de segurança e o prazo. Não existe preço de tabela honesto sem conversar sobre o processo. O caminho mais barato e seguro costuma ser começar pelo módulo que mais dói, colocá-lo em uso e evoluir em etapas.
+
+Essa é a primeira pergunta de quase toda conversa sobre um sistema novo — e é justa. O problema é que a resposta honesta começa com "depende", e isso frustra quem precisa montar um orçamento. Neste artigo eu explico **do que depende**, para que você consiga estimar a ordem de grandeza e comparar propostas com mais segurança.
+
+## O que realmente define o preço
+
+Um sistema web não é cobrado por "tamanho de site". O que pesa no esforço — e portanto no preço — são quatro coisas.
+
+**1. Telas e regras de negócio.** Um cadastro simples de clientes é rápido. Um fluxo de pedido com aprovação em três níveis, cálculo de frete e regras diferentes por tipo de cliente é outra história. Quanto mais exceções o processo tem, mais tempo de desenvolvimento e teste.
+
+**2. Integrações.** Conectar o sistema a um ERP, a um gateway de pagamento, à emissão de nota fiscal ou a parceiros que trocam arquivos EDI é, muitas vezes, a parte mais trabalhosa. Cada integração tem documentação, ambiente de testes e casos de falha próprios.
+
+**3. Segurança e volume.** Perfis de acesso, auditoria de quem alterou o quê, dados sensíveis e milhares de registros por dia exigem cuidados extras de arquitetura e banco de dados.
+
+**4. Prazo.** Um prazo muito curto pode exigir mais gente ou cortes de escopo. Prazo realista é uma das formas mais simples de reduzir custo.
+
+## Por que propostas tão diferentes para o mesmo pedido
+
+Não é raro receber três orçamentos com valores que variam várias vezes entre si. Normalmente a diferença está em **o que cada um entendeu** como escopo:
+
+- Um orçamento inclui só as telas; outro inclui integrações, testes e publicação.
+- Um considera que a migração dos dados antigos é sua responsabilidade; outro faz a migração.
+- Um entrega o código-fonte e os acessos; outro mantém tudo com o fornecedor.
+
+Para comparar de verdade, peça que cada proposta deixe claro **o que está incluído e o que não está**. Se uma proposta não lista exclusões, desconfie.
+
+## Comece pelo módulo que mais dói
+
+O erro mais caro é tentar construir tudo de uma vez. Projetos grandes demorados demoram a dar retorno, acumulam mudanças de rumo e aumentam o risco.
+
+Na prática, funciona melhor assim:
+
+1. Escolher o processo que mais gera prejuízo ou retrabalho hoje.
+2. Desenvolver uma primeira versão enxuta, só com o essencial.
+3. Colocar em uso com a equipe e medir.
+4. Evoluir em ciclos, com base no uso real.
+
+Em sistemas de logística em que trabalhei, por exemplo, começar pelo rastreamento das entregas já resolvia boa parte das ligações de clientes perguntando status — antes mesmo de mexer no faturamento. Se quiser entender como isso se aplica ao seu caso, veja como funciona o [desenvolvimento full stack](/servicos/desenvolvimento-full-stack/).
+
+## Custos que ninguém lembra de colocar no orçamento
+
+Além do desenvolvimento, considere:
+
+- **Hospedagem e banco de dados** na nuvem (mensal).
+- **Domínio e certificados** (anual, geralmente baixo).
+- **Licenças de serviços externos**, como envio de e-mail, SMS ou emissão fiscal.
+- **Suporte e evolução** depois da entrega.
+
+Nada disso é motivo para assustar: costuma ser uma fração do custo de licenças por usuário de sistemas prontos. Mas precisa estar na conta desde o início.
+
+## Um aviso honesto
+
+Se o seu processo é igual ao de milhares de outras empresas e existe um software pronto que resolve bem, use o software pronto. Desenvolvimento sob medida faz sentido quando o processo é o seu diferencial, quando é preciso integrar sistemas que não conversam ou quando as licenças custam mais do que entregam.
+
+Na dúvida, uma conversa de meia hora costuma ser suficiente para dizer qual caminho faz mais sentido — inclusive quando a resposta é "não desenvolva agora".
+

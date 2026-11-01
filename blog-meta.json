@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-11-01T01:12:54.783Z",
+  "site": "https://rafaelnunes93.github.io/rafaelnunes-",
+  "categories": [
+    {
+      "slug": "sistemas-sob-medida",
+      "name": "Sistemas sob medida"
+    },
+    {
+      "slug": "arquitetura-e-backend",
+      "name": "Arquitetura e backend"
+    },
+    {
+      "slug": "apis-e-integracoes",
+      "name": "APIs e integrações"
+    },
+    {
+      "slug": "apps-e-saas",
+      "name": "Apps e SaaS"
+    },
+    {
+      "slug": "logistica-e-tms",
+      "name": "Logística e TMS"
+    },
+    {
+      "slug": "custos-e-contratacao",
+      "name": "Custos e contratação"
+    }
+  ],
+  "slugs": [
+    "api-ou-edi-como-trocar-dados-com-parceiros",
+    "flutter-ou-react-native",
+    "migrar-do-net-framework-para-o-net-8",
+    "o-que-entra-no-mvp-de-um-saas",
+    "o-que-um-tms-precisa-ter",
+    "quanto-custa-desenvolver-um-sistema-web-sob-medida"
+  ],
+  "posts": [
+    {
+      "slug": "migrar-do-net-framework-para-o-net-8",
+      "title": "Quando vale a pena migrar do .NET Framework para o .NET 8",
+      "category": "arquitetura-e-backend",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/migrar-do-net-framework-para-o-net-8/",
+      "path": "/blog/migrar-do-net-framework-para-o-net-8/",
+      "pubDate": "2026-10-29T12:00:00.000Z"
+    },
+    {
+      "slug": "o-que-um-tms-precisa-ter",
+      "title": "O que um TMS precisa ter para organizar a sua operação",
+      "category": "logistica-e-tms",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/o-que-um-tms-precisa-ter/",
+      "path": "/blog/o-que-um-tms-precisa-ter/",
+      "pubDate": "2026-10-22T12:00:00.000Z"
+    },
+    {
+      "slug": "api-ou-edi-como-trocar-dados-com-parceiros",
+      "title": "API ou EDI: como trocar dados com clientes e parceiros",
+      "category": "apis-e-integracoes",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/api-ou-edi-como-trocar-dados-com-parceiros/",
+      "path": "/blog/api-ou-edi-como-trocar-dados-com-parceiros/",
+      "pubDate": "2026-10-15T12:00:00.000Z"
+    },
+    {
+      "slug": "quanto-custa-desenvolver-um-sistema-web-sob-medida",
+      "title": "Quanto custa desenvolver um sistema web sob medida",
+      "category": "custos-e-contratacao",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/quanto-custa-desenvolver-um-sistema-web-sob-medida/",
+      "path": "/blog/quanto-custa-desenvolver-um-sistema-web-sob-medida/",
+      "pubDate": "2026-10-08T12:00:00.000Z"
+    }
+  ],
+  "tags": [
+    {
+      "tag": "logística",
+      "count": 2
+    },
+    {
+      "tag": ".net",
+      "count": 1
+    },
+    {
+      "tag": "migração",
+      "count": 1
+    },
+    {
+      "tag": "legado",
+      "count": 1
+    },
+    {
+      "tag": "arquitetura",
+      "count": 1
+    },
+    {
+      "tag": "tms",
+      "count": 1
+    },
+    {
+      "tag": "ct-e",
+      "count": 1
+    },
+    {
+      "tag": "mdf-e",
+      "count": 1
+    },
+    {
+      "tag": "transporte",
+      "count": 1
+    },
+    {
+      "tag": "api",
+      "count": 1
+    },
+    {
+      "tag": "edi",
+      "count": 1
+    },
+    {
+      "tag": "integração",
+      "count": 1
+    },
+    {
+      "tag": "custo",
+      "count": 1
+    },
+    {
+      "tag": "orçamento",
+      "count": 1
+    },
+    {
+      "tag": "sistema web",
+      "count": 1
+    },
+    {
+      "tag": "contratação",
+      "count": 1
+    }
+  ],
+  "services": [
+    {
+      "slug": "desenvolvimento-full-stack",
+      "title": "Desenvolvimento full stack com .NET e Angular",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/servicos/desenvolvimento-full-stack/",
+      "path": "/servicos/desenvolvimento-full-stack/"
+    },
+    {
+      "slug": "apis-e-integracoes",
+      "title": "APIs REST e integração entre sistemas",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/servicos/apis-e-integracoes/",
+      "path": "/servicos/apis-e-integracoes/"
+    },
+    {
+      "slug": "saas-ponta-a-ponta",
+      "title": "SaaS ponta a ponta: da ideia à operação",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/servicos/saas-ponta-a-ponta/",
+      "path": "/servicos/saas-ponta-a-ponta/"
+    },
+    {
+      "slug": "aplicativos-mobile",
+      "title": "Aplicativos mobile com Flutter ou React Native",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/servicos/aplicativos-mobile/",
+      "path": "/servicos/aplicativos-mobile/"
+    },
+    {
+      "slug": "landing-pages",
+      "title": "Landing pages e sites institucionais",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/servicos/landing-pages/",
+      "path": "/servicos/landing-pages/"
+    },
+    {
+      "slug": "desenvolvimento-de-jogos",
+      "title": "Desenvolvimento de jogos com Unity",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/servicos/desenvolvimento-de-jogos/",
+      "path": "/servicos/desenvolvimento-de-jogos/"
+    }
+  ]
+}
