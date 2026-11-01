@@ -1,7 +1,7 @@
 ---
 title: "Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes"
 description: "Passo a passo para usar as APIs da OpenAI e da Anthropic: chave de API, primeira chamada em Python, proteção da chave, controle de custos e erros comuns."
-pubDate: 2026-10-31T07:20:00-03:00
+pubDate: 2026-11-01T05:30:00-03:00
 category: programacao-com-ia
 tags: ["api", "openai", "anthropic", "claude", "python", "integração"]
 kicker: "Guia prático"

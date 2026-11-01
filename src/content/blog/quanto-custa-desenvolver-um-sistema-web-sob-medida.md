@@ -4,6 +4,9 @@ description: "O que faz o preço de um sistema web variar, como comparar propost
 pubDate: 2026-10-08T09:00:00-03:00
 category: custos-e-contratacao
 tags: ["custo", "orçamento", "sistema web", "contratação"]
+kicker: "Entenda"
+cover: blog/covers/quanto-custa-desenvolver-um-sistema-web-sob-medida.png
+coverAlt: "Capa do artigo: Quanto custa desenvolver um sistema web sob medida"
 quickAnswer: "O custo de um sistema web sob medida depende de quatro fatores: quantidade de telas e regras de negócio, integrações com outros sistemas, exigências de segurança e o prazo. Não existe preço de tabela honesto sem conversar sobre o processo. O caminho mais barato e seguro costuma ser começar pelo módulo que mais dói, colocá-lo em uso e evoluir em etapas."
 faq:
   - q: "Dá para saber o preço antes de começar?"

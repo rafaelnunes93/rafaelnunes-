@@ -1,7 +1,7 @@
 ---
 title: "Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?"
 description: "Comparativo entre Cursor, GitHub Copilot e Claude Code: como cada um funciona, planos de referência, pontos fortes e qual escolher para o seu tipo de trabalho."
-pubDate: 2026-10-31T06:40:00-03:00
+pubDate: 2026-11-01T05:00:00-03:00
 category: programacao-com-ia
 tags: ["cursor", "github copilot", "claude code", "assistentes de código", "comparativo"]
 kicker: "Comparativo"

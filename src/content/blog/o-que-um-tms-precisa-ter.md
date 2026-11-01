@@ -4,6 +4,9 @@ description: "Os módulos essenciais de um sistema de gestão de transporte, do 
 pubDate: 2026-10-22T09:00:00-03:00
 category: logistica-e-tms
 tags: ["tms", "logística", "ct-e", "mdf-e", "transporte"]
+kicker: "Entenda"
+cover: blog/covers/o-que-um-tms-precisa-ter.png
+coverAlt: "Capa do artigo: O que um TMS precisa ter para organizar a sua operação"
 quickAnswer: "Um TMS útil precisa cobrir quatro frentes: cadastro e planejamento das cargas, rastreamento das entregas, emissão dos documentos fiscais de transporte (CT-e e MDF-e) e faturamento. Integrações com embarcadores e com o financeiro completam o quadro. O TMS pronto atende operações padrão; o sob medida compensa quando a operação tem regras próprias ou precisa se integrar a muitos parceiros."
 faq:
   - q: "O que são CT-e e MDF-e?"

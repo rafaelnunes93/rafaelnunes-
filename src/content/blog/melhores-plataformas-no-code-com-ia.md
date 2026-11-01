@@ -1,7 +1,7 @@
 ---
 title: "Melhores plataformas para criar sites e apps com IA (no-code): comparativo"
 description: "Lovable, Bolt, v0, Replit, Bubble, FlutterFlow e outras: o que cada plataforma faz melhor, exportação de código, riscos de dependência e como escolher."
-pubDate: 2026-10-31T08:00:00-03:00
+pubDate: 2026-11-01T06:00:00-03:00
 category: programacao-com-ia
 tags: ["no-code", "lovable", "bubble", "flutterflow", "replit", "comparativo"]
 kicker: "Comparativo"

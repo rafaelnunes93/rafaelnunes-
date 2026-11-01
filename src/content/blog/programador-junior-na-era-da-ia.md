@@ -1,7 +1,7 @@
 ---
 title: "Programador júnior na era da IA: por que o mercado mudou e como se adaptar"
 description: "O que o estudo de Stanford mostra sobre vagas de início de carreira, por que tarefas de júnior mudaram e o que fazer para conquistar a primeira vaga em tecnologia."
-pubDate: 2026-10-31T07:40:00-03:00
+pubDate: 2026-11-01T05:45:00-03:00
 category: programacao-com-ia
 tags: ["carreira", "desenvolvedor júnior", "primeiro emprego", "mercado de trabalho"]
 kicker: "Alerta"

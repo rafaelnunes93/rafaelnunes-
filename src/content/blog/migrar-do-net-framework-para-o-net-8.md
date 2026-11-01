@@ -4,6 +4,9 @@ description: "Sinais de que é hora de modernizar um sistema em .NET Framework, 
 pubDate: 2026-10-29T09:00:00-03:00
 category: arquitetura-e-backend
 tags: [".net", "migração", "legado", "arquitetura"]
+kicker: "Guia prático"
+cover: blog/covers/migrar-do-net-framework-para-o-net-8.png
+coverAlt: "Capa do artigo: Quando vale a pena migrar do .NET Framework para o .NET 8"
 quickAnswer: "Vale a pena migrar quando o sistema em .NET Framework precisa de novas funcionalidades com frequência, sofre com performance, depende de servidores Windows caros ou tem dificuldade para contratar quem mantenha. A migração não precisa ser um big bang: o caminho mais seguro é separar o sistema em partes e mover uma de cada vez para o .NET 8, mantendo tudo funcionando durante a transição."
 faq:
   - q: "O .NET Framework vai parar de funcionar?"

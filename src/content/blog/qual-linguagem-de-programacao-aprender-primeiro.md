@@ -1,7 +1,7 @@
 ---
 title: "Qual linguagem de programação aprender primeiro em 2026?"
 description: "Python, JavaScript, C#, Java ou outra? O que os rankings mostram, qual linguagem combina com cada objetivo e como escolher sem perder meses na dúvida."
-pubDate: 2026-10-31T07:00:00-03:00
+pubDate: 2026-11-01T05:15:00-03:00
 category: programacao-com-ia
 tags: ["linguagens de programação", "python", "javascript", "iniciantes", "carreira"]
 kicker: "Entenda"

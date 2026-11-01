@@ -4,6 +4,9 @@ description: "Diferenças práticas entre API REST e EDI, quando cada uma faz se
 pubDate: 2026-10-15T09:00:00-03:00
 category: apis-e-integracoes
 tags: ["api", "edi", "integração", "logística"]
+kicker: "Comparativo"
+cover: blog/covers/api-ou-edi-como-trocar-dados-com-parceiros.png
+coverAlt: "Capa do artigo: API ou EDI: como trocar dados com clientes e parceiros"
 quickAnswer: "API REST é a melhor escolha quando os sistemas precisam conversar em tempo real e os dois lados podem desenvolver a integração. EDI continua sendo o padrão em logística, varejo e indústria quando grandes parceiros exigem arquivos em formatos definidos. Muitas empresas precisam das duas: EDI com os grandes parceiros e APIs para o resto. Em ambos os casos, logs, validação e reprocessamento são o que separa uma integração estável de uma dor de cabeça."
 faq:
   - q: "EDI é tecnologia antiga?"
