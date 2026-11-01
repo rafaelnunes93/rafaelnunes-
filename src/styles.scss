@@ -866,18 +866,10 @@ html.js [data-reveal] {
   z-index: 1;
 }
 
+// As animações decorativas (faixa de empresas, linhas do hero, digitação, contadores)
+// rodam sempre, como no portfólio original. Com "reduzir movimento" só a rolagem fica sem efeito suave.
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
-  }
-  html.js [data-reveal] {
-    opacity: 1;
-    transform: none;
-    filter: none;
+  html {
+    scroll-behavior: auto;
   }
 }

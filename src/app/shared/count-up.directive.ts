@@ -15,7 +15,6 @@ export class CountUpDirective implements OnInit, OnDestroy {
     const node = this.el.nativeElement;
     node.textContent = String(this.countUp());
     if (!this.isBrowser || typeof IntersectionObserver === 'undefined') return;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     node.textContent = '0';
     this.observer = new IntersectionObserver(([entry]) => {

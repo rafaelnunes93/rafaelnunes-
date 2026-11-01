@@ -109,11 +109,6 @@ import { RevealDirective } from '../shared/reveal.directive';
       white-space: nowrap;
     }
     .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); }
-    @media (prefers-reduced-motion: reduce) {
-      .marquee { flex-wrap: wrap; justify-content: center; mask-image: none; -webkit-mask-image: none; }
-      .track { flex-wrap: wrap; justify-content: center; animation: none; }
-      .track[aria-hidden='true'] { display: none; }
-    }
   `,
 })
 export class StatsProofComponent {

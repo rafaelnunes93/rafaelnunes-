@@ -29,7 +29,6 @@ export class HeroComponent implements OnDestroy {
   constructor() {
     if (!isPlatformBrowser(inject(PLATFORM_ID))) return;
     afterNextRender(() => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       this.loop(0, this.typed().length, true);
     });
   }
