@@ -1,0 +1,138 @@
+# Rafael Nunes dos Santos — Desenvolvimento de software sob medida
+
+> Rafael Nunes dos Santos é desenvolvedor full stack especializado em .NET, baseado em Paulínia/SP. Pós-graduado em Arquitetura de Sistemas .NET pela FIAP, desenvolve sistemas web, APIs e integrações, com experiência em logística (TMS e EDI) e ERPs, além de apps em Flutter e React Native, sites em Angular e jogos em Unity. Usa inteligência artificial no dia a dia do desenvolvimento, com revisão técnica e foco em qualidade.
+
+## Fatos
+- Nome: Rafael Nunes dos Santos
+- Atuação: Desenvolvimento de software: sistemas web, APIs, integrações, SaaS, apps e jogos
+- Função: Desenvolvedor full stack (.NET e Angular)
+- Cargo atual: Desenvolvedor de Software Pleno na Aplicativo.NET
+- Experiência: Na área de desenvolvimento desde 2019
+- Inteligência artificial: Desenvolvimento assistido por IA (agentes de código e LLMs) em ambiente AI First
+- Base: Paulínia/SP, Brasil
+- Atendimento: Remoto, para todo o Brasil
+- Idiomas: Português e inglês
+- Formação: Pós-graduação (Pós Tech) em Arquitetura de Sistemas .NET, concluída (FIAP); Gestão em TI (UNIP)
+- Produtos próprios: ClipNest Video Download (extensão para Chrome)
+- Primeiro passo: Conversa inicial sem compromisso, pelo formulário ou WhatsApp
+- Site: https://devrafaelnunes.com.br/
+- E-mail: devrafaelnunes@gmail.com
+- LinkedIn: https://www.linkedin.com/in/rafaelnunesdossantos/
+- GitHub: https://github.com/rafaelnunes93
+
+## Produtos próprios
+- [ClipNest Video Download](https://devrafaelnunes.com.br/cases/clipnest/): extensão para Chrome que detecta e baixa vídeos e streams HLS em MP4.
+
+## Serviços
+- [Desenvolvimento full stack com .NET e Angular](https://devrafaelnunes.com.br/servicos/desenvolvimento-full-stack/): Sistemas web completos, com back-end robusto em C# e interface moderna em Angular.
+- [APIs REST e integração entre sistemas](https://devrafaelnunes.com.br/servicos/apis-e-integracoes/): Seus sistemas, parceiros e fornecedores trocando dados sozinhos, sem digitação manual.
+- [SaaS ponta a ponta: da ideia à operação](https://devrafaelnunes.com.br/servicos/saas-ponta-a-ponta/): Do MVP ao produto em escala: arquitetura, cobrança, multiempresa e operação.
+- [Aplicativos mobile com Flutter ou React Native](https://devrafaelnunes.com.br/servicos/aplicativos-mobile/): Um único código para Android e iOS, integrado às suas APIs e com performance nativa.
+- [Landing pages e sites institucionais](https://devrafaelnunes.com.br/servicos/landing-pages/): Páginas rápidas, responsivas e pensadas para transformar visitas em contatos.
+- [Desenvolvimento de jogos com Unity](https://devrafaelnunes.com.br/servicos/desenvolvimento-de-jogos/): Jogos 2D e 3D com mecânicas, interface e publicação para várias plataformas.
+
+## Projetos
+- [ClipNest Video Download — Extensão para Chrome](https://devrafaelnunes.com.br/cases/clipnest/): Extensão publicada na Chrome Web Store que detecta vídeos e áudios nas páginas e baixa arquivos diretos e streams HLS, convertidos automaticamente para MP4.
+- [ControleODONTO — ERP odontológico (SaaS)](https://devrafaelnunes.com.br/cases/controle-odonto/): Software em nuvem para gestão de clínicas odontológicas — agenda, prontuário, financeiro, CRM e odontograma 3D. Atuo no time da Aplicativo.NET desenvolvendo novas funcionalidades e corrigindo bugs em um produto que já está em produção.
+- [Cargo Online — Plataforma TMS](https://devrafaelnunes.com.br/cases/cargo-online/): Desenvolvimento e sustentação de um Transport Management System (TMS) completo: rastreamento, faturamento, emissão de CT-e e MDF-e e roteirização de entregas.
+- [EDI UPS — Plataforma EDI](https://devrafaelnunes.com.br/cases/edi-ups/): Plataforma de EDI desenvolvida para a UPS, que padroniza a troca de informações entre clientes e fornecedores e processa grandes volumes de dados todos os dias.
+- [App ShapeOn — Aplicativo mobile (Flutter)](https://devrafaelnunes.com.br/cases/app-shapeon/): Aplicativo multiplataforma para o segmento fitness: treinos personalizados, registro de desempenho diário, acompanhamento de dieta e agendamento de aulas com personal trainers, com uma única base de código em Flutter.
+- [Art Pisos E Assoalhos — Site e landing page](https://devrafaelnunes.com.br/cases/art-pisos/): Site institucional e comercial para a Art Pisos E Assoalhos, especializada em raspagem, calafetação, resinas e manutenção de pisos de madeira, tacos e assoalhos.
+- [Chef Manager — Sistema web de gestão](https://devrafaelnunes.com.br/cases/chef-manager/): Sistema de gestão para restaurantes que centraliza pedidos de mesa, delivery, estoque e financeiro, com telas atualizadas em tempo real para cozinha e gerência.
+- [Worth Viking — Jogo em Unity](https://devrafaelnunes.com.br/cases/worth-viking/): Jogo desenvolvido inteiramente na Unity com C#, com mecânicas de combate, inventário, física customizada e inteligência artificial para os inimigos.
+
+## Experiência
+- Comecei em 2019 como estagiário de TI na Online Applications, analisando chamados, reproduzindo falhas e consultando bancos SQL Server para entender as regras de negócio. Foi ali que aprendi a olhar o software pelo lado de quem usa — e de quem precisa que ele funcione todos os dias.
+- Passei por suporte, trainee e júnior até me tornar desenvolvedor .NET na Smart Online, construindo APIs em .NET 8, aplicações MVC e integrações com SQL Server, com foco em performance, SOLID e arquitetura em camadas. Boa parte desse trabalho foi em logística: plataformas TMS, emissão de CT-e e MDF-e e uma plataforma EDI para a UPS.
+- Hoje sou desenvolvedor de software pleno na Aplicativo.NET, onde desenvolvo um ERP para clínicas médicas e odontológicas com .NET e Razor, numa cultura AI First: a inteligência artificial faz parte de todo o processo de desenvolvimento, do entendimento dos requisitos à revisão do código.
+
+## Artigos
+- [Guia completo do Claude Code: comandos, skills, MCPs e CLAUDE.md](https://devrafaelnunes.com.br/blog/claude-code-guia-completo/): Como instalar e usar o Claude Code: principais comandos, gestão de sessões, CLAUDE.md, skills, MCPs, permissões, hooks, subagentes e um fluxo de trabalho seguro.
+- [Como escrever artigos de blog com IA que ranqueiam no Google](https://devrafaelnunes.com.br/blog/como-escrever-artigos-com-ia-que-ranqueiam/): Um processo em 8 etapas para produzir artigos com IA: intenção de busca, pesquisa, ângulo próprio, estrutura, verificação de fatos, SEO on-page e atualização.
+- [Como criar um canal no YouTube sem aparecer usando IA (e sem perder a monetização)](https://devrafaelnunes.com.br/blog/canal-no-youtube-sem-aparecer-com-ia/): Como montar um canal sem aparecer com IA: nicho, roteiro, narração e edição, além das regras do YouTube sobre conteúdo inautêntico e identificação de conteúdo sintético.
+- [Melhores ferramentas de IA para editar vídeo: comparativo prático](https://devrafaelnunes.com.br/blog/melhores-ferramentas-de-ia-para-editar-video/): Descript, CapCut, OpusClip, Runway, Premiere Pro e DaVinci Resolve: para que serve cada ferramenta de IA em vídeo, referências de preço e como escolher a sua.
+- [ElevenLabs vale a pena? Review do gerador de voz com IA](https://devrafaelnunes.com.br/blog/elevenlabs-vale-a-pena-review/): O que o ElevenLabs faz, como funcionam os planos e o licenciamento comercial, os cuidados com clonagem de voz e para quem ele compensa em português.
+- [Midjourney vs DALL·E vs Ideogram: qual o melhor gerador de imagens?](https://devrafaelnunes.com.br/blog/midjourney-vs-dall-e-vs-ideogram/): Comparativo entre Midjourney, os geradores de imagem do ChatGPT (linha DALL·E) e Ideogram: qualidade visual, texto nas imagens, facilidade, planos e usos ideais.
+- [O Google penaliza conteúdo feito com IA? O que diz a documentação oficial](https://devrafaelnunes.com.br/blog/google-penaliza-conteudo-feito-com-ia/): O que o Google realmente diz sobre conteúdo gerado por IA, o que é abuso de conteúdo em escala, o papel do E-E-A-T e como usar IA sem colocar o site em risco.
+- [Posso usar imagens geradas por IA comercialmente? O que diz a lei](https://devrafaelnunes.com.br/blog/imagens-geradas-por-ia-uso-comercial/): Termos das ferramentas, autoria no Brasil e nos EUA, marcas e pessoas reais: o que considerar antes de usar imagens de IA em anúncios, produtos e redes sociais.
+- [Conteúdo genérico de IA: por que seus posts não engajam (e como corrigir)](https://devrafaelnunes.com.br/blog/conteudo-generico-de-ia-por-que-nao-engaja/): Por que textos de IA sem revisão soam todos iguais, os sinais de conteúdo genérico e um método para usar IA sem perder a voz, a originalidade e a confiança do público.
+- [Como transformar um vídeo longo em vários cortes com IA](https://devrafaelnunes.com.br/blog/como-transformar-video-longo-em-cortes-com-ia/): Passo a passo para gerar cortes de vídeos longos com IA: escolha dos trechos, ferramentas como OpusClip, CapCut e Descript, legendas, formato vertical e direitos.
+- [Como criar um mês de posts para redes sociais em 2 horas com IA](https://devrafaelnunes.com.br/blog/como-criar-um-mes-de-posts-com-ia/): Um método em 5 etapas para planejar e escrever um mês de conteúdo com IA: pilares, calendário, legendas, adaptação por rede e revisão para não soar genérico.
+- [Melhores plataformas para criar sites e apps com IA (no-code): comparativo](https://devrafaelnunes.com.br/blog/melhores-plataformas-no-code-com-ia/): Lovable, Bolt, v0, Replit, Bubble, FlutterFlow e outras: o que cada plataforma faz melhor, exportação de código, riscos de dependência e como escolher.
+- [Programador júnior na era da IA: por que o mercado mudou e como se adaptar](https://devrafaelnunes.com.br/blog/programador-junior-na-era-da-ia/): O que o estudo de Stanford mostra sobre vagas de início de carreira, por que tarefas de júnior mudaram e o que fazer para conquistar a primeira vaga em tecnologia.
+- [Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes](https://devrafaelnunes.com.br/blog/como-integrar-api-do-chatgpt-ou-claude/): Passo a passo para usar as APIs da OpenAI e da Anthropic: chave de API, primeira chamada em Python, proteção da chave, controle de custos e erros comuns.
+- [Qual linguagem de programação aprender primeiro em 2026?](https://devrafaelnunes.com.br/blog/qual-linguagem-de-programacao-aprender-primeiro/): Python, JavaScript, C#, Java ou outra? O que os rankings mostram, qual linguagem combina com cada objetivo e como escolher sem perder meses na dúvida.
+- [Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?](https://devrafaelnunes.com.br/blog/cursor-vs-github-copilot-vs-claude-code/): Comparativo entre Cursor, GitHub Copilot e Claude Code: como cada um funciona, planos de referência, pontos fortes e qual escolher para o seu tipo de trabalho.
+- [Como descobrir se seus dados vazaram e o que fazer em seguida](https://devrafaelnunes.com.br/blog/como-saber-se-meus-dados-vazaram/): Ferramentas para verificar se seu e-mail, senhas e CPF apareceram em vazamentos — como Have I Been Pwned e Registrato — e o passo a passo para se proteger depois.
+- [VPN vale a pena? O que ela protege, o que não protege e como escolher](https://devrafaelnunes.com.br/blog/vpn-vale-a-pena/): O que uma VPN faz de verdade, quando vale a pena para brasileiros, os riscos das VPNs gratuitas, o que avaliar antes de assinar e as principais opções.
+- [Melhores gerenciadores de senha: 1Password vs Bitwarden vs Proton Pass](https://devrafaelnunes.com.br/blog/melhores-gerenciadores-de-senha/): Comparativo entre 1Password, Bitwarden e Proton Pass: segurança, planos gratuitos e pagos, recursos e qual escolher para uso pessoal, familiar e empresarial.
+- [A IA guarda minhas conversas? O que acontece com seus dados nos chatbots](https://devrafaelnunes.com.br/blog/a-ia-guarda-minhas-conversas/): O que ChatGPT, Gemini e Claude fazem com suas conversas: armazenamento, uso para treinar modelos, revisão humana e as configurações para proteger sua privacidade.
+- [O que é autenticação em dois fatores e como ativar em todas as contas](https://devrafaelnunes.com.br/blog/autenticacao-em-dois-fatores-como-ativar/): Como funciona a autenticação em dois fatores, os tipos (SMS, app autenticador, chave de acesso e chave física), qual é mais segura e como ativar nas contas principais.
+- [Como saber se meu celular está sendo espionado?](https://devrafaelnunes.com.br/blog/como-saber-se-o-celular-esta-sendo-espionado/): Os sinais de que pode haver um aplicativo espião no celular, como verificar permissões no Android e no iPhone e o que fazer para remover e se proteger.
+- [Deepfake: como identificar vídeos falsos antes que seja tarde](https://devrafaelnunes.com.br/blog/como-identificar-deepfake/): O que são deepfakes, os sinais visuais e de contexto que ajudam a identificá-los, ferramentas de verificação e o que fazer ao encontrar um vídeo falso.
+- [Como proteger sua conta bancária e o Pix contra golpes digitais](https://devrafaelnunes.com.br/blog/como-proteger-conta-bancaria-e-pix-contra-golpes/): Os golpes mais comuns com Pix e contas bancárias, as proteções do Banco Central — limite noturno, MED e botão de contestação — e um checklist de segurança.
+- [O que fazer se seu WhatsApp for clonado: guia de emergência](https://devrafaelnunes.com.br/blog/whatsapp-clonado-o-que-fazer/): Passo a passo para recuperar o WhatsApp clonado ou invadido, avisar contatos, acionar o suporte e o banco, e como evitar que aconteça de novo.
+- [Golpes com IA: como criminosos clonam voz e rosto para enganar famílias](https://devrafaelnunes.com.br/blog/golpes-com-ia-clonagem-de-voz-e-rosto/): Como funcionam os golpes com voz clonada e deepfake, os sinais de alerta e as medidas simples — como a palavra-código da família — que protegem você e seus parentes.
+- [Como criar agentes de IA que executam tarefas repetitivas do negócio](https://devrafaelnunes.com.br/blog/como-criar-agentes-de-ia-para-tarefas-repetitivas/): O que são agentes de IA, quais tarefas eles fazem bem, ferramentas para criar o seu (com e sem código) e as regras de segurança para não perder o controle.
+- [Notion AI vs ClickUp AI: qual organiza melhor sua empresa?](https://devrafaelnunes.com.br/blog/notion-ai-vs-clickup-ai/): Comparativo entre Notion AI e ClickUp Brain: proposta de cada ferramenta, recursos de IA, modelo de cobrança e para que tipo de equipe cada uma funciona melhor.
+- [Melhores ferramentas de IA para e-commerce: comparativo por tarefa](https://devrafaelnunes.com.br/blog/melhores-ferramentas-de-ia-para-e-commerce/): As ferramentas de IA mais úteis para lojas virtuais organizadas por tarefa: descrições, fotos, atendimento, anúncios, avaliações e análise de vendas.
+- [Como usar IA para precificar produtos e analisar a concorrência](https://devrafaelnunes.com.br/blog/como-usar-ia-para-precificar-e-analisar-concorrencia/): Um método com IA para calcular preços a partir de custos, comparar concorrentes, testar cenários de margem e acompanhar o mercado, sem decisões às cegas.
+- [Como ganhar dinheiro com inteligência artificial em 2026 (sem cair em golpes)](https://devrafaelnunes.com.br/blog/como-ganhar-dinheiro-com-inteligencia-artificial/): Formas reais de gerar renda com IA — serviços, produtividade, produtos digitais e automação —, o que exige de verdade e os sinais de promessas falsas.
+- [Quanto custa implementar IA em uma pequena empresa?](https://devrafaelnunes.com.br/blog/quanto-custa-implementar-ia-em-pequena-empresa/): Os quatro níveis de investimento em IA para pequenas empresas — de ferramentas prontas a projetos sob medida —, os custos escondidos e como calcular o retorno.
+- [LGPD e IA: os riscos de colocar dados de clientes em chatbots](https://devrafaelnunes.com.br/blog/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots/): O que a LGPD exige quando dados de clientes passam por ferramentas de IA, os riscos mais comuns, as sanções previstas e um checklist para usar IA com segurança.
+- [Sua empresa está perdendo clientes por não usar IA? Os sinais de alerta](https://devrafaelnunes.com.br/blog/sinais-de-que-sua-empresa-perde-clientes-sem-ia/): Os sinais de que a falta de automação e IA já está custando clientes — demora no atendimento, propostas lentas, dados ignorados — e por onde começar.
+- [Como usar IA para criar um plano de negócios em uma tarde](https://devrafaelnunes.com.br/blog/como-criar-plano-de-negocios-com-ia/): Um roteiro em etapas, com prompts prontos, para montar um plano de negócios com IA — do modelo de negócio às projeções — sem cair em números inventados.
+- [Como montar um atendimento no WhatsApp com IA para pequenas empresas](https://devrafaelnunes.com.br/blog/atendimento-no-whatsapp-com-ia-para-pequenas-empresas/): Passo a passo para criar um atendimento com IA no WhatsApp: API oficial, regras da Meta em 2026, base de conhecimento, passagem para humano e LGPD.
+- [Como saber se um texto foi escrito por IA? O que funciona de verdade](https://devrafaelnunes.com.br/blog/como-saber-se-um-texto-foi-escrito-por-ia/): Por que detectores de IA não são confiáveis, o que dizem os estudos, os sinais que levantam suspeita e as alternativas que funcionam melhor.
+- [Como usar IA no celular por voz para tarefas do dia a dia](https://devrafaelnunes.com.br/blog/como-usar-ia-no-celular-por-voz/): Como ativar e usar o Gemini Live, o modo de voz do ChatGPT e os assistentes do celular para organizar o dia, aprender, praticar idiomas e resolver tarefas sem digitar.
+- [NotebookLM: review da ferramenta do Google para estudar com IA](https://devrafaelnunes.com.br/blog/notebooklm-review-estudar-com-ia/): O que é o NotebookLM, como ele responde com base nas suas fontes, os resumos em áudio, os limites do plano gratuito e como usar para estudar e trabalhar.
+- [Perplexity vale a pena? Review do buscador com IA que desafia o Google](https://devrafaelnunes.com.br/blog/perplexity-vale-a-pena-review/): Como o Perplexity funciona, o que oferece nos planos gratuito e Pro, pontos fortes e fracos e quando ele substitui o Google — e quando não.
+- [IA gratuita: as melhores opções sem pagar nada](https://devrafaelnunes.com.br/blog/melhores-ias-gratuitas/): As melhores ferramentas de inteligência artificial gratuitas para texto, pesquisa, estudo, imagens e voz, com o que cada versão grátis oferece e seus limites.
+- [Como fazer a IA ler e resumir PDFs longos em minutos](https://devrafaelnunes.com.br/blog/como-usar-ia-para-resumir-pdfs-longos/): Quais ferramentas usar para resumir PDFs longos, como pedir resumos úteis, perguntas que extraem o essencial e os cuidados com documentos confidenciais.
+- [Alucinações de IA: o perigo de confiar cegamente nas respostas do chatbot](https://devrafaelnunes.com.br/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot/): O que são alucinações de IA, casos reais em que respostas inventadas custaram caro e um método simples para verificar o que o chatbot diz.
+- [Por que a IA dá respostas erradas? Como escrever prompts que funcionam](https://devrafaelnunes.com.br/blog/como-escrever-prompts-que-funcionam/): Os motivos mais comuns de respostas ruins da IA e uma estrutura simples de prompt, com exemplos antes e depois, para obter respostas melhores.
+- [Qual a diferença entre o ChatGPT gratuito e o pago?](https://devrafaelnunes.com.br/blog/chatgpt-gratis-ou-pago-diferencas/): O que muda entre o ChatGPT gratuito e os planos pagos (Go, Plus e Pro): limites, modelos, recursos, privacidade e quando vale a pena assinar.
+- [ChatGPT, Gemini ou Claude: qual a melhor IA em 2026?](https://devrafaelnunes.com.br/blog/chatgpt-gemini-ou-claude-qual-a-melhor-ia/): Comparativo prático entre ChatGPT, Gemini e Claude: pontos fortes de cada um, planos, integração com outras ferramentas e qual escolher para cada tarefa.
+- [Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira](https://devrafaelnunes.com.br/blog/melhores-cursos-de-ia-online/): Sete cursos de inteligência artificial de instituições reconhecidas, do básico para iniciantes ao técnico para desenvolvedores, e como escolher o seu.
+- [Microsoft Copilot no Office: vale a pena pagar? Review completo](https://devrafaelnunes.com.br/blog/microsoft-copilot-no-office-vale-a-pena/): O que o Copilot faz no Word, Excel, PowerPoint, Outlook e Teams, os planos para uso pessoal e empresarial e para quem ele realmente compensa.
+- [Como criar um assistente de IA pessoal para organizar sua rotina de trabalho](https://devrafaelnunes.com.br/blog/como-criar-um-assistente-de-ia-pessoal/): Passo a passo para montar um assistente pessoal com GPTs, Projetos do Claude ou Gems do Gemini: instruções, arquivos de referência e rotinas diárias.
+- [Como colocar habilidades em IA no currículo e no LinkedIn](https://devrafaelnunes.com.br/blog/habilidades-em-ia-no-curriculo-e-linkedin/): Como descrever habilidades em IA no currículo e no LinkedIn com resultados concretos, sem exageros, e o que recrutadores realmente procuram.
+- [O que é engenharia de prompt e vale a pena aprender?](https://devrafaelnunes.com.br/blog/o-que-e-engenharia-de-prompt/): O que é engenharia de prompt, as técnicas que funcionam segundo os guias da OpenAI, Anthropic e Google, e se vale a pena investir nessa habilidade.
+- [Quais profissões a IA vai substituir até 2030? O que dizem os estudos](https://devrafaelnunes.com.br/blog/profissoes-que-a-ia-vai-substituir-ate-2030/): As funções que mais encolhem e as que mais crescem até 2030 segundo o Fórum Econômico Mundial e a OIT, e por que 'substituir' é a palavra errada.
+- [O erro que faz profissionais ficarem para trás na era da IA (e como evitar)](https://devrafaelnunes.com.br/blog/erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia/): Esperar a empresa oferecer treinamento é o erro mais comum. Veja o que os dados do Work Trend Index mostram e um plano prático para não ficar para trás.
+- [Sua profissão está em risco? Os sinais de que a IA já está mudando seu cargo](https://devrafaelnunes.com.br/blog/sinais-de-que-a-ia-esta-mudando-sua-profissao/): O que estudos da OIT e do Fórum Econômico Mundial dizem sobre exposição à IA, os sinais práticos de que seu cargo está mudando e como reagir.
+- [Como automatizar relatórios semanais com IA sem saber programar](https://devrafaelnunes.com.br/blog/automatizar-relatorios-semanais-com-ia-sem-programar/): Passo a passo para montar um relatório semanal automático com planilhas, uma ferramenta de automação e IA para escrever o resumo — sem código.
+- [Como usar IA para reduzir pela metade o tempo gasto com e-mails](https://devrafaelnunes.com.br/blog/como-usar-ia-para-reduzir-tempo-com-emails/): Um método prático para triar, resumir e responder e-mails com Gemini, Copilot ou ChatGPT sem perder o controle do que sai da sua caixa.
+- [Como usar IA para encontrar e corrigir bugs mais rápido](https://devrafaelnunes.com.br/blog/como-usar-ia-para-corrigir-bugs/): Um método prático para depurar com IA: como dar contexto, reproduzir o erro, pedir hipóteses, validar a correção com testes e evitar consertos que criam novos bugs.
+- [Código gerado por IA: riscos de segurança que ninguém te conta](https://devrafaelnunes.com.br/blog/riscos-de-seguranca-do-codigo-gerado-por-ia/): As falhas de segurança mais comuns em código gerado por IA, o que dizem estudos como o da Veracode, e um checklist para revisar antes de colocar em produção.
+- [Como criar seu primeiro app sem saber programar usando IA](https://devrafaelnunes.com.br/blog/como-criar-app-sem-saber-programar-com-ia/): Passo a passo para criar um aplicativo simples com plataformas de IA e no-code: da ideia ao protótipo publicado, com os limites e cuidados que ninguém conta.
+- [Vale a pena aprender a programar com o avanço da IA?](https://devrafaelnunes.com.br/blog/vale-a-pena-aprender-a-programar-com-ia/): Por que aprender programação continua valendo a pena, o que muda no jeito de estudar com a IA como tutora e um roteiro prático para começar com o pé direito.
+- [A IA vai substituir programadores? O que os dados mostram](https://devrafaelnunes.com.br/blog/a-ia-vai-substituir-programadores/): O que pesquisas do Stack Overflow, de Stanford, do METR e do Fórum Econômico Mundial dizem sobre IA e programação, e como a profissão está mudando de verdade.
+- [Quando vale a pena migrar do .NET Framework para o .NET 8](https://devrafaelnunes.com.br/blog/migrar-do-net-framework-para-o-net-8/): Sinais de que é hora de modernizar um sistema em .NET Framework, os riscos de adiar e como migrar por partes sem parar a operação.
+- [O que um TMS precisa ter para organizar a sua operação](https://devrafaelnunes.com.br/blog/o-que-um-tms-precisa-ter/): Os módulos essenciais de um sistema de gestão de transporte, do rastreio ao CT-e, e como decidir entre um TMS pronto e um sob medida.
+- [API ou EDI: como trocar dados com clientes e parceiros](https://devrafaelnunes.com.br/blog/api-ou-edi-como-trocar-dados-com-parceiros/): Diferenças práticas entre API REST e EDI, quando cada uma faz sentido e como evitar integrações frágeis que quebram sem ninguém perceber.
+- [Quanto custa desenvolver um sistema web sob medida](https://devrafaelnunes.com.br/blog/quanto-custa-desenvolver-um-sistema-web-sob-medida/): O que faz o preço de um sistema web variar, como comparar propostas e por que começar por um módulo costuma ser o caminho mais barato e seguro.
+
+## Perguntas frequentes
+- **Quanto custa desenvolver um sistema?** Depende do escopo: telas, regras de negócio, integrações e prazo. Depois de uma conversa inicial eu envio uma proposta por escrito com valor fechado ou por etapas — sem surpresas no meio do caminho.
+- **Quanto tempo leva?** Uma primeira versão utilizável costuma ficar pronta em semanas. Projetos maiores são entregues por módulos para que você comece a usar cedo.
+- **Com quais tecnologias você trabalha?** No dia a dia: C#, .NET 8, ASP.NET Core, SQL Server e Angular. Também desenvolvo apps em Flutter e React Native, jogos em Unity e publico na Azure.
+- **O código e os dados ficam com a minha empresa?** Sim. Repositório, banco de dados, domínio e contas de nuvem ficam em nome da sua empresa desde o início.
+- **Você consegue dar manutenção em um sistema que já existe?** Sim. Tenho experiência com sistemas legados em .NET Framework, MVC e Razor. Avalio o código e proponho evoluir por partes ou reescrever.
+- **Você atende empresas de outras cidades?** Sim. Trabalho de forma remota a partir de Paulínia/SP, com reuniões por vídeo e acompanhamento pelo WhatsApp.
+- **Como funciona o suporte depois da entrega?** Todo projeto inclui um período de acompanhamento. Depois, você pode contratar evolução contínua ou chamados sob demanda.
+- **Você trabalha com contrato?** Sim. Escopo, prazo, valor, propriedade do código e confidencialidade ficam definidos por escrito antes de começar.
+
+## Páginas
+- [Início](https://devrafaelnunes.com.br/)
+- [Serviços](https://devrafaelnunes.com.br/servicos/)
+- [Projetos](https://devrafaelnunes.com.br/cases/)
+- [Blog](https://devrafaelnunes.com.br/blog/)
+- [Sobre](https://devrafaelnunes.com.br/sobre/)
+- [Fatos oficiais](https://devrafaelnunes.com.br/rafael-nunes/)
+- [English](https://devrafaelnunes.com.br/en/)
+
+## Optional
+- [Feed RSS](https://devrafaelnunes.com.br/feed.xml)
+- [Sitemap](https://devrafaelnunes.com.br/sitemap.xml)
+- [Versão completa para LLMs](https://devrafaelnunes.com.br/llms-full.txt)
