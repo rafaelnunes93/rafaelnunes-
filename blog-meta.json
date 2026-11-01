@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T02:09:49.394Z",
+  "generatedAt": "2026-11-01T02:16:27.424Z",
   "site": "https://rafaelnunes93.github.io/rafaelnunes-",
   "categories": [
     {
@@ -54,32 +54,122 @@
   "slugs": [
     "alucinacoes-de-ia-perigo-de-confiar-no-chatbot",
     "api-ou-edi-como-trocar-dados-com-parceiros",
+    "atendimento-no-whatsapp-com-ia-para-pequenas-empresas",
     "automatizar-relatorios-semanais-com-ia-sem-programar",
     "chatgpt-gemini-ou-claude-qual-a-melhor-ia",
     "chatgpt-gratis-ou-pago-diferencas",
+    "como-criar-agentes-de-ia-para-tarefas-repetitivas",
+    "como-criar-plano-de-negocios-com-ia",
     "como-criar-um-assistente-de-ia-pessoal",
     "como-escrever-prompts-que-funcionam",
+    "como-ganhar-dinheiro-com-inteligencia-artificial",
     "como-saber-se-um-texto-foi-escrito-por-ia",
     "como-usar-ia-no-celular-por-voz",
+    "como-usar-ia-para-precificar-e-analisar-concorrencia",
     "como-usar-ia-para-reduzir-tempo-com-emails",
     "como-usar-ia-para-resumir-pdfs-longos",
     "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
     "flutter-ou-react-native",
     "habilidades-em-ia-no-curriculo-e-linkedin",
+    "lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots",
     "melhores-cursos-de-ia-online",
+    "melhores-ferramentas-de-ia-para-e-commerce",
     "melhores-ias-gratuitas",
     "microsoft-copilot-no-office-vale-a-pena",
     "migrar-do-net-framework-para-o-net-8",
     "notebooklm-review-estudar-com-ia",
+    "notion-ai-vs-clickup-ai",
     "o-que-e-engenharia-de-prompt",
     "o-que-entra-no-mvp-de-um-saas",
     "o-que-um-tms-precisa-ter",
     "perplexity-vale-a-pena-review",
     "profissoes-que-a-ia-vai-substituir-ate-2030",
     "quanto-custa-desenvolver-um-sistema-web-sob-medida",
-    "sinais-de-que-a-ia-esta-mudando-sua-profissao"
+    "quanto-custa-implementar-ia-em-pequena-empresa",
+    "sinais-de-que-a-ia-esta-mudando-sua-profissao",
+    "sinais-de-que-sua-empresa-perde-clientes-sem-ia"
   ],
   "posts": [
+    {
+      "slug": "como-criar-agentes-de-ia-para-tarefas-repetitivas",
+      "title": "Como criar agentes de IA que executam tarefas repetitivas do negócio",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-agentes-de-ia-para-tarefas-repetitivas/",
+      "path": "/blog/como-criar-agentes-de-ia-para-tarefas-repetitivas/",
+      "pubDate": "2026-10-31T21:40:00.000Z"
+    },
+    {
+      "slug": "notion-ai-vs-clickup-ai",
+      "title": "Notion AI vs ClickUp AI: qual organiza melhor sua empresa?",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/notion-ai-vs-clickup-ai/",
+      "path": "/blog/notion-ai-vs-clickup-ai/",
+      "pubDate": "2026-10-31T21:20:00.000Z"
+    },
+    {
+      "slug": "melhores-ferramentas-de-ia-para-e-commerce",
+      "title": "Melhores ferramentas de IA para e-commerce: comparativo por tarefa",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-ferramentas-de-ia-para-e-commerce/",
+      "path": "/blog/melhores-ferramentas-de-ia-para-e-commerce/",
+      "pubDate": "2026-10-31T21:00:00.000Z"
+    },
+    {
+      "slug": "como-usar-ia-para-precificar-e-analisar-concorrencia",
+      "title": "Como usar IA para precificar produtos e analisar a concorrência",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-precificar-e-analisar-concorrencia/",
+      "path": "/blog/como-usar-ia-para-precificar-e-analisar-concorrencia/",
+      "pubDate": "2026-10-31T20:40:00.000Z"
+    },
+    {
+      "slug": "como-ganhar-dinheiro-com-inteligencia-artificial",
+      "title": "Como ganhar dinheiro com inteligência artificial em 2026 (sem cair em golpes)",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-ganhar-dinheiro-com-inteligencia-artificial/",
+      "path": "/blog/como-ganhar-dinheiro-com-inteligencia-artificial/",
+      "pubDate": "2026-10-31T20:20:00.000Z"
+    },
+    {
+      "slug": "quanto-custa-implementar-ia-em-pequena-empresa",
+      "title": "Quanto custa implementar IA em uma pequena empresa?",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/quanto-custa-implementar-ia-em-pequena-empresa/",
+      "path": "/blog/quanto-custa-implementar-ia-em-pequena-empresa/",
+      "pubDate": "2026-10-31T20:00:00.000Z"
+    },
+    {
+      "slug": "lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots",
+      "title": "LGPD e IA: os riscos de colocar dados de clientes em chatbots",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots/",
+      "path": "/blog/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots/",
+      "pubDate": "2026-10-31T19:40:00.000Z"
+    },
+    {
+      "slug": "sinais-de-que-sua-empresa-perde-clientes-sem-ia",
+      "title": "Sua empresa está perdendo clientes por não usar IA? Os sinais de alerta",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/sinais-de-que-sua-empresa-perde-clientes-sem-ia/",
+      "path": "/blog/sinais-de-que-sua-empresa-perde-clientes-sem-ia/",
+      "pubDate": "2026-10-31T19:20:00.000Z"
+    },
+    {
+      "slug": "como-criar-plano-de-negocios-com-ia",
+      "title": "Como usar IA para criar um plano de negócios em uma tarde",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-plano-de-negocios-com-ia/",
+      "path": "/blog/como-criar-plano-de-negocios-com-ia/",
+      "pubDate": "2026-10-31T19:00:00.000Z"
+    },
+    {
+      "slug": "atendimento-no-whatsapp-com-ia-para-pequenas-empresas",
+      "title": "Como montar um atendimento no WhatsApp com IA para pequenas empresas",
+      "category": "ia-para-negocios",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/atendimento-no-whatsapp-com-ia-para-pequenas-empresas/",
+      "path": "/blog/atendimento-no-whatsapp-com-ia-para-pequenas-empresas/",
+      "pubDate": "2026-10-31T18:40:00.000Z"
+    },
     {
       "slug": "como-saber-se-um-texto-foi-escrito-por-ia",
       "title": "Como saber se um texto foi escrito por IA? O que funciona de verdade",
@@ -275,12 +365,16 @@
   ],
   "tags": [
     {
-      "tag": "chatgpt",
-      "count": 9
+      "tag": "produtividade",
+      "count": 10
     },
     {
-      "tag": "produtividade",
-      "count": 8
+      "tag": "chatgpt",
+      "count": 10
+    },
+    {
+      "tag": "carreira",
+      "count": 6
     },
     {
       "tag": "gemini",
@@ -291,12 +385,40 @@
       "count": 6
     },
     {
-      "tag": "carreira",
+      "tag": "automação",
       "count": 5
+    },
+    {
+      "tag": "pequenas empresas",
+      "count": 4
     },
     {
       "tag": "review",
       "count": 3
+    },
+    {
+      "tag": "comparativo",
+      "count": 2
+    },
+    {
+      "tag": "e-commerce",
+      "count": 2
+    },
+    {
+      "tag": "ferramentas",
+      "count": 2
+    },
+    {
+      "tag": "planilhas",
+      "count": 2
+    },
+    {
+      "tag": "empreendedorismo",
+      "count": 2
+    },
+    {
+      "tag": "atendimento",
+      "count": 2
     },
     {
       "tag": "educação",
@@ -319,79 +441,47 @@
       "count": 2
     },
     {
-      "tag": "detector de ia",
+      "tag": "agentes de ia",
       "count": 1
     },
     {
-      "tag": "texto gerado por ia",
+      "tag": "n8n",
       "count": 1
     },
     {
-      "tag": "synthid",
+      "tag": "zapier",
       "count": 1
     },
     {
-      "tag": "voz",
+      "tag": "notion",
       "count": 1
     },
     {
-      "tag": "celular",
+      "tag": "clickup",
       "count": 1
     },
     {
-      "tag": "gemini live",
+      "tag": "gestão de projetos",
       "count": 1
     },
     {
-      "tag": "google",
+      "tag": "loja virtual",
       "count": 1
     },
     {
-      "tag": "estudos",
+      "tag": "marketing",
       "count": 1
     },
     {
-      "tag": "perplexity",
+      "tag": "vendas online",
       "count": 1
     },
     {
-      "tag": "buscador",
+      "tag": "precificação",
       "count": 1
     },
     {
-      "tag": "pesquisa",
-      "count": 1
-    },
-    {
-      "tag": "ia gratuita",
-      "count": 1
-    },
-    {
-      "tag": "ferramentas",
-      "count": 1
-    },
-    {
-      "tag": "pdf",
-      "count": 1
-    },
-    {
-      "tag": "resumo",
-      "count": 1
-    },
-    {
-      "tag": "alucinação",
-      "count": 1
-    },
-    {
-      "tag": "riscos da ia",
-      "count": 1
-    },
-    {
-      "tag": "verificação de fatos",
-      "count": 1
-    },
-    {
-      "tag": "prompts",
+      "tag": "concorrência",
       "count": 1
     }
   ],
