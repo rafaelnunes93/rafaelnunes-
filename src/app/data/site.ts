@@ -46,7 +46,7 @@ export const SITE = {
   // Google AdSense (anúncios no blog). Vazio = nenhum anúncio é exibido.
   // client: "ca-pub-XXXXXXXXXXXXXXXX"; slots: IDs dos blocos criados no painel do AdSense.
   adsense: {
-    client: '',
+    client: 'ca-pub-5886946314899205',
     slots: { blogList: '', postInArticle: '', postSidebar: '' },
   },
   indexNowKey: '',
