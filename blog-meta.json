@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T01:39:31.930Z",
+  "generatedAt": "2026-11-01T02:03:13.778Z",
   "site": "https://rafaelnunes93.github.io/rafaelnunes-",
   "categories": [
     {
@@ -23,19 +23,133 @@
       "name": "Logística e TMS"
     },
     {
+      "slug": "ia-no-trabalho",
+      "name": "IA no trabalho e carreira"
+    },
+    {
+      "slug": "ferramentas-de-ia",
+      "name": "Ferramentas de IA"
+    },
+    {
+      "slug": "ia-para-negocios",
+      "name": "IA para negócios"
+    },
+    {
+      "slug": "seguranca-digital",
+      "name": "Segurança digital"
+    },
+    {
+      "slug": "programacao-com-ia",
+      "name": "Programação com IA"
+    },
+    {
+      "slug": "conteudo-com-ia",
+      "name": "Conteúdo com IA"
+    },
+    {
       "slug": "custos-e-contratacao",
       "name": "Custos e contratação"
     }
   ],
   "slugs": [
     "api-ou-edi-como-trocar-dados-com-parceiros",
+    "automatizar-relatorios-semanais-com-ia-sem-programar",
+    "como-criar-um-assistente-de-ia-pessoal",
+    "como-usar-ia-para-reduzir-tempo-com-emails",
+    "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
     "flutter-ou-react-native",
+    "habilidades-em-ia-no-curriculo-e-linkedin",
+    "melhores-cursos-de-ia-online",
+    "microsoft-copilot-no-office-vale-a-pena",
     "migrar-do-net-framework-para-o-net-8",
+    "o-que-e-engenharia-de-prompt",
     "o-que-entra-no-mvp-de-um-saas",
     "o-que-um-tms-precisa-ter",
-    "quanto-custa-desenvolver-um-sistema-web-sob-medida"
+    "profissoes-que-a-ia-vai-substituir-ate-2030",
+    "quanto-custa-desenvolver-um-sistema-web-sob-medida",
+    "sinais-de-que-a-ia-esta-mudando-sua-profissao"
   ],
   "posts": [
+    {
+      "slug": "melhores-cursos-de-ia-online",
+      "title": "Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-cursos-de-ia-online/",
+      "path": "/blog/melhores-cursos-de-ia-online/",
+      "pubDate": "2026-10-31T15:00:00.000Z"
+    },
+    {
+      "slug": "microsoft-copilot-no-office-vale-a-pena",
+      "title": "Microsoft Copilot no Office: vale a pena pagar? Review completo",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/microsoft-copilot-no-office-vale-a-pena/",
+      "path": "/blog/microsoft-copilot-no-office-vale-a-pena/",
+      "pubDate": "2026-10-31T14:40:00.000Z"
+    },
+    {
+      "slug": "como-criar-um-assistente-de-ia-pessoal",
+      "title": "Como criar um assistente de IA pessoal para organizar sua rotina de trabalho",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-um-assistente-de-ia-pessoal/",
+      "path": "/blog/como-criar-um-assistente-de-ia-pessoal/",
+      "pubDate": "2026-10-31T14:20:00.000Z"
+    },
+    {
+      "slug": "habilidades-em-ia-no-curriculo-e-linkedin",
+      "title": "Como colocar habilidades em IA no currículo e no LinkedIn",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/habilidades-em-ia-no-curriculo-e-linkedin/",
+      "path": "/blog/habilidades-em-ia-no-curriculo-e-linkedin/",
+      "pubDate": "2026-10-31T14:00:00.000Z"
+    },
+    {
+      "slug": "o-que-e-engenharia-de-prompt",
+      "title": "O que é engenharia de prompt e vale a pena aprender?",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/o-que-e-engenharia-de-prompt/",
+      "path": "/blog/o-que-e-engenharia-de-prompt/",
+      "pubDate": "2026-10-31T13:40:00.000Z"
+    },
+    {
+      "slug": "profissoes-que-a-ia-vai-substituir-ate-2030",
+      "title": "Quais profissões a IA vai substituir até 2030? O que dizem os estudos",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/profissoes-que-a-ia-vai-substituir-ate-2030/",
+      "path": "/blog/profissoes-que-a-ia-vai-substituir-ate-2030/",
+      "pubDate": "2026-10-31T13:20:00.000Z"
+    },
+    {
+      "slug": "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
+      "title": "O erro que faz profissionais ficarem para trás na era da IA (e como evitar)",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia/",
+      "path": "/blog/erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia/",
+      "pubDate": "2026-10-31T13:00:00.000Z"
+    },
+    {
+      "slug": "sinais-de-que-a-ia-esta-mudando-sua-profissao",
+      "title": "Sua profissão está em risco? Os sinais de que a IA já está mudando seu cargo",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/sinais-de-que-a-ia-esta-mudando-sua-profissao/",
+      "path": "/blog/sinais-de-que-a-ia-esta-mudando-sua-profissao/",
+      "pubDate": "2026-10-31T12:40:00.000Z"
+    },
+    {
+      "slug": "automatizar-relatorios-semanais-com-ia-sem-programar",
+      "title": "Como automatizar relatórios semanais com IA sem saber programar",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/automatizar-relatorios-semanais-com-ia-sem-programar/",
+      "path": "/blog/automatizar-relatorios-semanais-com-ia-sem-programar/",
+      "pubDate": "2026-10-31T12:20:00.000Z"
+    },
+    {
+      "slug": "como-usar-ia-para-reduzir-tempo-com-emails",
+      "title": "Como usar IA para reduzir pela metade o tempo gasto com e-mails",
+      "category": "ia-no-trabalho",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-reduzir-tempo-com-emails/",
+      "path": "/blog/como-usar-ia-para-reduzir-tempo-com-emails/",
+      "pubDate": "2026-10-31T12:00:00.000Z"
+    },
     {
       "slug": "migrar-do-net-framework-para-o-net-8",
       "title": "Quando vale a pena migrar do .NET Framework para o .NET 8",
@@ -71,67 +185,123 @@
   ],
   "tags": [
     {
+      "tag": "carreira",
+      "count": 5
+    },
+    {
+      "tag": "produtividade",
+      "count": 4
+    },
+    {
+      "tag": "gemini",
+      "count": 3
+    },
+    {
+      "tag": "claude",
+      "count": 2
+    },
+    {
+      "tag": "chatgpt",
+      "count": 2
+    },
+    {
+      "tag": "futuro do trabalho",
+      "count": 2
+    },
+    {
+      "tag": "oit",
+      "count": 2
+    },
+    {
       "tag": "logística",
       "count": 2
     },
     {
-      "tag": ".net",
+      "tag": "cursos",
       "count": 1
     },
     {
-      "tag": "migração",
+      "tag": "educação",
       "count": 1
     },
     {
-      "tag": "legado",
+      "tag": "aprender ia",
       "count": 1
     },
     {
-      "tag": "arquitetura",
+      "tag": "microsoft copilot",
       "count": 1
     },
     {
-      "tag": "tms",
+      "tag": "microsoft 365",
       "count": 1
     },
     {
-      "tag": "ct-e",
+      "tag": "office",
       "count": 1
     },
     {
-      "tag": "mdf-e",
+      "tag": "review",
       "count": 1
     },
     {
-      "tag": "transporte",
+      "tag": "assistente de ia",
       "count": 1
     },
     {
-      "tag": "api",
+      "tag": "gpts",
       "count": 1
     },
     {
-      "tag": "edi",
+      "tag": "currículo",
       "count": 1
     },
     {
-      "tag": "integração",
+      "tag": "linkedin",
       "count": 1
     },
     {
-      "tag": "custo",
+      "tag": "habilidades em ia",
       "count": 1
     },
     {
-      "tag": "orçamento",
+      "tag": "prompt",
       "count": 1
     },
     {
-      "tag": "sistema web",
+      "tag": "engenharia de prompt",
       "count": 1
     },
     {
-      "tag": "contratação",
+      "tag": "profissões",
+      "count": 1
+    },
+    {
+      "tag": "fórum econômico mundial",
+      "count": 1
+    },
+    {
+      "tag": "aprendizado",
+      "count": 1
+    },
+    {
+      "tag": "habilidades",
+      "count": 1
+    },
+    {
+      "tag": "work trend index",
+      "count": 1
+    },
+    {
+      "tag": "mercado de trabalho",
+      "count": 1
+    },
+    {
+      "tag": "automação",
+      "count": 1
+    },
+    {
+      "tag": "relatórios",
       "count": 1
     }
   ],
