@@ -24,7 +24,7 @@ const ALLOWED_DOMAINS = [
   'developers.google.com',
   'wikipedia.org',
   'gov.br',
-  'rafaelnunes93.github.io',
+  'devrafaelnunes.com.br',
   // Fontes de pesquisa, órgãos oficiais e documentação de ferramentas citadas nos posts
   'weforum.org',
   'ilo.org',

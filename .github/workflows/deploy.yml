@@ -37,13 +37,13 @@ jobs:
 
       - run: npm run build
 
-      - name: Publicar no GitHub Pages (branch gh-pages)
+      - name: Publicar na branch cf-pages (a Cloudflare Pages serve o site a partir dela)
         if: github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/rafaelnunes-/browser
-          publish_branch: gh-pages
+          publish_branch: cf-pages
           commit_message: 'deploy: ${{ github.sha }}'
 
       - name: IndexNow

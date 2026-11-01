@@ -1,9 +1,9 @@
 // Fonte única dos dados da marca. Usado pelo app Angular e pelos scripts de build (sem imports do Angular).
 
 export const SITE = {
-  // URL pública sem barra final. Trocar aqui caso o site ganhe domínio próprio.
-  url: 'https://rafaelnunes93.github.io/rafaelnunes-',
-  basePath: '/rafaelnunes-/',
+  // URL pública sem barra final. Ao trocar de domínio, atualize também o --base-href do build (package.json).
+  url: 'https://devrafaelnunes.com.br',
+  basePath: '/',
   repo: { owner: 'rafaelnunes93', name: 'rafaelnunes-', branch: 'master' },
 
   name: 'Rafael Nunes',

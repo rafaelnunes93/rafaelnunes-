@@ -14,7 +14,7 @@ import { PAGE_SEGMENTS } from '../src/app/core/paths';
 
 const DIST = join(process.cwd(), 'dist', 'rafaelnunes-');
 const OUT = join(DIST, 'browser');
-const BASE = SITE.basePath.replace(/\/$/, ''); // "/rafaelnunes-"
+const BASE = SITE.basePath.replace(/\/$/, ''); // vazio quando o site fica na raiz do domínio
 const now = new Date();
 
 const url = (path: string) => {

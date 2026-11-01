@@ -20,7 +20,7 @@
             "outputPath": "dist/rafaelnunes-",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "baseHref": "/rafaelnunes-/",
+            "baseHref": "/",
             "polyfills": [
               "zone.js"
             ],
