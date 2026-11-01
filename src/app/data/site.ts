@@ -36,7 +36,7 @@ export const SITE = {
     { value: 5, suffix: '+', key: 'years' },
     { value: 10, suffix: '+', key: 'projects' },
     { value: 5, suffix: '+', key: 'companies' },
-    { value: 100, suffix: '+', key: 'users' },
+    { value: 6000, suffix: '', key: 'users' },
   ],
 
   // Webhook do n8n que recebe os leads do formulário. Vazio = formulário cai no fallback de WhatsApp/e-mail.
