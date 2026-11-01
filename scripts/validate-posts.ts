@@ -135,6 +135,9 @@ const ALLOWED_DOMAINS = [
   'reclameaqui.com.br',
   'consumidor.gov.br',
   'agenciasebrae.com.br',
+  'stanford.edu',
+  'claude.com',
+  'modelcontextprotocol.io',
   'itau.com.br',
   'stopncii.org',
   'kaspersky.com',
@@ -188,7 +191,9 @@ function main(): void {
     if (seen.has(lower)) errs.push(`slug duplicado de ${seen.get(lower)}`);
     seen.set(lower, p.file);
 
-    if (/^#\s/m.test(p.body)) errs.push('o corpo não pode ter H1 (o H1 é o title)');
+    // Comentários em blocos de código (ex.: # em Python) não são títulos.
+    const prose = p.body.replace(/```[\s\S]*?```/g, '');
+    if (/^#\s/m.test(prose)) errs.push('o corpo não pode ter H1 (o H1 é o title)');
     if (PLACEHOLDER.test(raw)) errs.push('contém placeholder ([PREENCHER], Lorem ipsum ou {{ }})');
 
     if (!p.data.draft) {
