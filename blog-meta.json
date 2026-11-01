@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T13:28:23.968Z",
+  "generatedAt": "2026-11-01T13:39:29.367Z",
   "site": "https://rafaelnunes93.github.io/rafaelnunes-",
   "categories": [
     {
@@ -59,12 +59,16 @@
     "atendimento-no-whatsapp-com-ia-para-pequenas-empresas",
     "autenticacao-em-dois-fatores-como-ativar",
     "automatizar-relatorios-semanais-com-ia-sem-programar",
+    "canal-no-youtube-sem-aparecer-com-ia",
     "chatgpt-gemini-ou-claude-qual-a-melhor-ia",
     "chatgpt-gratis-ou-pago-diferencas",
+    "claude-code-guia-completo",
     "como-criar-agentes-de-ia-para-tarefas-repetitivas",
     "como-criar-app-sem-saber-programar-com-ia",
     "como-criar-plano-de-negocios-com-ia",
     "como-criar-um-assistente-de-ia-pessoal",
+    "como-criar-um-mes-de-posts-com-ia",
+    "como-escrever-artigos-com-ia-que-ranqueiam",
     "como-escrever-prompts-que-funcionam",
     "como-ganhar-dinheiro-com-inteligencia-artificial",
     "como-identificar-deepfake",
@@ -73,23 +77,30 @@
     "como-saber-se-meus-dados-vazaram",
     "como-saber-se-o-celular-esta-sendo-espionado",
     "como-saber-se-um-texto-foi-escrito-por-ia",
+    "como-transformar-video-longo-em-cortes-com-ia",
     "como-usar-ia-no-celular-por-voz",
     "como-usar-ia-para-corrigir-bugs",
     "como-usar-ia-para-precificar-e-analisar-concorrencia",
     "como-usar-ia-para-reduzir-tempo-com-emails",
     "como-usar-ia-para-resumir-pdfs-longos",
+    "conteudo-generico-de-ia-por-que-nao-engaja",
     "cursor-vs-github-copilot-vs-claude-code",
+    "elevenlabs-vale-a-pena-review",
     "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
     "flutter-ou-react-native",
     "golpes-com-ia-clonagem-de-voz-e-rosto",
+    "google-penaliza-conteudo-feito-com-ia",
     "habilidades-em-ia-no-curriculo-e-linkedin",
+    "imagens-geradas-por-ia-uso-comercial",
     "lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots",
     "melhores-cursos-de-ia-online",
     "melhores-ferramentas-de-ia-para-e-commerce",
+    "melhores-ferramentas-de-ia-para-editar-video",
     "melhores-gerenciadores-de-senha",
     "melhores-ias-gratuitas",
     "melhores-plataformas-no-code-com-ia",
     "microsoft-copilot-no-office-vale-a-pena",
+    "midjourney-vs-dall-e-vs-ideogram",
     "migrar-do-net-framework-para-o-net-8",
     "notebooklm-review-estudar-com-ia",
     "notion-ai-vs-clickup-ai",
@@ -110,6 +121,134 @@
     "whatsapp-clonado-o-que-fazer"
   ],
   "posts": [
+    {
+      "slug": "claude-code-guia-completo",
+      "title": "Guia completo do Claude Code: comandos, skills, MCPs e CLAUDE.md",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/claude-code-guia-completo/",
+      "path": "/blog/claude-code-guia-completo/",
+      "pubDate": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "slug": "como-escrever-artigos-com-ia-que-ranqueiam",
+      "title": "Como escrever artigos de blog com IA que ranqueiam no Google",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-escrever-artigos-com-ia-que-ranqueiam/",
+      "path": "/blog/como-escrever-artigos-com-ia-que-ranqueiam/",
+      "pubDate": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "slug": "canal-no-youtube-sem-aparecer-com-ia",
+      "title": "Como criar um canal no YouTube sem aparecer usando IA (e sem perder a monetização)",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/canal-no-youtube-sem-aparecer-com-ia/",
+      "path": "/blog/canal-no-youtube-sem-aparecer-com-ia/",
+      "pubDate": "2026-11-01T11:15:00.000Z"
+    },
+    {
+      "slug": "melhores-ferramentas-de-ia-para-editar-video",
+      "title": "Melhores ferramentas de IA para editar vídeo: comparativo prático",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-ferramentas-de-ia-para-editar-video/",
+      "path": "/blog/melhores-ferramentas-de-ia-para-editar-video/",
+      "pubDate": "2026-11-01T11:00:00.000Z"
+    },
+    {
+      "slug": "elevenlabs-vale-a-pena-review",
+      "title": "ElevenLabs vale a pena? Review do gerador de voz com IA",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/elevenlabs-vale-a-pena-review/",
+      "path": "/blog/elevenlabs-vale-a-pena-review/",
+      "pubDate": "2026-11-01T10:45:00.000Z"
+    },
+    {
+      "slug": "midjourney-vs-dall-e-vs-ideogram",
+      "title": "Midjourney vs DALL·E vs Ideogram: qual o melhor gerador de imagens?",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/midjourney-vs-dall-e-vs-ideogram/",
+      "path": "/blog/midjourney-vs-dall-e-vs-ideogram/",
+      "pubDate": "2026-11-01T10:30:00.000Z"
+    },
+    {
+      "slug": "google-penaliza-conteudo-feito-com-ia",
+      "title": "O Google penaliza conteúdo feito com IA? O que diz a documentação oficial",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/google-penaliza-conteudo-feito-com-ia/",
+      "path": "/blog/google-penaliza-conteudo-feito-com-ia/",
+      "pubDate": "2026-11-01T10:15:00.000Z"
+    },
+    {
+      "slug": "imagens-geradas-por-ia-uso-comercial",
+      "title": "Posso usar imagens geradas por IA comercialmente? O que diz a lei",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/imagens-geradas-por-ia-uso-comercial/",
+      "path": "/blog/imagens-geradas-por-ia-uso-comercial/",
+      "pubDate": "2026-11-01T10:00:00.000Z"
+    },
+    {
+      "slug": "conteudo-generico-de-ia-por-que-nao-engaja",
+      "title": "Conteúdo genérico de IA: por que seus posts não engajam (e como corrigir)",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/conteudo-generico-de-ia-por-que-nao-engaja/",
+      "path": "/blog/conteudo-generico-de-ia-por-que-nao-engaja/",
+      "pubDate": "2026-11-01T09:45:00.000Z"
+    },
+    {
+      "slug": "como-transformar-video-longo-em-cortes-com-ia",
+      "title": "Como transformar um vídeo longo em vários cortes com IA",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-transformar-video-longo-em-cortes-com-ia/",
+      "path": "/blog/como-transformar-video-longo-em-cortes-com-ia/",
+      "pubDate": "2026-11-01T09:30:00.000Z"
+    },
+    {
+      "slug": "como-criar-um-mes-de-posts-com-ia",
+      "title": "Como criar um mês de posts para redes sociais em 2 horas com IA",
+      "category": "conteudo-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-um-mes-de-posts-com-ia/",
+      "path": "/blog/como-criar-um-mes-de-posts-com-ia/",
+      "pubDate": "2026-11-01T09:15:00.000Z"
+    },
+    {
+      "slug": "melhores-plataformas-no-code-com-ia",
+      "title": "Melhores plataformas para criar sites e apps com IA (no-code): comparativo",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-plataformas-no-code-com-ia/",
+      "path": "/blog/melhores-plataformas-no-code-com-ia/",
+      "pubDate": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "slug": "programador-junior-na-era-da-ia",
+      "title": "Programador júnior na era da IA: por que o mercado mudou e como se adaptar",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/programador-junior-na-era-da-ia/",
+      "path": "/blog/programador-junior-na-era-da-ia/",
+      "pubDate": "2026-11-01T08:45:00.000Z"
+    },
+    {
+      "slug": "como-integrar-api-do-chatgpt-ou-claude",
+      "title": "Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-integrar-api-do-chatgpt-ou-claude/",
+      "path": "/blog/como-integrar-api-do-chatgpt-ou-claude/",
+      "pubDate": "2026-11-01T08:30:00.000Z"
+    },
+    {
+      "slug": "qual-linguagem-de-programacao-aprender-primeiro",
+      "title": "Qual linguagem de programação aprender primeiro em 2026?",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/qual-linguagem-de-programacao-aprender-primeiro/",
+      "path": "/blog/qual-linguagem-de-programacao-aprender-primeiro/",
+      "pubDate": "2026-11-01T08:15:00.000Z"
+    },
+    {
+      "slug": "cursor-vs-github-copilot-vs-claude-code",
+      "title": "Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?",
+      "category": "programacao-com-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/cursor-vs-github-copilot-vs-claude-code/",
+      "path": "/blog/cursor-vs-github-copilot-vs-claude-code/",
+      "pubDate": "2026-11-01T08:00:00.000Z"
+    },
     {
       "slug": "como-saber-se-meus-dados-vazaram",
       "title": "Como descobrir se seus dados vazaram e o que fazer em seguida",
@@ -431,46 +570,6 @@
       "pubDate": "2026-10-31T12:00:00.000Z"
     },
     {
-      "slug": "melhores-plataformas-no-code-com-ia",
-      "title": "Melhores plataformas para criar sites e apps com IA (no-code): comparativo",
-      "category": "programacao-com-ia",
-      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-plataformas-no-code-com-ia/",
-      "path": "/blog/melhores-plataformas-no-code-com-ia/",
-      "pubDate": "2026-10-31T11:00:00.000Z"
-    },
-    {
-      "slug": "programador-junior-na-era-da-ia",
-      "title": "Programador júnior na era da IA: por que o mercado mudou e como se adaptar",
-      "category": "programacao-com-ia",
-      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/programador-junior-na-era-da-ia/",
-      "path": "/blog/programador-junior-na-era-da-ia/",
-      "pubDate": "2026-10-31T10:40:00.000Z"
-    },
-    {
-      "slug": "como-integrar-api-do-chatgpt-ou-claude",
-      "title": "Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes",
-      "category": "programacao-com-ia",
-      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-integrar-api-do-chatgpt-ou-claude/",
-      "path": "/blog/como-integrar-api-do-chatgpt-ou-claude/",
-      "pubDate": "2026-10-31T10:20:00.000Z"
-    },
-    {
-      "slug": "qual-linguagem-de-programacao-aprender-primeiro",
-      "title": "Qual linguagem de programação aprender primeiro em 2026?",
-      "category": "programacao-com-ia",
-      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/qual-linguagem-de-programacao-aprender-primeiro/",
-      "path": "/blog/qual-linguagem-de-programacao-aprender-primeiro/",
-      "pubDate": "2026-10-31T10:00:00.000Z"
-    },
-    {
-      "slug": "cursor-vs-github-copilot-vs-claude-code",
-      "title": "Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?",
-      "category": "programacao-com-ia",
-      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/cursor-vs-github-copilot-vs-claude-code/",
-      "path": "/blog/cursor-vs-github-copilot-vs-claude-code/",
-      "pubDate": "2026-10-31T09:40:00.000Z"
-    },
-    {
       "slug": "como-usar-ia-para-corrigir-bugs",
       "title": "Como usar IA para encontrar e corrigir bugs mais rápido",
       "category": "programacao-com-ia",
@@ -546,11 +645,11 @@
   "tags": [
     {
       "tag": "chatgpt",
-      "count": 11
+      "count": 12
     },
     {
       "tag": "produtividade",
-      "count": 11
+      "count": 12
     },
     {
       "tag": "carreira",
@@ -569,6 +668,10 @@
       "count": 7
     },
     {
+      "tag": "comparativo",
+      "count": 6
+    },
+    {
       "tag": "golpes",
       "count": 5
     },
@@ -577,11 +680,11 @@
       "count": 5
     },
     {
-      "tag": "privacidade",
+      "tag": "review",
       "count": 4
     },
     {
-      "tag": "comparativo",
+      "tag": "privacidade",
       "count": 4
     },
     {
@@ -589,15 +692,19 @@
       "count": 4
     },
     {
-      "tag": "ia",
+      "tag": "google",
       "count": 3
     },
     {
-      "tag": "review",
+      "tag": "conteúdo",
       "count": 3
     },
     {
-      "tag": "mercado de trabalho",
+      "tag": "vídeo",
+      "count": 3
+    },
+    {
+      "tag": "marketing",
       "count": 3
     },
     {
@@ -605,63 +712,55 @@
       "count": 3
     },
     {
+      "tag": "mercado de trabalho",
+      "count": 3
+    },
+    {
       "tag": "iniciantes",
       "count": 3
     },
     {
-      "tag": "senhas",
+      "tag": "ia",
+      "count": 3
+    },
+    {
+      "tag": "claude code",
       "count": 2
     },
     {
-      "tag": "lgpd",
+      "tag": "seo",
       "count": 2
     },
     {
-      "tag": "celular",
+      "tag": "capcut",
       "count": 2
     },
     {
-      "tag": "deepfake",
+      "tag": "voz",
       "count": 2
     },
     {
-      "tag": "whatsapp",
+      "tag": "midjourney",
       "count": 2
     },
     {
-      "tag": "e-commerce",
+      "tag": "imagens",
       "count": 2
     },
     {
-      "tag": "ferramentas",
+      "tag": "redes sociais",
       "count": 2
     },
     {
-      "tag": "planilhas",
-      "count": 2
-    },
-    {
-      "tag": "empreendedorismo",
-      "count": 2
-    },
-    {
-      "tag": "atendimento",
-      "count": 2
-    },
-    {
-      "tag": "educação",
-      "count": 2
-    },
-    {
-      "tag": "notebooklm",
-      "count": 2
-    },
-    {
-      "tag": "estudos",
+      "tag": "api",
       "count": 2
     },
     {
       "tag": "openai",
+      "count": 2
+    },
+    {
+      "tag": "python",
       "count": 2
     }
   ],
