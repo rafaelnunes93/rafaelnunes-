@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T02:16:27.424Z",
+  "generatedAt": "2026-11-01T02:23:09.256Z",
   "site": "https://rafaelnunes93.github.io/rafaelnunes-",
   "categories": [
     {
@@ -52,9 +52,11 @@
     }
   ],
   "slugs": [
+    "a-ia-guarda-minhas-conversas",
     "alucinacoes-de-ia-perigo-de-confiar-no-chatbot",
     "api-ou-edi-como-trocar-dados-com-parceiros",
     "atendimento-no-whatsapp-com-ia-para-pequenas-empresas",
+    "autenticacao-em-dois-fatores-como-ativar",
     "automatizar-relatorios-semanais-com-ia-sem-programar",
     "chatgpt-gemini-ou-claude-qual-a-melhor-ia",
     "chatgpt-gratis-ou-pago-diferencas",
@@ -63,6 +65,10 @@
     "como-criar-um-assistente-de-ia-pessoal",
     "como-escrever-prompts-que-funcionam",
     "como-ganhar-dinheiro-com-inteligencia-artificial",
+    "como-identificar-deepfake",
+    "como-proteger-conta-bancaria-e-pix-contra-golpes",
+    "como-saber-se-meus-dados-vazaram",
+    "como-saber-se-o-celular-esta-sendo-espionado",
     "como-saber-se-um-texto-foi-escrito-por-ia",
     "como-usar-ia-no-celular-por-voz",
     "como-usar-ia-para-precificar-e-analisar-concorrencia",
@@ -70,10 +76,12 @@
     "como-usar-ia-para-resumir-pdfs-longos",
     "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
     "flutter-ou-react-native",
+    "golpes-com-ia-clonagem-de-voz-e-rosto",
     "habilidades-em-ia-no-curriculo-e-linkedin",
     "lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots",
     "melhores-cursos-de-ia-online",
     "melhores-ferramentas-de-ia-para-e-commerce",
+    "melhores-gerenciadores-de-senha",
     "melhores-ias-gratuitas",
     "microsoft-copilot-no-office-vale-a-pena",
     "migrar-do-net-framework-para-o-net-8",
@@ -87,9 +95,91 @@
     "quanto-custa-desenvolver-um-sistema-web-sob-medida",
     "quanto-custa-implementar-ia-em-pequena-empresa",
     "sinais-de-que-a-ia-esta-mudando-sua-profissao",
-    "sinais-de-que-sua-empresa-perde-clientes-sem-ia"
+    "sinais-de-que-sua-empresa-perde-clientes-sem-ia",
+    "vpn-vale-a-pena",
+    "whatsapp-clonado-o-que-fazer"
   ],
   "posts": [
+    {
+      "slug": "como-saber-se-meus-dados-vazaram",
+      "title": "Como descobrir se seus dados vazaram e o que fazer em seguida",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-meus-dados-vazaram/",
+      "path": "/blog/como-saber-se-meus-dados-vazaram/",
+      "pubDate": "2026-11-01T01:00:00.000Z"
+    },
+    {
+      "slug": "vpn-vale-a-pena",
+      "title": "VPN vale a pena? O que ela protege, o que não protege e como escolher",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/vpn-vale-a-pena/",
+      "path": "/blog/vpn-vale-a-pena/",
+      "pubDate": "2026-11-01T00:40:00.000Z"
+    },
+    {
+      "slug": "melhores-gerenciadores-de-senha",
+      "title": "Melhores gerenciadores de senha: 1Password vs Bitwarden vs Proton Pass",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-gerenciadores-de-senha/",
+      "path": "/blog/melhores-gerenciadores-de-senha/",
+      "pubDate": "2026-11-01T00:20:00.000Z"
+    },
+    {
+      "slug": "a-ia-guarda-minhas-conversas",
+      "title": "A IA guarda minhas conversas? O que acontece com seus dados nos chatbots",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/a-ia-guarda-minhas-conversas/",
+      "path": "/blog/a-ia-guarda-minhas-conversas/",
+      "pubDate": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "slug": "autenticacao-em-dois-fatores-como-ativar",
+      "title": "O que é autenticação em dois fatores e como ativar em todas as contas",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/autenticacao-em-dois-fatores-como-ativar/",
+      "path": "/blog/autenticacao-em-dois-fatores-como-ativar/",
+      "pubDate": "2026-10-31T23:40:00.000Z"
+    },
+    {
+      "slug": "como-saber-se-o-celular-esta-sendo-espionado",
+      "title": "Como saber se meu celular está sendo espionado?",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-o-celular-esta-sendo-espionado/",
+      "path": "/blog/como-saber-se-o-celular-esta-sendo-espionado/",
+      "pubDate": "2026-10-31T23:20:00.000Z"
+    },
+    {
+      "slug": "como-identificar-deepfake",
+      "title": "Deepfake: como identificar vídeos falsos antes que seja tarde",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-identificar-deepfake/",
+      "path": "/blog/como-identificar-deepfake/",
+      "pubDate": "2026-10-31T23:00:00.000Z"
+    },
+    {
+      "slug": "como-proteger-conta-bancaria-e-pix-contra-golpes",
+      "title": "Como proteger sua conta bancária e o Pix contra golpes digitais",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-proteger-conta-bancaria-e-pix-contra-golpes/",
+      "path": "/blog/como-proteger-conta-bancaria-e-pix-contra-golpes/",
+      "pubDate": "2026-10-31T22:40:00.000Z"
+    },
+    {
+      "slug": "whatsapp-clonado-o-que-fazer",
+      "title": "O que fazer se seu WhatsApp for clonado: guia de emergência",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/whatsapp-clonado-o-que-fazer/",
+      "path": "/blog/whatsapp-clonado-o-que-fazer/",
+      "pubDate": "2026-10-31T22:20:00.000Z"
+    },
+    {
+      "slug": "golpes-com-ia-clonagem-de-voz-e-rosto",
+      "title": "Golpes com IA: como criminosos clonam voz e rosto para enganar famílias",
+      "category": "seguranca-digital",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/golpes-com-ia-clonagem-de-voz-e-rosto/",
+      "path": "/blog/golpes-com-ia-clonagem-de-voz-e-rosto/",
+      "pubDate": "2026-10-31T22:00:00.000Z"
+    },
     {
       "slug": "como-criar-agentes-de-ia-para-tarefas-repetitivas",
       "title": "Como criar agentes de IA que executam tarefas repetitivas do negócio",
@@ -365,28 +455,40 @@
   ],
   "tags": [
     {
+      "tag": "chatgpt",
+      "count": 11
+    },
+    {
       "tag": "produtividade",
       "count": 10
     },
     {
-      "tag": "chatgpt",
-      "count": 10
+      "tag": "gemini",
+      "count": 7
+    },
+    {
+      "tag": "claude",
+      "count": 7
+    },
+    {
+      "tag": "segurança",
+      "count": 6
     },
     {
       "tag": "carreira",
       "count": 6
     },
     {
-      "tag": "gemini",
-      "count": 6
-    },
-    {
-      "tag": "claude",
-      "count": 6
+      "tag": "golpes",
+      "count": 5
     },
     {
       "tag": "automação",
       "count": 5
+    },
+    {
+      "tag": "privacidade",
+      "count": 4
     },
     {
       "tag": "pequenas empresas",
@@ -395,6 +497,26 @@
     {
       "tag": "review",
       "count": 3
+    },
+    {
+      "tag": "senhas",
+      "count": 2
+    },
+    {
+      "tag": "lgpd",
+      "count": 2
+    },
+    {
+      "tag": "celular",
+      "count": 2
+    },
+    {
+      "tag": "deepfake",
+      "count": 2
+    },
+    {
+      "tag": "whatsapp",
+      "count": 2
     },
     {
       "tag": "comparativo",
@@ -441,47 +563,15 @@
       "count": 2
     },
     {
-      "tag": "agentes de ia",
+      "tag": "vazamento de dados",
       "count": 1
     },
     {
-      "tag": "n8n",
+      "tag": "cpf",
       "count": 1
     },
     {
-      "tag": "zapier",
-      "count": 1
-    },
-    {
-      "tag": "notion",
-      "count": 1
-    },
-    {
-      "tag": "clickup",
-      "count": 1
-    },
-    {
-      "tag": "gestão de projetos",
-      "count": 1
-    },
-    {
-      "tag": "loja virtual",
-      "count": 1
-    },
-    {
-      "tag": "marketing",
-      "count": 1
-    },
-    {
-      "tag": "vendas online",
-      "count": 1
-    },
-    {
-      "tag": "precificação",
-      "count": 1
-    },
-    {
-      "tag": "concorrência",
+      "tag": "registrato",
       "count": 1
     }
   ],

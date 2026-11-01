@@ -47,6 +47,16 @@
 - Hoje sou desenvolvedor de software pleno na Aplicativo.NET, onde desenvolvo um ERP para clínicas médicas e odontológicas com .NET e Razor, numa cultura AI First: a inteligência artificial faz parte de todo o processo de desenvolvimento, do entendimento dos requisitos à revisão do código.
 
 ## Artigos
+- [Como descobrir se seus dados vazaram e o que fazer em seguida](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-meus-dados-vazaram/): Ferramentas para verificar se seu e-mail, senhas e CPF apareceram em vazamentos — como Have I Been Pwned e Registrato — e o passo a passo para se proteger depois.
+- [VPN vale a pena? O que ela protege, o que não protege e como escolher](https://rafaelnunes93.github.io/rafaelnunes-/blog/vpn-vale-a-pena/): O que uma VPN faz de verdade, quando vale a pena para brasileiros, os riscos das VPNs gratuitas, o que avaliar antes de assinar e as principais opções.
+- [Melhores gerenciadores de senha: 1Password vs Bitwarden vs Proton Pass](https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-gerenciadores-de-senha/): Comparativo entre 1Password, Bitwarden e Proton Pass: segurança, planos gratuitos e pagos, recursos e qual escolher para uso pessoal, familiar e empresarial.
+- [A IA guarda minhas conversas? O que acontece com seus dados nos chatbots](https://rafaelnunes93.github.io/rafaelnunes-/blog/a-ia-guarda-minhas-conversas/): O que ChatGPT, Gemini e Claude fazem com suas conversas: armazenamento, uso para treinar modelos, revisão humana e as configurações para proteger sua privacidade.
+- [O que é autenticação em dois fatores e como ativar em todas as contas](https://rafaelnunes93.github.io/rafaelnunes-/blog/autenticacao-em-dois-fatores-como-ativar/): Como funciona a autenticação em dois fatores, os tipos (SMS, app autenticador, chave de acesso e chave física), qual é mais segura e como ativar nas contas principais.
+- [Como saber se meu celular está sendo espionado?](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-o-celular-esta-sendo-espionado/): Os sinais de que pode haver um aplicativo espião no celular, como verificar permissões no Android e no iPhone e o que fazer para remover e se proteger.
+- [Deepfake: como identificar vídeos falsos antes que seja tarde](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-identificar-deepfake/): O que são deepfakes, os sinais visuais e de contexto que ajudam a identificá-los, ferramentas de verificação e o que fazer ao encontrar um vídeo falso.
+- [Como proteger sua conta bancária e o Pix contra golpes digitais](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-proteger-conta-bancaria-e-pix-contra-golpes/): Os golpes mais comuns com Pix e contas bancárias, as proteções do Banco Central — limite noturno, MED e botão de contestação — e um checklist de segurança.
+- [O que fazer se seu WhatsApp for clonado: guia de emergência](https://rafaelnunes93.github.io/rafaelnunes-/blog/whatsapp-clonado-o-que-fazer/): Passo a passo para recuperar o WhatsApp clonado ou invadido, avisar contatos, acionar o suporte e o banco, e como evitar que aconteça de novo.
+- [Golpes com IA: como criminosos clonam voz e rosto para enganar famílias](https://rafaelnunes93.github.io/rafaelnunes-/blog/golpes-com-ia-clonagem-de-voz-e-rosto/): Como funcionam os golpes com voz clonada e deepfake, os sinais de alerta e as medidas simples — como a palavra-código da família — que protegem você e seus parentes.
 - [Como criar agentes de IA que executam tarefas repetitivas do negócio](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-agentes-de-ia-para-tarefas-repetitivas/): O que são agentes de IA, quais tarefas eles fazem bem, ferramentas para criar o seu (com e sem código) e as regras de segurança para não perder o controle.
 - [Notion AI vs ClickUp AI: qual organiza melhor sua empresa?](https://rafaelnunes93.github.io/rafaelnunes-/blog/notion-ai-vs-clickup-ai/): Comparativo entre Notion AI e ClickUp Brain: proposta de cada ferramenta, recursos de IA, modelo de cobrança e para que tipo de equipe cada uma funciona melhor.
 - [Melhores ferramentas de IA para e-commerce: comparativo por tarefa](https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-ferramentas-de-ia-para-e-commerce/): As ferramentas de IA mais úteis para lojas virtuais organizadas por tarefa: descrições, fotos, atendimento, anúncios, avaliações e análise de vendas.
@@ -348,6 +358,883 @@ Jogo desenvolvido inteiramente na Unity com C#, com mecânicas de combate, inven
 - Tecnologias: Unity, C#, Game Design, 3D Modeling
 
 # Artigos completos
+
+## Como descobrir se seus dados vazaram e o que fazer em seguida
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-meus-dados-vazaram/
+Publicado em: 2026-11-01
+
+**Resposta rápida:** Para verificar vazamentos, consulte seu e-mail no Have I Been Pwned, use os alertas de senhas vazadas do Google, da Apple ou do seu gerenciador de senhas e acesse o Registrato, do Banco Central, para ver contas, empréstimos e chaves Pix ligados ao seu CPF. Se encontrar algo, troque as senhas afetadas (e as repetidas), ative a autenticação em dois fatores, avise instituições envolvidas, registre boletim de ocorrência em caso de fraude e redobre a atenção com golpes que usam seus dados.
+
+Vazamentos de dados acontecem com frequência: empresas são atacadas, bancos de dados ficam expostos por erro e listas de e-mails, senhas e CPFs circulam em fóruns criminosos. É bem provável que algum dado seu já tenha aparecido em um vazamento. A boa notícia é que dá para verificar e, principalmente, reduzir os danos.
+
+## Por que vazamentos são perigosos
+
+Dados vazados alimentam vários tipos de golpe:
+
+- **Invasão de contas:** senhas vazadas são testadas em outros sites (por isso reutilizar senhas é tão arriscado).
+- **Golpes personalizados:** com seu nome, CPF e endereço, golpistas parecem legítimos ao se passar por bancos e empresas.
+- **Fraudes em seu nome:** abertura de contas, empréstimos e compras usando seus dados.
+- **Phishing direcionado:** e-mails e mensagens que citam informações reais para ganhar sua confiança.
+
+## Como verificar
+
+### E-mail: Have I Been Pwned
+
+O [Have I Been Pwned](https://haveibeenpwned.com/), criado pelo pesquisador de segurança Troy Hunt, reúne bases de dados vazadas e permite consultar se o seu e-mail apareceu em algum incidente. O site mostra quais serviços vazaram e que tipo de dado foi exposto (senha, telefone, endereço). Ele não exibe as senhas. Também é possível cadastrar o e-mail para receber alertas de novos vazamentos.
+
+### Senhas: alertas do navegador e do gerenciador
+
+- O **Gerenciador de Senhas do Google** (no Chrome e no Android) tem uma verificação de senhas comprometidas.
+- O **iPhone** avisa sobre senhas vazadas em Ajustes > Senhas (ou no app Senhas).
+- **Gerenciadores dedicados**, como Bitwarden, 1Password e Proton Pass, monitoram senhas expostas. Veja o [comparativo de gerenciadores de senha](/blog/melhores-gerenciadores-de-senha).
+
+### CPF: Registrato do Banco Central
+
+O **Registrato** é um serviço gratuito do [Banco Central](https://www.bcb.gov.br/cidadaniafinanceira/registrato) que mostra, a partir do seu CPF:
+
+- Contas e relacionamentos com instituições financeiras.
+- Empréstimos e financiamentos.
+- Chaves Pix cadastradas.
+- Cheques sem fundos e outras informações.
+
+O acesso é feito com a conta gov.br. Se aparecer uma conta, empréstimo ou chave Pix que você não reconhece, é sinal de fraude com seus dados.
+
+### Comunicados de empresas
+
+Fique atento a comunicados oficiais de empresas sobre incidentes. Pela LGPD, o controlador deve comunicar incidentes de segurança que possam causar risco ou dano relevante aos titulares. Mas cuidado: golpistas também enviam falsos avisos de vazamento com links maliciosos. Confirme sempre nos canais oficiais.
+
+## O que fazer se seus dados vazaram
+
+### 1. Troque as senhas
+
+Troque a senha do serviço afetado e de **todos os outros onde você usava a mesma senha**. Use senhas únicas e fortes para cada conta — um gerenciador de senhas resolve isso.
+
+### 2. Ative a autenticação em dois fatores
+
+Com a 2FA, mesmo que a senha vaze de novo, o invasor não entra. Comece pelo e-mail, WhatsApp, gov.br e bancos. Veja o guia de [autenticação em dois fatores](/blog/autenticacao-em-dois-fatores-como-ativar).
+
+### 3. Revise contas e sessões
+
+Verifique dispositivos conectados e atividades recentes no e-mail, redes sociais e bancos. Encerre sessões desconhecidas.
+
+### 4. Monitore o CPF
+
+Consulte o Registrato periodicamente e acompanhe seu CPF em serviços de proteção ao crédito. Ao identificar contas ou empréstimos desconhecidos, entre em contato com a instituição e registre boletim de ocorrência.
+
+### 5. Redobre a atenção com golpes
+
+Depois de um vazamento, aumentam as tentativas de golpe usando seus dados. Desconfie de ligações e mensagens que citam seu CPF ou endereço para parecer legítimas. Bancos não pedem senhas, códigos nem transferências por telefone — veja [como proteger sua conta bancária e o Pix](/blog/como-proteger-conta-bancaria-e-pix-contra-golpes).
+
+### 6. Registre ocorrências quando houver fraude
+
+Boletim de ocorrência, contato com a instituição envolvida e reclamação nos canais de defesa do consumidor ajudam a resolver e a documentar o caso.
+
+## Como reduzir a exposição no futuro
+
+- Use **senhas únicas** para cada serviço.
+- Ative a **2FA** em tudo o que permitir.
+- Forneça **apenas os dados necessários** em cadastros.
+- Use **aliases de e-mail** para cadastros menos importantes (recurso de alguns gerenciadores e serviços de e-mail).
+- **Apague contas** que você não usa mais.
+- Desconfie de sites que pedem seu CPF sem necessidade.
+
+O [CERT.br](https://cartilha.cert.br/) mantém a Cartilha de Segurança para Internet, com orientações gratuitas e atualizadas sobre vazamentos e proteção de dados.
+
+## Conclusão
+
+Vazamentos estão fora do seu controle, mas as consequências não precisam estar. Verificar e-mail, senhas e CPF em ferramentas confiáveis, trocar senhas repetidas, ativar a verificação em duas etapas e monitorar seu CPF reduz muito o risco de um vazamento virar prejuízo. Reserve meia hora hoje para fazer essa revisão — é um dos melhores investimentos em segurança que você pode fazer.
+
+---
+
+## VPN vale a pena? O que ela protege, o que não protege e como escolher
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/vpn-vale-a-pena/
+Publicado em: 2026-11-01
+
+**Resposta rápida:** Uma VPN cria um túnel criptografado entre seu aparelho e um servidor, escondendo seu tráfego da rede local e do provedor de internet e mascarando seu endereço IP para os sites. Vale a pena para quem usa Wi-Fi público com frequência, viaja, trabalha remotamente com dados sensíveis ou quer mais privacidade em relação ao provedor. Ela não deixa você anônimo, não protege contra golpes, vírus e phishing e transfere a confiança para a empresa de VPN. Evite VPNs gratuitas desconhecidas e prefira serviços auditados com política de não registro.
+
+VPN virou uma das ferramentas de segurança mais anunciadas da internet, com promessas de "anonimato total" e "proteção contra hackers". A realidade é mais modesta — e mais útil de entender. Uma VPN resolve alguns problemas muito bem e não resolve outros. Este artigo explica o que ela faz, quando vale a pena e como escolher.
+
+> **Como este artigo foi feito:** baseado no funcionamento técnico das VPNs e nas informações públicas dos provedores citados. Preços e recursos mudam com frequência; consulte os sites oficiais.
+
+## Como uma VPN funciona
+
+Sem VPN, seu tráfego sai do aparelho, passa pela rede local (o Wi-Fi da cafeteria, por exemplo) e pelo seu provedor de internet até chegar ao site. Com a VPN:
+
+1. Seu aparelho cria um **túnel criptografado** até um servidor da empresa de VPN.
+2. Todo o tráfego passa por esse túnel.
+3. O servidor da VPN acessa os sites por você, com o **endereço IP dele**.
+
+Resultado: quem está na rede local e o seu provedor veem apenas que você está conectado a uma VPN, não os sites que acessa. E os sites veem o IP do servidor da VPN, não o seu.
+
+## O que a VPN protege
+
+- **Wi-Fi público:** impede que outras pessoas na mesma rede espionem seu tráfego. Hoje, a maioria dos sites já usa HTTPS, o que reduz esse risco, mas a VPN adiciona uma camada extra, inclusive para aplicativos e consultas DNS.
+- **Privacidade em relação ao provedor:** o provedor de internet deixa de ver quais sites você acessa.
+- **Seu IP real:** os sites passam a ver o IP do servidor da VPN, o que dificulta associar sua navegação à sua localização.
+- **Trabalho remoto:** empresas usam VPNs corporativas para dar acesso seguro a sistemas internos.
+
+## O que a VPN NÃO protege
+
+- **Anonimato total:** se você entra na sua conta do Google, do Instagram ou do banco, esses serviços sabem quem você é, com ou sem VPN.
+- **Golpes e phishing:** a VPN não impede que você clique num link falso ou informe sua senha a um golpista.
+- **Vírus e aplicativos espiões:** a VPN não é antivírus. Veja [como saber se o celular está sendo espionado](/blog/como-saber-se-o-celular-esta-sendo-espionado).
+- **Rastreamento por cookies e contas:** sites e anunciantes continuam rastreando você por outros meios.
+- **A própria empresa de VPN:** ela passa a enxergar o que o provedor enxergava. Você está transferindo a confiança — por isso a escolha do serviço importa tanto.
+
+## Quando vale a pena
+
+**Vale a pena se você:**
+
+- Usa Wi-Fi público com frequência (aeroportos, hotéis, cafeterias, eventos).
+- Viaja muito e acessa contas importantes em redes desconhecidas.
+- Trabalha remotamente com informações sensíveis.
+- Quer mais privacidade em relação ao seu provedor de internet.
+- É jornalista, ativista ou trabalha com temas sensíveis.
+
+**Provavelmente não precisa se você:**
+
+- Usa internet quase sempre em casa e no 4G/5G.
+- Busca apenas "proteção contra hackers" de forma genérica — nesse caso, senhas fortes, [autenticação em dois fatores](/blog/autenticacao-em-dois-fatores-como-ativar) e atualizações trazem mais proteção.
+
+## O cuidado com VPNs gratuitas
+
+Manter servidores custa caro. Quando o serviço é gratuito e desconhecido, a pergunta é: como ele ganha dinheiro? Muitas VPNs gratuitas já foram flagradas coletando dados de navegação, exibindo anúncios invasivos, usando criptografia fraca ou até contendo malware.
+
+Exceções confiáveis existem, normalmente planos gratuitos limitados de empresas com serviço pago e reputação estabelecida, como o plano grátis da [Proton VPN](https://proton.me/vpn).
+
+## O que avaliar antes de assinar
+
+1. **Política de não registro (no-logs)**, preferencialmente **verificada por auditoria independente**.
+2. **Jurisdição:** em que país a empresa está e quais leis se aplicam.
+3. **Protocolos modernos**, como WireGuard ou OpenVPN.
+4. **Kill switch:** bloqueia a internet se a VPN cair, evitando vazamento do seu IP real.
+5. **Histórico e transparência:** relatórios de transparência, código aberto, como a empresa lidou com incidentes.
+6. **Servidores próximos** para manter a velocidade (servidores no Brasil ou na América do Sul ajudam).
+7. **Aplicativos para todos os seus aparelhos** e número de conexões simultâneas.
+
+## Opções conhecidas
+
+Entre os serviços mais citados por especialistas estão a **Proton VPN** (suíça, com plano gratuito e código aberto), a **Mullvad** (conhecida pelo foco em privacidade e cadastro sem e-mail), além de serviços populares como **NordVPN** e **Surfshark**, que passaram por auditorias de suas políticas de não registro. Pesquise as auditorias mais recentes antes de decidir.
+
+## VPN no Brasil
+
+O uso de VPN é legal no país. Ela é usada por empresas, profissionais em trabalho remoto e pessoas preocupadas com privacidade. O que é ilegal é usar qualquer ferramenta para cometer crimes ou descumprir decisões judiciais — em 2024, por exemplo, uma decisão do STF previu multa para quem usasse VPN para acessar uma rede social suspensa no país.
+
+## Veredito
+
+Uma VPN confiável é uma boa ferramenta de privacidade, principalmente para quem usa redes públicas e trabalha fora de casa. Mas ela não é um escudo mágico: não substitui senhas fortes, verificação em duas etapas, atualizações e atenção a golpes. Se decidir usar, escolha um serviço auditado e evite VPNs gratuitas de procedência duvidosa.
+
+---
+
+## Melhores gerenciadores de senha: 1Password vs Bitwarden vs Proton Pass
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-gerenciadores-de-senha/
+Publicado em: 2026-11-01
+
+**Resposta rápida:** Os três são opções sólidas com criptografia de ponta a ponta. O Bitwarden é código aberto, tem um plano gratuito completo e preços baixos nos planos pagos — a melhor escolha para quem quer economizar. O Proton Pass, da empresa suíça Proton, também tem plano gratuito e se destaca pela privacidade e pelos aliases de e-mail. O 1Password não tem plano gratuito, mas oferece a experiência mais polida e recursos fortes para famílias e empresas. O importante é usar um gerenciador e uma senha mestra forte com autenticação em dois fatores.
+
+A maioria das pessoas tem dezenas — às vezes centenas — de contas online. Ninguém consegue memorizar uma senha forte e diferente para cada uma. O resultado é a reutilização de senhas, que transforma um único vazamento numa invasão em cadeia. O **gerenciador de senhas** resolve esse problema: cria, guarda e preenche senhas únicas para cada site, e você só precisa lembrar de uma senha mestra.
+
+Este comparativo analisa três dos gerenciadores mais recomendados: **1Password**, **Bitwarden** e **Proton Pass**.
+
+> **Como este comparativo foi feito:** a análise se baseia na documentação, nas páginas de segurança e de preços oficiais das empresas. Preços e recursos mudam; confira em [1password.com](https://1password.com/), [bitwarden.com](https://bitwarden.com/) e [proton.me/pass](https://proton.me/pass).
+
+## O que todo bom gerenciador precisa ter
+
+- **Criptografia de ponta a ponta:** a empresa não consegue ver suas senhas.
+- **Gerador de senhas fortes.**
+- **Preenchimento automático** em navegadores e aplicativos.
+- **Sincronização** entre computador e celular.
+- **Autenticação em dois fatores** para proteger o próprio cofre.
+- **Alertas de senhas vazadas, fracas ou repetidas.**
+- **Suporte a chaves de acesso (passkeys).**
+
+Os três desta lista atendem a esses requisitos.
+
+## Bitwarden
+
+O Bitwarden é **código aberto**, o que permite que especialistas independentes examinem o código, e passa por auditorias de segurança publicadas.
+
+- **Plano gratuito:** senhas ilimitadas em dispositivos ilimitados — um dos planos grátis mais completos do mercado.
+- **Planos pagos:** baratos, com recursos como autenticador integrado e relatórios de segurança; há plano familiar.
+- **Empresas:** planos para equipes e organizações, com opção de hospedar no próprio servidor.
+- **Ponto fraco:** interface funcional, mas menos refinada que a do 1Password.
+
+**Ideal para:** quem quer segurança séria gastando pouco ou nada.
+
+## Proton Pass
+
+Criado pela Proton, empresa suíça conhecida pelo Proton Mail e pela Proton VPN, o Proton Pass tem foco forte em privacidade.
+
+- **Plano gratuito:** senhas ilimitadas e uso em vários dispositivos, com alguns limites em recursos extras.
+- **Aliases de e-mail:** cria endereços de e-mail alternativos para cadastros, protegendo seu e-mail real contra spam e vazamentos.
+- **Código aberto e auditado.**
+- **Integração com o ecossistema Proton** (e-mail, VPN, armazenamento) nos pacotes pagos.
+
+**Ideal para:** quem prioriza privacidade e quer proteger também o e-mail com aliases.
+
+## 1Password
+
+O 1Password é conhecido pela experiência de uso mais polida e por recursos avançados de segurança.
+
+- **Sem plano gratuito** (há período de teste).
+- **Chave secreta:** além da senha mestra, usa uma chave secreta gerada no seu aparelho, o que torna o cofre mais resistente a ataques mesmo que a senha mestra seja fraca.
+- **Watchtower:** monitora senhas vazadas, fracas e sites sem autenticação em dois fatores.
+- **Modo Viagem:** permite ocultar cofres ao cruzar fronteiras.
+- **Planos familiares e empresariais** muito bem avaliados.
+
+**Ideal para:** famílias e empresas que valorizam facilidade de uso e estão dispostas a pagar.
+
+## Tabela comparativa
+
+| | Bitwarden | Proton Pass | 1Password |
+|---|---|---|---|
+| Plano gratuito | Sim, completo | Sim | Não (teste) |
+| Código aberto | Sim | Sim | Não |
+| Destaque | Custo-benefício | Privacidade e aliases de e-mail | Experiência e recursos |
+| Família | Sim | Sim | Sim |
+| Empresas | Sim (inclui auto-hospedagem) | Sim | Sim |
+| Passkeys | Sim | Sim | Sim |
+
+## Uma lição do passado
+
+Em 2022, o LastPass, outro gerenciador popular, sofreu um ataque em que criminosos copiaram cofres criptografados de clientes. O episódio mostrou duas coisas: a importância de escolher empresas com boa arquitetura de segurança e transparência, e a necessidade de uma **senha mestra longa e forte** — ela é o que protege o cofre mesmo se a empresa for atacada.
+
+## Como começar
+
+1. **Escolha um gerenciador** com base no seu perfil.
+2. **Crie uma senha mestra forte:** uma frase longa com várias palavras aleatórias é fácil de lembrar e difícil de quebrar.
+3. **Ative a autenticação em dois fatores** no gerenciador. Veja [como ativar a 2FA](/blog/autenticacao-em-dois-fatores-como-ativar).
+4. **Guarde o kit de recuperação** em local seguro.
+5. **Importe as senhas** salvas no navegador.
+6. **Troque primeiro as senhas mais importantes:** e-mail, bancos, redes sociais.
+7. **Use o relatório de segurança** para trocar senhas repetidas e vazadas aos poucos.
+
+## Conclusão
+
+Qualquer um dos três protege muito melhor do que memorizar ou repetir senhas. Para economizar, o Bitwarden é imbatível; para privacidade, o Proton Pass; para a melhor experiência em família e empresa, o 1Password. O passo mais importante não é escolher o "perfeito", e sim começar hoje — com uma senha mestra forte e a verificação em duas etapas ativada.
+
+---
+
+## A IA guarda minhas conversas? O que acontece com seus dados nos chatbots
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/a-ia-guarda-minhas-conversas/
+Publicado em: 2026-11-01
+
+**Resposta rápida:** Sim, em geral os chatbots guardam suas conversas no histórico até você apagá-las, e as empresas podem retê-las por um período adicional por motivos de segurança e obrigações legais. Nas contas pessoais, as conversas podem ser usadas para melhorar os modelos, mas ChatGPT, Gemini e Claude oferecem configurações para controlar isso. Em alguns serviços, uma amostra das conversas pode ser lida por revisores humanos. Planos corporativos costumam ter regras mais rígidas. Regra prática: não escreva no chatbot nada que você não colocaria num documento compartilhado.
+
+Muita gente conversa com chatbots como se estivesse num diário: conta problemas pessoais, cola documentos do trabalho, pede conselhos médicos e financeiros. Mas para onde vão essas conversas? Quem pode lê-las? Elas treinam a IA? As respostas variam por empresa e por tipo de conta — e as configurações fazem diferença.
+
+> **Atenção:** as políticas de privacidade dessas empresas mudam com frequência. As informações abaixo resumem o funcionamento geral divulgado pelas empresas; confira sempre as políticas e configurações atuais de cada serviço.
+
+## As três perguntas que importam
+
+1. **A conversa fica armazenada?** Por quanto tempo?
+2. **É usada para treinar os modelos?**
+3. **Alguém pode ler?**
+
+## ChatGPT (OpenAI)
+
+- **Armazenamento:** as conversas ficam no histórico até você apagá-las. Segundo a OpenAI, conversas apagadas são removidas dos sistemas em um prazo adicional, salvo obrigações legais ou de segurança.
+- **Treinamento:** nas contas pessoais, a OpenAI pode usar conversas para melhorar os modelos, mas há uma opção nas configurações de controle de dados para desativar esse uso.
+- **Chat Temporário:** conversas temporárias não aparecem no histórico nem são usadas para treinamento.
+- **Planos corporativos:** segundo a empresa, dados de clientes Business e Enterprise não são usados para treinamento por padrão.
+- **Ordens judiciais:** em 2025, uma ordem judicial num processo nos Estados Unidos obrigou temporariamente a OpenAI a preservar conversas que normalmente seriam apagadas — um lembrete de que "apagar" depende também de obrigações legais.
+
+Mais detalhes na [central de privacidade da OpenAI](https://openai.com/policies/privacy-policy/).
+
+## Gemini (Google)
+
+- **Armazenamento:** com a "Atividade nos apps Gemini" ativada, as conversas ficam salvas na sua Conta do Google, com exclusão automática configurável.
+- **Revisão humana:** o Google informa que revisores humanos podem ler uma amostra das conversas para melhorar o serviço, e recomenda não inserir informações confidenciais. Conversas revisadas podem ser mantidas por mais tempo, desvinculadas da sua conta.
+- **Controle:** você pode desativar a atividade, ajustar o período de exclusão automática e apagar conversas em myactivity.google.com.
+- **Google Workspace:** nas contas corporativas e educacionais, o Google declara regras diferentes de proteção, sem uso dos dados para treinar modelos fora do domínio.
+
+Veja a [central de privacidade dos apps Gemini](https://support.google.com/gemini/answer/13594961).
+
+## Claude (Anthropic)
+
+- **Armazenamento:** as conversas ficam no histórico até você apagá-las.
+- **Treinamento:** em 2025, a Anthropic passou a pedir que usuários das contas pessoais escolham se permitem o uso das conversas para treinar os modelos. Quem permite tem os dados retidos por mais tempo; quem não permite mantém o prazo padrão de retenção. A escolha pode ser alterada nas configurações de privacidade.
+- **Planos corporativos e API:** segundo a empresa, seguem termos comerciais próprios, sem uso para treinamento por padrão.
+
+Detalhes na [política de privacidade da Anthropic](https://www.anthropic.com/legal/privacy).
+
+## Como proteger sua privacidade
+
+### Configure cada serviço
+
+- **Desative o uso para treinamento** nas configurações de privacidade, se preferir.
+- **Ajuste a exclusão automática** do histórico.
+- **Use modos temporários** para assuntos sensíveis, quando disponíveis.
+- **Apague conversas** que contenham informações pessoais.
+
+### Cuide do que você escreve
+
+Evite colocar em qualquer chatbot:
+
+- Senhas, números de cartão, dados bancários.
+- Documentos de identidade e CPF.
+- Dados de saúde detalhados ligados ao seu nome.
+- Informações confidenciais da empresa ou de clientes.
+- Dados pessoais de outras pessoas sem necessidade.
+
+Se precisar de ajuda com um documento, **remova ou substitua** nomes, números e dados identificáveis antes de colar.
+
+### No trabalho
+
+Use as versões corporativas aprovadas pela empresa, que têm contratos de proteção de dados. Colar dados de clientes em contas pessoais pode violar a LGPD — veja [LGPD e IA: os riscos de colocar dados de clientes em chatbots](/blog/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots).
+
+### Proteja a conta
+
+Sua conta no chatbot guarda todo o histórico. Use senha forte e ative a [autenticação em dois fatores](/blog/autenticacao-em-dois-fatores-como-ativar).
+
+## Seus direitos
+
+Pela LGPD, você pode solicitar às empresas informações sobre o tratamento dos seus dados, correção e exclusão. As principais empresas de IA oferecem formulários ou opções nas configurações para exportar e apagar dados.
+
+## Conclusão
+
+Os chatbots guardam suas conversas, podem usá-las para melhorar os modelos e, em alguns casos, permitem que humanos leiam uma amostra. Você tem controle sobre boa parte disso nas configurações — vale gastar cinco minutos ajustando. E a proteção mais eficaz continua sendo a mais simples: não compartilhar com a IA aquilo que você não compartilharia com um desconhecido.
+
+---
+
+## O que é autenticação em dois fatores e como ativar em todas as contas
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/autenticacao-em-dois-fatores-como-ativar/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Autenticação em dois fatores (2FA) exige uma segunda prova de identidade além da senha — um código do aplicativo autenticador, uma notificação no celular, uma chave de acesso (passkey) ou uma chave física. Assim, mesmo que a senha vaze, o invasor não entra. Os métodos mais seguros são chaves de acesso e chaves físicas; o app autenticador é muito melhor que SMS. Ative primeiro no e-mail principal, no WhatsApp, na conta gov.br, nas redes sociais e no gerenciador de senhas, e guarde os códigos de recuperação em local seguro.
+
+Senhas vazam o tempo todo: em ataques a empresas, em páginas falsas, em aparelhos infectados. Por isso, depender apenas de uma senha é como trancar a porta e deixar a chave embaixo do tapete. A **autenticação em dois fatores** (também chamada de verificação em duas etapas ou 2FA) acrescenta uma segunda trava — e é uma das medidas de segurança mais eficazes que existem.
+
+## Como funciona
+
+A ideia é combinar dois tipos diferentes de prova de identidade:
+
+- **Algo que você sabe:** senha ou PIN.
+- **Algo que você tem:** celular, chave física.
+- **Algo que você é:** impressão digital, rosto.
+
+Quando você faz login, o serviço pede a senha e, em seguida, a segunda prova. Um criminoso que descobriu sua senha ainda precisaria do seu celular ou da sua chave física.
+
+## Os tipos de segundo fator, do mais fraco ao mais forte
+
+### 1. Código por SMS
+
+Você recebe um código por mensagem de texto. É prático, mas vulnerável: criminosos podem transferir seu número para outro chip com fraude na operadora, ou convencer você a informar o código.
+
+### 2. Código por e-mail
+
+Funciona como o SMS, mas depende da segurança do seu e-mail. Se o e-mail for invadido, a proteção cai.
+
+### 3. Aplicativo autenticador
+
+Aplicativos como Google Authenticator, Microsoft Authenticator e os autenticadores embutidos em gerenciadores de senha geram códigos que mudam a cada 30 segundos, direto no aparelho, sem depender da operadora. É muito mais seguro que o SMS.
+
+### 4. Notificação no celular
+
+O serviço envia uma notificação para um aparelho já conectado, e você aprova o login. É prático e seguro, mas cuidado com aprovações automáticas: nunca aprove um login que você não iniciou.
+
+### 5. Chaves de acesso (passkeys)
+
+As chaves de acesso usam a biometria ou o PIN do seu aparelho e um par de chaves criptográficas. São resistentes a phishing, porque só funcionam no site verdadeiro. Google, Apple, Microsoft e muitos outros serviços já oferecem. O padrão é promovido pela [FIDO Alliance](https://fidoalliance.org/passkeys/).
+
+### 6. Chave física de segurança
+
+Dispositivos USB ou NFC que você conecta ou aproxima do aparelho. São o método mais robusto, recomendado para quem tem contas de alto valor ou é alvo de ataques direcionados.
+
+## Por onde começar
+
+Ative primeiro nas contas que, se invadidas, dão acesso às outras:
+
+1. **E-mail principal** (Gmail, Outlook): é por ele que você recupera todas as outras senhas.
+2. **WhatsApp**: ative a confirmação em duas etapas com PIN. Veja o [guia para WhatsApp clonado](/blog/whatsapp-clonado-o-que-fazer).
+3. **Conta gov.br**: dá acesso a serviços públicos, documentos e dados sensíveis.
+4. **Gerenciador de senhas**: protege todas as suas senhas de uma vez.
+5. **Redes sociais**: Instagram, Facebook, TikTok, LinkedIn.
+6. **Contas de compras e serviços financeiros**.
+7. **Contas de trabalho**.
+
+## Como ativar nas principais contas
+
+Os caminhos podem mudar com atualizações, mas em geral:
+
+- **Google:** Conta do Google > Segurança > Verificação em duas etapas. Também é possível criar chaves de acesso. Veja a [ajuda do Google](https://support.google.com/accounts/answer/185839).
+- **Microsoft:** Conta Microsoft > Segurança > Opções avançadas de segurança.
+- **Apple:** a autenticação de dois fatores do ID Apple vem ativada em contas novas; confira em Ajustes > [seu nome] > Iniciar Sessão e Segurança.
+- **WhatsApp:** Configurações > Conta > Confirmação em duas etapas.
+- **Instagram e Facebook:** Central de Contas > Senha e segurança > Autenticação de dois fatores.
+- **gov.br:** no app ou site do gov.br, em Segurança, habilite a verificação em duas etapas.
+
+## Os códigos de recuperação
+
+Ao ativar a 2FA, muitos serviços mostram **códigos de recuperação** para usar se você perder o celular. Guarde-os em local seguro: no gerenciador de senhas ou impressos num lugar protegido. Sem eles, recuperar a conta pode ser difícil ou impossível.
+
+## Cuidados importantes
+
+- **Nunca informe códigos** a ninguém, por telefone ou mensagem. Nenhuma empresa legítima pede.
+- **Não aprove notificações de login** que você não iniciou. Pedidos repetidos são sinal de ataque.
+- **Proteja o chip:** peça à operadora um PIN para o chip e uma senha de atendimento.
+- **Cadastre mais de um método** quando possível (por exemplo, passkey e app autenticador).
+- **Combine com senhas fortes e únicas.** A 2FA não substitui boas senhas; veja os [melhores gerenciadores de senha](/blog/melhores-gerenciadores-de-senha).
+
+## Conclusão
+
+Ativar a autenticação em dois fatores leva poucos minutos por conta e bloqueia a grande maioria das invasões baseadas em senhas vazadas. Comece pelo e-mail e pelo WhatsApp, prefira app autenticador ou chaves de acesso ao SMS e guarde os códigos de recuperação. É uma das melhores relações entre esforço e proteção em toda a segurança digital.
+
+---
+
+## Como saber se meu celular está sendo espionado?
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-o-celular-esta-sendo-espionado/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Sinais de alerta incluem bateria acabando rápido sem motivo, aquecimento e consumo de dados fora do normal, aplicativos desconhecidos, permissões estranhas (acessibilidade, administrador do dispositivo, localização sempre ativa) e contas logadas em aparelhos que você não reconhece. Nenhum sinal sozinho é prova. Para verificar, revise aplicativos instalados, permissões e dispositivos conectados às suas contas, ative o Google Play Protect ou atualize o iPhone, troque senhas e ative a verificação em duas etapas. Em casos graves, faça backup e restaure o aparelho para as configurações de fábrica.
+
+A sensação de que alguém sabe demais sobre você — onde esteve, com quem conversou, o que escreveu — pode ter explicação. Aplicativos espiões, também chamados de *spyware* ou *stalkerware*, existem e são vendidos abertamente como "controle parental" ou "monitoramento". Em muitos casos, são instalados por pessoas próximas, com acesso ao aparelho.
+
+Este artigo mostra os sinais de alerta, como verificar o seu celular e o que fazer.
+
+## Quem costuma espionar celulares
+
+- **Pessoas próximas** (parceiros, ex-parceiros, familiares) que tiveram acesso ao aparelho ou conhecem suas senhas. É o caso mais comum.
+- **Golpistas** que enganam a vítima para instalar aplicativos de acesso remoto ("para resolver um problema na conta").
+- **Ataques sofisticados**, com ferramentas caras, contra alvos específicos como jornalistas, ativistas e autoridades.
+
+Se você suspeita de alguém próximo e se sente em risco, priorize sua segurança pessoal: remover o aplicativo pode alertar a pessoa. Procure apoio de pessoas de confiança e, se necessário, das autoridades.
+
+## Sinais de alerta
+
+Nenhum sinal isolado prova espionagem — muitos têm explicações comuns. Mas a combinação deles merece investigação:
+
+- **Bateria acabando muito rápido** sem mudança no seu uso.
+- **Aquecimento** do aparelho parado.
+- **Consumo de dados móveis** acima do normal.
+- **Aplicativos desconhecidos**, ou com nomes genéricos como "Serviço do sistema" ou "Sync".
+- **Permissões incomuns**: apps com acesso à acessibilidade, administrador do dispositivo ou localização o tempo todo.
+- **Contas abertas em aparelhos que você não reconhece** (WhatsApp Web, Google, iCloud).
+- **Pessoas sabendo de conversas ou lugares** que você não contou.
+- **Configurações alteradas** sem você mexer.
+
+## Como verificar no Android
+
+1. **Aplicativos instalados:** em Configurações > Apps, revise a lista completa, incluindo apps de sistema. Pesquise nomes desconhecidos.
+2. **Acessibilidade:** em Configurações > Acessibilidade, veja quais apps têm esse acesso, que permite ler a tela e controlar o aparelho. Spywares abusam muito dessa permissão.
+3. **Administradores do dispositivo:** em Segurança, procure "apps de administrador do dispositivo" e desative os desconhecidos.
+4. **Permissões:** no Gerenciador de permissões, confira quem acessa localização, microfone, câmera, SMS e contatos.
+5. **Google Play Protect:** na Play Store, abra o Play Protect e faça uma verificação. Saiba mais na [central de ajuda do Google](https://support.google.com/googleplay/answer/2812853).
+6. **Instalação de fontes desconhecidas:** desative a permissão para instalar apps fora da Play Store.
+
+## Como verificar no iPhone
+
+1. **Atualize o iOS:** atualizações corrigem falhas exploradas por invasores.
+2. **Perfis e gerenciamento:** em Ajustes > Geral > VPN e Gerenciamento de Dispositivos, remova perfis que você não instalou.
+3. **ID Apple:** em Ajustes > [seu nome], veja a lista de dispositivos conectados à sua conta e remova os desconhecidos. Troque a senha do ID Apple.
+4. **Verificação de Segurança:** o recurso de Verificação de Segurança, em Ajustes > Privacidade e Segurança, ajuda a revisar e revogar acessos compartilhados com outras pessoas. Veja o [guia da Apple](https://support.apple.com/guide/personal-safety/welcome/web).
+5. **Modo de Isolamento:** para quem pode ser alvo de ataques sofisticados, a Apple oferece o Modo de Isolamento (Lockdown Mode), que reduz drasticamente a superfície de ataque.
+
+## Verifique suas contas, não só o celular
+
+Muitas vezes, o espião não está no aparelho, mas nas contas:
+
+- **WhatsApp:** em Dispositivos conectados, desconecte o que não reconhecer.
+- **Google:** em myaccount.google.com, veja os dispositivos com acesso e a atividade recente.
+- **iCloud:** confira dispositivos e compartilhamentos de localização.
+- **Redes sociais:** revise sessões ativas.
+- **Compartilhamento de localização:** verifique Google Maps, Buscar (iPhone) e apps de família.
+
+## O que fazer se encontrar algo
+
+1. **Avalie sua segurança** antes de remover, se suspeitar de alguém próximo.
+2. **Faça backup** das fotos e documentos importantes (sem restaurar aplicativos suspeitos depois).
+3. **Remova o aplicativo** e as permissões indevidas.
+4. **Troque as senhas** do Google/ID Apple, e-mail, WhatsApp e bancos — de outro aparelho, se possível.
+5. **Ative a verificação em duas etapas** em todas as contas. Veja [como ativar a autenticação em dois fatores](/blog/autenticacao-em-dois-fatores-como-ativar).
+6. **Em caso de dúvida, restaure o aparelho** para as configurações de fábrica.
+7. **Registre boletim de ocorrência** se houver crime: invasão de dispositivo informático é crime previsto no Código Penal brasileiro.
+
+## Como prevenir
+
+- Use **bloqueio de tela** com senha forte (não apenas desenho simples) e não compartilhe.
+- Não deixe o celular desbloqueado com outras pessoas.
+- Instale apps apenas das **lojas oficiais**.
+- Mantenha o sistema **atualizado**.
+- Desconfie de quem pede para você instalar um app "de suporte" ou "de segurança".
+- Revise permissões e dispositivos conectados a cada poucos meses.
+
+## Conclusão
+
+Espionagem de celular é mais comum do que parece e, na maioria das vezes, depende de acesso físico ao aparelho ou às suas senhas. Revisar aplicativos, permissões e dispositivos conectados, trocar senhas e ativar a verificação em duas etapas resolve a maioria dos casos. E, se a suspeita envolver alguém próximo, lembre-se de que sua segurança pessoal vem em primeiro lugar.
+
+---
+
+## Deepfake: como identificar vídeos falsos antes que seja tarde
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-identificar-deepfake/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Deepfakes são vídeos, imagens ou áudios manipulados por IA para mostrar alguém dizendo ou fazendo algo que nunca aconteceu. Para identificar, observe o contexto (quem publicou, se veículos confiáveis noticiaram, se o conteúdo provoca emoção extrema ou pede dinheiro), procure falhas visuais (boca fora de sincronia, piscadas estranhas, bordas do rosto borradas, mãos e dentes deformados) e use busca reversa de imagens. Como as falhas estão diminuindo, o contexto e a verificação em fontes confiáveis são as defesas mais importantes.
+
+Um vídeo de um apresentador famoso recomendando um investimento. Um áudio de um político dizendo algo escandaloso. Uma videochamada do "diretor" pedindo uma transferência urgente. Todos podem ser **deepfakes** — conteúdos criados ou manipulados por inteligência artificial para parecer reais.
+
+As ferramentas que produzem esse tipo de conteúdo ficaram acessíveis e o resultado, cada vez mais convincente. Saber identificar sinais de manipulação virou uma habilidade básica de segurança digital.
+
+## O que é um deepfake
+
+O termo vem da junção de *deep learning* (aprendizado profundo, uma técnica de IA) com *fake* (falso). Os tipos mais comuns:
+
+- **Troca de rosto:** o rosto de uma pessoa é colocado no corpo de outra.
+- **Sincronização labial:** a boca é animada para combinar com um áudio falso.
+- **Voz clonada:** a voz de alguém é imitada para dizer qualquer frase.
+- **Imagens geradas:** fotos realistas de situações que nunca aconteceram.
+- **Deepfake em tempo real:** manipulação durante videochamadas.
+
+## Onde aparecem com mais frequência
+
+- **Golpes financeiros:** anúncios com famosos falsos promovendo investimentos, sorteios ou produtos.
+- **Golpes de personificação:** falsos parentes, chefes ou autoridades pedindo dinheiro — veja [golpes com clonagem de voz e rosto](/blog/golpes-com-ia-clonagem-de-voz-e-rosto).
+- **Desinformação política:** vídeos e áudios falsos de candidatos e autoridades.
+- **Assédio e extorsão:** montagens íntimas sem consentimento.
+
+## Como identificar: o contexto primeiro
+
+Os sinais visuais estão ficando mais sutis a cada geração das ferramentas. Por isso, comece sempre pelo contexto:
+
+1. **Quem publicou?** Um perfil oficial e verificado ou uma conta desconhecida, recente, sem histórico?
+2. **Onde mais está?** Um fato importante seria noticiado por veículos confiáveis. Se só aparece em redes sociais e grupos, desconfie.
+3. **Provoca emoção extrema?** Indignação, medo e euforia fazem as pessoas compartilharem sem pensar.
+4. **Pede dinheiro ou dados?** Famosos não fazem promoções pedindo Pix em anúncios suspeitos.
+5. **É bom (ou chocante) demais para ser verdade?** Geralmente é.
+
+## Sinais visuais de manipulação
+
+Ainda úteis, principalmente em deepfakes de menor qualidade:
+
+- **Boca e fala fora de sincronia**, ou movimentos labiais pouco naturais.
+- **Piscadas estranhas:** muito raras, muito frequentes ou ausentes.
+- **Bordas do rosto** borradas, tremendo ou com cor diferente do pescoço.
+- **Iluminação e sombras inconsistentes** entre rosto e ambiente.
+- **Dentes, orelhas, cabelo e mãos** deformados ou "derretendo".
+- **Óculos e brincos** que aparecem e somem.
+- **Pele lisa demais**, sem textura natural.
+- **Movimentos de cabeça** limitados ou travados.
+
+## Sinais em áudios
+
+- Entonação monótona ou emoção fora de lugar.
+- Respiração ausente ou estranha.
+- Pronúncia incomum de nomes e palavras específicas.
+- Ruídos de fundo que mudam de repente.
+
+## Ferramentas que ajudam
+
+- **Busca reversa de imagens:** o Google Lens e ferramentas semelhantes encontram a origem de uma imagem ou de quadros de um vídeo, revelando se o conteúdo original era outro.
+- **Agências de checagem:** veículos especializados em verificação de fatos analisam conteúdos virais.
+- **Credenciais de conteúdo:** o padrão [C2PA](https://c2pa.org/) permite registrar a origem e as edições de imagens e vídeos. Algumas câmeras, ferramentas de edição e plataformas já exibem essas informações.
+- **Marcas d'água de IA:** empresas como o Google aplicam marcas invisíveis, como o SynthID, em conteúdos gerados pelos seus modelos.
+
+Nenhuma dessas ferramentas é infalível. Use-as como apoio, não como veredito.
+
+## Em videochamadas
+
+Se suspeitar de uma videochamada:
+
+- Peça para a pessoa virar o rosto de lado ou passar a mão na frente do rosto (alguns deepfakes falham nesses movimentos).
+- Faça perguntas que só a pessoa verdadeira saberia responder.
+- Encerre e ligue de volta pelo número que você já conhece.
+- Em empresas, nunca aprove transferências apenas com base em chamadas de vídeo.
+
+## O que fazer ao encontrar um deepfake
+
+1. **Não compartilhe**, nem para criticar — isso amplia o alcance.
+2. **Denuncie** o conteúdo na plataforma.
+3. Se envolver golpe, **avise as pessoas próximas** que podem ser alvo.
+4. Se você for a vítima, **guarde provas**, registre boletim de ocorrência e procure orientação jurídica.
+
+## Conclusão
+
+Deepfakes vão continuar melhorando, e os sinais visuais tendem a desaparecer. A defesa mais duradoura é o hábito de verificar: quem publicou, onde mais aparece, o que o conteúdo pede de você. Diante de qualquer vídeo que provoque emoção forte ou peça dinheiro, a regra é simples: pare, confira e só depois acredite — ou compartilhe.
+
+---
+
+## Como proteger sua conta bancária e o Pix contra golpes digitais
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-proteger-conta-bancaria-e-pix-contra-golpes/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Para proteger sua conta e o Pix: ajuste os limites de transferência no aplicativo do banco (inclusive o limite noturno), ative todas as camadas de segurança do app (biometria, senha forte, verificação em duas etapas), nunca informe senhas ou códigos por telefone, desconfie de urgência e de links recebidos por mensagem e confira o nome do recebedor antes de confirmar um Pix. Se cair em um golpe, use imediatamente o botão de contestação no app do banco, que aciona o Mecanismo Especial de Devolução (MED) do Banco Central.
+
+O Pix revolucionou os pagamentos no Brasil: é instantâneo, gratuito para pessoas físicas e funciona 24 horas. Essas mesmas características o tornaram alvo preferido dos golpistas, porque o dinheiro sai na hora. A boa notícia é que existem proteções eficazes — algumas definidas pelo Banco Central, outras que dependem de hábitos simples.
+
+## Os golpes mais comuns
+
+### Falsa central de atendimento
+
+Alguém liga se passando pelo banco, informa uma "compra suspeita" e pede que você transfira o dinheiro para uma "conta segura", informe códigos ou instale um aplicativo de "proteção" — que, na verdade, dá acesso remoto ao celular.
+
+### Falso parente ou amigo
+
+Mensagens de WhatsApp de um número desconhecido ("troquei de número") ou de uma conta clonada pedindo dinheiro urgente. Agora, também com áudios e vídeos gerados por IA — veja [golpes com clonagem de voz e rosto](/blog/golpes-com-ia-clonagem-de-voz-e-rosto).
+
+### Links falsos
+
+SMS, e-mails ou mensagens com links para páginas que imitam o banco, órgãos públicos, lojas ou serviços de entrega, para roubar senhas e dados do cartão.
+
+### Falsos vendedores e boletos
+
+Produtos muito baratos em redes sociais e marketplaces, pagos por Pix para pessoas físicas, que nunca são entregues. E boletos adulterados com dados de pagamento alterados.
+
+### Investimentos milagrosos
+
+Promessas de rendimentos altos e garantidos, muitas vezes com uso indevido da imagem de famosos.
+
+## As proteções do Banco Central
+
+O Banco Central criou várias regras de segurança para o Pix. Vale conhecê-las, conforme informações do [site oficial do Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix):
+
+- **Limite noturno:** por padrão, as transferências de pessoas físicas no período noturno têm limite reduzido. Você pode ajustar no aplicativo; aumentos de limite costumam ter prazo de carência, justamente para dificultar a ação de criminosos.
+- **Limites personalizáveis:** cada cliente pode definir limites menores para o Pix, por período.
+- **Mecanismo Especial de Devolução (MED):** permite bloquear e devolver recursos em casos de fraude. Com as regras atualizadas pela Resolução BCB nº 493, de 2025, o mecanismo passou a permitir o rastreamento do dinheiro em mais de uma conta e devoluções parciais.
+- **Botão de contestação:** as instituições são obrigadas a oferecer, no aplicativo, uma forma de o cliente contestar um Pix por fraude, sem depender de atendimento humano.
+- **Marcação de contas suspeitas:** informações sobre chaves e contas envolvidas em fraudes são compartilhadas entre as instituições.
+
+## Checklist de segurança
+
+### No aplicativo do banco
+
+- [ ] **Reduza os limites do Pix** ao que você realmente usa (inclusive o noturno).
+- [ ] Ative **biometria** e use uma senha forte e exclusiva.
+- [ ] Ative as **notificações** de todas as transações.
+- [ ] Cadastre apenas **aparelhos confiáveis** e remova os antigos.
+- [ ] Mantenha o app e o sistema do celular **atualizados**.
+
+### No dia a dia
+
+- [ ] **Nunca informe senhas, códigos ou tokens** por telefone, mensagem ou e-mail.
+- [ ] **Não clique em links** recebidos por SMS ou WhatsApp para acessar o banco; abra o aplicativo.
+- [ ] **Confira o nome do recebedor** antes de confirmar o Pix.
+- [ ] **Desconfie de urgência**: golpistas sempre têm pressa.
+- [ ] **Desligue e ligue de volta** para o número oficial do banco (o que está no cartão ou no app) quando receber ligações.
+- [ ] **Não instale aplicativos** a pedido de "atendentes".
+
+### No celular
+
+- [ ] Use **bloqueio de tela** com senha ou biometria.
+- [ ] Ative a **verificação em duas etapas** no WhatsApp e no e-mail.
+- [ ] Não deixe senhas anotadas em fotos ou notas do celular.
+- [ ] Ative recursos de **localização e bloqueio remoto** para caso de roubo.
+
+## Se você caiu em um golpe
+
+1. **Acione o banco imediatamente** pelos canais oficiais e use o **botão de contestação** do Pix no aplicativo.
+2. **Registre boletim de ocorrência** com todos os detalhes.
+3. **Guarde provas:** comprovantes, conversas, números, prints.
+4. **Troque senhas** se houver suspeita de acesso à sua conta ou ao celular.
+5. **Registre reclamação** no Banco Central ou no [consumidor.gov.br](https://www.consumidor.gov.br/) se o banco não oferecer resposta adequada.
+
+A devolução não é garantida: depende de a fraude ser confirmada e de ainda haver saldo na conta que recebeu o dinheiro. Por isso, a velocidade faz toda a diferença.
+
+## Se o celular for roubado
+
+1. Ligue para o banco e peça o bloqueio dos acessos e cartões.
+2. Bloqueie o chip com a operadora.
+3. Use a localização remota do Android ou do iPhone para bloquear ou apagar o aparelho.
+4. Troque as senhas de e-mail e aplicativos importantes.
+5. Registre boletim de ocorrência.
+
+## Conclusão
+
+A maior parte dos golpes com Pix depende de convencer a vítima a agir com pressa ou a revelar informações. Limites ajustados, aplicativos protegidos e o hábito de desligar e confirmar pelos canais oficiais bloqueiam a maioria das tentativas. E, se algo der errado, lembre-se: contestação imediata no app do banco, boletim de ocorrência e provas guardadas.
+
+---
+
+## O que fazer se seu WhatsApp for clonado: guia de emergência
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/whatsapp-clonado-o-que-fazer/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Se o seu WhatsApp foi clonado, reinstale o aplicativo e entre com seu número usando o código recebido por SMS — isso desconecta o invasor do aparelho dele. Avise imediatamente seus contatos por outros canais que alguém está usando sua conta, envie e-mail ao suporte (support@whatsapp.com) relatando a conta roubada, avise seu banco e registre boletim de ocorrência. Depois de recuperar, ative a verificação em duas etapas com um PIN e um e-mail de recuperação.
+
+Clonagem de WhatsApp é um dos golpes mais comuns no Brasil. O criminoso assume o seu número e começa a pedir dinheiro aos seus contatos, se passando por você. Cada minuto conta: quanto mais rápido você agir, menos pessoas caem no golpe.
+
+Este guia mostra o que fazer, na ordem certa.
+
+## Como saber se o WhatsApp foi clonado
+
+Sinais comuns:
+
+- O aplicativo exibe uma mensagem de que o seu número foi registrado em outro aparelho.
+- Você não consegue mais acessar a conta.
+- Amigos e parentes recebem mensagens suas pedindo dinheiro que você não enviou.
+- Você recebeu um código de verificação por SMS sem ter pedido.
+
+**Atenção a um golpe parecido:** muitas vezes o criminoso não clona o seu número, mas cria uma conta nova com a sua foto e o seu nome, dizendo que "trocou de número". Nesse caso, sua conta continua com você, mas os contatos precisam ser avisados do mesmo jeito.
+
+## Passo a passo de emergência
+
+### 1. Recupere a conta (agora)
+
+Abra o WhatsApp no seu celular (se precisar, reinstale) e entre com o seu número. Você vai receber um código por SMS. Ao confirmar, o seu número volta para o seu aparelho e o invasor é desconectado. Essa é a principal orientação da [central de ajuda do WhatsApp](https://faq.whatsapp.com/) para contas roubadas.
+
+**Se aparecer um pedido de PIN** (verificação em duas etapas) que você não criou, o invasor ativou o recurso. Sem o PIN, o aplicativo pode exigir um período de espera antes de permitir um novo registro. Siga as instruções da tela.
+
+### 2. Avise seus contatos
+
+Enquanto recupera a conta, avise por outros canais — ligação, SMS, redes sociais, e-mail — que alguém está se passando por você. Peça para ninguém transferir dinheiro e para denunciar as mensagens recebidas.
+
+### 3. Acione o suporte do WhatsApp
+
+Envie um e-mail para **support@whatsapp.com** com o assunto "Conta roubada/desativar minha conta", informando o número completo com código do país (+55 e DDD) e explicando o que aconteceu. Também é possível pedir ajuda pelo próprio app, no menu de configurações, opção de ajuda e contato.
+
+### 4. Avise o banco
+
+Se o golpista usou a sua conta para pedir dinheiro, ou se o seu celular tem aplicativos bancários, avise seu banco. Se alguém transferiu dinheiro para o golpista, a pessoa deve contatar o banco dela imediatamente e usar o botão de contestação do Pix.
+
+### 5. Registre boletim de ocorrência
+
+O registro ajuda em investigações e pode ser necessário para contestar transações. Muitos estados permitem o registro online na delegacia virtual.
+
+### 6. Verifique seus outros aplicativos
+
+Se o invasor teve acesso ao seu celular ou ao seu número, verifique e-mail, redes sociais e contas que usam SMS para recuperação. Troque senhas e ative a verificação em duas etapas onde for possível.
+
+## Como evitar que aconteça de novo
+
+### Ative a verificação em duas etapas
+
+No WhatsApp, acesse **Configurações > Conta > Confirmação em duas etapas** e crie um PIN de 6 dígitos. Cadastre também um e-mail de recuperação. Com isso, mesmo que alguém consiga o código do SMS, não conseguirá registrar o seu número sem o PIN.
+
+Entenda como funciona esse tipo de proteção no guia sobre [autenticação em dois fatores](/blog/autenticacao-em-dois-fatores-como-ativar).
+
+### Nunca compartilhe o código de verificação
+
+O código de 6 dígitos enviado por SMS é a chave da sua conta. **Nenhuma empresa legítima pede esse código** por telefone ou mensagem — nem o WhatsApp, nem lojas, nem bancos, nem serviços de entrega.
+
+### Desconfie de mensagens com pressa
+
+Golpistas criam histórias para justificar o pedido do código: confirmação de cadastro em promoção, pesquisa com brinde, atualização de dados, entrega pendente. Pressa é sinal de golpe.
+
+### Proteja o chip
+
+Peça à operadora um PIN para o chip (SIM) e cadastre uma senha de atendimento. Isso dificulta a troca indevida do chip por criminosos.
+
+### Revise os aparelhos conectados
+
+No WhatsApp, a opção de **dispositivos conectados** mostra onde a sua conta está aberta (WhatsApp Web e computador). Desconecte o que não reconhecer.
+
+## Se um contato seu foi clonado
+
+Se você recebeu um pedido de dinheiro de um conhecido:
+
+1. Não transfira nada.
+2. Ligue para a pessoa no número que você já tinha.
+3. Avise que a conta dela pode ter sido clonada.
+4. Denuncie e bloqueie o contato falso no WhatsApp.
+
+## Conclusão
+
+Recuperar um WhatsApp clonado depende de agir rápido: entrar de novo com o seu número, avisar os contatos e acionar suporte, banco e polícia. A prevenção é ainda mais simples: verificação em duas etapas ativada e nunca, em hipótese alguma, compartilhar o código de verificação. Compartilhe este guia com quem você conhece — a próxima vítima pode ser alguém próximo.
+
+---
+
+## Golpes com IA: como criminosos clonam voz e rosto para enganar famílias
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/golpes-com-ia-clonagem-de-voz-e-rosto/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Criminosos usam trechos de áudio e vídeo publicados em redes sociais para clonar a voz e o rosto de uma pessoa com IA e, depois, pedir dinheiro a parentes e amigos simulando uma emergência. Para se proteger: combine uma palavra-código com a família, desligue e ligue de volta para o número que você já conhece, desconfie de urgência e de pedidos de Pix para contas de terceiros, reduza a exposição de áudios e vídeos públicos e avise os parentes mais velhos sobre esse tipo de golpe.
+
+O telefone toca. É a voz do seu filho, chorando, dizendo que sofreu um acidente e precisa de dinheiro urgente. A voz é idêntica. O desespero é real — mas a ligação não é. Golpes com **voz e rosto clonados por inteligência artificial** se espalharam porque as ferramentas ficaram baratas, fáceis de usar e assustadoramente convincentes.
+
+Este artigo explica como o golpe funciona e o que fazer para proteger você e sua família.
+
+## Como o golpe funciona
+
+### 1. Coleta de material
+
+Os criminosos procuram áudios e vídeos da vítima em redes sociais, vídeos públicos, mensagens de voz encaminhadas e até ligações gravadas. Uma pessoa que publica stories falando, vídeos ou podcasts oferece bastante material.
+
+### 2. Clonagem com IA
+
+Com ferramentas de síntese de voz, eles criam uma imitação capaz de dizer qualquer frase. Para vídeos, usam ferramentas de deepfake que trocam ou animam rostos — inclusive em tempo real, em videochamadas.
+
+### 3. O roteiro de emergência
+
+O golpe quase sempre segue um padrão:
+
+- **Urgência:** acidente, sequestro, prisão, problema médico, dívida que precisa ser paga agora.
+- **Segredo:** "não conta para ninguém", "não liga para a mamãe".
+- **Pagamento rápido:** Pix, muitas vezes para uma conta em nome de outra pessoa.
+- **Pressão emocional:** choro, gritos, ameaças.
+
+### 4. Variações
+
+- **Falso parente** pedindo dinheiro por áudio no WhatsApp.
+- **Falso chefe ou executivo** pedindo transferência urgente para a área financeira de uma empresa.
+- **Falso famoso** em vídeo promovendo investimentos ou produtos (deepfake em anúncios).
+- **Falso advogado ou policial** dizendo que um parente foi preso.
+
+Bancos brasileiros, como o [Itaú](https://www.itau.com.br/relacoes-com-investidores/noticias/itau-unibanco-alerta-para-golpes-com-deepfakes-e-reforca-orientacoes-de-seguranca-digital/), já alertaram clientes sobre golpistas que usam amostras de voz das redes sociais para imitar parentes. Nos Estados Unidos, a Comissão Federal de Comércio ([FTC](https://consumer.ftc.gov/)) também orienta consumidores sobre golpes de "emergência familiar" com vozes clonadas.
+
+## Os sinais de alerta
+
+- Pedido de dinheiro **urgente** e **inesperado**.
+- Pedido para **não contar a ninguém**.
+- Pagamento para **conta de terceiros**, com desculpas ("a conta do meu amigo", "do advogado").
+- **Número desconhecido** ou novo ("troquei de celular").
+- A pessoa **evita perguntas** ou desliga quando você pede detalhes.
+- Qualidade de áudio ou vídeo estranha, cortes, pausas fora de lugar, expressão facial pouco natural.
+
+Importante: com IA, a voz e o rosto podem parecer perfeitos. **O sinal mais confiável é o contexto**, não a qualidade.
+
+## Como se proteger
+
+### Combine uma palavra-código com a família
+
+É a medida mais simples e eficaz. Escolha uma palavra ou frase que só a família conhece e que não aparece nas redes sociais. Em qualquer pedido de emergência por telefone, áudio ou vídeo, peça a palavra-código.
+
+### Desligue e ligue de volta
+
+Desligue e ligue para o número que você já tem salvo da pessoa. Se não conseguir falar com ela, ligue para alguém que esteja perto dela. Nunca use o número que fez o contato.
+
+### Faça perguntas que só a pessoa saberia
+
+"Qual o nome do nosso primeiro cachorro?", "onde passamos o último Natal?". Evite perguntas cujas respostas estão nas redes sociais.
+
+### Reduza a exposição
+
+- Deixe perfis em redes sociais privados, se possível.
+- Evite publicar áudios e vídeos falando por muito tempo em perfis abertos.
+- Cuidado com informações sobre rotina, viagens e família.
+
+### Proteja os mais velhos
+
+Idosos são alvos frequentes. Converse com seus pais e avós sobre esse golpe, explique a palavra-código e reforce: **nenhuma emergência real é prejudicada por uma ligação de confirmação de dois minutos**.
+
+### Nas empresas
+
+- Estabeleça que transferências nunca são autorizadas apenas por ligação, áudio ou vídeo.
+- Exija confirmação por um segundo canal e aprovação de mais de uma pessoa para valores altos.
+- Treine a equipe financeira para reconhecer o golpe do falso executivo.
+
+## Se você caiu no golpe
+
+1. **Ligue para o banco imediatamente** e informe a fraude.
+2. **Use o botão de contestação do Pix** no aplicativo do banco. O [Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/pix) obriga as instituições a oferecer esse recurso, que aciona o Mecanismo Especial de Devolução (MED). A devolução não é garantida, mas quanto mais rápido, maior a chance de bloquear o dinheiro.
+3. **Registre boletim de ocorrência** (muitos estados permitem pela internet).
+4. **Guarde as provas:** números, prints, áudios, comprovantes.
+5. **Avise os contatos** para que ninguém mais caia.
+
+Veja mais detalhes em [como proteger sua conta bancária e o Pix contra golpes](/blog/como-proteger-conta-bancaria-e-pix-contra-golpes).
+
+## Conclusão
+
+A inteligência artificial tornou possível imitar a voz e o rosto de qualquer pessoa, mas os golpistas ainda dependem de uma coisa: fazer você agir antes de pensar. Palavra-código, ligação de confirmação e desconfiança diante da urgência são defesas simples que funcionam. Compartilhe essas orientações com sua família — especialmente com quem é menos familiarizado com tecnologia.
+
+---
 
 ## Como criar agentes de IA que executam tarefas repetitivas do negócio
 
