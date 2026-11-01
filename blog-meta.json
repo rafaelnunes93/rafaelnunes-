@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T02:03:13.778Z",
+  "generatedAt": "2026-11-01T02:09:49.394Z",
   "site": "https://rafaelnunes93.github.io/rafaelnunes-",
   "categories": [
     {
@@ -52,24 +52,114 @@
     }
   ],
   "slugs": [
+    "alucinacoes-de-ia-perigo-de-confiar-no-chatbot",
     "api-ou-edi-como-trocar-dados-com-parceiros",
     "automatizar-relatorios-semanais-com-ia-sem-programar",
+    "chatgpt-gemini-ou-claude-qual-a-melhor-ia",
+    "chatgpt-gratis-ou-pago-diferencas",
     "como-criar-um-assistente-de-ia-pessoal",
+    "como-escrever-prompts-que-funcionam",
+    "como-saber-se-um-texto-foi-escrito-por-ia",
+    "como-usar-ia-no-celular-por-voz",
     "como-usar-ia-para-reduzir-tempo-com-emails",
+    "como-usar-ia-para-resumir-pdfs-longos",
     "erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia",
     "flutter-ou-react-native",
     "habilidades-em-ia-no-curriculo-e-linkedin",
     "melhores-cursos-de-ia-online",
+    "melhores-ias-gratuitas",
     "microsoft-copilot-no-office-vale-a-pena",
     "migrar-do-net-framework-para-o-net-8",
+    "notebooklm-review-estudar-com-ia",
     "o-que-e-engenharia-de-prompt",
     "o-que-entra-no-mvp-de-um-saas",
     "o-que-um-tms-precisa-ter",
+    "perplexity-vale-a-pena-review",
     "profissoes-que-a-ia-vai-substituir-ate-2030",
     "quanto-custa-desenvolver-um-sistema-web-sob-medida",
     "sinais-de-que-a-ia-esta-mudando-sua-profissao"
   ],
   "posts": [
+    {
+      "slug": "como-saber-se-um-texto-foi-escrito-por-ia",
+      "title": "Como saber se um texto foi escrito por IA? O que funciona de verdade",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-um-texto-foi-escrito-por-ia/",
+      "path": "/blog/como-saber-se-um-texto-foi-escrito-por-ia/",
+      "pubDate": "2026-10-31T18:20:00.000Z"
+    },
+    {
+      "slug": "como-usar-ia-no-celular-por-voz",
+      "title": "Como usar IA no celular por voz para tarefas do dia a dia",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-no-celular-por-voz/",
+      "path": "/blog/como-usar-ia-no-celular-por-voz/",
+      "pubDate": "2026-10-31T18:00:00.000Z"
+    },
+    {
+      "slug": "notebooklm-review-estudar-com-ia",
+      "title": "NotebookLM: review da ferramenta do Google para estudar com IA",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/notebooklm-review-estudar-com-ia/",
+      "path": "/blog/notebooklm-review-estudar-com-ia/",
+      "pubDate": "2026-10-31T17:40:00.000Z"
+    },
+    {
+      "slug": "perplexity-vale-a-pena-review",
+      "title": "Perplexity vale a pena? Review do buscador com IA que desafia o Google",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/perplexity-vale-a-pena-review/",
+      "path": "/blog/perplexity-vale-a-pena-review/",
+      "pubDate": "2026-10-31T17:20:00.000Z"
+    },
+    {
+      "slug": "melhores-ias-gratuitas",
+      "title": "IA gratuita: as melhores opções sem pagar nada",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-ias-gratuitas/",
+      "path": "/blog/melhores-ias-gratuitas/",
+      "pubDate": "2026-10-31T17:00:00.000Z"
+    },
+    {
+      "slug": "como-usar-ia-para-resumir-pdfs-longos",
+      "title": "Como fazer a IA ler e resumir PDFs longos em minutos",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-resumir-pdfs-longos/",
+      "path": "/blog/como-usar-ia-para-resumir-pdfs-longos/",
+      "pubDate": "2026-10-31T16:40:00.000Z"
+    },
+    {
+      "slug": "alucinacoes-de-ia-perigo-de-confiar-no-chatbot",
+      "title": "Alucinações de IA: o perigo de confiar cegamente nas respostas do chatbot",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot/",
+      "path": "/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot/",
+      "pubDate": "2026-10-31T16:20:00.000Z"
+    },
+    {
+      "slug": "como-escrever-prompts-que-funcionam",
+      "title": "Por que a IA dá respostas erradas? Como escrever prompts que funcionam",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/como-escrever-prompts-que-funcionam/",
+      "path": "/blog/como-escrever-prompts-que-funcionam/",
+      "pubDate": "2026-10-31T16:00:00.000Z"
+    },
+    {
+      "slug": "chatgpt-gratis-ou-pago-diferencas",
+      "title": "Qual a diferença entre o ChatGPT gratuito e o pago?",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/chatgpt-gratis-ou-pago-diferencas/",
+      "path": "/blog/chatgpt-gratis-ou-pago-diferencas/",
+      "pubDate": "2026-10-31T15:40:00.000Z"
+    },
+    {
+      "slug": "chatgpt-gemini-ou-claude-qual-a-melhor-ia",
+      "title": "ChatGPT, Gemini ou Claude: qual a melhor IA em 2026?",
+      "category": "ferramentas-de-ia",
+      "url": "https://rafaelnunes93.github.io/rafaelnunes-/blog/chatgpt-gemini-ou-claude-qual-a-melhor-ia/",
+      "path": "/blog/chatgpt-gemini-ou-claude-qual-a-melhor-ia/",
+      "pubDate": "2026-10-31T15:20:00.000Z"
+    },
     {
       "slug": "melhores-cursos-de-ia-online",
       "title": "Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira",
@@ -185,23 +275,35 @@
   ],
   "tags": [
     {
+      "tag": "chatgpt",
+      "count": 9
+    },
+    {
+      "tag": "produtividade",
+      "count": 8
+    },
+    {
+      "tag": "gemini",
+      "count": 6
+    },
+    {
+      "tag": "claude",
+      "count": 6
+    },
+    {
       "tag": "carreira",
       "count": 5
     },
     {
-      "tag": "produtividade",
-      "count": 4
-    },
-    {
-      "tag": "gemini",
+      "tag": "review",
       "count": 3
     },
     {
-      "tag": "claude",
+      "tag": "educação",
       "count": 2
     },
     {
-      "tag": "chatgpt",
+      "tag": "notebooklm",
       "count": 2
     },
     {
@@ -217,91 +319,79 @@
       "count": 2
     },
     {
-      "tag": "cursos",
+      "tag": "detector de ia",
       "count": 1
     },
     {
-      "tag": "educação",
+      "tag": "texto gerado por ia",
       "count": 1
     },
     {
-      "tag": "aprender ia",
+      "tag": "synthid",
       "count": 1
     },
     {
-      "tag": "microsoft copilot",
+      "tag": "voz",
       "count": 1
     },
     {
-      "tag": "microsoft 365",
+      "tag": "celular",
       "count": 1
     },
     {
-      "tag": "office",
+      "tag": "gemini live",
       "count": 1
     },
     {
-      "tag": "review",
+      "tag": "google",
       "count": 1
     },
     {
-      "tag": "assistente de ia",
+      "tag": "estudos",
       "count": 1
     },
     {
-      "tag": "gpts",
+      "tag": "perplexity",
       "count": 1
     },
     {
-      "tag": "currículo",
+      "tag": "buscador",
       "count": 1
     },
     {
-      "tag": "linkedin",
+      "tag": "pesquisa",
       "count": 1
     },
     {
-      "tag": "habilidades em ia",
+      "tag": "ia gratuita",
       "count": 1
     },
     {
-      "tag": "prompt",
+      "tag": "ferramentas",
       "count": 1
     },
     {
-      "tag": "engenharia de prompt",
+      "tag": "pdf",
       "count": 1
     },
     {
-      "tag": "profissões",
+      "tag": "resumo",
       "count": 1
     },
     {
-      "tag": "fórum econômico mundial",
+      "tag": "alucinação",
       "count": 1
     },
     {
-      "tag": "aprendizado",
+      "tag": "riscos da ia",
       "count": 1
     },
     {
-      "tag": "habilidades",
+      "tag": "verificação de fatos",
       "count": 1
     },
     {
-      "tag": "work trend index",
-      "count": 1
-    },
-    {
-      "tag": "mercado de trabalho",
-      "count": 1
-    },
-    {
-      "tag": "automação",
-      "count": 1
-    },
-    {
-      "tag": "relatórios",
+      "tag": "prompts",
       "count": 1
     }
   ],

@@ -47,6 +47,16 @@
 - Hoje sou desenvolvedor de software pleno na Aplicativo.NET, onde desenvolvo um ERP para clínicas médicas e odontológicas com .NET e Razor, numa cultura AI First: a inteligência artificial faz parte de todo o processo de desenvolvimento, do entendimento dos requisitos à revisão do código.
 
 ## Artigos
+- [Como saber se um texto foi escrito por IA? O que funciona de verdade](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-um-texto-foi-escrito-por-ia/): Por que detectores de IA não são confiáveis, o que dizem os estudos, os sinais que levantam suspeita e as alternativas que funcionam melhor.
+- [Como usar IA no celular por voz para tarefas do dia a dia](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-no-celular-por-voz/): Como ativar e usar o Gemini Live, o modo de voz do ChatGPT e os assistentes do celular para organizar o dia, aprender, praticar idiomas e resolver tarefas sem digitar.
+- [NotebookLM: review da ferramenta do Google para estudar com IA](https://rafaelnunes93.github.io/rafaelnunes-/blog/notebooklm-review-estudar-com-ia/): O que é o NotebookLM, como ele responde com base nas suas fontes, os resumos em áudio, os limites do plano gratuito e como usar para estudar e trabalhar.
+- [Perplexity vale a pena? Review do buscador com IA que desafia o Google](https://rafaelnunes93.github.io/rafaelnunes-/blog/perplexity-vale-a-pena-review/): Como o Perplexity funciona, o que oferece nos planos gratuito e Pro, pontos fortes e fracos e quando ele substitui o Google — e quando não.
+- [IA gratuita: as melhores opções sem pagar nada](https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-ias-gratuitas/): As melhores ferramentas de inteligência artificial gratuitas para texto, pesquisa, estudo, imagens e voz, com o que cada versão grátis oferece e seus limites.
+- [Como fazer a IA ler e resumir PDFs longos em minutos](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-resumir-pdfs-longos/): Quais ferramentas usar para resumir PDFs longos, como pedir resumos úteis, perguntas que extraem o essencial e os cuidados com documentos confidenciais.
+- [Alucinações de IA: o perigo de confiar cegamente nas respostas do chatbot](https://rafaelnunes93.github.io/rafaelnunes-/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot/): O que são alucinações de IA, casos reais em que respostas inventadas custaram caro e um método simples para verificar o que o chatbot diz.
+- [Por que a IA dá respostas erradas? Como escrever prompts que funcionam](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-escrever-prompts-que-funcionam/): Os motivos mais comuns de respostas ruins da IA e uma estrutura simples de prompt, com exemplos antes e depois, para obter respostas melhores.
+- [Qual a diferença entre o ChatGPT gratuito e o pago?](https://rafaelnunes93.github.io/rafaelnunes-/blog/chatgpt-gratis-ou-pago-diferencas/): O que muda entre o ChatGPT gratuito e os planos pagos (Go, Plus e Pro): limites, modelos, recursos, privacidade e quando vale a pena assinar.
+- [ChatGPT, Gemini ou Claude: qual a melhor IA em 2026?](https://rafaelnunes93.github.io/rafaelnunes-/blog/chatgpt-gemini-ou-claude-qual-a-melhor-ia/): Comparativo prático entre ChatGPT, Gemini e Claude: pontos fortes de cada um, planos, integração com outras ferramentas e qual escolher para cada tarefa.
 - [Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira](https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-cursos-de-ia-online/): Sete cursos de inteligência artificial de instituições reconhecidas, do básico para iniciantes ao técnico para desenvolvedores, e como escolher o seu.
 - [Microsoft Copilot no Office: vale a pena pagar? Review completo](https://rafaelnunes93.github.io/rafaelnunes-/blog/microsoft-copilot-no-office-vale-a-pena/): O que o Copilot faz no Word, Excel, PowerPoint, Outlook e Teams, os planos para uso pessoal e empresarial e para quem ele realmente compensa.
 - [Como criar um assistente de IA pessoal para organizar sua rotina de trabalho](https://rafaelnunes93.github.io/rafaelnunes-/blog/como-criar-um-assistente-de-ia-pessoal/): Passo a passo para montar um assistente pessoal com GPTs, Projetos do Claude ou Gems do Gemini: instruções, arquivos de referência e rotinas diárias.
@@ -328,6 +338,893 @@ Jogo desenvolvido inteiramente na Unity com C#, com mecânicas de combate, inven
 - Tecnologias: Unity, C#, Game Design, 3D Modeling
 
 # Artigos completos
+
+## Como saber se um texto foi escrito por IA? O que funciona de verdade
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-saber-se-um-texto-foi-escrito-por-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Não existe forma 100% confiável de saber se um texto foi escrito por IA. A própria OpenAI desativou seu detector em 2023 por baixa precisão: ele identificava corretamente apenas 26% dos textos gerados por IA e marcava 9% dos textos humanos como artificiais. Um estudo de Stanford mostrou que detectores acusam com frequência textos de pessoas que escrevem em uma segunda língua. Sinais de estilo podem levantar suspeita, mas não provam nada. Alternativas mais sólidas são marcas d'água digitais, como o SynthID do Google, e avaliar o processo de produção do texto.
+
+Com a popularização do ChatGPT, professores, editores e recrutadores passaram a se perguntar: este texto foi escrito por uma pessoa ou por uma IA? Surgiram dezenas de "detectores de IA" prometendo a resposta. O problema é que os dados mostram que eles erram — e às vezes erram de forma injusta.
+
+## Os detectores funcionam?
+
+### O caso do detector da OpenAI
+
+Em janeiro de 2023, a própria OpenAI lançou uma ferramenta para identificar textos gerados por IA. Em julho do mesmo ano, a empresa a desativou, citando a **baixa taxa de precisão**. Nos testes divulgados pela empresa, o classificador identificava corretamente apenas **26%** dos textos escritos por IA e marcava erroneamente **9%** dos textos humanos como artificiais.
+
+Se a empresa que criou o ChatGPT não conseguiu construir um detector confiável, vale desconfiar de quem promete precisão perto de 100%.
+
+### O viés contra quem escreve em outro idioma
+
+Pesquisadores da Universidade Stanford testaram sete detectores populares em redações do exame de proficiência TOEFL, escritas por pessoas que não têm o inglês como língua nativa. A taxa média de falsos positivos passou de **60%**: mais da metade dos textos humanos foi classificada como gerada por IA. Em redações de estudantes nativos, os erros foram bem menores. A explicação provável: os detectores associam vocabulário mais simples e previsível a texto de IA — justamente o padrão de quem escreve numa segunda língua.
+
+### Por que é tão difícil
+
+Modelos de linguagem foram treinados com textos humanos e produzem textos parecidos com os humanos. Não há uma "assinatura" natural e infalível. Além disso:
+
+- Textos curtos dão pouca informação para análise.
+- Uma pessoa pode reescrever o texto da IA, e uma IA pode reescrever o texto de uma pessoa.
+- Os modelos mudam constantemente, e os detectores precisam correr atrás.
+
+## Sinais que levantam suspeita (mas não provam nada)
+
+Alguns padrões aparecem com frequência em textos gerados por IA sem revisão:
+
+- Estrutura muito padronizada: introdução genérica, tópicos com o mesmo tamanho, conclusão que repete tudo.
+- Frases de efeito vazias e expressões repetitivas.
+- Tom uniforme, sem opiniões pessoais ou experiências concretas.
+- Afirmações genéricas sem exemplos específicos.
+- Fatos, citações ou referências que não existem.
+- Ausência de erros, mas também de personalidade.
+
+O problema é que muitas pessoas escrevem assim — especialmente em textos formais. Esses sinais justificam uma conversa, não uma acusação.
+
+## O que funciona melhor
+
+### Marcas d'água digitais
+
+Em vez de adivinhar depois, algumas empresas inserem sinais invisíveis no momento da geração. O **SynthID**, do Google DeepMind, marca textos, imagens, áudios e vídeos gerados pelos modelos do Google. A versão para texto foi disponibilizada como código aberto ([documentação](https://ai.google.dev/responsible/docs/safeguards/synthid)). A própria documentação reconhece os limites: a marca resiste a pequenas edições, mas perde força quando o texto é muito reescrito ou traduzido, e só funciona para conteúdo gerado por modelos que aplicam a marca.
+
+### Padrões de procedência
+
+Iniciativas como o padrão [C2PA](https://c2pa.org/) registram informações sobre a origem e as edições de imagens e vídeos. Ainda são pouco usadas para texto, mas apontam o caminho da transparência por design.
+
+### Avaliar o processo, não só o resultado
+
+Em escolas e processos seletivos, as abordagens mais sólidas avaliam como o trabalho foi feito:
+
+- Histórico de versões do documento (Google Docs e Word guardam).
+- Rascunhos e anotações intermediárias.
+- Apresentação oral ou conversa sobre o conteúdo.
+- Atividades feitas em sala ou ao vivo.
+- Perguntas sobre escolhas e fontes usadas.
+
+## Para professores e gestores
+
+- Defina regras claras sobre quando e como a IA pode ser usada.
+- Não use detectores como prova única.
+- Prefira tarefas que exijam experiência pessoal, dados locais, opinião fundamentada e etapas intermediárias.
+- Converse antes de acusar: peça para a pessoa explicar o texto com as próprias palavras.
+
+## Para quem escreve com ajuda de IA
+
+- Conheça e siga as regras do local (escola, empresa, veículo).
+- Use a IA para estruturar e revisar, mas coloque sua experiência, exemplos e opinião.
+- Verifique todos os fatos e referências.
+- Guarde rascunhos e histórico de versões, caso precise demonstrar seu processo.
+
+## Conclusão
+
+Não há, hoje, uma forma confiável de afirmar com certeza que um texto foi escrito por IA. Detectores erram com frequência e podem prejudicar pessoas inocentes. Sinais de estilo ajudam a levantar perguntas, e marcas d'água e padrões de procedência são caminhos promissores, mas limitados. Na dúvida, o melhor detector continua sendo uma boa conversa sobre o conteúdo.
+
+---
+
+## Como usar IA no celular por voz para tarefas do dia a dia
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-no-celular-por-voz/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Os principais assistentes de IA têm modo de conversa por voz no celular: o Gemini Live (Android e iPhone, com suporte a português e versão gratuita) e o modo de voz do ChatGPT. Basta abrir o aplicativo e tocar no ícone de voz. Dá para planejar o dia, tirar dúvidas, praticar inglês, ensaiar uma apresentação, pedir explicações sobre algo que a câmera mostra e ditar ideias. Evite falar dados sensíveis e confira informações importantes antes de agir.
+
+Digitar no celular é lento. Falar é natural. Os assistentes de IA atuais entendem conversas em português com fluidez, respondem em voz em segundos e permitem interromper no meio da resposta, como numa conversa com uma pessoa. Isso abre uma série de usos práticos para o dia a dia — no carro, na cozinha, na caminhada ou quando as mãos estão ocupadas.
+
+## Os principais assistentes de voz com IA
+
+### Gemini Live (Google)
+
+O Google lançou o suporte ao português brasileiro no Gemini Live em 2024, conforme anunciado no [blog oficial do Google Brasil](https://blog.google/intl/pt-br/produtos/o-gemini-live-agora-fala-portugues-brasileiro-converse-com-o-gemini-e-se-conecte-com-mais-apps-como-nunca-antes/). Está disponível no app do Gemini para Android e iPhone, com versão gratuita.
+
+- Conversa natural, com possibilidade de interromper.
+- Compartilhamento de câmera e de tela para perguntar sobre o que você está vendo.
+- Integração com apps do Google, como Agenda e Keep, conforme o aparelho e a conta.
+
+### Modo de voz do ChatGPT
+
+O app do ChatGPT tem conversa por voz com respostas naturais em português. Os limites de uso e os recursos de vídeo variam conforme o plano.
+
+### Assistentes nativos
+
+A Siri, no iPhone, ganhou integração com o ChatGPT para algumas perguntas, e em muitos Android o Gemini substituiu o Google Assistente como assistente padrão. A Alexa também recebeu recursos de IA generativa. A disponibilidade em português varia por recurso e região.
+
+## Como começar
+
+1. Instale o app do assistente escolhido (Gemini ou ChatGPT).
+2. Entre com sua conta.
+3. Toque no ícone de voz ou de ondas sonoras (no Gemini, o botão "Live").
+4. Permita o acesso ao microfone (e à câmera, se quiser usar a visão).
+5. Comece a falar normalmente.
+
+**Dica:** no Android, você pode definir o Gemini como assistente padrão e chamá-lo com um comando de voz ou segurando o botão lateral, conforme o aparelho.
+
+## 10 usos práticos no dia a dia
+
+### 1. Planejar o dia
+> "Tenho três reuniões hoje, preciso ir ao banco e terminar um relatório. Me ajuda a organizar a ordem das tarefas?"
+
+### 2. Organizar ideias enquanto caminha
+Fale livremente sobre um projeto e peça, no final, um resumo em tópicos com próximos passos.
+
+### 3. Praticar idiomas
+> "Vamos conversar em inglês sobre viagens. Corrija meus erros de forma gentil no final de cada resposta."
+
+### 4. Ensaiar uma apresentação ou entrevista
+> "Faça o papel de um recrutador e me faça perguntas para uma vaga de analista financeiro."
+
+### 5. Cozinhar com ajuda
+Peça receitas com o que tem na geladeira e o passo a passo, um de cada vez, sem tocar no celular com as mãos sujas.
+
+### 6. Entender o que a câmera mostra
+Aponte para uma planta, um painel de carro com luz acesa ou um rótulo em outro idioma e pergunte o que é.
+
+### 7. Tirar dúvidas de estudo
+Peça explicações de um conceito com exemplos, e depois que a IA faça perguntas para testar o que você entendeu.
+
+### 8. Preparar uma conversa difícil
+> "Preciso pedir um aumento ao meu chefe. Me ajuda a estruturar os argumentos?"
+
+### 9. Fazer listas
+Lista de compras, lista de tarefas, roteiro de viagem — ditadas e organizadas pela IA.
+
+### 10. Resumir conteúdo
+Peça um resumo rápido de um assunto antes de uma reunião ou uma explicação simples de uma notícia.
+
+## Cuidados importantes
+
+- **Privacidade:** evite falar senhas, números de cartão, dados de saúde ou informações confidenciais da empresa. Revise as configurações de histórico de atividades do app.
+- **Verificação:** respostas por voz são rápidas e soam confiantes, mas podem conter erros. Confira informações importantes — veja o artigo sobre [alucinações de IA](/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot).
+- **Trânsito:** use apenas em modo mãos livres e sem tirar a atenção da direção.
+- **Ambientes públicos:** cuidado com o que você fala perto de outras pessoas.
+- **Golpes:** criminosos usam vozes geradas por IA para se passar por conhecidos. Desconfie de pedidos de dinheiro por áudio, mesmo com voz familiar.
+
+## Conclusão
+
+A conversa por voz é uma das formas mais naturais de usar IA e transforma o celular num assistente de verdade para o dia a dia. Comece com usos simples — planejar o dia, praticar idiomas, organizar ideias — e explore os recursos de câmera conforme se acostumar. Para conhecer outras ferramentas sem custo, veja a lista de [IAs gratuitas](/blog/melhores-ias-gratuitas).
+
+---
+
+## NotebookLM: review da ferramenta do Google para estudar com IA
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/notebooklm-review-estudar-com-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** O NotebookLM é uma ferramenta gratuita do Google em que você reúne fontes (PDFs, documentos, links, vídeos do YouTube, textos) e a IA responde com base apenas nesse material, mostrando de qual trecho veio cada informação. Também cria resumos, guias de estudo, mapas mentais e resumos em áudio no formato de conversa. É uma das melhores opções para estudar e pesquisar, porque reduz respostas inventadas ao se apoiar nas suas fontes. Os planos pagos do Google ampliam os limites de uso.
+
+O NotebookLM é uma das ferramentas de IA mais subestimadas do Google. Enquanto chatbots como ChatGPT e Gemini respondem com base no que aprenderam no treinamento e em buscas na web, o NotebookLM faz algo diferente: **trabalha apenas com o material que você fornece**. Para estudantes, pesquisadores e profissionais que lidam com muitos documentos, isso muda o jogo.
+
+> **Como este review foi feito:** a análise se baseia na documentação oficial do Google e nos recursos públicos da ferramenta. Limites e recursos mudam com frequência — confira em [notebooklm.google](https://notebooklm.google/).
+
+## O que é e como funciona
+
+O NotebookLM organiza o trabalho em **cadernos** (notebooks). Em cada caderno, você adiciona fontes:
+
+- PDFs e documentos do Google Docs e Slides.
+- Links de sites.
+- Vídeos do YouTube (a ferramenta usa a transcrição).
+- Arquivos de áudio.
+- Textos colados.
+
+A partir daí, você conversa com a IA sobre esse material. Cada resposta traz **citações clicáveis** que levam ao trecho exato da fonte. Isso facilita a conferência e reduz o risco de informações inventadas, porque a ferramenta é instruída a se apoiar nas suas fontes.
+
+## Principais recursos
+
+### Perguntas e respostas com citações
+
+Pergunte qualquer coisa sobre o material: "quais são as três críticas principais do autor?", "o que o contrato diz sobre multa?", "compare a opinião das fontes 2 e 5".
+
+### Resumos em áudio
+
+Um dos recursos mais populares: o NotebookLM gera um áudio no formato de conversa entre duas vozes, que discutem o conteúdo das suas fontes. É ótimo para revisar matéria no trânsito ou na academia.
+
+### Guias de estudo e materiais
+
+Com poucos cliques, a ferramenta cria resumos, perguntas frequentes, linhas do tempo, guias de estudo e mapas mentais a partir das fontes. Também há recursos para gerar apresentações em vídeo e outros formatos, com disponibilidade que varia por plano.
+
+### Notas
+
+Você pode salvar respostas como notas e organizar suas próprias anotações dentro do caderno.
+
+## Limites e planos
+
+A versão gratuita é generosa para uso pessoal, com dezenas de fontes por caderno e cotas diárias de perguntas e resumos em áudio. Os planos pagos do Google (como o Google AI Pro) e as versões para empresas e educação ampliam essas cotas. O Google ajustou limites e formas de contagem algumas vezes, então confira os valores atuais na central de ajuda antes de planejar projetos grandes.
+
+## Pontos fortes
+
+- **Respostas ancoradas nas suas fontes**, com citações verificáveis.
+- **Gratuito** e com limites suficientes para a maioria dos estudantes.
+- **Resumos em áudio** que tornam a revisão mais leve.
+- **Vários tipos de fonte**, incluindo vídeos do YouTube.
+- **Privacidade:** o Google afirma que os documentos não são usados para treinar os modelos.
+
+## Pontos fracos
+
+- **Depende da qualidade das fontes.** Se o material estiver errado ou incompleto, a resposta também estará.
+- **Não pesquisa a web livremente** durante a conversa como um buscador; o foco são as fontes adicionadas (há recursos para descobrir e adicionar novas fontes).
+- **Interpretação ainda pode errar.** Citações ajudam, mas a IA pode resumir mal um trecho complexo.
+- **PDFs digitalizados e tabelas complexas** podem gerar erros de leitura.
+
+## Como usar para estudar
+
+1. Crie um caderno por disciplina ou tema.
+2. Adicione o material da matéria: apostilas, slides, artigos e vídeos das aulas.
+3. Peça um guia de estudo e uma lista de perguntas prováveis de prova.
+4. Use o chat para tirar dúvidas, sempre clicando nas citações.
+5. Gere o resumo em áudio para revisar fora da mesa de estudo.
+6. Teste-se: peça "faça 10 perguntas sobre o capítulo 3 e corrija minhas respostas".
+
+## Como usar no trabalho
+
+- **Preparação de reuniões:** reúna atas anteriores, propostas e e-mails e peça um resumo do histórico.
+- **Pesquisa de mercado:** adicione relatórios e artigos e compare as conclusões.
+- **Onboarding:** crie um caderno com manuais e processos para novos funcionários consultarem.
+- **Análise de documentos longos:** veja também como [usar IA para resumir PDFs longos](/blog/como-usar-ia-para-resumir-pdfs-longos).
+
+Se for usar documentos da empresa, prefira a versão corporativa disponível no Google Workspace e respeite as políticas internas.
+
+## NotebookLM x ChatGPT e Gemini
+
+| | NotebookLM | Chatbots gerais |
+|---|---|---|
+| Base das respostas | Suas fontes | Treinamento + web |
+| Citações do seu material | Sim, por trecho | Variam |
+| Melhor para | Estudar e analisar documentos | Tarefas gerais e criação |
+| Resumo em áudio | Sim | Não é o foco |
+
+## Veredito
+
+O NotebookLM é uma das melhores ferramentas gratuitas de IA para quem estuda ou trabalha com muitos documentos. A combinação de respostas com citações, materiais de estudo automáticos e resumos em áudio é difícil de encontrar em outra ferramenta. Não substitui a leitura crítica, mas torna o estudo muito mais eficiente. Veja outras opções sem custo na lista de [IAs gratuitas](/blog/melhores-ias-gratuitas).
+
+---
+
+## Perplexity vale a pena? Review do buscador com IA que desafia o Google
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/perplexity-vale-a-pena-review/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** O Perplexity vale a pena para quem faz muitas pesquisas e quer respostas resumidas com fontes citadas, sem abrir dezenas de abas. A versão gratuita atende bem ao uso diário; o plano Pro, na faixa de US$ 20 por mês, amplia as pesquisas avançadas e dá acesso a modelos de diferentes empresas. Ele não substitui totalmente o Google em buscas de navegação, compras locais e mapas, e as citações precisam ser conferidas, porque a fonte nem sempre confirma exatamente o que o resumo diz.
+
+O Perplexity se apresenta como um "mecanismo de respostas": em vez de mostrar uma lista de links, ele pesquisa na web, lê as páginas e entrega uma resposta em texto com as fontes numeradas. A proposta conquistou milhões de usuários e virou uma das principais alternativas ao jeito tradicional de buscar no Google. Mas vale a pena?
+
+> **Como este review foi feito:** a análise se baseia nas funcionalidades documentadas pela empresa e nas características públicas dos planos. Preços e limites mudam com frequência; confira em [perplexity.ai](https://www.perplexity.ai/).
+
+## Como funciona
+
+1. Você faz uma pergunta em linguagem natural.
+2. O Perplexity busca na web em tempo real.
+3. Lê as páginas mais relevantes e escreve uma resposta resumida.
+4. Cada afirmação vem com um número que leva à fonte.
+5. Ele sugere perguntas de acompanhamento para aprofundar o tema.
+
+O modelo de "resposta com fonte" é o grande diferencial em relação a chatbots que respondem apenas com base no que aprenderam no treinamento.
+
+## Principais recursos
+
+- **Pesquisa básica:** respostas rápidas com fontes.
+- **Pesquisa avançada (Pro Search):** faz várias buscas encadeadas para perguntas complexas.
+- **Pesquisa aprofundada:** gera relatórios mais longos a partir de dezenas de fontes.
+- **Foco em tipos de fonte:** é possível priorizar, por exemplo, publicações acadêmicas ou discussões.
+- **Espaços (Spaces):** organizam pesquisas por tema, com instruções e arquivos próprios.
+- **Envio de arquivos:** permite fazer perguntas sobre PDFs e documentos.
+- **Escolha de modelo (planos pagos):** acesso a modelos de diferentes empresas de IA.
+- **Navegador Comet:** a empresa também lançou um navegador com assistente de IA integrado.
+
+## Planos
+
+- **Gratuito:** pesquisas básicas sem limite rígido e uma cota diária de pesquisas avançadas.
+- **Pro (na faixa de US$ 20/mês):** muito mais pesquisas avançadas, escolha de modelos e mais uploads.
+- **Planos superiores e corporativos:** para uso intenso e para empresas, com recursos de administração.
+
+## Pontos fortes
+
+- **Fontes visíveis.** Saber de onde veio cada informação facilita a checagem e aumenta a confiança.
+- **Economia de tempo.** Em perguntas complexas, evita abrir e ler dez páginas.
+- **Informação atual.** Por pesquisar na web, lida bem com temas recentes.
+- **Bom ponto de partida para pesquisas.** Ajuda a mapear um assunto e encontrar as melhores fontes.
+
+## Pontos fracos
+
+- **Citações nem sempre confirmam o resumo.** Às vezes a fonte existe, mas não diz exatamente o que a resposta afirma. Conferir continua necessário.
+- **Qualidade depende das fontes.** Se as páginas encontradas forem fracas ou tendenciosas, a resposta herda o problema.
+- **Não substitui o Google em tudo.** Para ir a um site específico, buscar lojas próximas, mapas, horários e compras, o buscador tradicional ainda é mais prático.
+- **Questões com veículos de imprensa.** Editoras de vários países questionaram o uso de seus conteúdos por buscadores com IA, um debate que ainda está em andamento.
+
+## Perplexity x Google x ChatGPT
+
+| Situação | Melhor opção |
+|---|---|
+| Entender um assunto com fontes | Perplexity |
+| Encontrar um site, loja ou endereço | Google |
+| Escrever, revisar e criar conteúdo | ChatGPT, Claude ou Gemini |
+| Pesquisa aprofundada para relatório | Perplexity ou modos de pesquisa dos assistentes |
+| Notícias de última hora | Google Notícias e veículos confiáveis |
+
+Vale notar que o Google também passou a mostrar resumos com IA nos resultados, e ChatGPT e Gemini incorporaram pesquisa na web. A fronteira entre buscador e assistente está ficando cada vez menor.
+
+## Para quem vale a pena
+
+**A versão gratuita vale para:** praticamente todo mundo que pesquisa com frequência — estudantes, jornalistas, profissionais de marketing, pesquisadores e curiosos.
+
+**O Pro vale para:** quem faz pesquisas complexas todos os dias e esbarra na cota de pesquisas avançadas, ou quer usar modelos de diferentes empresas num só lugar.
+
+**Talvez não valha pagar se:** você já assina ChatGPT, Gemini ou Claude com pesquisa na web integrada e está satisfeito com as respostas.
+
+## Dicas para usar melhor
+
+- Faça perguntas completas, com contexto ("para uma pequena empresa no Brasil...").
+- Abra as fontes das afirmações mais importantes.
+- Use as perguntas de acompanhamento para aprofundar.
+- Organize pesquisas recorrentes em Espaços.
+
+## Veredito
+
+O Perplexity é uma das ferramentas de IA mais úteis para pesquisa: rápido, prático e transparente sobre as fontes. A versão gratuita já entrega muito valor. Ele não aposenta o Google, mas muda o jeito de pesquisar temas complexos. Para conhecer outras opções sem custo, veja a lista de [IAs gratuitas](/blog/melhores-ias-gratuitas).
+
+---
+
+## IA gratuita: as melhores opções sem pagar nada
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/melhores-ias-gratuitas/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Dá para usar IA de qualidade sem pagar. Para conversar, escrever e tirar dúvidas, ChatGPT, Gemini, Claude e Microsoft Copilot têm versões gratuitas com limites de uso. Para pesquisar com fontes, o Perplexity tem plano grátis. Para estudar a partir de documentos, o NotebookLM é gratuito. Para conversar por voz no celular, o Gemini Live está disponível sem custo. O que se perde no gratuito são limites maiores, acesso amplo aos modelos mais avançados e alguns recursos extras.
+
+Não é preciso pagar assinatura para aproveitar boa parte do que a inteligência artificial oferece. As versões gratuitas das principais ferramentas evoluíram muito e atendem bem a estudantes, profissionais com uso ocasional e qualquer pessoa que queira experimentar antes de assinar.
+
+Esta lista reúne as melhores opções gratuitas por tipo de tarefa. Como os limites e recursos mudam com frequência, use as descrições como guia e confirme os detalhes nos sites oficiais.
+
+## Para conversar, escrever e tirar dúvidas
+
+### ChatGPT (OpenAI)
+
+O assistente mais popular do mundo tem versão gratuita com acesso aos modelos atuais, com limite de uso. Inclui pesquisa na web, envio de arquivos e criação de imagens com cotas reduzidas.
+
+- **Bom para:** uso geral, textos, ideias, estudos.
+- **Limite principal:** ao atingir a cota dos modelos mais avançados, passa a usar um modelo mais simples.
+
+### Gemini (Google)
+
+Gratuito com uma conta Google, funciona no navegador e no app, e é o assistente padrão em muitos celulares Android.
+
+- **Bom para:** quem usa Gmail e Google Drive, perguntas do dia a dia, conversas por voz.
+- **Destaque:** o Gemini Live permite conversar por voz em português no celular.
+
+### Claude (Anthropic)
+
+A versão gratuita do Claude é conhecida pela qualidade de escrita e pela análise de textos e documentos.
+
+- **Bom para:** redação, revisão, análise de documentos, programação.
+- **Limite principal:** número de mensagens por período, que varia conforme a demanda.
+
+### Microsoft Copilot
+
+Disponível gratuitamente no navegador, no app e integrado ao Windows e ao Edge.
+
+- **Bom para:** perguntas com fontes da web, resumos de páginas no Edge, criação de imagens.
+- **Observação:** o Copilot integrado ao Word, Excel e Outlook com seus arquivos depende de planos pagos do Microsoft 365.
+
+## Para pesquisar com fontes
+
+### Perplexity
+
+Combina busca na web com respostas em texto e citações numeradas para cada afirmação. A versão gratuita atende bem a pesquisas do dia a dia.
+
+- **Bom para:** pesquisas rápidas, comparações, encontrar fontes.
+- **Veja mais:** [Perplexity vale a pena? Review completo](/blog/perplexity-vale-a-pena-review).
+
+## Para estudar e trabalhar com documentos
+
+### NotebookLM (Google)
+
+Você envia PDFs, textos, links e vídeos, e a ferramenta responde com base apenas nessas fontes, indicando os trechos de origem. Também gera resumos em áudio no formato de conversa, úteis para revisar conteúdo.
+
+- **Bom para:** estudantes, pesquisa, preparação de reuniões, estudo de documentos longos.
+- **Veja mais:** [NotebookLM: review da ferramenta do Google para estudar com IA](/blog/notebooklm-review-estudar-com-ia).
+
+## Para criar imagens
+
+ChatGPT, Gemini e Microsoft Copilot permitem gerar imagens gratuitamente, com limites diários. Para uso comercial, leia os termos de cada serviço e evite gerar imagens de pessoas reais e marcas registradas.
+
+## Para conversar por voz
+
+O Gemini Live e o modo de voz do ChatGPT oferecem conversas naturais em português no celular. São úteis para praticar idiomas, organizar ideias enquanto caminha ou pedir explicações sem digitar. Veja o guia de [como usar IA no celular por voz](/blog/como-usar-ia-no-celular-por-voz).
+
+## Tabela resumo
+
+| Tarefa | Opção gratuita recomendada |
+|---|---|
+| Uso geral | ChatGPT ou Gemini |
+| Escrita e documentos | Claude |
+| Pesquisa com fontes | Perplexity |
+| Estudo a partir de documentos | NotebookLM |
+| Voz no celular | Gemini Live ou ChatGPT |
+| Integração com Windows e Edge | Microsoft Copilot |
+
+## O que você perde no gratuito
+
+- **Limites de uso:** em dias de uso intenso, você pode esbarrar nas cotas.
+- **Acesso restrito aos modelos mais avançados** e de raciocínio.
+- **Recursos premium:** pesquisa aprofundada, agentes, mais arquivos e imagens.
+- **Prioridade:** em horários de pico, versões gratuitas podem ficar mais lentas.
+
+## Cuidados com privacidade
+
+Serviços gratuitos podem usar suas conversas para melhorar os modelos, conforme as políticas de cada empresa. Em vários casos é possível desativar essa opção nas configurações. Regra prática: **não cole em uma IA gratuita nada que você não publicaria** — dados pessoais, documentos de clientes, senhas ou informações confidenciais da empresa.
+
+## Conclusão
+
+Combinando ferramentas gratuitas — um assistente geral, um buscador com fontes e o NotebookLM para estudo — dá para cobrir a maior parte das necessidades sem gastar nada. Quando os limites começarem a atrapalhar seu trabalho com frequência, aí sim vale avaliar uma assinatura, como explicamos em [ChatGPT gratuito ou pago](/blog/chatgpt-gratis-ou-pago-diferencas).
+
+---
+
+## Como fazer a IA ler e resumir PDFs longos em minutos
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-usar-ia-para-resumir-pdfs-longos/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Envie o PDF para um assistente que aceita arquivos, como ChatGPT, Claude, Gemini ou NotebookLM, e peça um resumo com objetivo e formato definidos (por exemplo, 'os 5 pontos principais para uma decisão de compra, com a página de cada um'). Depois, faça perguntas específicas e peça citações literais com o número da página para conferir. Para documentos digitalizados, verifique se o texto está legível, e evite enviar documentos confidenciais para contas pessoais.
+
+Relatórios de 80 páginas, contratos extensos, editais, artigos científicos, manuais técnicos: todo profissional tem uma pilha de PDFs que deveria ler e não tem tempo. A IA não substitui a leitura atenta de partes críticas, mas consegue fazer em minutos o trabalho de mapear o documento, extrair o essencial e apontar onde está cada informação.
+
+## Ferramentas que leem PDFs
+
+As principais opções aceitam o envio de arquivos diretamente:
+
+- **ChatGPT:** analisa PDFs enviados na conversa, com limites que variam por plano.
+- **Claude:** reconhecido pela boa capacidade com documentos longos e pela análise cuidadosa de texto.
+- **Gemini:** lê PDFs enviados e arquivos do Google Drive, útil para quem já trabalha no Google Workspace.
+- **NotebookLM:** ferramenta do Google pensada para estudar e pesquisar a partir de várias fontes ao mesmo tempo, com respostas que apontam o trecho de origem. Veja o [nosso review do NotebookLM](/blog/notebooklm-review-estudar-com-ia).
+- **Copilot:** no Microsoft 365 e no navegador Edge, resume documentos abertos.
+
+Limites de tamanho e páginas mudam com frequência e variam por plano — consulte a central de ajuda de cada serviço.
+
+## O jeito errado e o jeito certo de pedir
+
+**Jeito errado:**
+> Resuma este PDF.
+
+O resultado costuma ser um resumo genérico, que repete a introdução e esquece o que importa para você.
+
+**Jeito certo:** diga para que serve o resumo.
+
+> Sou gerente de compras e preciso decidir se vale contratar este fornecedor. Resuma o documento em até 8 tópicos com: escopo do serviço, prazos, valores, multas, condições de cancelamento e responsabilidades de cada parte. Indique a página de cada informação. Se algo importante não estiver no documento, diga.
+
+O pedido do número da página é o que permite conferir rapidamente.
+
+## Um roteiro em 4 etapas
+
+### 1. Visão geral
+
+> Qual é o objetivo deste documento, para quem ele foi escrito e como está organizado? Liste as seções principais.
+
+### 2. Resumo orientado ao seu objetivo
+
+Peça os pontos que importam para a sua decisão ou tarefa, no formato que você vai usar (tópicos, tabela, parágrafo para um e-mail).
+
+### 3. Perguntas específicas
+
+> Quais são as condições para rescisão antecipada? Cite o trecho literal e a página.
+
+> Há alguma cláusula de reajuste automático? Qual o índice?
+
+> Quais números o relatório usa para justificar a conclusão principal?
+
+### 4. Conferência
+
+Abra o PDF nas páginas indicadas e confira as informações críticas. Citações literais facilitam esse trabalho: basta buscar o trecho no documento.
+
+## Prompts úteis por tipo de documento
+
+**Contratos:**
+> Liste obrigações, prazos, multas, renovação automática, foro e qualquer cláusula incomum ou desfavorável para o contratante. Cite a cláusula de cada item.
+
+**Artigos científicos:**
+> Explique a pergunta da pesquisa, o método, o tamanho da amostra, os principais resultados e as limitações declaradas pelos autores.
+
+**Relatórios de mercado:**
+> Extraia os principais números com a fonte de cada um e separe fatos de projeções.
+
+**Editais:**
+> Liste requisitos de participação, documentos exigidos, prazos e critérios de avaliação em formato de checklist.
+
+**Manuais técnicos:**
+> Crie um guia rápido de uma página com os passos para instalação e os avisos de segurança.
+
+## Cuidados importantes
+
+- **Confidencialidade:** contratos, documentos de clientes e informações internas não devem ir para contas pessoais de IA sem autorização. Use as versões corporativas aprovadas pela empresa e respeite a LGPD.
+- **PDFs digitalizados:** a leitura depende da qualidade da imagem. Tabelas e números são os mais afetados por erros de reconhecimento.
+- **Tabelas e gráficos:** a IA pode interpretar mal tabelas complexas. Confira os números diretamente no documento.
+- **Omissões:** um resumo é, por definição, uma seleção. Se uma cláusula pode custar caro, leia a cláusula.
+- **Alucinações:** a IA pode afirmar que algo está no documento quando não está. Por isso, peça citações literais — e entenda o risco no artigo sobre [alucinações de IA](/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot).
+
+## Conclusão
+
+Com o pedido certo, a IA transforma horas de leitura em minutos de orientação: mostra o que o documento diz, onde está cada informação e o que merece sua atenção. O segredo está em definir o objetivo do resumo, pedir páginas e citações e conferir os pontos críticos. Assim, você lê menos — e lê melhor.
+
+---
+
+## Alucinações de IA: o perigo de confiar cegamente nas respostas do chatbot
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Alucinação é quando a IA gera uma informação falsa com aparência de verdadeira, como citações inexistentes, números inventados ou fatos distorcidos. Isso acontece porque os modelos produzem o texto mais provável, não consultam fatos verificados. Há casos reais com consequências: em 2023, advogados nos EUA foram multados por citar processos inventados pelo ChatGPT, e em 2024 a Air Canada foi condenada a cumprir uma regra de desconto que seu chatbot inventou. Use a IA como ponto de partida e verifique fatos importantes em fontes primárias.
+
+Os chatbots de IA escrevem com tanta fluência e segurança que é fácil esquecer um detalhe fundamental: **eles não sabem quando estão errados**. Uma resposta inventada vem com o mesmo tom confiante de uma resposta correta. Esse fenômeno tem nome — alucinação — e já causou prejuízos reais a profissionais e empresas.
+
+## O que é uma alucinação de IA
+
+Alucinação é quando um modelo de IA gera uma informação **falsa, inexistente ou distorcida**, apresentada como se fosse verdadeira. Exemplos comuns:
+
+- Citar livros, artigos científicos ou processos judiciais que não existem.
+- Inventar números, estatísticas e datas.
+- Atribuir frases a pessoas que nunca as disseram.
+- Criar links que levam a páginas inexistentes.
+- Misturar informações verdadeiras de fontes diferentes de forma errada.
+
+## Por que acontece
+
+Modelos de linguagem funcionam prevendo a próxima palavra mais provável com base em padrões aprendidos em enormes quantidades de texto. Eles são excelentes em produzir texto coerente, mas não têm um mecanismo interno de checagem de fatos. Quando o modelo não tem a informação, ele pode "completar" com algo que parece plausível.
+
+Alguns fatores aumentam o risco:
+
+- Perguntas sobre temas muito específicos, raros ou recentes.
+- Pedidos de números exatos, citações e referências.
+- Perguntas que pressupõem algo falso ("por que tal lei proibiu X?" quando a lei não existe).
+- Falta de acesso à web ou a documentos de referência.
+
+## Casos reais
+
+### Advogados multados por processos inventados
+
+No caso **Mata contra Avianca**, julgado em um tribunal federal de Nova York, advogados apresentaram uma petição citando decisões judiciais que haviam sido geradas pelo ChatGPT — e que não existiam. Em junho de 2023, o juiz P. Kevin Castel aplicou multa aos advogados. O caso se agravou porque, ao serem questionados, eles insistiram nas citações em vez de verificá-las. O episódio virou referência mundial sobre o uso irresponsável de IA ([resumo do caso](https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.)).
+
+### A empresa responde pelo chatbot
+
+Em fevereiro de 2024, no caso **Moffatt contra Air Canada**, um tribunal da Colúmbia Britânica (Canadá) analisou a situação de um passageiro que recebeu do chatbot da companhia uma informação errada sobre desconto em passagens por luto. A empresa alegou que o chatbot era responsável pelas próprias informações. O tribunal rejeitou o argumento e determinou que a Air Canada indenizasse o cliente, entendendo que a empresa responde por tudo o que aparece em seu site, inclusive o que o chatbot diz.
+
+Esses casos mostram dois riscos diferentes: o do **profissional** que confia sem verificar e o da **empresa** que coloca um chatbot para falar com clientes sem limites claros.
+
+## Onde o risco é maior
+
+Tenha cuidado redobrado com respostas de IA sobre:
+
+- **Saúde:** diagnósticos, medicamentos e doses.
+- **Direito:** leis, prazos, jurisprudência e contratos.
+- **Finanças:** impostos, investimentos e cálculos.
+- **Fatos recentes:** notícias, preços, versões de produtos.
+- **Dados técnicos:** comandos, configurações de segurança, valores críticos.
+
+Nesses casos, a IA pode ajudar a entender o assunto e organizar perguntas, mas a decisão deve se apoiar em fontes oficiais e, quando necessário, em profissionais habilitados.
+
+## Um método simples de verificação
+
+1. **Separe opinião de fato.** Sugestões de texto e ideias não precisam de checagem; números, nomes, datas e citações precisam.
+2. **Peça as fontes.** Com a pesquisa na web ativada, peça links para cada afirmação importante.
+3. **Abra as fontes.** Verifique se o link existe e se ele realmente diz o que a IA afirmou. É comum a fonte existir, mas não confirmar a afirmação.
+4. **Prefira fontes primárias:** sites oficiais, documentos originais, órgãos públicos e publicações científicas.
+5. **Faça a pergunta de outro jeito.** Respostas inconsistentes entre tentativas são sinal de alerta.
+6. **Desconfie da precisão excessiva.** Um número muito exato sem fonte merece checagem.
+
+## Como reduzir alucinações nos seus pedidos
+
+- Forneça o material: "com base apenas no documento abaixo, responda...".
+- Autorize a incerteza: "se não souber, diga que não sabe".
+- Ative a pesquisa na web para fatos recentes.
+- Peça citações literais do documento quando a precisão importar.
+
+Veja mais técnicas no guia [como escrever prompts que funcionam](/blog/como-escrever-prompts-que-funcionam).
+
+## Para empresas que usam chatbots
+
+Se a sua empresa usa IA no atendimento:
+
+- Restrinja o assistente a uma base de conhecimento oficial e atualizada.
+- Proíba que ele faça promessas sobre preços, prazos e políticas sem consultar fontes oficiais.
+- Encaminhe casos sensíveis para atendimento humano.
+- Monitore as conversas e corrija respostas erradas rapidamente.
+
+## Conclusão
+
+A IA é uma ferramenta poderosa para escrever, resumir e pensar, mas não é uma fonte de verdade. Trate as respostas como o rascunho de um assistente muito rápido e às vezes confiante demais: útil, mas que precisa de revisão. Quem verifica antes de usar aproveita o melhor da tecnologia sem cair nos seus piores erros.
+
+---
+
+## Por que a IA dá respostas erradas? Como escrever prompts que funcionam
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/como-escrever-prompts-que-funcionam/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** A IA erra principalmente por falta de contexto, pedidos ambíguos, perguntas sobre fatos que ela não conhece com segurança e tarefas grandes demais em um só pedido. Para melhorar, use a estrutura: objetivo, contexto, material de apoio, formato da resposta e restrições. Peça para a IA dizer quando não souber, divida tarefas complexas em etapas e sempre confira fatos, números e citações em fontes confiáveis.
+
+Quem usa IA com frequência já passou por isso: você faz uma pergunta e recebe uma resposta genérica, fora do contexto ou simplesmente errada. Na maioria das vezes, o problema não é a ferramenta — é a combinação entre o que a IA consegue fazer e o modo como o pedido foi feito.
+
+Este guia explica por que as respostas saem erradas e mostra uma estrutura de prompt simples que melhora os resultados em qualquer assistente: ChatGPT, Gemini, Claude ou Copilot.
+
+## Por que a IA erra
+
+### 1. Falta de contexto
+
+A IA não sabe quem você é, para quem é o texto, qual é o objetivo nem o que já foi tentado. Sem isso, ela entrega uma resposta "média", que serve para todo mundo e para ninguém.
+
+### 2. Pedido ambíguo
+
+"Melhore este texto" pode significar deixar mais curto, mais formal, mais persuasivo ou corrigir erros. A IA escolhe uma interpretação — nem sempre a sua.
+
+### 3. Perguntas sobre fatos específicos
+
+Modelos de linguagem geram texto com base em padrões aprendidos, não consultam uma enciclopédia verificada. Em datas, números, citações, leis e fatos recentes, eles podem produzir respostas plausíveis e falsas. Esse fenômeno é chamado de **alucinação**.
+
+### 4. Informação desatualizada
+
+Cada modelo tem uma data de corte de conhecimento. Sem pesquisa na web ativada, ele pode não saber de mudanças recentes em preços, leis ou produtos.
+
+### 5. Tarefa grande demais
+
+Pedir "escreva um plano de negócios completo" em uma única mensagem tende a gerar algo superficial. Tarefas complexas funcionam melhor em etapas.
+
+## A estrutura de um bom prompt
+
+Uma forma prática de lembrar os elementos essenciais:
+
+1. **Objetivo:** o que você quer conseguir.
+2. **Contexto:** a situação, o público e o que já se sabe.
+3. **Material:** textos, dados ou documentos que a IA deve usar.
+4. **Formato:** como a resposta deve vir (tópicos, tabela, tamanho, tom).
+5. **Restrições:** o que evitar e como lidar com incertezas.
+
+As próprias empresas que criam os modelos recomendam essas práticas em seus guias oficiais, como os da [OpenAI](https://platform.openai.com/docs/guides/prompt-engineering), da [Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) e do [Google](https://ai.google.dev/gemini-api/docs/prompting-strategies).
+
+## Exemplos antes e depois
+
+### Exemplo 1: e-mail
+
+**Antes:**
+> Escreva um e-mail cobrando um cliente.
+
+**Depois:**
+> Escreva um e-mail para um cliente com pagamento atrasado há 15 dias (fatura de R$ 2.400, vencida em 10/10). É um cliente antigo e bom pagador, então o tom deve ser cordial, sem ameaças. Ofereça a opção de pagamento por Pix e peça uma previsão de pagamento. Máximo de 8 linhas.
+
+### Exemplo 2: resumo
+
+**Antes:**
+> Resuma este relatório.
+
+**Depois:**
+> Resuma o relatório abaixo para a diretoria, que tem 2 minutos para ler. Use 5 tópicos com os principais números e termine com uma recomendação. Use apenas informações do relatório; se algo estiver incompleto, diga.
+> [relatório]
+
+### Exemplo 3: estudo
+
+**Antes:**
+> Explique juros compostos.
+
+**Depois:**
+> Explique juros compostos para alguém que nunca investiu, com um exemplo usando R$ 100 por mês durante 5 anos. Mostre a diferença em relação a guardar o dinheiro sem rendimento. Linguagem simples, sem fórmulas complicadas.
+
+## Técnicas que reduzem erros
+
+- **Peça para a IA admitir incerteza:** "Se não tiver certeza, diga que não sabe em vez de supor."
+- **Forneça a fonte:** em vez de perguntar sobre um contrato, cole o contrato e pergunte sobre ele.
+- **Peça as fontes e confira:** com pesquisa na web ativada, peça links — e abra os links para verificar se dizem o que a IA afirmou.
+- **Divida em etapas:** primeiro peça o esboço, depois desenvolva cada parte.
+- **Peça uma autocrítica:** "Revise sua resposta e aponte possíveis erros ou pontos fracos."
+- **Use exemplos:** mostre um modelo do resultado que você espera.
+
+## O que a IA faz bem — e onde exige cuidado
+
+**Faz bem:** redigir e reescrever textos, resumir, organizar ideias, explicar conceitos, gerar alternativas, traduzir, revisar gramática, estruturar planos.
+
+**Exige cuidado redobrado:** números exatos, datas, citações, informações legais, médicas e financeiras, fatos recentes e qualquer coisa que você vá publicar ou usar para tomar decisões importantes.
+
+## Um modelo para copiar
+
+> **Objetivo:** [o que você quer]
+> **Contexto:** [situação, público, o que já sabe]
+> **Material:** [cole aqui textos ou dados]
+> **Formato:** [tópicos/tabela/texto, tamanho, tom]
+> **Restrições:** use apenas as informações fornecidas; se faltar algo, pergunte antes de responder.
+
+## Conclusão
+
+A maior parte das respostas ruins vem de pedidos vagos e de expectativas erradas sobre o que a IA sabe. Com contexto, material de apoio, formato definido e verificação dos fatos, a qualidade sobe muito. Para entender a base dessa habilidade, leia também [o que é engenharia de prompt](/blog/o-que-e-engenharia-de-prompt).
+
+---
+
+## Qual a diferença entre o ChatGPT gratuito e o pago?
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/chatgpt-gratis-ou-pago-diferencas/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** O ChatGPT gratuito permite conversar e usar recursos básicos com limites de uso, principalmente nos modelos mais avançados, no envio de arquivos, na criação de imagens e na pesquisa aprofundada. Os planos pagos aumentam esses limites: o Go é a opção de entrada mais barata, o Plus (cerca de US$ 20 por mês) libera os modelos de raciocínio e mais recursos, e o Pro é voltado a uso profissional intenso. Para quem usa todos os dias no trabalho, o Plus costuma compensar; para uso ocasional, o gratuito basta.
+
+O ChatGPT tem uma versão gratuita bastante capaz — e isso gera a dúvida: por que pagar? A resposta depende de **quanto** e **como** você usa. Este artigo explica o que muda entre os planos e ajuda a decidir se a assinatura faz sentido para você.
+
+> **Atenção a preços e limites:** a OpenAI muda planos, limites e modelos com frequência. Os valores citados aqui são referências; confira sempre a [página oficial de preços](https://openai.com/chatgpt/pricing/) antes de assinar.
+
+## Os planos em resumo
+
+Em 2026, a estrutura para uso individual tem quatro níveis principais:
+
+- **Free (gratuito):** acesso ao ChatGPT com limites de mensagens nos modelos mais avançados e recursos restritos.
+- **Go:** plano de entrada, mais barato que o Plus, que amplia os limites de mensagens, envio de arquivos e criação de imagens.
+- **Plus (cerca de US$ 20/mês):** o plano mais popular para uso profissional, com acesso a modelos de raciocínio e limites bem maiores.
+- **Pro:** para quem usa IA de forma intensa todos os dias, com os limites mais altos e acesso prioritário aos modelos mais avançados.
+
+Para empresas existem ainda os planos **Business** e **Enterprise**, com administração centralizada e regras contratuais de proteção de dados.
+
+## O que o gratuito oferece
+
+A versão gratuita é suficiente para muita gente:
+
+- Conversas por texto para tirar dúvidas, escrever e revisar textos.
+- Acesso aos modelos atuais, com limite de uso — ao atingir o limite, o sistema passa para um modelo mais simples até o limite renovar.
+- Recursos como pesquisa na web, envio de arquivos e imagens, e criação de imagens, com cotas reduzidas.
+
+**Para quem é:** estudantes, uso ocasional e quem quer conhecer a ferramenta antes de pagar.
+
+## O que muda nos planos pagos
+
+### 1. Limites maiores
+
+É a diferença mais perceptível no dia a dia. No gratuito, quem usa bastante esbarra rapidamente nos limites dos modelos mais avançados. No Plus, isso raramente acontece em uso normal.
+
+### 2. Modelos de raciocínio
+
+Os modelos de raciocínio "pensam" antes de responder e se saem melhor em problemas complexos: análises com várias etapas, matemática, programação e planejamento. O acesso mais amplo a eles é um dos principais motivos para assinar o Plus.
+
+### 3. Pesquisa aprofundada
+
+O modo de pesquisa aprofundada navega por dezenas de fontes e entrega um relatório estruturado com citações. No gratuito e no Go, o uso é limitado; no Plus e no Pro, o acesso é maior.
+
+### 4. Arquivos, imagens e voz
+
+Os planos pagos permitem enviar mais arquivos, analisar mais documentos, criar mais imagens e usar mais a conversa por voz.
+
+### 5. Recursos de agente e personalização
+
+Recursos que executam tarefas em várias etapas e a criação de GPTs personalizados costumam ter mais disponibilidade nos planos pagos.
+
+## Tabela comparativa
+
+| Recurso | Free | Go | Plus | Pro |
+|---|---|---|---|---|
+| Conversas | Com limites | Limites maiores | Limites altos | Os mais altos |
+| Modelos de raciocínio | Restrito | Restrito | Incluído | Acesso máximo |
+| Pesquisa aprofundada | Limitada | Limitada | Incluída | Acesso máximo |
+| Arquivos e imagens | Cota baixa | Cota maior | Cota alta | Cota máxima |
+| Indicado para | Uso ocasional | Uso frequente e simples | Uso profissional | Uso intenso |
+
+## Privacidade: o que muda
+
+Independentemente do plano individual, é possível desativar o uso das conversas para treinamento dos modelos nas configurações de controle de dados. Nos planos empresariais, a OpenAI informa que os dados não são usados para treinamento por padrão. Em qualquer plano, evite colar dados sensíveis de clientes ou da empresa sem autorização.
+
+## Vale a pena pagar?
+
+**Provavelmente sim, se você:**
+
+- Usa o ChatGPT todos os dias no trabalho e esbarra nos limites.
+- Precisa de análises complexas, programação ou relatórios com pesquisa aprofundada.
+- Trabalha com muitos arquivos e documentos.
+
+**Provavelmente não, se você:**
+
+- Usa poucas vezes por semana para perguntas simples.
+- Já tem acesso a outra IA paga pela empresa (como Copilot ou Gemini corporativos).
+
+**Uma estratégia sensata:** use o gratuito por duas semanas anotando quantas vezes esbarrou em limites. Se aconteceu com frequência e atrapalhou seu trabalho, assine um mês do plano que resolve o problema e avalie o ganho real antes de manter.
+
+## Conclusão
+
+O ChatGPT gratuito é suficiente para conhecer a ferramenta e para uso leve. Os planos pagos fazem diferença para quem depende da IA no trabalho: mais limites, modelos de raciocínio e recursos como pesquisa aprofundada. Antes de assinar, meça seu uso real — e compare com as alternativas, como mostramos em [ChatGPT, Gemini ou Claude: qual a melhor IA](/blog/chatgpt-gemini-ou-claude-qual-a-melhor-ia).
+
+---
+
+## ChatGPT, Gemini ou Claude: qual a melhor IA em 2026?
+
+URL: https://rafaelnunes93.github.io/rafaelnunes-/blog/chatgpt-gemini-ou-claude-qual-a-melhor-ia/
+Publicado em: 2026-10-31
+
+**Resposta rápida:** Não existe uma IA melhor em tudo. O ChatGPT é o mais versátil e popular, com muitos recursos em um só lugar (voz, imagens, pesquisa, agentes). O Gemini se destaca pela integração com Gmail, Docs, Drive e Android, e pelo bom custo-benefício para quem já usa o Google. O Claude é muito bem avaliado em redação, análise de documentos longos e programação. Os três têm versão gratuita e planos pagos de entrada na faixa de US$ 20 por mês. O melhor caminho é testar os três nas suas tarefas reais.
+
+"Qual é a melhor IA?" é provavelmente a pergunta mais frequente de quem começa a usar assistentes de inteligência artificial. A resposta curta é: **depende do que você vai fazer**. A resposta longa é este comparativo, que olha para o que realmente importa no uso diário — e não só para rankings de testes técnicos, que mudam a cada lançamento.
+
+> **Sobre versões:** OpenAI, Google e Anthropic lançam novos modelos várias vezes por ano. Por isso, este artigo compara as plataformas e seus pontos fortes consistentes, em vez de versões específicas que ficam desatualizadas em semanas.
+
+## Visão geral
+
+| | ChatGPT | Gemini | Claude |
+|---|---|---|---|
+| Empresa | OpenAI | Google | Anthropic |
+| Ponto forte | Versatilidade e recursos | Integração com o Google | Escrita, análise e código |
+| Versão gratuita | Sim | Sim | Sim |
+| Plano pago de entrada | ~US$ 20/mês (há opção mais barata) | ~US$ 20/mês (Google AI Pro) | ~US$ 20/mês (Pro) |
+| Melhor para | Uso geral, criatividade, multimídia | Quem vive no Gmail, Docs e Android | Documentos longos, textos, programação |
+
+Preços de referência em dólar; os valores em reais e as condições mudam com frequência. Confira sempre nas páginas oficiais: [ChatGPT](https://openai.com/chatgpt/pricing/), [Google AI](https://gemini.google.com/) e [Claude](https://www.anthropic.com/pricing).
+
+## ChatGPT: o canivete suíço
+
+O ChatGPT popularizou a IA generativa e segue como o assistente mais usado do mundo. O grande trunfo é reunir muitas capacidades num só lugar:
+
+- Conversa por texto e **voz**, com respostas naturais em português.
+- **Geração e edição de imagens** dentro da conversa.
+- **Pesquisa na web** com fontes e um modo de pesquisa aprofundada para relatórios.
+- **GPTs personalizados** e recursos de agente que executam tarefas em várias etapas.
+- Grande ecossistema de integrações e uma API amplamente usada por empresas.
+
+**Quando escolher:** se você quer uma ferramenta para tudo — textos, ideias, imagens, estudos, perguntas do dia a dia — e valoriza ter muitos recursos sem trocar de aplicativo.
+
+**Atenção:** a versão gratuita tem limites de uso dos modelos mais avançados, e a OpenAI vem testando formatos com anúncios em alguns planos.
+
+## Gemini: a escolha natural de quem usa Google
+
+O Gemini é o assistente do Google e brilha quando conectado ao ecossistema da empresa:
+
+- Integração com **Gmail, Google Docs, Planilhas, Drive e Agenda**.
+- Disponível como assistente no **Android**, substituindo o Google Assistente em muitos aparelhos.
+- **Gemini Live**: conversa por voz em português, com compartilhamento de câmera e tela no celular.
+- Capacidade de lidar com grandes volumes de contexto (documentos, vídeos, áudios longos).
+- Planos pagos do Google costumam incluir armazenamento extra no Google One e acesso a ferramentas como o NotebookLM com limites maiores.
+
+**Quando escolher:** se você usa Gmail e Google Workspace no trabalho, tem celular Android ou quer o melhor custo-benefício somando IA e armazenamento.
+
+## Claude: o especialista em texto e código
+
+O Claude, da Anthropic, ganhou reputação entre profissionais que escrevem, analisam documentos e programam:
+
+- Textos com **tom natural** e boa aderência a instruções detalhadas.
+- Excelente em **análise de documentos longos**: contratos, relatórios, pesquisas.
+- **Projetos** para organizar conversas com instruções e arquivos compartilhados.
+- Forte em **programação**, incluindo o Claude Code, ferramenta de agente para desenvolvedores.
+- Política de privacidade e foco declarado em segurança como parte da identidade da empresa.
+
+**Quando escolher:** se o seu trabalho gira em torno de escrever, revisar, analisar documentos ou desenvolver software.
+
+## Comparação por tarefa
+
+- **Escrever e-mails e textos profissionais:** os três atendem bem; o Claude costuma soar mais natural, e o Gemini é prático dentro do Gmail.
+- **Pesquisar com fontes:** ChatGPT e Gemini têm pesquisa web integrada e modos de pesquisa aprofundada; para pesquisa com citação como foco principal, há também ferramentas como o Perplexity.
+- **Analisar PDFs e documentos longos:** Claude e Gemini se destacam.
+- **Criar imagens:** ChatGPT e Gemini têm geração de imagem integrada.
+- **Programar:** Claude é a referência mais citada, mas os três são fortes.
+- **Conversar por voz:** ChatGPT e Gemini Live têm as experiências de voz mais maduras.
+- **Trabalho em equipe no Google Workspace:** Gemini.
+- **Trabalho em equipe no Microsoft 365:** nesse caso, vale considerar o Microsoft Copilot.
+
+## Como decidir em uma semana
+
+1. Liste as cinco tarefas em que você mais usaria IA.
+2. Faça o mesmo pedido, com o mesmo contexto, nas versões gratuitas dos três.
+3. Compare qualidade, tempo de ajuste e facilidade de uso.
+4. Assine apenas a que venceu na maioria das suas tarefas — e reavalie a cada seis meses, porque a disputa muda rápido.
+
+## Conclusão
+
+ChatGPT, Gemini e Claude estão tecnicamente próximos, e a liderança em testes muda a cada lançamento. Na prática, a melhor IA é a que se encaixa no seu fluxo de trabalho: o ChatGPT pela versatilidade, o Gemini pela integração com o Google e o Claude pela qualidade em texto, análise e código. Teste com as suas tarefas reais antes de pagar — e lembre-se de revisar as respostas, seja qual for a escolha.
+
+---
 
 ## Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira
 
