@@ -134,6 +134,10 @@ const ALLOWED_DOMAINS = [
   'mercadolivre.com.br',
   'reclameaqui.com.br',
   'consumidor.gov.br',
+  'agenciasebrae.com.br',
+  'datasebrae.com.br',
+  'em.com.br',
+  'business.whatsapp.com',
 ];
 
 const PLACEHOLDER = /\[PREENCHER\]|\blorem ipsum\b|\{\{|\}\}/i;
