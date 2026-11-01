@@ -38,11 +38,13 @@
       <p>{{ post.quickAnswer }}</p>
     </aside>
 
-    @if (adSlots.postInArticle) {
-      <app-ad-slot [slot]="adSlots.postInArticle" format="fluid" />
-    }
-
-    <div class="prose" #body [innerHTML]="post.html"></div>
+    <div #body>
+      <div class="prose" [innerHTML]="bodyParts.intro"></div>
+      @if (adSlots.postInArticle && bodyParts.rest) {
+        <app-ad-slot [slot]="adSlots.postInArticle" format="fluid" />
+      }
+      <div class="prose prose--rest" [innerHTML]="bodyParts.rest"></div>
+    </div>
 
     @if (post.faq.length) {
       <section class="faq">
@@ -112,7 +114,7 @@
       </nav>
     }
     @if (adSlots.postSidebar) {
-      <app-ad-slot [slot]="adSlots.postSidebar" format="rectangle" />
+      <app-ad-slot [slot]="adSlots.postSidebar" />
     }
   </aside>
 </div>

@@ -16,6 +16,24 @@ import { AccordionComponent, faqJsonLd } from '../../shared/accordion.component'
 import { BreadcrumbsComponent, Crumb, breadcrumbJsonLd } from '../../shared/breadcrumbs.component';
 import { PostCardComponent, formatDatePt } from '../../shared/post-card.component';
 
+/** Divide o HTML do post depois do N-ésimo parágrafo de primeiro nível, onde entra o anúncio do artigo. */
+export function splitAfterParagraphs(html: string, count: number): { intro: string; rest: string } {
+  let depth = 0;
+  let seen = 0;
+  for (const m of html.matchAll(/<(\/?)(blockquote|ul|ol|table|pre|p)\b[^>]*>/g)) {
+    const closing = m[1] === '/';
+    if (m[2] === 'p') {
+      if (closing && depth === 0 && ++seen === count) {
+        const end = m.index + m[0].length;
+        return { intro: html.slice(0, end), rest: html.slice(end) };
+      }
+    } else {
+      depth += closing ? -1 : 1;
+    }
+  }
+  return { intro: html, rest: '' };
+}
+
 @Component({
   selector: 'app-post-page',
   standalone: true,
@@ -30,6 +48,7 @@ export class PostPageComponent implements OnDestroy {
   readonly post: Post = inject(ActivatedRoute).snapshot.data['post'];
   readonly category = getCategory(this.post.category);
   readonly adSlots = SITE.adsense.slots;
+  readonly bodyParts = splitAfterParagraphs(this.post.html, 2);
 
   private readonly doc = inject(DOCUMENT);
   private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));

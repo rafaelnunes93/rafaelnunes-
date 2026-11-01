@@ -23,25 +23,34 @@ declare global {
         <ins
           #ins
           class="adsbygoogle"
-          style="display:block"
+          style="display:block; text-align:center"
           [attr.data-ad-client]="client"
           [attr.data-ad-slot]="slot()"
           [attr.data-ad-format]="format()"
-          data-full-width-responsive="true"
+          [attr.data-ad-layout]="format() === 'fluid' ? 'in-article' : null"
+          [attr.data-full-width-responsive]="format() === 'fluid' ? null : 'true'"
         ></ins>
       </aside>
     }
   `,
   styles: `
-    .ad { margin: 32px 0; padding: 12px; border: 1px dashed var(--line-2); border-radius: 14px; min-height: 120px; }
-    .ad-label { display: block; margin-bottom: 6px; font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--subtle); }
+    .ad { margin: 32px 0; }
+    .ad-label { display: none; margin-bottom: 6px; font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--subtle); }
+    // A moldura e a etiqueta só aparecem com anúncio de verdade; sem anúncio, o espaço some.
+    .ad:has(ins[data-ad-status='filled']) {
+      padding: 12px;
+      border: 1px dashed var(--line-2);
+      border-radius: 14px;
+      .ad-label { display: block; }
+    }
+    .ad:has(ins[data-ad-status='unfilled']) { display: none; }
   `,
 })
 export class AdSlotComponent {
   readonly tr = inject(TranslationService);
   readonly t = BLOG_UI;
   readonly slot = input.required<string>();
-  readonly format = input<'auto' | 'fluid' | 'rectangle'>('auto');
+  readonly format = input<'auto' | 'fluid'>('auto');
   readonly client = SITE.adsense.client;
 
   private readonly consent = inject(ConsentService);

@@ -47,7 +47,7 @@ export const SITE = {
   // client: "ca-pub-XXXXXXXXXXXXXXXX"; slots: IDs dos blocos criados no painel do AdSense.
   adsense: {
     client: 'ca-pub-5886946314899205',
-    slots: { blogList: '', postInArticle: '', postSidebar: '' },
+    slots: { blogList: '4154785196', postInArticle: '9876838983', postSidebar: '7059103950' },
   },
   indexNowKey: '',
   postsPerPage: 9,
