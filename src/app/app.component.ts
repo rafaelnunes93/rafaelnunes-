@@ -1,31 +1,26 @@
-import { Component } from '@angular/core';
-import { HomeComponent } from './sections/home/home.component';
-import { AboutComponent } from './sections/about/about.component';
-import { ServicesComponent } from './sections/services/services.component';
-import { SkillsComponent } from './sections/skills/skills.component';
-import { ProjectsComponent } from './sections/projects/projects.component';
-import { ExperienciasComponent } from './sections/experiencias/experiencias.component';
-import { ContactComponent } from './sections/contact/contact.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { Component, inject } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './layout/header/header.component';
+import { SiteFooterComponent } from './layout/footer/site-footer.component';
+import { FloatingActionsComponent } from './layout/floating/floating-actions.component';
+import { ScrollProgressComponent } from './layout/scroll-progress.component';
+import { CookieBannerComponent } from './layout/cookie-banner.component';
+import { AnalyticsService } from './core/analytics.service';
+import { LAYOUT } from './data/layout';
+import { TranslationService } from './services/translation.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
-    HomeComponent,
-    AboutComponent,
-    ServicesComponent,
-    SkillsComponent,
-    ProjectsComponent,
-    ExperienciasComponent,
-    ContactComponent,
-    NavbarComponent,
-    FooterComponent
-  ],
+  imports: [RouterOutlet, HeaderComponent, SiteFooterComponent, FloatingActionsComponent, ScrollProgressComponent, CookieBannerComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Rafael Nunes dos Santos';
+  readonly tr = inject(TranslationService);
+  readonly t = LAYOUT;
+
+  constructor() {
+    inject(AnalyticsService); // carrega GA4/Clarity quando houver consentimento
+  }
 }

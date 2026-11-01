@@ -1,0 +1,250 @@
+.lead-card {
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-lg);
+  padding: 24px;
+
+  @media (min-width: 768px) {
+    padding: 32px;
+  }
+}
+
+.progress-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: var(--subtle);
+
+  .step-title {
+    color: var(--primary);
+    font-weight: 600;
+    outline: none;
+  }
+}
+
+.progress {
+  height: 6px;
+  margin-top: 10px;
+  border-radius: 9999px;
+  background: var(--surface-2);
+  overflow: hidden;
+
+  span {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--cta), var(--accent));
+    transition: width 0.3s var(--ease);
+  }
+}
+
+.step {
+  margin: 24px 0 0;
+  padding: 0;
+  border: 0;
+  animation: step-in 0.3s var(--ease);
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+}
+
+legend,
+.field-label {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+
+legend {
+  font-size: 1.15rem;
+}
+
+.field-label {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+}
+
+.help {
+  margin: -4px 0 8px;
+  font-size: 0.8rem;
+  color: var(--subtle);
+}
+
+.radio-grid {
+  display: grid;
+  gap: 10px;
+
+  @media (min-width: 520px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.radio-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius-input);
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+
+  &:hover,
+  &.is-checked {
+    border-color: var(--primary);
+  }
+  &.is-checked {
+    background: var(--primary-soft);
+  }
+
+  input {
+    accent-color: var(--primary);
+  }
+}
+
+input:not([type='radio']):not([type='checkbox']),
+select,
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--radius-input);
+  border: 1px solid var(--line-2);
+  background: var(--surface-2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.92rem;
+
+  &:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--primary-soft);
+  }
+
+  &[aria-invalid='true'] {
+    border-color: var(--danger);
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+.two-col {
+  display: grid;
+  gap: 0 16px;
+
+  @media (min-width: 520px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .field-label {
+    margin-top: 16px;
+  }
+}
+
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.consent {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+  cursor: pointer;
+
+  input {
+    margin-top: 3px;
+    accent-color: var(--primary);
+  }
+}
+
+.err {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: var(--danger);
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 14px 16px;
+  border-radius: var(--radius-input);
+  border: 1px solid var(--danger);
+  background: color-mix(in srgb, var(--danger) 8%, transparent);
+  font-size: 0.88rem;
+
+  p {
+    margin-top: 4px;
+    color: var(--muted);
+  }
+}
+
+.alert-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: var(--subtle);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+
+  p {
+    color: var(--muted);
+  }
+}
+
+.result-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--primary-soft);
+  color: var(--success);
+  font-size: 1.2rem;
+}

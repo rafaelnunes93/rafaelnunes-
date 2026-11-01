@@ -1,0 +1,51 @@
+name: build-and-deploy
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    paths: ['src/content/blog/**']
+  schedule:
+    - cron: '5 11 * * *' # 08:05 BRT: publica posts agendados (pubDate futura)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      N8N_DEPLOY_WEBHOOK: ${{ secrets.N8N_DEPLOY_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Bloqueia posts inválidos (inclusive os gerados pelo n8n em PRs).
+      - run: npm run validate:posts
+
+      - run: npm run build
+
+      - name: Publicar no GitHub Pages (branch gh-pages)
+        if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/rafaelnunes-/browser
+          publish_branch: gh-pages
+          commit_message: 'deploy: ${{ github.sha }}'
+
+      - name: IndexNow
+        if: github.event_name != 'pull_request' && env.INDEXNOW_KEY != ''
+        run: npx tsx scripts/indexnow.ts

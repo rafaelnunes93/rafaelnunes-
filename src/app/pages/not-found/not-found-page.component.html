@@ -1,0 +1,32 @@
+<section class="nf container-x">
+  <p class="nf-code text-gradient" aria-hidden="true">404</p>
+  <h1>{{ tr.pick(t.title) }}</h1>
+  <p class="lead">{{ tr.pick(t.text) }}</p>
+
+  <form class="nf-search" role="search" (ngSubmit)="search()">
+    <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+    <label class="visually-hidden" for="nf-q">{{ tr.pick(t.search) }}</label>
+    <input id="nf-q" name="q" type="search" [(ngModel)]="query" [placeholder]="tr.pick(t.search)" />
+    <button type="submit" class="ui-btn ui-btn--primary ui-btn--sm">{{ tr.pick(t.searchBtn) }}</button>
+  </form>
+
+  <div class="nf-cards">
+    @for (c of cards(); track c.path) {
+      <a class="ui-card ui-card--hover" [routerLink]="c.path">
+        <span class="icon-box"><i [class]="c.icon" aria-hidden="true"></i></span>
+        <h2>{{ c.title }}</h2>
+        <p>{{ c.text }}</p>
+      </a>
+    }
+  </div>
+
+  <ul class="chip-list nf-chips">
+    @for (s of services(); track s.path) {
+      <li><a class="chip" [routerLink]="s.path">{{ s.label }}</a></li>
+    }
+  </ul>
+
+  <a class="ui-btn ui-btn--primary ui-btn--lg" [routerLink]="contact().path" [fragment]="contact().fragment">
+    {{ tr.pick(t.cta) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+  </a>
+</section>

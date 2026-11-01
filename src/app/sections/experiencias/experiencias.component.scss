@@ -113,7 +113,7 @@
 
 .timeline-content {
   background: var(--bg-card);
-  color: white;
+  color: var(--text-primary);
   padding: 24px 28px;
   border-radius: var(--radius-lg);
   width: calc(40% - 20px);
@@ -229,5 +229,37 @@
   .timeline-content.left,
   .timeline-content.right {
     padding: 12px 14px;
+  }
+}
+/* ======== TEMA CLARO ======== */
+:host-context([data-theme='light']) {
+  .tab {
+    &:hover {
+      background: rgba(4, 120, 87, 0.06);
+    }
+
+    &.active {
+      text-shadow: none;
+    }
+  }
+
+  .timeline::before {
+    background: linear-gradient(to bottom, var(--green), rgba(4, 120, 87, 0.12));
+    box-shadow: none;
+  }
+
+  .timeline-dot {
+    box-shadow: 0 0 0 4px #ffffff, 0 0 14px rgba(4, 120, 87, 0.35);
+    animation: none;
+
+    &::before {
+      border-color: rgba(4, 120, 87, 0.25);
+    }
+  }
+
+  .timeline-content:hover {
+    box-shadow:
+      0 0 0 1px rgba(4, 120, 87, 0.12),
+      var(--shadow-elevated);
   }
 }

@@ -1,28 +1,35 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" dir="ltr" data-theme="dark">
 <head>
   <meta charset="utf-8">
-  <title>Rafael Nunes dos Santos | Backend Engineer &amp; Desenvolvedor .NET</title>
+  <title>Rafael Nunes — Desenvolvedor Full Stack .NET e Angular</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfólio de Rafael Nunes dos Santos – Backend Engineer especializado em .NET, Clean Architecture, Microsserviços e APIs de Alta Performance.">
-  <meta name="theme-color" content="#050810">
+  <meta name="description" content="Desenvolvedor full stack especializado em .NET e Angular: sistemas web, APIs, integrações, apps e SaaS.">
+  <meta name="theme-color" content="#050816">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f5f8f6">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#050816">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Rafael Nunes dos Santos | Backend Engineer">
-  <meta property="og:description" content="Portfólio de Rafael Nunes dos Santos – Backend Engineer .NET, Clean Architecture e Microsserviços.">
-  <meta property="og:type" content="website">
+  <!-- Tema antes da primeira pintura (sem flash) + classe js para os reveals -->
+  <script>
+    (function () {
+      var d = document.documentElement, t;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      d.dataset.theme = t;
+      d.classList.add('js');
+      requestAnimationFrame(function () { requestAnimationFrame(function () { d.classList.add('theme-ready'); }); });
+    })();
+  </script>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <!-- Google Fonts – Sora -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome (icons) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="Blog — Rafael Nunes" href="feed.xml">
 </head>
 <body>
   <app-root></app-root>

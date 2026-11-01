@@ -1,0 +1,53 @@
+// Textos da interface do blog. O blog só existe em português, mas as chaves seguem pt + en
+// (o card de post também aparece na home em inglês).
+import type { L } from '../services/translation.service';
+
+export const BLOG_UI = {
+  crumb: { pt: 'Blog', en: 'Blog' } as L,
+  eyebrow: { pt: 'Blog', en: 'Blog' } as L,
+  title: { pt: 'Guias para quem vai desenvolver ou contratar software', en: 'Guides for anyone building or hiring software' } as L,
+  lead: {
+    pt: 'Custos, arquitetura, integrações, logística e produto — respostas diretas de quem desenvolve sistemas em produção, sem jargão.',
+    en: 'Costs, architecture, integrations, logistics and product — straight answers from someone who builds production systems.',
+  } as L,
+  searchLabel: { pt: 'Buscar artigos', en: 'Search articles' } as L,
+  searchPlaceholder: { pt: 'Buscar: custo, API, TMS, .NET…', en: 'Search: cost, API, TMS, .NET…' } as L,
+  clear: { pt: 'Limpar busca', en: 'Clear search' } as L,
+  all: { pt: 'Todos', en: 'All' } as L,
+  categories: { pt: 'Categorias', en: 'Categories' } as L,
+  found: { pt: '{n} artigo(s) encontrado(s).', en: '{n} article(s) found.' } as L,
+  empty: { pt: 'Nenhum artigo encontrado. Tente outro termo ou categoria.', en: 'No articles found. Try another term or category.' } as L,
+  noPosts: { pt: 'Os primeiros artigos estão a caminho.', en: 'The first articles are on the way.' } as L,
+  pagination: { pt: 'Paginação do blog', en: 'Blog pagination' } as L,
+  prev: { pt: 'Anteriores', en: 'Previous' } as L,
+  next: { pt: 'Próximos', en: 'Next' } as L,
+  page: { pt: 'Página', en: 'Page' } as L,
+  readingTime: { pt: 'min de leitura', en: 'min read' } as L,
+  by: { pt: 'Por', en: 'By' } as L,
+  published: { pt: 'Publicado em', en: 'Published on' } as L,
+  updated: { pt: 'Atualizado em', en: 'Updated on' } as L,
+  toc: { pt: 'Neste artigo', en: 'In this article' } as L,
+  relatedServices: { pt: 'Serviços relacionados', en: 'Related services' } as L,
+  quickAnswer: { pt: 'Resposta rápida', en: 'Quick answer' } as L,
+  faq: { pt: 'Perguntas frequentes', en: 'Frequently asked questions' } as L,
+  share: { pt: 'Compartilhar:', en: 'Share:' } as L,
+  copyLink: { pt: 'Copiar link', en: 'Copy link' } as L,
+  copied: { pt: 'Link copiado!', en: 'Link copied!' } as L,
+  send: { pt: 'Enviar', en: 'Send' } as L,
+  ctaEyebrow: { pt: 'Vamos conversar', en: 'Let’s talk' } as L,
+  ctaButton: { pt: 'Contar meu projeto', en: 'Tell me your project' } as L,
+  ctaWhatsapp: { pt: 'Falar no WhatsApp', en: 'Chat on WhatsApp' } as L,
+  authorLabel: { pt: 'Quem escreve', en: 'Author' } as L,
+  authorBio: {
+    pt: 'Desenvolvedor full stack especializado em .NET e pós-graduado em Arquitetura de Sistemas .NET pela FIAP, com experiência em logística (TMS e EDI), APIs, integrações, SaaS, apps em Flutter e React Native e jogos em Unity. Desenvolve com IA no dia a dia e escreve sobre o que aprende construindo software em produção.',
+    en: 'Full stack developer specialized in .NET with a postgraduate degree in .NET Systems Architecture from FIAP, experienced in logistics (TMS and EDI), APIs, integrations, SaaS, Flutter and React Native apps and Unity games. Uses AI in everyday development and writes about what he learns building software in production.',
+  } as L,
+  authorMore: { pt: 'Trajetória completa', en: 'Full journey' } as L,
+  continue: { pt: 'Continue lendo', en: 'Keep reading' } as L,
+  ad: { pt: 'Publicidade', en: 'Advertisement' } as L,
+  seoTitle: { pt: 'Blog: desenvolvimento, arquitetura e contratação de software', en: 'Blog' } as L,
+  seoDescription: {
+    pt: 'Artigos sobre custo de software, arquitetura .NET, APIs e integrações, logística e TMS, SaaS e apps — escritos por Rafael Nunes, desenvolvedor full stack.',
+    en: 'Articles about software costs, .NET architecture, APIs, logistics, SaaS and apps (in Portuguese).',
+  } as L,
+};

@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Conteúdo gerado no build (scripts/build-content.ts)
+/src/app/generated
+
+# Material de referência local (não versionar)
+/portfolio-spec/
+/portfolio-spec.zip

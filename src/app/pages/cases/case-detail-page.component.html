@@ -1,0 +1,93 @@
+<header class="page-hero">
+  <div class="container-x">
+    <app-breadcrumbs [items]="crumbs()" />
+    <span class="eyebrow">{{ tr.pick(t.eyebrow) }} · {{ tr.pick(item.type) }}</span>
+    <h1>{{ tr.pick(item.title) }}</h1>
+    <p class="lead">{{ tr.pick(item.lead) }}</p>
+    <dl class="meta">
+      <div><dt>{{ tr.pick(t.project) }}</dt><dd>{{ item.name }}</dd></div>
+      <div><dt>{{ tr.pick(t.role) }}</dt><dd>{{ tr.pick(item.role) }}</dd></div>
+    </dl>
+  </div>
+</header>
+
+<div class="container-x narrow">
+  <div class="shot" reveal>
+    <app-browser-frame [src]="item.image" [alt]="tr.pick(item.imageAlt)" [domain]="item.domain" [contain]="!!item.imageContain" />
+  </div>
+
+  <ul class="highlights">
+    @for (h of item.highlights; track h.value) {
+      <li class="ui-card" reveal><strong>{{ h.value }}</strong><span>{{ tr.pick(h.label) }}</span></li>
+    }
+  </ul>
+
+  <div class="layout">
+    <div class="main">
+      <section reveal>
+        <h2><span class="ic ic--p"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i></span>{{ tr.pick(t.problem) }}</h2>
+        <ul class="bullets bullets--p">
+          @for (p of tr.pick(item.problemPoints); track p) { <li>{{ p }}</li> }
+        </ul>
+      </section>
+      <section reveal>
+        <h2><span class="ic ic--s"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></span>{{ tr.pick(t.solution) }}</h2>
+        <ul class="check-list">
+          @for (p of tr.pick(item.solutionPoints); track p) { <li>{{ p }}</li> }
+        </ul>
+      </section>
+      <section reveal>
+        <h2><span class="ic ic--r"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></span>{{ tr.pick(t.result) }}</h2>
+        <ul class="check-list">
+          @for (p of tr.pick(item.resultPoints); track p) { <li>{{ p }}</li> }
+        </ul>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="ui-card">
+        <h2 class="side-title">{{ tr.pick(t.tech) }}</h2>
+        <ul class="chip-list">
+          @for (tech of item.tech; track tech) { <li class="chip">{{ tech }}</li> }
+        </ul>
+        <h2 class="side-title">{{ tr.pick(t.features) }}</h2>
+        <ul class="check-list">
+          @for (f of tr.pick(item.keyFeatures); track f) { <li>{{ f }}</li> }
+        </ul>
+        @if (item.liveUrl) {
+          <a class="ui-btn ui-btn--secondary ui-btn--sm live" [href]="item.liveUrl" target="_blank" rel="noopener noreferrer">
+            {{ tr.pick(t.live) }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        }
+      </div>
+      @if (services().length) {
+        <nav class="ui-card" [attr.aria-label]="tr.pick(t.services)">
+          <h2 class="side-title">{{ tr.pick(t.services) }}</h2>
+          <ul class="svc-links">
+            @for (s of services(); track s.path) {
+              <li><a [routerLink]="s.path"><i [class]="s.icon" aria-hidden="true"></i> {{ s.label }}</a></li>
+            }
+          </ul>
+        </nav>
+      }
+    </aside>
+  </div>
+
+  <div class="cta" reveal>
+    <span class="eyebrow">{{ tr.pick(t.ctaEyebrow) }}</span>
+    <h2>{{ tr.pick(t.ctaTitle) }}</h2>
+    <p>{{ tr.pick(t.ctaText) }}</p>
+    <a class="ui-btn ui-btn--primary" [routerLink]="home()" [fragment]="contactAnchor()">
+      {{ tr.pick(t.ctaButton) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+
+<section class="section section--tinted">
+  <div class="container-x">
+    <h2 class="h-section others-title">{{ tr.pick(t.others) }}</h2>
+    <div class="others">
+      @for (c of others(); track c.slug) { <app-case-card [item]="c" [compact]="true" /> }
+    </div>
+  </div>
+</section>

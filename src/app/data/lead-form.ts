@@ -1,0 +1,96 @@
+// Textos e opções do formulário de contato em 3 etapas. Sempre pt + en.
+import type { L } from '../services/translation.service';
+import type { FormType } from './services';
+
+export const LEAD_FORM = {
+  description: {
+    pt: 'Formulário em 3 etapas para contar sobre o seu projeto.',
+    en: '3-step form to tell me about your project.',
+  },
+  stepOf: { pt: 'Etapa {n} de 3', en: 'Step {n} of 3' },
+  stepNames: [
+    { pt: 'Seu projeto', en: 'Your project' },
+    { pt: 'Um pouco de contexto', en: 'Some context' },
+    { pt: 'Para onde envio a resposta?', en: 'Where should I reply?' },
+  ],
+  typeLabel: { pt: 'O que você precisa?', en: 'What do you need?' },
+  typeError: { pt: 'Escolha o tipo de projeto.', en: 'Choose the project type.' },
+  types: [
+    { value: 'sistema-web', label: { pt: 'Sistema web / ERP', en: 'Web system / ERP' } },
+    { value: 'api-integracao', label: { pt: 'API ou integração', en: 'API or integration' } },
+    { value: 'saas', label: { pt: 'SaaS ou MVP', en: 'SaaS or MVP' } },
+    { value: 'app-mobile', label: { pt: 'Aplicativo mobile', en: 'Mobile app' } },
+    { value: 'site-landing', label: { pt: 'Site ou landing page', en: 'Website or landing page' } },
+    { value: 'jogo', label: { pt: 'Jogo', en: 'Game' } },
+    { value: 'outro', label: { pt: 'Outro', en: 'Other' } },
+  ] as { value: FormType; label: L }[],
+  descLabel: { pt: 'Qual problema você quer resolver?', en: 'What problem do you want to solve?' },
+  descHelp: {
+    pt: 'Com as suas palavras: o que acontece hoje, o que dá errado e o que seria o ideal.',
+    en: 'In your own words: what happens today, what goes wrong and what the ideal would be.',
+  },
+  descPlaceholder: {
+    pt: 'Ex.: controlamos as entregas em planilha e e-mail, o cliente liga pedindo status e os documentos atrasam…',
+    en: 'E.g. we track deliveries in spreadsheets and email, customers call asking for status and documents are late…',
+  },
+  descError: {
+    pt: 'Conte um pouco mais sobre o problema (mínimo de 20 caracteres).',
+    en: 'Tell me a bit more about the problem (at least 20 characters).',
+  },
+  sizeLabel: { pt: 'Tamanho da empresa', en: 'Company size' },
+  sizes: [
+    { value: 'solo', label: { pt: 'Só eu / autônomo', en: 'Just me / freelancer' } },
+    { value: '1-10', label: { pt: 'Até 10 pessoas', en: 'Up to 10 people' } },
+    { value: '11-50', label: { pt: '11 a 50 pessoas', en: '11 to 50 people' } },
+    { value: '51-200', label: { pt: '51 a 200 pessoas', en: '51 to 200 people' } },
+    { value: '200+', label: { pt: 'Mais de 200 pessoas', en: 'More than 200 people' } },
+  ],
+  deadlineLabel: { pt: 'Quando você precisa?', en: 'When do you need it?' },
+  deadlines: [
+    { value: 'urgente', label: { pt: 'Urgente (até 1 mês)', en: 'Urgent (within 1 month)' } },
+    { value: '1-3-meses', label: { pt: 'Em 1 a 3 meses', en: 'In 1 to 3 months' } },
+    { value: '3-6-meses', label: { pt: 'Em 3 a 6 meses', en: 'In 3 to 6 months' } },
+    { value: 'sem-prazo', label: { pt: 'Ainda estou avaliando', en: 'Still evaluating' } },
+  ],
+  budgetLabel: { pt: 'Faixa de investimento prevista (opcional)', en: 'Expected budget range (optional)' },
+  budgets: [
+    { value: '', label: { pt: 'Prefiro não informar', en: 'I’d rather not say' } },
+    { value: 'ate-5k', label: { pt: 'Até R$ 5 mil', en: 'Up to US$ 1k' } },
+    { value: '5-20k', label: { pt: 'R$ 5 mil a R$ 20 mil', en: 'US$ 1k to 4k' } },
+    { value: '20-50k', label: { pt: 'R$ 20 mil a R$ 50 mil', en: 'US$ 4k to 10k' } },
+    { value: '50k+', label: { pt: 'Acima de R$ 50 mil', en: 'Above US$ 10k' } },
+  ],
+  select: { pt: 'Selecione…', en: 'Select…' },
+  required: { pt: 'Campo obrigatório.', en: 'Required field.' },
+  nameLabel: { pt: 'Seu nome', en: 'Your name' },
+  companyLabel: { pt: 'Empresa (opcional)', en: 'Company (optional)' },
+  emailLabel: { pt: 'E-mail', en: 'Email' },
+  emailError: { pt: 'Informe um e-mail válido.', en: 'Enter a valid email.' },
+  phoneLabel: { pt: 'WhatsApp', en: 'WhatsApp' },
+  phoneError: { pt: 'Informe um WhatsApp com DDD (10 ou 11 dígitos).', en: 'Enter a phone number with area code.' },
+  honeypot: { pt: 'Não preencha este campo', en: 'Do not fill in this field' },
+  consent: {
+    pt: 'Concordo em ser contatado sobre este pedido e com a política de privacidade. Meus dados não são compartilhados nem usados para outra finalidade.',
+    en: 'I agree to be contacted about this request and with the privacy policy. My data is not shared or used for anything else.',
+  },
+  consentError: { pt: 'É preciso concordar para enviar.', en: 'You must agree in order to send.' },
+  back: { pt: 'Voltar', en: 'Back' },
+  next: { pt: 'Continuar', en: 'Continue' },
+  submit: { pt: 'Enviar meu projeto', en: 'Send my project' },
+  sending: { pt: 'Enviando…', en: 'Sending…' },
+  footnote: { pt: 'Resposta em poucas horas. Sem spam, sem compromisso.', en: 'Reply within a few hours. No spam, no commitment.' },
+  successTitle: { pt: 'Pedido recebido!', en: 'Request received!' },
+  successText: {
+    pt: 'Obrigado. Eu leio cada mensagem e respondo em poucas horas, pelo e-mail ou WhatsApp que você informou.',
+    en: 'Thank you. I read every message and reply within a few hours, by the email or WhatsApp you provided.',
+  },
+  successWhatsapp: { pt: 'Adiantar pelo WhatsApp', en: 'Speed things up on WhatsApp' },
+  errorTitle: { pt: 'Não consegui enviar agora.', en: 'I couldn’t send it right now.' },
+  errorText: {
+    pt: 'Tente de novo em instantes ou mande o mesmo resumo pelo WhatsApp — os dados que você preencheu já vão na mensagem.',
+    en: 'Try again in a moment or send the same summary on WhatsApp — the details you filled in are already in the message.',
+  },
+  tooFast: { pt: 'Envio rápido demais. Revise os dados e tente de novo.', en: 'Sent too quickly. Review the details and try again.' },
+  sendWhatsapp: { pt: 'Enviar pelo WhatsApp', en: 'Send via WhatsApp' },
+  waIntro: { pt: 'Olá, Rafael! Vim pelo site. Resumo do meu projeto:', en: 'Hi Rafael! I came from your website. My project summary:' },
+};

@@ -1,0 +1,121 @@
+<header class="page-hero">
+  <div class="container-x">
+    <app-breadcrumbs [items]="crumbs()" />
+    <span class="eyebrow">{{ tr.pick(t.eyebrow) }}</span>
+    <h1>{{ tr.pick(service.title) }}</h1>
+    <p class="lead">{{ tr.pick(service.benefit) }}</p>
+    <div class="hero-ctas">
+      <a class="ui-btn ui-btn--primary" [routerLink]="[]" fragment="svc-contact">{{ tr.pick(t.ctaPrimary) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i></a>
+      <a class="ui-btn ui-btn--secondary" [href]="whatsapp()" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> {{ tr.pick(t.ctaWhatsapp) }}
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="container-x layout">
+  <div class="main">
+    <section class="block" reveal>
+      <h2>{{ tr.pick(service.definitionQuestion) }}</h2>
+      <p class="definition">{{ tr.pick(service.definition) }}</p>
+    </section>
+
+    <section class="block two" reveal>
+      <div class="ui-card">
+        <h3>{{ tr.pick(t.forWho) }}</h3>
+        <ul class="check-list">
+          @for (item of tr.pick(service.forWho); track item) { <li>{{ item }}</li> }
+        </ul>
+      </div>
+      <div class="ui-card">
+        <h3>{{ tr.pick(t.pains) }}</h3>
+        <ul class="check-list check-list--warn">
+          @for (item of tr.pick(service.pains); track item) { <li>{{ item }}</li> }
+        </ul>
+      </div>
+    </section>
+
+    <section class="block" reveal>
+      <h2>{{ tr.pick(t.features) }}</h2>
+      <ul class="features">
+        @for (f of service.features; track f.icon) {
+          <li class="ui-card"><span class="icon-box"><i [class]="f.icon" aria-hidden="true"></i></span>{{ tr.pick(f.text) }}</li>
+        }
+      </ul>
+    </section>
+
+    <section class="block" reveal>
+      <h2>{{ tr.pick(t.steps) }}</h2>
+      <ol class="steps">
+        @for (s of tr.pick(service.steps); track s.title; let i = $index) {
+          <li><span class="n">{{ i + 1 }}</span><p><strong>{{ s.title }}.</strong> {{ s.text }}</p></li>
+        }
+      </ol>
+    </section>
+
+    <section class="block" reveal>
+      <h2>{{ tr.pick(t.deliverables) }}</h2>
+      <ul class="check-list cols">
+        @for (d of tr.pick(service.deliverables); track d) { <li>{{ d }}</li> }
+      </ul>
+      <ul class="chip-list stack" [attr.aria-label]="tr.pick(t.stack)">
+        @for (tech of service.stack; track tech) { <li class="chip">{{ tech }}</li> }
+      </ul>
+    </section>
+
+    <section class="block two" reveal>
+      <div class="ui-card">
+        <h3><i class="fa-regular fa-money-bill-1" aria-hidden="true"></i> {{ tr.pick(t.price) }}</h3>
+        <p>{{ tr.pick(service.price) }}</p>
+      </div>
+      <div class="ui-card">
+        <h3><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ tr.pick(t.timeline) }}</h3>
+        <p>{{ tr.pick(service.timeline) }}</p>
+      </div>
+    </section>
+
+    @if (cases().length) {
+      <section class="block" reveal>
+        <h2>{{ tr.pick(t.cases) }}</h2>
+        <div class="cases">
+          @for (c of cases(); track c.slug) { <app-case-card [item]="c" [compact]="true" /> }
+        </div>
+      </section>
+    }
+
+    <section class="block" reveal>
+      <h2>{{ tr.pick(t.faq) }}</h2>
+      <app-accordion [items]="tr.pick(service.faq)" [openFirst]="true" />
+    </section>
+  </div>
+
+  <aside class="sidebar">
+    <div class="ui-card side-cta">
+      <h2>{{ tr.pick(t.sidebarTitle) }}</h2>
+      <p>{{ tr.pick(t.sidebarText) }}</p>
+      <a class="ui-btn ui-btn--primary" [routerLink]="[]" fragment="svc-contact">{{ tr.pick(t.sidebarCta) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i></a>
+      <a class="ui-btn ui-btn--whatsapp" [href]="whatsapp()" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+    </div>
+    <nav class="others" [attr.aria-label]="tr.pick(t.otherServices)">
+      <h2>{{ tr.pick(t.otherServices) }}</h2>
+      <ul>
+        @for (o of others(); track o.path) {
+          <li><a [routerLink]="o.path"><i [class]="o.icon" aria-hidden="true"></i> {{ o.label }}</a></li>
+        }
+      </ul>
+    </nav>
+  </aside>
+</div>
+
+@if (posts().length) {
+  <section class="section section--tinted posts">
+    <div class="container-x">
+      <h2 class="h-section">{{ tr.pick(t.posts) }}</h2>
+      <div class="grid-3 hscroller">
+        @for (p of posts(); track p.slug) { <app-post-card [post]="p" /> }
+      </div>
+    </div>
+  </section>
+}
+
+<app-contact-section anchorId="svc-contact" [title]="contactTitle()" [preset]="service.formType" [whatsappMessage]="whatsappMessage()" />

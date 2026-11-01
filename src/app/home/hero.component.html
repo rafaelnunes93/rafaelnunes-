@@ -1,0 +1,51 @@
+<section class="hero">
+  <svg class="hero-lines" viewBox="0 0 400 300" fill="none" aria-hidden="true">
+    <path d="M0 220 C 120 200, 180 120, 400 90" />
+    <path d="M40 300 C 160 260, 240 200, 400 190" />
+  </svg>
+
+  <div class="container-x hero-grid">
+    <div class="hero-copy">
+      <span class="pill"><span class="status-dot"></span>{{ tr.pick(t.pill) }}</span>
+
+      <h1>
+        {{ tr.pick(t.titleStart) }}
+        <span class="hl">
+          <span class="text-gradient">{{ tr.pick(t.titleHighlight) }}</span>
+          <svg class="underline" viewBox="0 0 300 14" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M2 10 C 70 3, 150 2, 298 8" pathLength="1" />
+          </svg>
+        </span>
+        {{ tr.pick(t.titleEnd) }}
+      </h1>
+
+      <p class="typed" aria-hidden="true"><span class="prompt">&gt;</span> {{ typed() }}<span class="caret"></span></p>
+
+      <p class="lead">{{ tr.pick(t.lead) }}</p>
+
+      <div class="hero-ctas">
+        <a class="ui-btn ui-btn--primary ui-btn--lg" [routerLink]="home()" [fragment]="contactAnchor()">
+          {{ tr.pick(t.ctaPrimary) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+        </a>
+        <a class="ui-btn ui-btn--secondary ui-btn--lg" [routerLink]="home()" [fragment]="casesAnchor()">{{ tr.pick(t.ctaSecondary) }}</a>
+      </div>
+
+      <p class="micro"><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ tr.pick(t.micro) }}</p>
+    </div>
+
+    <div class="hero-visual">
+      <div class="photo-frame">
+        <img [src]="site.photo" [alt]="tr.pick(t.photoAlt)" width="667" height="883" fetchpriority="high" />
+      </div>
+
+      <div class="float-chip chip-status"><span class="status-dot"></span>{{ tr.pick(t.chipStatus) }}</div>
+
+
+
+      <p class="mobile-caption">
+        <strong>{{ site.name }}</strong>
+        <span>{{ tr.pick(t.mobileCaption) }}</span>
+      </p>
+    </div>
+  </div>
+</section>

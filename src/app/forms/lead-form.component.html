@@ -1,0 +1,154 @@
+<div class="lead-card" #root>
+  @if (status() === 'success') {
+    <div class="result" role="status">
+      <span class="result-icon"><i class="fa-solid fa-check" aria-hidden="true"></i></span>
+      <h3>{{ tr.pick(t.successTitle) }}</h3>
+      <p>{{ tr.pick(t.successText) }}</p>
+      <a class="ui-btn ui-btn--whatsapp" [href]="whatsappSummary()" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> {{ tr.pick(t.successWhatsapp) }}
+      </a>
+    </div>
+  } @else {
+    <form novalidate (ngSubmit)="submit()" [attr.aria-describedby]="'lead-desc'">
+      <p id="lead-desc" class="visually-hidden">{{ tr.pick(t.description) }}</p>
+
+      <div class="progress-head">
+        <span class="step-title" tabindex="-1">{{ stepTitle() }} · {{ tr.pick(t.stepNames[step() - 1]) }}</span>
+        <span>{{ percent() }}%</span>
+      </div>
+      <div class="progress" role="progressbar" [attr.aria-valuenow]="percent()" aria-valuemin="0" aria-valuemax="100">
+        <span [style.width.%]="percent()"></span>
+      </div>
+
+      @if (step() === 1) {
+        <fieldset class="step">
+          <legend>{{ tr.pick(t.typeLabel) }}</legend>
+          <div class="radio-grid" role="radiogroup" [attr.aria-invalid]="!!error('tipo')" [attr.aria-describedby]="error('tipo') ? 'err-tipo' : null">
+            @for (o of t.types; track o.value) {
+              <label class="radio-card" [class.is-checked]="model.tipo === o.value">
+                <input type="radio" name="tipo" [value]="o.value" [(ngModel)]="model.tipo" (change)="saveDraft()" />
+                <span>{{ tr.pick(o.label) }}</span>
+              </label>
+            }
+          </div>
+          @if (error('tipo')) { <p class="err" id="err-tipo" role="alert">{{ error('tipo') }}</p> }
+
+          <label class="field-label" for="lf-desc">{{ tr.pick(t.descLabel) }}</label>
+          <p class="help" id="lf-desc-help">{{ tr.pick(t.descHelp) }}</p>
+          <textarea
+            id="lf-desc"
+            name="descricao"
+            rows="4"
+            [(ngModel)]="model.descricao"
+            (input)="saveDraft()"
+            [placeholder]="tr.pick(t.descPlaceholder)"
+            [attr.aria-invalid]="!!error('descricao')"
+            [attr.aria-describedby]="error('descricao') ? 'lf-desc-help err-desc' : 'lf-desc-help'"
+          ></textarea>
+          @if (error('descricao')) { <p class="err" id="err-desc" role="alert">{{ error('descricao') }}</p> }
+        </fieldset>
+      }
+
+      @if (step() === 2) {
+        <div class="step">
+          <label class="field-label" for="lf-size">{{ tr.pick(t.sizeLabel) }}</label>
+          <select id="lf-size" name="tamanho" [(ngModel)]="model.tamanho" (change)="saveDraft()" [attr.aria-invalid]="!!error('tamanho')">
+            <option value="" disabled>{{ tr.pick(t.select) }}</option>
+            @for (o of t.sizes; track o.value) { <option [value]="o.value">{{ tr.pick(o.label) }}</option> }
+          </select>
+          @if (error('tamanho')) { <p class="err" role="alert">{{ error('tamanho') }}</p> }
+
+          <label class="field-label" for="lf-deadline">{{ tr.pick(t.deadlineLabel) }}</label>
+          <select id="lf-deadline" name="prazo" [(ngModel)]="model.prazo" (change)="saveDraft()" [attr.aria-invalid]="!!error('prazo')">
+            <option value="" disabled>{{ tr.pick(t.select) }}</option>
+            @for (o of t.deadlines; track o.value) { <option [value]="o.value">{{ tr.pick(o.label) }}</option> }
+          </select>
+          @if (error('prazo')) { <p class="err" role="alert">{{ error('prazo') }}</p> }
+
+          <label class="field-label" for="lf-budget">{{ tr.pick(t.budgetLabel) }}</label>
+          <select id="lf-budget" name="investimento" [(ngModel)]="model.investimento" (change)="saveDraft()">
+            @for (o of t.budgets; track o.value) { <option [value]="o.value">{{ tr.pick(o.label) }}</option> }
+          </select>
+        </div>
+      }
+
+      @if (step() === 3) {
+        <div class="step">
+          <div class="two-col">
+            <div>
+              <label class="field-label" for="lf-name">{{ tr.pick(t.nameLabel) }}</label>
+              <input id="lf-name" name="nome" autocomplete="name" [(ngModel)]="model.nome" (input)="saveDraft()" [attr.aria-invalid]="!!error('nome')" />
+              @if (error('nome')) { <p class="err" role="alert">{{ error('nome') }}</p> }
+            </div>
+            <div>
+              <label class="field-label" for="lf-company">{{ tr.pick(t.companyLabel) }}</label>
+              <input id="lf-company" name="empresa" autocomplete="organization" [(ngModel)]="model.empresa" (input)="saveDraft()" />
+            </div>
+            <div>
+              <label class="field-label" for="lf-email">{{ tr.pick(t.emailLabel) }}</label>
+              <input id="lf-email" name="email" type="email" autocomplete="email" [(ngModel)]="model.email" (input)="saveDraft()" [attr.aria-invalid]="!!error('email')" />
+              @if (error('email')) { <p class="err" role="alert">{{ error('email') }}</p> }
+            </div>
+            <div>
+              <label class="field-label" for="lf-phone">{{ tr.pick(t.phoneLabel) }}</label>
+              <input
+                id="lf-phone"
+                name="whatsapp"
+                type="tel"
+                autocomplete="tel"
+                inputmode="tel"
+                placeholder="(19) 99999-9999"
+                [ngModel]="model.whatsapp"
+                (ngModelChange)="onPhoneInput($event)"
+                [attr.aria-invalid]="!!error('whatsapp')"
+              />
+              @if (error('whatsapp')) { <p class="err" role="alert">{{ error('whatsapp') }}</p> }
+            </div>
+          </div>
+
+          <div class="hp" aria-hidden="true">
+            <label for="lf-site">{{ tr.pick(t.honeypot) }}</label>
+            <input id="lf-site" name="site" tabindex="-1" autocomplete="off" [(ngModel)]="model.site" />
+          </div>
+
+          <label class="consent">
+            <input type="checkbox" name="consentimento" [(ngModel)]="model.consentimento" [attr.aria-invalid]="!!error('consentimento')" />
+            <span>{{ tr.pick(t.consent) }}</span>
+          </label>
+          @if (error('consentimento')) { <p class="err" role="alert">{{ error('consentimento') }}</p> }
+        </div>
+      }
+
+      @if (status() === 'error') {
+        <div class="alert" role="alert">
+          <strong>{{ tr.pick(t.errorTitle) }}</strong>
+          <p>{{ errorMessage() || tr.pick(t.errorText) }}</p>
+          <div class="alert-actions">
+            <a class="ui-btn ui-btn--whatsapp ui-btn--sm" [href]="whatsappSummary()" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> {{ tr.pick(t.sendWhatsapp) }}
+            </a>
+            <button type="button" class="ui-btn ui-btn--secondary ui-btn--sm" (click)="retry()">OK</button>
+          </div>
+        </div>
+      }
+
+      <div class="actions">
+        @if (step() > 1) {
+          <button type="button" class="ui-btn ui-btn--secondary" (click)="back()">{{ tr.pick(t.back) }}</button>
+        }
+        @if (step() < 3) {
+          <button type="button" class="ui-btn ui-btn--primary" (click)="next()">
+            {{ tr.pick(t.next) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+          </button>
+        } @else {
+          <button type="submit" class="ui-btn ui-btn--primary" [attr.aria-busy]="status() === 'sending'">
+            {{ status() === 'sending' ? tr.pick(t.sending) : tr.pick(t.submit) }}
+            <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+          </button>
+        }
+      </div>
+
+      <p class="foot"><i class="fa-solid fa-lock" aria-hidden="true"></i> {{ tr.pick(t.footnote) }}</p>
+    </form>
+  }
+</div>

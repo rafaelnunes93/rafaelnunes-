@@ -58,7 +58,8 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
         { name: 'TypeScript', letter: 'Ts' },
         { name: 'JavaScript', letter: 'Js' },
         { name: 'HTML/CSS', letter: 'H' },
-        { name: 'Flutter', letter: 'F' }
+        { name: 'Flutter', letter: 'F' },
+        { name: 'React Native', letter: 'Rn' }
       ]
     },
     {
@@ -117,15 +118,6 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
   sphereSkills: SphereSkill[] = [];
   animationFrameId: any;
 
-  // Board layout groups
-  boardLeftCol1: SphereSkill[] = [];
-  boardLeftCol2: SphereSkill[] = [];
-  boardLeftCol3: SphereSkill[] = [];
-  boardRightCol4: SphereSkill[] = [];
-  boardRightCol5: SphereSkill[] = [];
-  boardRightCol6: SphereSkill[] = [];
-  extremityLeft: SphereSkill[] = [];
-  extremityRight: SphereSkill[] = [];
 
   // Velocidades de rotação
   speedX = 0.0015;
@@ -170,6 +162,7 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
     'JavaScript': { iconType: 'text', iconValue: 'JS', color: '#f7df1e', priority: 2 },
     'HTML/CSS': { iconType: 'fa', iconValue: 'fa-brands fa-html5', color: '#e34f26', priority: 2 },
     'Flutter': { iconType: 'text', iconValue: 'F', color: '#02569b', priority: 3 },
+    'React Native': { iconType: 'fa', iconValue: 'fa-brands fa-react', color: '#61dafb', priority: 3 },
     'C#': { iconType: 'img', iconValue: 'assets/images/c-sharp-logo.png', color: '#512bd4', priority: 1 },
     '.NET': { iconType: 'img', iconValue: 'assets/images/net8.png', color: '#512bd4', priority: 1 },
     'APIs': { iconType: 'img', iconValue: 'assets/images/api.png', color: '#14e956', priority: 1 },
@@ -271,45 +264,6 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
     }
     
     this.sphereSkills = tempSkills;
-    this.setupBoardGroups();
-  }
-
-  setupBoardGroups(): void {
-    const findSkill = (name: string) => this.sphereSkills.find(s => s.name === name);
-    
-    // Left side columns (Backend & Database)
-    this.boardLeftCol1 = [findSkill('C#')].filter(Boolean) as SphereSkill[];
-    this.boardLeftCol2 = [findSkill('APIs'), findSkill('MongoDB')].filter(Boolean) as SphereSkill[];
-    this.boardLeftCol3 = [findSkill('.NET'), findSkill('EntityFramework'), findSkill('SQL Server')].filter(Boolean) as SphereSkill[];
-    
-    // Right side columns (Frontend & DevOps)
-    this.boardRightCol4 = [findSkill('Angular'), findSkill('TypeScript'), findSkill('Flutter')].filter(Boolean) as SphereSkill[];
-    this.boardRightCol5 = [findSkill('JavaScript'), findSkill('AWS')].filter(Boolean) as SphereSkill[];
-    this.boardRightCol6 = [findSkill('HTML/CSS')].filter(Boolean) as SphereSkill[];
-    
-    // Left extremity panel (8 tools/skills - Backend / Architecture / less important)
-    this.extremityLeft = [
-      findSkill('Node.js'),
-      findSkill('Redis'),
-      findSkill('PostgreSQL'),
-      findSkill('Firebase'),
-      findSkill('Microsserviços'),
-      findSkill('CQRS'),
-      findSkill('SOLID'),
-      findSkill('Clean Code')
-    ].filter(Boolean) as SphereSkill[];
-    
-    // Right extremity panel (8 tools/skills - Frontend / DevOps / Games / less important)
-    this.extremityRight = [
-      findSkill('Docker'),
-      findSkill('GIT'),
-      findSkill('CI/CD'),
-      findSkill('Azure'),
-      findSkill('TDD'),
-      findSkill('Unity 5'),
-      findSkill('Construct'),
-      findSkill('Photon')
-    ].filter(Boolean) as SphereSkill[];
   }
 
   resizeCanvas(): void {
@@ -586,6 +540,12 @@ export class SkillsComponent implements OnInit, AfterViewInit, OnDestroy {
       whatIs: 'SDK de interface de usuário (UI Toolkit) de código aberto criado pela Google para construir aplicações compiladas nativamente para mobile (Android, iOS), web, desktop e sistemas embarcados a partir de uma única base de código usando a linguagem Dart.',
       whatFor: 'Desenvolver aplicativos móveis multiplataforma rápidos com foco em alto desempenho gráfico, designs ricos e customizados, ciclos rápidos de desenvolvimento e consistência pixel-perfect em diferentes telas.',
       howTo: 'Estruturar o aplicativo por meio da árvore de widgets e gerenciamento de estado reativo:<ul><li><strong>Widgets Declarativos:</strong> Compreender o ciclo de vida dos widgets, dividindo a tela entre <code>StatelessWidget</code> (imutável e estático) e <code>StatefulWidget</code> (mutável, com controle de estado interno).</li><li><strong>Gerenciamento de Estado:</strong> Centralizar e propagar a lógica de negócios por padrões estabelecidos como <strong>BLoC (Business Logic Component)</strong>, <strong>Provider</strong>, <strong>Riverpod</strong> ou <strong>Signals</strong>.</li><li><strong>Navegação e Integração:</strong> Gerenciar rotas declarativas e consumir APIs externas de forma eficiente com pacotes como o Dio ou Http.</li></ul><strong>Estrutura típica de pastas em projetos Flutter:</strong><pre>lib/\n├── main.dart        (Ponto de entrada do aplicativo)\n├── models/          (Modelagem das entidades de dados)\n├── views/           (Telas, componentes e widgets visuais)\n├── controllers/     (Regras de negócio e gerência de estados)\n└── services/        (Comunicação HTTP e armazenamento local)</pre>'
+    },
+    'React Native': {
+      name: 'React Native',
+      whatIs: 'Framework de código aberto criado pela Meta para construir aplicativos móveis para Android e iOS a partir de uma única base de código em JavaScript ou TypeScript, usando React e renderizando componentes nativos de cada plataforma.',
+      whatFor: 'Desenvolver aplicativos multiplataforma aproveitando o ecossistema React e JavaScript/TypeScript, compartilhando lógica e conhecimento com aplicações web e entregando interfaces com aparência e comportamento nativos.',
+      howTo: 'Estruturar o aplicativo em componentes funcionais e hooks:<ul><li><strong>Componentes e Hooks:</strong> Montar as telas com componentes funcionais e controlar estado e efeitos com <code>useState</code>, <code>useEffect</code> e hooks customizados.</li><li><strong>Gerenciamento de Estado:</strong> Centralizar o estado global com <strong>Redux Toolkit</strong>, <strong>Zustand</strong> ou <strong>Context API</strong> e o cache de dados remotos com <strong>React Query</strong>.</li><li><strong>Navegação e Integração:</strong> Gerenciar rotas com <strong>React Navigation</strong> ou Expo Router e consumir APIs REST com fetch ou Axios.</li></ul><strong>Estrutura típica de pastas em projetos React Native:</strong><pre>src/\n├── App.tsx          (Ponto de entrada do aplicativo)\n├── screens/         (Telas do aplicativo)\n├── components/      (Componentes visuais reutilizáveis)\n├── hooks/           (Lógica reutilizável e estado)\n└── services/        (Comunicação HTTP e armazenamento local)</pre>'
     },
     'C#': {
       name: 'C#',

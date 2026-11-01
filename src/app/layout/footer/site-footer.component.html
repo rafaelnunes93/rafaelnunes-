@@ -1,0 +1,67 @@
+<footer class="site-footer">
+  <div class="container-x">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" [routerLink]="homePath()">
+          <span class="brand-mark" aria-hidden="true">{{ site.initials }}</span>
+          <span class="brand-name">{{ site.firstName }} <span>{{ site.lastName }}</span></span>
+        </a>
+        <p>{{ tr.pick(t.description) }}</p>
+        <div class="socials">
+          <a [href]="site.social.linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          <a [href]="site.social.github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a [href]="site.cv" download [attr.aria-label]="tr.pick(t.cv)"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <nav [attr.aria-label]="tr.pick(t.services)">
+        <h2 class="footer-title">{{ tr.pick(t.services) }}</h2>
+        <ul>
+          @for (s of services(); track s.path) {
+            <li><a [routerLink]="s.path">{{ s.label }}</a></li>
+          }
+        </ul>
+      </nav>
+
+      <nav [attr.aria-label]="tr.pick(t.site)">
+        <h2 class="footer-title">{{ tr.pick(t.site) }}</h2>
+        <ul>
+          @for (l of links(); track l.label) {
+            <li><a [routerLink]="l.path">{{ l.label }}</a></li>
+          }
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="footer-title">{{ tr.pick(t.contact) }}</h2>
+        <ul class="contact-list">
+          <li>
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            <a [href]="whatsapp()" target="_blank" rel="noopener noreferrer">{{ site.whatsappDisplay }}</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            <a [href]="'mailto:' + site.email">{{ site.email }}</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>{{ tr.pick(t.location) }}</span>
+          </li>
+        </ul>
+        <a class="link-arrow footer-cta" [routerLink]="homePath()" [fragment]="contactAnchor()">
+          {{ tr.pick(t.contactCta) }} <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© {{ year }} {{ site.fullName }}. {{ tr.pick(t.rights) }}</p>
+      <div class="footer-legal">
+        <a [routerLink]="privacyPath()">{{ tr.pick(t.privacy) }}</a>
+        <button type="button" (click)="consent.reopen()">{{ tr.pick(t.cookies) }}</button>
+        <a href="sitemap.xml">{{ tr.pick(t.sitemap) }}</a>
+        <a href="feed.xml">{{ tr.pick(t.rss) }}</a>
+      </div>
+    </div>
+  </div>
+</footer>

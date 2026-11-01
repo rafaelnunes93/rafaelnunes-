@@ -1,57 +1,29 @@
-// ============================================================
-// APP LAYOUT — Premium Background & Atmosphere
-// ============================================================
-
-// Grid pattern background on the whole page
 :host {
   display: block;
   position: relative;
   min-height: 100vh;
+}
 
-  // Subtle grid pattern
-  &::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
-    background-size: 80px 80px;
-    pointer-events: none;
-    z-index: 0;
-  }
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  background: var(--primary);
+  color: var(--primary-ink);
+  font-weight: 600;
+  transform: translateY(-200%);
+  transition: transform 0.2s;
 
-  // Radial glow at top
-  &::after {
-    content: '';
-    position: fixed;
-    top: -200px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 800px;
-    height: 600px;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(0, 255, 136, 0.06) 0%,
-      transparent 70%
-    );
-    pointer-events: none;
-    z-index: 0;
+  &:focus {
+    transform: none;
+    color: var(--primary-ink);
   }
 }
 
-section {
-  width: 100%;
-  min-height: auto;
-  padding: 60px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-
-  &:has(.modal-overlay.open) {
-    z-index: 2100;
-  }
+main {
+  display: block;
+  outline: none;
 }

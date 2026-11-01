@@ -1,0 +1,94 @@
+<header class="site-header" [class.is-scrolled]="scrolled()">
+  <div class="container-x header-inner">
+    <a class="brand" [routerLink]="homePath()" [attr.aria-label]="site.name">
+      <span class="brand-mark" aria-hidden="true">{{ site.initials }}</span>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.firstName }} <span>{{ site.lastName }}</span></span>
+        <span class="brand-tagline">— {{ tr.pick(t.tagline) }}</span>
+      </span>
+    </a>
+
+    <nav class="nav-desktop" [attr.aria-label]="tr.pick(t.menu)">
+      @for (item of nav(); track item.label) {
+        @if (item.fragment) {
+          <a [routerLink]="item.path" [fragment]="item.fragment">{{ item.label }}</a>
+        } @else {
+          <a [routerLink]="item.path" routerLinkActive="is-active" ariaCurrentWhenActive="page">{{ item.label }}</a>
+        }
+      }
+    </nav>
+
+    <div class="header-actions">
+      <a class="lang-link" [routerLink]="otherLangPath()" [attr.aria-label]="tr.pick(t.langSwitchAria)" [attr.hreflang]="lang() === 'pt' ? 'en' : 'pt-BR'">
+        {{ lang() === 'pt' ? 'EN' : 'PT' }}
+      </a>
+      <button
+        type="button"
+        class="icon-btn"
+        (click)="theme.toggle()"
+        [attr.aria-label]="tr.pick(t.themeToggle)"
+        [attr.aria-pressed]="theme.theme() === 'dark'"
+      >
+        <i class="fa-solid" [class.fa-moon]="theme.theme() === 'light'" [class.fa-sun]="theme.theme() === 'dark'" aria-hidden="true"></i>
+      </button>
+      <a class="ui-btn ui-btn--primary ui-btn--sm header-cta" [routerLink]="contact().path" [fragment]="contact().fragment">
+        {{ tr.pick(t.cta) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+      </a>
+      <button
+        #menuButton
+        type="button"
+        class="icon-btn menu-btn"
+        (click)="openMenu()"
+        [attr.aria-label]="tr.pick(t.openMenu)"
+        [attr.aria-expanded]="menuOpen()"
+        aria-controls="mobile-menu"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-overlay" [class.is-open]="menuOpen()" (click)="closeMenu()" aria-hidden="true"></div>
+<div
+  #drawer
+  id="mobile-menu"
+  class="drawer"
+  [class.is-open]="menuOpen()"
+  role="dialog"
+  aria-modal="true"
+  [attr.aria-label]="tr.pick(t.menu)"
+  [attr.aria-hidden]="!menuOpen()"
+  [attr.inert]="menuOpen() ? null : ''"
+>
+  <div class="drawer-head">
+    <span class="brand-mark" aria-hidden="true">{{ site.initials }}</span>
+    <span class="drawer-title">{{ tr.pick(t.menu) }}</span>
+    <button type="button" class="icon-btn" (click)="closeMenu()" [attr.aria-label]="tr.pick(t.closeMenu)">
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <nav class="drawer-nav">
+    @for (item of mobileNav(); track item.label) {
+      @if (item.fragment) {
+        <a [routerLink]="item.path" [fragment]="item.fragment" (click)="closeMenu(false)">{{ item.label }}</a>
+      } @else {
+        <a [routerLink]="item.path" routerLinkActive="is-active" (click)="closeMenu(false)">{{ item.label }}</a>
+      }
+    }
+  </nav>
+
+  <div class="drawer-foot">
+    <button type="button" class="drawer-toggle" (click)="theme.toggle()" [attr.aria-pressed]="theme.theme() === 'dark'">
+      <i class="fa-solid" [class.fa-moon]="theme.theme() === 'light'" [class.fa-sun]="theme.theme() === 'dark'" aria-hidden="true"></i>
+      {{ tr.pick(t.themeLabel) }}
+    </button>
+    <a class="drawer-toggle" [routerLink]="otherLangPath()" (click)="closeMenu(false)">
+      <i class="fa-solid fa-language" aria-hidden="true"></i> {{ tr.pick(t.langSwitch) }}
+    </a>
+    <a class="ui-btn ui-btn--primary" [routerLink]="contact().path" [fragment]="contact().fragment" (click)="closeMenu(false)">
+      {{ tr.pick(t.ctaLong) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>

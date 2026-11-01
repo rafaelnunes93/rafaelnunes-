@@ -1,0 +1,218 @@
+.hero {
+  position: relative;
+  padding-top: calc(var(--header-h) + 48px);
+  padding-bottom: 48px;
+  overflow: hidden;
+
+  @media (min-width: 992px) {
+    padding-top: calc(var(--header-h) + 72px);
+  }
+}
+
+.hero-lines {
+  position: absolute;
+  right: 0;
+  top: 120px;
+  width: min(420px, 40vw);
+  pointer-events: none;
+
+  path {
+    stroke: var(--primary);
+    stroke-width: 1.5;
+    stroke-dasharray: 6 8;
+    opacity: 0.45;
+    animation: dash 18s linear infinite;
+  }
+  path:nth-child(2) {
+    stroke: var(--accent);
+    animation-duration: 24s;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -280;
+  }
+}
+
+.hero-grid {
+  display: grid;
+  gap: 48px;
+  align-items: center;
+
+  @media (min-width: 992px) {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 64px;
+  }
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  margin-top: 22px;
+  font-size: clamp(2.5rem, 5vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.hl {
+  position: relative;
+  display: inline;
+  white-space: normal;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: -0.12em;
+  width: 100%;
+  height: 0.28em;
+  overflow: visible;
+
+  path {
+    fill: none;
+    stroke: var(--primary);
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 1s 0.4s var(--ease) forwards;
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.typed {
+  margin-top: 18px;
+  min-height: 1.6em;
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 1rem;
+  color: var(--primary);
+
+  .prompt {
+    color: var(--subtle);
+  }
+}
+
+.caret {
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 3px;
+  vertical-align: -0.15em;
+  background: var(--primary);
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.lead {
+  margin-top: 16px;
+  max-width: 56ch;
+}
+
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.micro {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: var(--subtle);
+
+  i {
+    color: var(--primary);
+  }
+}
+
+// ---- Foto e chips ----
+.hero-visual {
+  position: relative;
+  justify-self: center;
+  width: min(100%, 420px);
+}
+
+.photo-frame {
+  position: relative;
+  border-radius: 28px;
+  padding: 4px;
+  background: conic-gradient(from 200deg, #00ff88, #22d3ee, #6366f1, #a855f7, #f59e0b, #00ff88);
+  box-shadow: 0 30px 60px -30px rgba(0, 255, 136, 0.45);
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 667 / 883;
+    object-fit: cover;
+    border-radius: 24px;
+    background: radial-gradient(circle at 50% 30%, #12304a, #050816 75%);
+  }
+}
+
+.float-chip {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+  color: var(--ink);
+  font-size: 0.8rem;
+  font-weight: 600;
+  animation: float 6s ease-in-out infinite;
+}
+
+.chip-status {
+  top: -14px;
+  right: 16px;
+  border-radius: 9999px;
+}
+
+.mobile-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+
+  strong {
+    font-family: var(--font-display);
+  }
+  span {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-visual {
+    width: min(78%, 320px);
+  }
+}

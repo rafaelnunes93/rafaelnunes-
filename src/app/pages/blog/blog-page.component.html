@@ -1,0 +1,64 @@
+<header class="page-hero">
+  <div class="container-x">
+    <app-breadcrumbs [items]="crumbs" />
+    <span class="eyebrow">{{ tr.pick(t.eyebrow) }}</span>
+    <h1>{{ tr.pick(t.title) }}</h1>
+    <p class="lead">{{ tr.pick(t.lead) }}</p>
+  </div>
+</header>
+
+<section class="section blog">
+  <div class="container-x">
+    @if (hasPosts) {
+      <div class="filters">
+        <div class="search" role="search">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <label class="visually-hidden" for="blog-q">{{ tr.pick(t.searchLabel) }}</label>
+          <input id="blog-q" type="search" [value]="query()" (input)="onSearch($any($event.target).value)" [placeholder]="tr.pick(t.searchPlaceholder)" />
+          @if (query()) {
+            <button type="button" class="clear" (click)="clearSearch()" [attr.aria-label]="tr.pick(t.clear)">
+              <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+          }
+        </div>
+        <div class="chips" role="group" [attr.aria-label]="tr.pick(t.categories)">
+          <button type="button" class="cat" [class.is-active]="!category()" [attr.aria-pressed]="!category()" (click)="setCategory('')">{{ tr.pick(t.all) }}</button>
+          @for (c of categories; track c.slug) {
+            <button type="button" class="cat" [class.is-active]="category() === c.slug" [attr.aria-pressed]="category() === c.slug" (click)="setCategory(c.slug)">
+              {{ c.name }}
+            </button>
+          }
+        </div>
+      </div>
+
+      <p class="found" aria-live="polite">
+        @if (filtering()) { {{ results().length ? foundText() : tr.pick(t.empty) }} }
+      </p>
+
+      <div class="grid-3">
+        @for (p of results(); track p.slug; let i = $index) {
+          <app-post-card [post]="p" />
+          @if (i === 5 && adSlot) {
+            <div class="ad-row"><app-ad-slot [slot]="adSlot" /></div>
+          }
+        }
+      </div>
+
+      @if (!filtering() && totalPages > 1) {
+        <nav class="pagination" [attr.aria-label]="tr.pick(t.pagination)">
+          @if (page > 1) {
+            <a [routerLink]="pageLink(page - 1)"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> {{ tr.pick(t.prev) }}</a>
+          }
+          @for (n of pages; track n) {
+            <a [routerLink]="pageLink(n)" [class.is-active]="n === page" [attr.aria-current]="n === page ? 'page' : null">{{ n }}</a>
+          }
+          @if (page < totalPages) {
+            <a [routerLink]="pageLink(page + 1)">{{ tr.pick(t.next) }} <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          }
+        </nav>
+      }
+    } @else {
+      <p class="found">{{ tr.pick(t.noPosts) }}</p>
+    }
+  </div>
+</section>

@@ -27,33 +27,35 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-                "src/favicon.ico",
-                "src/assets"
-              ],
+              {
+                "glob": "**/*",
+                "input": "public"
+              },
+              "src/assets"
+            ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/@fontsource-variable/inter/index.css",
+              "node_modules/@fontsource-variable/plus-jakarta-sans/index.css",
               "src/styles.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "outputMode": "static"
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "900kB",
+                  "maximumError": "1.5MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "10kB",
-                  "maximumError": "20kB"
+                  "maximumWarning": "24kB",
+                  "maximumError": "48kB"
                 }
               ],
               "outputHashing": "all"
@@ -93,9 +95,9 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public",
-                "src/assets"
-              }
+                "input": "public"
+              },
+              "src/assets"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",

@@ -1,0 +1,160 @@
+.site-footer {
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+  padding-top: 64px;
+  padding-bottom: 96px;
+
+  @media (min-width: 768px) {
+    padding-bottom: 32px;
+  }
+}
+
+.footer-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1.4fr 1fr 1fr 1.1fr;
+  }
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink);
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #050816;
+  color: #00ff88;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.9rem;
+  box-shadow: inset 0 0 0 1px rgba(0, 255, 136, 0.35);
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+
+  span {
+    color: var(--primary);
+  }
+}
+
+.footer-brand p {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  max-width: 36ch;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+
+  a {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid var(--line-2);
+    background: var(--surface);
+    color: var(--ink);
+
+    &:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+  }
+}
+
+.footer-title {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+
+  a {
+    color: var(--muted);
+    font-size: 0.9rem;
+
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}
+
+.contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+
+  i {
+    width: 16px;
+    margin-top: 4px;
+    color: var(--subtle);
+  }
+}
+
+.footer-cta {
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--subtle);
+  font-size: 0.8rem;
+}
+
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+
+  a,
+  button {
+    color: var(--subtle);
+    background: none;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}

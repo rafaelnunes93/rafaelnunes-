@@ -3,13 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "content": "tsx scripts/build-content.ts",
+    "prestart": "npm run content",
     "start": "ng serve",
+    "prebuild": "npm run content",
     "build": "ng build --configuration production --base-href=/rafaelnunes-/",
-    "ghpages": "angular-cli-ghpages --dir=dist/rafaelnunes-/browser",
+    "postbuild": "tsx scripts/postbuild.ts",
+    "check": "npm run content && tsc -p tsconfig.app.json --noEmit",
+    "validate:posts": "tsx scripts/validate-posts.ts",
+    "ghpages": "angular-cli-ghpages --dir=dist/rafaelnunes-/browser --no-notfound",
     "deploy": "npm run build && npm run ghpages",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:portfolio": "node dist/portfolio/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +27,8 @@
     "@angular/platform-server": "^19.2.0",
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.3",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
     "@fortawesome/angular-fontawesome": "^1.0.0",
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -42,12 +49,16 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
     "angular-cli-ghpages": "^2.0.3",
+    "gray-matter": "^4.0.3",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.7.2"
+    "marked": "^18.1.2",
+    "tsx": "^4.23.15",
+    "typescript": "~5.7.2",
+    "zod": "^4.6.7"
   }
 }

@@ -1,31 +1,12 @@
-<app-navbar></app-navbar>
+<a class="skip-link" href="#conteudo">{{ tr.pick(t.skipLink) }}</a>
+<div class="page-bg" aria-hidden="true"></div>
+<app-scroll-progress />
+<app-header />
 
-<section id="home">
-  <app-home></app-home>
-</section>
+<main id="conteudo" tabindex="-1">
+  <router-outlet />
+</main>
 
-<section id="about">
-  <app-about></app-about>
-</section>
-
-<section id="services">
-  <app-services></app-services>
-</section>
-
-<section id="skills">
-  <app-skills></app-skills>
-</section>
-
-<section id="projects">
-  <app-projects></app-projects>
-</section>
-
-<section id="experiencias">
-  <app-experiencias></app-experiencias>
-</section>
-
-<section id="contact">
-  <app-contact></app-contact>
-</section>
-
-<app-footer></app-footer>
+<app-site-footer />
+<app-floating-actions />
+<app-cookie-banner />

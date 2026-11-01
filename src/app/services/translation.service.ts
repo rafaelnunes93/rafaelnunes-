@@ -1,8 +1,7 @@
-import { Injectable, signal, computed } from '@angular/core';
+import { Injectable, signal, computed, inject } from '@angular/core';
+import { Location } from '@angular/common';
 
 export type Lang = 'en' | 'pt';
-
-const STORAGE_KEY = 'portfolio-lang';
 
 const translations = {
   en: {
@@ -76,7 +75,7 @@ const translations = {
         id: '02 / 06',
         titleNormal: 'Mobile',
         titleColored: 'Applications',
-        description: 'High-performance cross-platform apps with <b>Flutter</b>, integrated with REST APIs and ready for Android and iOS.'
+        description: 'High-performance cross-platform apps with <b>Flutter</b> or <b>React Native</b>, integrated with REST APIs and ready for Android and iOS.'
       },
       {
         id: '03 / 06',
@@ -197,7 +196,7 @@ const translations = {
         descricao: ''
       },
       {
-        titulo: 'Computer Science (Incomplete)',
+        titulo: 'Computer Science',
         local: 'Universidade Paulista UNIP',
         periodo: 'Jan, 2015 - Dec, 2020',
         descricao: ''
@@ -296,7 +295,7 @@ const translations = {
         id: '02 / 06',
         titleNormal: 'Aplicativos',
         titleColored: 'Mobile',
-        description: 'Apps cross-platform performáticos com <b>Flutter</b>, integrados a APIs REST e prontos para Android e iOS com alta performance.'
+        description: 'Apps cross-platform performáticos com <b>Flutter</b> ou <b>React Native</b>, integrados a APIs REST e prontos para Android e iOS com alta performance.'
       },
       {
         id: '03 / 06',
@@ -417,7 +416,7 @@ const translations = {
         descricao: ''
       },
       {
-        titulo: 'Ciencia da Computação (Curso não Concluido)',
+        titulo: 'Ciência da Computação',
         local: 'Universidade Paulista UNIP',
         periodo: 'Jaz, 2015 - Dez, 2020',
         descricao: ''
@@ -447,9 +446,15 @@ const translations = {
 
 export type TranslationKey = keyof typeof translations.en;
 
+/** Texto nos dois idiomas, usado pelos arquivos de conteúdo em src/app/data. */
+export type L<T = string> = { pt: T; en: T };
+
+// O idioma vem da URL (`/` = pt, `/en/` = en). Já é lido na criação do serviço para que o header,
+// que fica fora do router-outlet, hidrate no mesmo idioma do HTML pré-renderizado; o guard das rotas
+// mantém o valor atualizado nas navegações.
 @Injectable({ providedIn: 'root' })
 export class TranslationService {
-  private _lang = signal<Lang>(this._loadLang());
+  private _lang = signal<Lang>(/^\/?en(\/|$|[?#])/.test(inject(Location).path()) ? 'en' : 'pt');
 
   readonly currentLang = this._lang.asReadonly();
 
@@ -459,22 +464,12 @@ export class TranslationService {
     return (translations[this._lang()] as any)[key];
   }
 
+  /** Escolhe a versão do idioma atual de um conteúdo bilíngue. */
+  pick<T>(value: L<T>): T {
+    return value[this._lang()];
+  }
+
   setLang(lang: Lang): void {
     this._lang.set(lang);
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem(STORAGE_KEY, lang);
-    }
-  }
-
-  toggleLang(): void {
-    this.setLang(this._lang() === 'en' ? 'pt' : 'en');
-  }
-
-  private _loadLang(): Lang {
-    if (typeof localStorage !== 'undefined') {
-      const saved = localStorage.getItem(STORAGE_KEY) as Lang | null;
-      if (saved === 'en' || saved === 'pt') return saved;
-    }
-    return 'en'; // default
   }
 }

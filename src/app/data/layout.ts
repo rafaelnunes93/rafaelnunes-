@@ -1,0 +1,55 @@
+// Textos do layout global (header, menu, footer, botões fixos). Sempre pt + en.
+import type { L } from '../services/translation.service';
+
+export const LAYOUT = {
+  skipLink: { pt: 'Pular para o conteúdo', en: 'Skip to content' },
+  tagline: { pt: 'Desenvolvimento de software', en: 'Software development' },
+  nav: {
+    services: { pt: 'Serviços', en: 'Services' },
+    cases: { pt: 'Projetos', en: 'Projects' },
+    blog: { pt: 'Blog', en: 'Blog' },
+    faq: { pt: 'FAQ', en: 'FAQ' },
+    about: { pt: 'Sobre', en: 'About' },
+  },
+  cta: { pt: 'Falar comigo', en: 'Contact me' },
+  ctaLong: { pt: 'Conversar sobre o meu projeto', en: 'Talk about my project' },
+  themeToggle: { pt: 'Alternar tema claro e escuro', en: 'Toggle light and dark theme' },
+  themeLabel: { pt: 'Tema claro / escuro', en: 'Light / dark theme' },
+  langSwitch: { pt: 'English', en: 'Português' },
+  langSwitchAria: { pt: 'Ver o site em inglês', en: 'View the site in Portuguese' },
+  openMenu: { pt: 'Abrir menu', en: 'Open menu' },
+  closeMenu: { pt: 'Fechar menu', en: 'Close menu' },
+  menu: { pt: 'Menu', en: 'Menu' },
+  whatsappAria: { pt: 'Falar no WhatsApp', en: 'Chat on WhatsApp' },
+  mobileBar: {
+    whatsapp: { pt: 'WhatsApp', en: 'WhatsApp' },
+    contact: { pt: 'Contar meu projeto', en: 'Tell me your project' },
+  },
+  footer: {
+    description: {
+      pt: 'Desenvolvedor full stack especializado em .NET. Sistemas web, APIs, integrações, apps e SaaS — do planejamento à produção. Atendimento remoto a partir de Paulínia/SP.',
+      en: 'Full stack developer specialized in .NET. Web systems, APIs, integrations, apps and SaaS — from planning to production. Working remotely from Paulínia, Brazil.',
+    },
+    services: { pt: 'Serviços', en: 'Services' },
+    site: { pt: 'Site', en: 'Site' },
+    contact: { pt: 'Contato', en: 'Contact' },
+    home: { pt: 'Início', en: 'Home' },
+    allServices: { pt: 'Todos os serviços', en: 'All services' },
+    cases: { pt: 'Projetos', en: 'Projects' },
+    blog: { pt: 'Blog', en: 'Blog (PT)' },
+    about: { pt: 'Sobre', en: 'About' },
+    facts: { pt: 'Fatos sobre Rafael Nunes', en: 'Facts about Rafael Nunes' },
+    otherLang: { pt: 'English', en: 'Português' },
+    location: { pt: 'Paulínia, SP · remoto para todo o Brasil', en: 'Paulínia, Brazil · remote worldwide' },
+    contactCta: { pt: 'Contar sobre o meu projeto', en: 'Tell me about your project' },
+    rights: {
+      pt: 'Desenvolvimento de software sob medida.',
+      en: 'Custom software development.',
+    },
+    privacy: { pt: 'Política de privacidade', en: 'Privacy policy' },
+    cookies: { pt: 'Preferências de cookies', en: 'Cookie preferences' },
+    sitemap: { pt: 'Sitemap', en: 'Sitemap' },
+    rss: { pt: 'RSS', en: 'RSS' },
+    cv: { pt: 'Baixar currículo', en: 'Download CV' },
+  },
+} satisfies Record<string, L | Record<string, L>>;

@@ -151,7 +151,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(5, 8, 22, 0.88);
+  background: var(--legacy-overlay);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   z-index: 2000;
@@ -243,9 +243,9 @@
     font-size: 2.2rem;
     font-weight: 800;
     margin: 0;
-    color: #fff;
+    color: var(--legacy-heading);
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #fff 40%, var(--green));
+    background: linear-gradient(135deg, var(--legacy-heading) 40%, var(--green));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0 30px rgba(0, 255, 136, 0.15);
@@ -290,7 +290,7 @@
     margin: 0;
 
     strong {
-      color: #fff;
+      color: var(--legacy-heading);
       font-weight: 600;
     }
 
@@ -344,14 +344,14 @@
 
     pre {
       font-family: 'Fira Code', 'Courier New', Courier, monospace;
-      background: rgba(5, 8, 22, 0.55);
+      background: var(--legacy-card-bg);
       border: 1px solid var(--border-subtle);
       border-radius: var(--radius-sm);
       padding: 0.8rem 1.2rem;
       overflow-x: auto;
       margin: 0.8rem 0;
       font-size: 0.82rem;
-      color: #cbd5e1;
+      color: var(--legacy-code);
       line-height: 1.5;
       position: relative;
       
@@ -372,7 +372,7 @@
 .code-container {
   border-radius: var(--radius-md);
   border: 1px solid var(--border-subtle);
-  background: rgba(5, 8, 22, 0.6);
+  background: var(--legacy-code-bg);
   padding: 1.2rem;
   overflow-x: auto;
   position: relative;
@@ -399,7 +399,7 @@
     font-family: 'Fira Code', 'Courier New', Courier, monospace;
     font-size: 0.85rem;
     line-height: 1.5;
-    color: #cbd5e1;
+    color: var(--legacy-code);
     white-space: pre;
     display: block;
   }
@@ -414,7 +414,7 @@
 
 .btn-return {
   background: transparent;
-  color: #fff;
+  color: var(--legacy-heading);
   border: 1px solid var(--border-light);
   padding: 0.7rem 2rem;
   border-radius: var(--radius-md);
@@ -432,388 +432,182 @@
 }
 
 // ============================================================
-// DUEL BOARD — Battlefield Card Layout
+// CARDS POR CATEGORIA — grade com borda verde
 // ============================================================
 
-.skills-board-wrapper {
-  margin-top: 0.75rem;
-  width: 100%;
-}
-
-// ---- Section label bar ----
-.board-section-label {
+.skills-board {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-
-  .board-label-line {
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(0, 255, 136, 0.25), transparent);
-  }
-
-  .board-label-text {
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.22em;
-    color: rgba(0, 255, 136, 0.55);
-    text-transform: uppercase;
-    white-space: nowrap;
-  }
-}
-
-// ---- Outer battlefield frame ----
-.battlefield-frame {
-  position: relative;
-  border: 1px solid rgba(0, 255, 136, 0.12);
+  flex-direction: row;
+  width: 100%;
+  margin-top: 0.75rem;
+  background: var(--legacy-card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 136, 0.35);
   border-radius: 16px;
-  background: rgba(5, 8, 22, 0.55);
-  padding: 1.5rem 1rem 2.5rem;
-  overflow-x: auto;
+  overflow: hidden;
   box-shadow:
     0 0 0 1px rgba(0, 255, 136, 0.04) inset,
+    0 0 24px rgba(0, 255, 136, 0.08),
     0 8px 32px rgba(0, 0, 0, 0.35);
 
-  &::-webkit-scrollbar {
-    height: 4px;
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: rgba(0, 255, 136, 0.2);
-    border-radius: 4px;
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
   }
 }
 
-// ---- Inner container: flex row ----
-.battlefield-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.2rem;
-  min-width: 800px; // ensures no wrap on mobile → scrolls instead
-  width: 100%;
-  padding: 0 0.8rem;
-  box-sizing: border-box;
-}
-
-// ---- Main center board holding cards & divider ----
-.battle-center-board {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-  flex-shrink: 0;
-  margin: 0 auto;
-}
-
-// ---- Battle sides — fixed equal width so both halves are symmetrical ----
-.battle-side {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  // Fixed width for 3 card columns (3 × 66px + 2 gaps ≈ 208px)
-  width: 210px;
-  flex-shrink: 0;
-}
-
-.left-side {
-  justify-content: flex-end;
-}
-
-.right-side {
-  justify-content: flex-start;
-}
-
-// ---- Column container ----
-.columns-container {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-
-  &.left-columns {
-    flex-direction: row-reverse; // Col1 (1 card) closest to center
-  }
-
-  &.right-columns {
-    flex-direction: row; // Col4 (3 cards) closest to center
-  }
-}
-
-// ---- Board columns ----
-.board-column {
+.skills-column {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.3rem;
-}
+  padding: 1.5rem 1.2rem;
+  border-right: 1px solid rgba(0, 255, 136, 0.15);
+  text-align: left;
 
-// ---- Skill card — all cards same fixed size for visual parity ----
-.skill-card {
-  --card-color: #00ff88;
+  &.no-border {
+    border-right: none;
+  }
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  width: 66px;
-  height: 76px;
-  flex-shrink: 0;
-  padding: 8px 5px 7px;
-  background: rgba(12, 14, 28, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 8px;
-  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
-  user-select: none;
-  transition:
-    transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
-    box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1),
-    border-color 0.22s ease;
+  @media (max-width: 1024px) {
+    flex: 0 0 50%;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.15);
 
-  &:hover {
-    transform: translateY(-4px) scale(1.05);
-    border-color: var(--card-color);
-    box-shadow:
-      0 0 12px -2px var(--card-color),
-      0 4px 14px rgba(0, 0, 0, 0.45);
-
-    .card-icon-wrap {
-      background: color-mix(in srgb, var(--card-color) 15%, transparent);
+    &:nth-child(2n) {
+      border-right: none;
     }
   }
 
-  // Primary card — same size, only visual distinction via glow/border
-  &.primary-card {
-    border-color: rgba(255, 255, 255, 0.14);
-    box-shadow: 0 0 8px -3px var(--card-color);
+  @media (max-width: 600px) {
+    flex: 0 0 100%;
+    border-right: none;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.column-header {
+  border-bottom: 1px solid rgba(0, 255, 136, 0.15);
+  padding-bottom: 0.8rem;
+  margin-bottom: 1rem;
+
+  h3 {
+    margin: 0;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green);
+    text-shadow: 0 0 12px rgba(0, 255, 136, 0.4);
+  }
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0.7rem;
+    margin-inline: -0.7rem;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s var(--ease-out-expo);
+    cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
 
     &:hover {
-      transform: translateY(-5px) scale(1.06);
+      background: rgba(0, 255, 136, 0.06);
+      transform: translateX(4px);
+
+      .skill-name {
+        color: var(--legacy-heading);
+      }
+
+      .skill-icon {
+        border-color: var(--green);
+        background: var(--green);
+        box-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
+
+        span {
+          color: var(--bg-primary);
+        }
+      }
     }
   }
 }
 
-.card-icon-wrap {
+.skill-icon {
+  flex: none;
   width: 30px;
   height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  background: rgba(255, 255, 255, 0.02);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 6px;
-  transition: background 0.22s ease;
+  transition: all 0.3s var(--ease-out-expo);
 
-  img {
-    width: 68%;
-    height: 68%;
-    object-fit: contain;
-  }
-
-  i {
-    font-size: 1rem;
-  }
-
-  .card-text {
-    font-family: 'Exo', 'Fira Code', monospace;
-    font-size: 0.65rem;
-    font-weight: 900;
+  span {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--green);
+    font-family: monospace;
     line-height: 1;
   }
 }
 
-.card-name {
-  font-size: 0.48rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.65);
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 64px;
+.skill-name {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
 }
 
-// ---- Center VS divider ----
-.battlefield-divider {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  margin: 0 0.3rem;
-  flex-shrink: 0;
-  height: 220px;
-}
-
-.divider-line {
-  flex: 1;
-  width: 1px;
-  background: linear-gradient(to bottom, transparent, rgba(0, 255, 136, 0.35), transparent);
-}
-
-.divider-core {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 255, 136, 0.4);
-  background: rgba(0, 255, 136, 0.06);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 18px rgba(0, 255, 136, 0.15), inset 0 0 8px rgba(0, 255, 136, 0.08);
-  animation: pulse-core 3s ease-in-out infinite;
-}
-
-@keyframes pulse-core {
-  0%, 100% { box-shadow: 0 0 18px rgba(0, 255, 136, 0.15), inset 0 0 8px rgba(0, 255, 136, 0.08); }
-  50%       { box-shadow: 0 0 30px rgba(0, 255, 136, 0.3), inset 0 0 14px rgba(0, 255, 136, 0.15); }
-}
-
-.vs-text {
-  font-size: 0.55rem;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  color: rgba(0, 255, 136, 0.7);
-}
-
-// ---- Extremity panels (secondary/tool skills) ----
-.extremity-panel {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.6rem 0.4rem;
-  border: 2px solid rgba(0, 255, 136, 0.35); // glowing green border matching the image
-  border-radius: 12px;
-  background: rgba(5, 8, 22, 0.65);
-  box-shadow: 0 0 15px rgba(0, 255, 136, 0.08);
-  flex-shrink: 0;
-}
-
-.extremity-label {
-  font-size: 0.5rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.25);
-}
-
-.extremity-slots {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.extremity-slot {
-  --slot-color: #00ff88;
-
-  position: relative;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(10, 12, 25, 0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: url('../../../assets/images/arrowClick.svg') 15 15, pointer !important;
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.2s ease;
-
-  &:hover {
-    border-color: var(--slot-color);
-    box-shadow: 0 0 10px -2px var(--slot-color);
-    transform: scale(1.12);
+// ============================================================
+// TEMA CLARO — ajustes dos brilhos neon para fundo claro
+// ============================================================
+:host-context([data-theme='light']) {
+  .skills-board {
+    border-color: rgba(4, 120, 87, 0.4);
+    box-shadow:
+      0 1px 2px rgba(7, 19, 13, 0.05),
+      0 18px 40px -20px rgba(4, 120, 87, 0.35);
   }
 
-  // CSS Tooltip
-  &::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    left: calc(100% + 8px);
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(5, 8, 22, 0.92);
-    color: #fff;
-    font-size: 0.6rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    white-space: nowrap;
-    padding: 4px 8px;
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.18s ease;
-    z-index: 100;
+  .skills-column,
+  .column-header {
+    border-color: rgba(4, 120, 87, 0.16);
   }
 
-  &:hover::after {
-    opacity: 1;
-  }
-}
-
-.right-extremity .extremity-slot::after {
-  left: auto;
-  right: calc(100% + 8px);
-}
-
-.slot-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-
-  img {
-    width: 55%;
-    height: 55%;
-    object-fit: contain;
+  .column-header h3 {
+    text-shadow: none;
   }
 
-  i {
-    font-size: 0.85rem;
+  .skill-icon {
+    border-color: rgba(4, 120, 87, 0.3);
+    background: #f1f6f3;
   }
 
-  .slot-text {
-    font-family: 'Exo', monospace;
-    font-size: 0.45rem;
-    font-weight: 900;
+  .skills-list li:hover {
+    background: rgba(4, 120, 87, 0.07);
+
+    .skill-icon {
+      box-shadow: 0 0 12px rgba(4, 120, 87, 0.25);
+    }
   }
-}
 
-// ---- Bottom side tags ----
-.board-side-tags {
-  position: absolute;
-  bottom: 0.6rem;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1.5rem;
-  pointer-events: none;
-}
+  .skill-badge-wrapper:hover .skill-badge-icon {
+    filter: drop-shadow(0 0 6px rgba(4, 120, 87, 0.35));
+  }
 
-.side-tag {
-  font-size: 0.55rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  opacity: 0.45;
-
-  &.backend-tag  { color: #512bd4; }
-  &.frontend-tag { color: #dd0031; }
-}
-
-// ---- Responsive ----
-@media (max-width: 900px) {
-  .battlefield-frame {
-    padding: 1.2rem 0.75rem 2.2rem;
+  .modal-content {
+    box-shadow: 0 24px 60px -20px rgba(7, 19, 13, 0.4);
   }
 }

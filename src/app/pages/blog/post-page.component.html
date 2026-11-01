@@ -1,0 +1,124 @@
+<header class="page-hero post-hero">
+  <div class="container-x narrow">
+    <app-breadcrumbs [items]="crumbs" />
+    <span class="badge-cat">{{ category.name }}</span>
+    <h1>{{ post.title }}</h1>
+    <p class="lead">{{ post.description }}</p>
+    <p class="meta">
+      <span>{{ tr.pick(t.by) }} <strong>{{ site.name }}</strong></span>
+      <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> {{ tr.pick(t.published) }} <time [attr.datetime]="post.pubDate">{{ published }}</time></span>
+      @if (updated) {
+        <span><i class="fa-solid fa-rotate" aria-hidden="true"></i> {{ tr.pick(t.updated) }} <time [attr.datetime]="post.updatedDate">{{ updated }}</time></span>
+      }
+      <span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ post.readingTime }} {{ tr.pick(t.readingTime) }}</span>
+    </p>
+  </div>
+</header>
+
+<div class="container-x narrow layout">
+  <article class="content">
+    @if (post.headings.length) {
+      <details class="toc-mobile">
+        <summary>{{ tr.pick(t.toc) }}</summary>
+        <ol>
+          @for (h of post.headings; track h.id) {
+            <li><a [href]="'#' + h.id" (click)="scrollTo($event, h.id)">{{ h.text }}</a></li>
+          }
+        </ol>
+      </details>
+    }
+
+    <aside class="quick" [attr.aria-label]="tr.pick(t.quickAnswer)">
+      <span class="quick-label"><i class="fa-solid fa-bolt" aria-hidden="true"></i> {{ tr.pick(t.quickAnswer) }}</span>
+      <p>{{ post.quickAnswer }}</p>
+    </aside>
+
+    @if (adSlots.postInArticle) {
+      <app-ad-slot [slot]="adSlots.postInArticle" format="fluid" />
+    }
+
+    <div class="prose" #body [innerHTML]="post.html"></div>
+
+    @if (post.faq.length) {
+      <section class="faq">
+        <h2>{{ tr.pick(t.faq) }}</h2>
+        <app-accordion [items]="post.faq" />
+      </section>
+    }
+
+    <div class="share">
+      <span>{{ tr.pick(t.share) }}</span>
+      <a class="share-btn" [href]="whatsappShare" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+      <a class="share-btn" [href]="linkedinShare" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      <button type="button" class="share-pill" (click)="copyLink()">
+        <i class="fa-solid fa-link" aria-hidden="true"></i> {{ copied() ? tr.pick(t.copied) : tr.pick(t.copyLink) }}
+      </button>
+      @if (canShare()) {
+        <button type="button" class="share-pill" (click)="share()"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i> {{ tr.pick(t.send) }}</button>
+      }
+      <span class="visually-hidden" aria-live="polite">{{ copied() ? tr.pick(t.copied) : '' }}</span>
+    </div>
+
+    <section class="cta">
+      <span class="eyebrow">{{ tr.pick(t.ctaEyebrow) }}</span>
+      <h2>{{ category.cta.title }}</h2>
+      <p>{{ category.cta.text }}</p>
+      <div class="cta-actions">
+        <a class="ui-btn ui-btn--primary" [routerLink]="contact().path" [fragment]="contact().fragment">{{ tr.pick(t.ctaButton) }} <i class="fa-solid fa-arrow-right arrow" aria-hidden="true"></i></a>
+        <a class="ui-btn ui-btn--whatsapp" [href]="whatsappCta" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> {{ tr.pick(t.ctaWhatsapp) }}</a>
+      </div>
+    </section>
+
+    <section class="ui-card author">
+      <img [src]="site.photo" [alt]="site.fullName" width="72" height="72" loading="lazy" />
+      <div>
+        <span class="author-label">{{ tr.pick(t.authorLabel) }}</span>
+        <h2>{{ site.fullName }}</h2>
+        <p>{{ tr.pick(t.authorBio) }}</p>
+        <div class="author-links">
+          <a class="link-arrow" [routerLink]="aboutPath">{{ tr.pick(t.authorMore) }} <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a [href]="site.social.linkedin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <aside class="sidebar">
+    @if (post.headings.length) {
+      <nav class="toc" [attr.aria-label]="tr.pick(t.toc)">
+        <h2 class="side-title">{{ tr.pick(t.toc) }}</h2>
+        <ol>
+          @for (h of post.headings; track h.id) {
+            <li>
+              <a [href]="'#' + h.id" (click)="scrollTo($event, h.id)" [class.is-active]="activeHeading() === h.id" [attr.aria-current]="activeHeading() === h.id ? 'true' : null">{{ h.text }}</a>
+            </li>
+          }
+        </ol>
+      </nav>
+    }
+    @if (services.length) {
+      <nav class="ui-card" [attr.aria-label]="tr.pick(t.relatedServices)">
+        <h2 class="side-title">{{ tr.pick(t.relatedServices) }}</h2>
+        <ul class="svc-links">
+          @for (s of services; track s.path) {
+            <li><a [routerLink]="s.path"><i [class]="s.icon" aria-hidden="true"></i> {{ s.label }}</a></li>
+          }
+        </ul>
+      </nav>
+    }
+    @if (adSlots.postSidebar) {
+      <app-ad-slot [slot]="adSlots.postSidebar" format="rectangle" />
+    }
+  </aside>
+</div>
+
+@if (related.length) {
+  <section class="section section--tinted">
+    <div class="container-x">
+      <h2 class="h-section related-title">{{ tr.pick(t.continue) }}</h2>
+      <div class="grid-3 hscroller">
+        @for (p of related; track p.slug) { <app-post-card [post]="p" /> }
+      </div>
+    </div>
+  </section>
+}
