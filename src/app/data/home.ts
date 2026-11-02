@@ -151,7 +151,7 @@ export const SECTIONS = {
   },
   blog: {
     eyebrow: { pt: 'Blog', en: 'Blog' },
-    title: { pt: 'Guias para decidir antes de investir', en: 'Guides to decide before investing' },
+    title: { pt: 'Últimos posts', en: 'Latest posts' },
     link: { pt: 'Todos os artigos', en: 'All articles (in Portuguese)' },
   },
 };
