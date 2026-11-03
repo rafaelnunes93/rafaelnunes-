@@ -43,20 +43,16 @@ export class HeaderComponent {
 
   readonly nav = computed<NavItem[]>(() => {
     const lang = this.lang();
-    const home = pagePath('home', lang);
     const items: NavItem[] = [
+      { label: this.tr.pick(LAYOUT.nav.about), path: pagePath('about', lang) },
       { label: this.tr.pick(LAYOUT.nav.services), path: pagePath('services', lang) },
       { label: this.tr.pick(LAYOUT.nav.cases), path: pagePath('cases', lang) },
     ];
     if (lang === 'pt') items.push({ label: LAYOUT.nav.blog.pt, path: pagePath('blog', 'pt') });
-    items.push({ label: this.tr.pick(LAYOUT.nav.faq), path: home, fragment: HOME_ANCHORS.faq[lang] });
     return items;
   });
 
-  readonly mobileNav = computed<NavItem[]>(() => [
-    ...this.nav(),
-    { label: this.tr.pick(LAYOUT.nav.about), path: pagePath('about', this.lang()) },
-  ]);
+  readonly mobileNav = this.nav;
 
   /** Link do seletor de idioma: a mesma página no outro idioma, ou a home dele. */
   readonly otherLangPath = computed(() => {

@@ -2,7 +2,7 @@ import { Component, computed, inject } from '@angular/core';
 import { HOME_ANCHORS, pagePath } from '../../core/paths';
 import { SeoService } from '../../core/seo.service';
 import { CASES } from '../../data/cases';
-import { FAQ, SECTIONS } from '../../data/home';
+import { SECTIONS } from '../../data/home';
 import { TranslationService } from '../../services/translation.service';
 import { HeroComponent } from '../../home/hero.component';
 import { StatsProofComponent } from '../../home/stats-proof.component';
@@ -10,11 +10,9 @@ import { PainsComponent } from '../../home/pains.component';
 import { ServicesGridComponent } from '../../home/services-grid.component';
 import { AboutTeaserComponent } from '../../home/about-teaser.component';
 import { BlogTeaserComponent } from '../../home/blog-teaser.component';
-import { FaqSectionComponent } from '../../home/faq-section.component';
 import { ContactSectionComponent } from '../../forms/contact-section.component';
 import { CaseCardComponent } from '../../shared/case-card.component';
 import { SectionHeaderComponent } from '../../shared/section-header.component';
-import { faqJsonLd } from '../../shared/accordion.component';
 import { SkillsComponent } from '../../sections/skills/skills.component';
 import { ExperienciasComponent } from '../../sections/experiencias/experiencias.component';
 
@@ -28,7 +26,6 @@ import { ExperienciasComponent } from '../../sections/experiencias/experiencias.
     ServicesGridComponent,
     AboutTeaserComponent,
     BlogTeaserComponent,
-    FaqSectionComponent,
     ContactSectionComponent,
     CaseCardComponent,
     SectionHeaderComponent,
@@ -65,7 +62,6 @@ import { ExperienciasComponent } from '../../sections/experiencias/experiencias.
     </div>
     <app-about-teaser />
     <app-blog-teaser />
-    <app-faq-section />
     <app-contact-section />
   `,
   styles: `
@@ -107,7 +103,6 @@ export class HomePageComponent {
           : 'Desenvolvedor full stack especializado em .NET e Angular: sistemas web, APIs, integrações, apps e SaaS do planejamento à produção.',
       path: pagePath('home', lang),
       alternates: { pt: '/', en: '/en' },
-      jsonLd: [faqJsonLd(FAQ.items[lang])],
     });
   }
 }

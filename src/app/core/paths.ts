@@ -38,6 +38,5 @@ export const HOME_ANCHORS = {
   experience: { pt: 'experiencia', en: 'experience' },
   about: { pt: 'sobre', en: 'about' },
   blog: { pt: 'blog', en: 'blog' },
-  faq: { pt: 'faq', en: 'faq' },
   contact: { pt: 'contato', en: 'contact' },
 } as const;
