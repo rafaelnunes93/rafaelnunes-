@@ -3,7 +3,7 @@ import { Directive, ElementRef, OnDestroy, OnInit, PLATFORM_ID, inject, input } 
 import { TranslationService } from '../services/translation.service';
 
 // Conta de 0 até o valor quando entra na tela. O número real já vem no HTML pré-renderizado.
-// Milhares no formato do idioma: 6.000 (pt) / 6,000 (en).
+// Milhares no formato do idioma: 1.000 (pt) / 1,000 (en).
 @Directive({ selector: '[countUp]', standalone: true })
 export class CountUpDirective implements OnInit, OnDestroy {
   readonly countUp = input.required<number>();

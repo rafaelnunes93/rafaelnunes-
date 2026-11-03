@@ -27,7 +27,7 @@ export const STATS_LABELS: Record<string, L> = {
   years: { pt: 'anos de experiência em desenvolvimento', en: 'years of software development' },
   projects: { pt: 'projetos entregues', en: 'projects delivered' },
   companies: { pt: 'empresas atendidas', en: 'companies served' },
-  users: { pt: 'usuários impactados', en: 'users impacted' },
+  coffee: { pt: 'xícaras de café', en: 'cups of coffee' },
 };
 
 export const PROOF = {
