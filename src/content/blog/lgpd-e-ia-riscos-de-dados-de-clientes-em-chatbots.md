@@ -1,7 +1,7 @@
 ---
 title: "LGPD e IA: os riscos de colocar dados de clientes em chatbots"
 description: "O que a LGPD exige quando dados de clientes passam por ferramentas de IA, os riscos mais comuns, as sanções previstas e um checklist para usar IA com segurança."
-pubDate: 2026-10-31T16:40:00-03:00
+pubDate: 2027-01-08T09:00:00-03:00
 category: ia-para-negocios
 tags: ["lgpd", "privacidade", "anpd", "chatbots", "compliance"]
 kicker: "Alerta"

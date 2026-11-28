@@ -1,7 +1,7 @@
 ---
 title: "Sua profissão está em risco? Os sinais de que a IA já está mudando seu cargo"
 description: "O que estudos da OIT e do Fórum Econômico Mundial dizem sobre exposição à IA, os sinais práticos de que seu cargo está mudando e como reagir."
-pubDate: 2026-10-31T09:40:00-03:00
+pubDate: 2027-02-12T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["carreira", "mercado de trabalho", "futuro do trabalho", "oit"]
 kicker: "Alerta"

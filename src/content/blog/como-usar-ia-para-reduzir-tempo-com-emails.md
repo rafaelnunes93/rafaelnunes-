@@ -1,7 +1,7 @@
 ---
 title: "Como usar IA para reduzir pela metade o tempo gasto com e-mails"
 description: "Um método prático para triar, resumir e responder e-mails com Gemini, Copilot ou ChatGPT sem perder o controle do que sai da sua caixa."
-pubDate: 2026-10-31T09:00:00-03:00
+pubDate: 2027-02-01T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["produtividade", "e-mail", "gemini", "copilot", "chatgpt"]
 kicker: "Guia prático"

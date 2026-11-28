@@ -1,7 +1,7 @@
 ---
 title: "Como fazer a IA ler e resumir PDFs longos em minutos"
 description: "Quais ferramentas usar para resumir PDFs longos, como pedir resumos úteis, perguntas que extraem o essencial e os cuidados com documentos confidenciais."
-pubDate: 2026-10-31T13:40:00-03:00
+pubDate: 2027-02-15T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["pdf", "resumo", "produtividade", "notebooklm", "chatgpt", "claude"]
 kicker: "Guia prático"

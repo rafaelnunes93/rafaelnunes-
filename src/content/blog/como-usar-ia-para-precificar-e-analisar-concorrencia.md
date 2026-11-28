@@ -1,7 +1,7 @@
 ---
 title: "Como usar IA para precificar produtos e analisar a concorrência"
 description: "Um método com IA para calcular preços a partir de custos, comparar concorrentes, testar cenários de margem e acompanhar o mercado, sem decisões às cegas."
-pubDate: 2026-10-31T17:40:00-03:00
+pubDate: 2027-03-01T09:00:00-03:00
 category: ia-para-negocios
 tags: ["precificação", "concorrência", "pequenas empresas", "e-commerce", "planilhas"]
 kicker: "Guia prático"

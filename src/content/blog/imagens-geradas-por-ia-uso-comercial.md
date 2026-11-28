@@ -1,7 +1,7 @@
 ---
 title: "Posso usar imagens geradas por IA comercialmente? O que diz a lei"
 description: "Termos das ferramentas, autoria no Brasil e nos EUA, marcas e pessoas reais: o que considerar antes de usar imagens de IA em anúncios, produtos e redes sociais."
-pubDate: 2026-11-01T07:00:00-03:00
+pubDate: 2027-03-17T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["direitos autorais", "imagens", "midjourney", "lei", "uso comercial"]
 kicker: "Entenda"

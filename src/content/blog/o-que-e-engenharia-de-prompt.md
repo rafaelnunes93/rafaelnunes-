@@ -1,7 +1,7 @@
 ---
 title: "O que é engenharia de prompt e vale a pena aprender?"
 description: "O que é engenharia de prompt, as técnicas que funcionam segundo os guias da OpenAI, Anthropic e Google, e se vale a pena investir nessa habilidade."
-pubDate: 2026-10-31T10:40:00-03:00
+pubDate: 2027-01-18T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["prompt", "engenharia de prompt", "chatgpt", "claude", "gemini"]
 kicker: "Entenda"

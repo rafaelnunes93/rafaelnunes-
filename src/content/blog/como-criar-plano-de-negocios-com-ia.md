@@ -1,7 +1,7 @@
 ---
 title: "Como usar IA para criar um plano de negócios em uma tarde"
 description: "Um roteiro em etapas, com prompts prontos, para montar um plano de negócios com IA — do modelo de negócio às projeções — sem cair em números inventados."
-pubDate: 2026-10-31T16:00:00-03:00
+pubDate: 2027-02-05T09:00:00-03:00
 category: ia-para-negocios
 tags: ["plano de negócios", "empreendedorismo", "chatgpt", "planejamento"]
 kicker: "Guia prático"

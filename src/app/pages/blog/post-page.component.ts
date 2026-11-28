@@ -72,11 +72,8 @@ export class PostPageComponent implements OnDestroy {
     label: s.shortTitle.pt,
     path: pagePath('services', 'pt', s.slug),
   }));
-  readonly related = POSTS.filter((p) => p.slug !== this.post.slug)
-    .map((p) => ({ p, score: (p.category === this.post.category ? 2 : 0) + p.tags.filter((t) => this.post.tags.includes(t)).length }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3)
-    .map((x) => x.p);
+  // Os 3 posts publicados mais recentes (o índice já vem do mais novo para o mais antigo).
+  readonly related = POSTS.filter((p) => p.slug !== this.post.slug).slice(0, 3);
   readonly whatsappShare = `https://wa.me/?text=${encodeURIComponent(`${this.post.title} ${this.url}`)}`;
   readonly linkedinShare = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(this.url)}`;
   readonly whatsappCta = whatsappLink('pt', `Olá, Rafael! Li o artigo "${this.post.title}" e quero conversar sobre o meu projeto.`);

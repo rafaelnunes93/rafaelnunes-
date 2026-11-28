@@ -1,7 +1,7 @@
 ---
 title: "Qual a diferença entre o ChatGPT gratuito e o pago?"
 description: "O que muda entre o ChatGPT gratuito e os planos pagos (Go, Plus e Pro): limites, modelos, recursos, privacidade e quando vale a pena assinar."
-pubDate: 2026-10-31T12:40:00-03:00
+pubDate: 2027-02-03T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["chatgpt", "openai", "planos", "assinatura"]
 kicker: "Entenda"

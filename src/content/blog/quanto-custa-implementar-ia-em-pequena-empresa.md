@@ -1,7 +1,7 @@
 ---
 title: "Quanto custa implementar IA em uma pequena empresa?"
 description: "Os quatro níveis de investimento em IA para pequenas empresas — de ferramentas prontas a projetos sob medida —, os custos escondidos e como calcular o retorno."
-pubDate: 2026-10-31T17:00:00-03:00
+pubDate: 2027-01-13T09:00:00-03:00
 category: ia-para-negocios
 tags: ["custos", "pequenas empresas", "investimento", "roi", "automação"]
 kicker: "Entenda"

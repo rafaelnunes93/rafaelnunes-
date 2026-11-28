@@ -1,7 +1,7 @@
 ---
 title: "O que entra (e o que não entra) no MVP de um SaaS"
 description: "Como definir a primeira versão de um SaaS: o núcleo que entrega valor, o mínimo de cobrança e conta, e o que pode esperar o primeiro cliente."
-pubDate: 2026-12-01T09:00:00-03:00
+pubDate: 2026-12-21T09:00:00-03:00
 category: apps-e-saas
 tags: ["saas", "mvp", "produto", "multi-tenant"]
 quickAnswer: "O MVP de um SaaS deve ter só o núcleo que resolve a dor principal do cliente, um cadastro de contas simples com dados separados por empresa e uma forma básica de cobrar. Relatórios avançados, integrações extras, permissões detalhadas e painéis bonitos podem esperar. O objetivo do MVP é aprender com clientes reais o quanto antes, não lançar um produto completo."

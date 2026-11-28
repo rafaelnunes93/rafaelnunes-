@@ -1,7 +1,7 @@
 ---
 title: "API ou EDI: como trocar dados com clientes e parceiros"
 description: "Diferenças práticas entre API REST e EDI, quando cada uma faz sentido e como evitar integrações frágeis que quebram sem ninguém perceber."
-pubDate: 2026-10-15T09:00:00-03:00
+pubDate: 2026-12-07T09:00:00-03:00
 category: apis-e-integracoes
 tags: ["api", "edi", "integração", "logística"]
 kicker: "Comparativo"
@@ -19,7 +19,7 @@ relatedServices: ["apis-e-integracoes", "desenvolvimento-full-stack"]
 source: n8n
 ---
 
-Toda empresa que cresce chega a um ponto em que digitar dados de um sistema para outro deixa de ser viável. Pedidos chegam por e-mail, status de entrega é copiado para planilhas, notas são lançadas duas vezes. A solução é integrar — e logo aparece a dúvida: **API ou EDI?**
+Boa parte da minha carreira foi em logística, trabalhando com sistemas de transporte (TMS), emissão de CT-e e MDF-e e uma plataforma EDI para a UPS. Por isso essa é uma pergunta que conheço bem. Toda empresa que cresce chega a um ponto em que digitar dados de um sistema para outro deixa de ser viável. Pedidos chegam por e-mail, status de entrega é copiado para planilhas, notas são lançadas duas vezes. A solução é integrar — e logo aparece a dúvida: **API ou EDI?**
 
 ## O que é cada uma, sem jargão
 
@@ -78,6 +78,12 @@ Integração também é uma questão de segurança. Algumas práticas que consid
 - **Registro de quem enviou o quê e quando**, o que ajuda tanto na auditoria quanto em discussões comerciais sobre um pedido que "nunca chegou".
 
 Esses cuidados também facilitam o atendimento à LGPD, porque deixam claro que dados pessoais circulam, para quem e com que finalidade.
+
+## Minha visão
+
+Na prática, raramente é "API ou EDI". Quem trabalha com grandes operadores logísticos acaba precisando dos dois: EDI com os parceiros que exigem o padrão e APIs para o resto. O que realmente separa uma integração estável de uma dor de cabeça, na minha experiência, não é o formato, e sim o que existe em volta dele: validação de cada arquivo, registro de tudo o que entrou e saiu, alertas quando algo falha e uma forma simples de reprocessar.
+
+Se eu tivesse que dar um único conselho, seria este: nunca deixe uma integração sem registro de logs. Quando um pedido some ou um status não atualiza, é o log que mostra em minutos o que, sem ele, levaria dias para descobrir.
 
 ## Por onde começar
 

@@ -1,7 +1,7 @@
 ---
 title: "ElevenLabs vale a pena? Review do gerador de voz com IA"
 description: "O que o ElevenLabs faz, como funcionam os planos e o licenciamento comercial, os cuidados com clonagem de voz e para quem ele compensa em português."
-pubDate: 2026-11-01T07:45:00-03:00
+pubDate: 2027-04-16T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["elevenlabs", "voz", "narração", "review", "áudio"]
 kicker: "Review"

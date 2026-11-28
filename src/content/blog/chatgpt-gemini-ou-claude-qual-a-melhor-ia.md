@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT, Gemini ou Claude: qual a melhor IA em 2026?"
 description: "Comparativo prático entre ChatGPT, Gemini e Claude: pontos fortes de cada um, planos, integração com outras ferramentas e qual escolher para cada tarefa."
-pubDate: 2026-10-31T12:20:00-03:00
+pubDate: 2027-01-20T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["chatgpt", "gemini", "claude", "comparativo", "assistentes de ia"]
 kicker: "Comparativo"

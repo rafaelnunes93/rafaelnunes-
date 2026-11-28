@@ -1,7 +1,7 @@
 ---
 title: "Como colocar habilidades em IA no currículo e no LinkedIn"
 description: "Como descrever habilidades em IA no currículo e no LinkedIn com resultados concretos, sem exageros, e o que recrutadores realmente procuram."
-pubDate: 2026-10-31T11:00:00-03:00
+pubDate: 2027-03-19T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["currículo", "linkedin", "carreira", "habilidades em ia"]
 kicker: "Guia prático"

@@ -1,7 +1,7 @@
 ---
 title: "Como usar IA no celular por voz para tarefas do dia a dia"
 description: "Como ativar e usar o Gemini Live, o modo de voz do ChatGPT e os assistentes do celular para organizar o dia, aprender, praticar idiomas e resolver tarefas sem digitar."
-pubDate: 2026-10-31T15:00:00-03:00
+pubDate: 2027-04-02T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["voz", "celular", "gemini live", "chatgpt", "produtividade"]
 kicker: "Guia prático"

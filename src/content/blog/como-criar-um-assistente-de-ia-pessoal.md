@@ -1,7 +1,7 @@
 ---
 title: "Como criar um assistente de IA pessoal para organizar sua rotina de trabalho"
 description: "Passo a passo para montar um assistente pessoal com GPTs, Projetos do Claude ou Gems do Gemini: instruções, arquivos de referência e rotinas diárias."
-pubDate: 2026-10-31T11:20:00-03:00
+pubDate: 2027-03-31T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["produtividade", "assistente de ia", "gpts", "claude", "gemini"]
 kicker: "Guia prático"

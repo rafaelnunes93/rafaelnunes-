@@ -1,7 +1,7 @@
 ---
 title: "Notion AI vs ClickUp AI: qual organiza melhor sua empresa?"
 description: "Comparativo entre Notion AI e ClickUp Brain: proposta de cada ferramenta, recursos de IA, modelo de cobrança e para que tipo de equipe cada uma funciona melhor."
-pubDate: 2026-10-31T18:20:00-03:00
+pubDate: 2027-03-24T09:00:00-03:00
 category: ia-para-negocios
 tags: ["notion", "clickup", "gestão de projetos", "produtividade", "comparativo"]
 kicker: "Comparativo"

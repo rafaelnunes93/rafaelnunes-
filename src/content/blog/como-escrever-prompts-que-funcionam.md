@@ -1,7 +1,7 @@
 ---
 title: "Por que a IA dá respostas erradas? Como escrever prompts que funcionam"
 description: "Os motivos mais comuns de respostas ruins da IA e uma estrutura simples de prompt, com exemplos antes e depois, para obter respostas melhores."
-pubDate: 2026-10-31T13:00:00-03:00
+pubDate: 2027-01-22T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["prompts", "chatgpt", "gemini", "claude", "produtividade"]
 kicker: "Guia prático"

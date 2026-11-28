@@ -1,7 +1,7 @@
 ---
 title: "A IA guarda minhas conversas? O que acontece com seus dados nos chatbots"
 description: "O que ChatGPT, Gemini e Claude fazem com suas conversas: armazenamento, uso para treinar modelos, revisão humana e as configurações para proteger sua privacidade."
-pubDate: 2026-10-31T21:00:00-03:00
+pubDate: 2027-01-29T09:00:00-03:00
 category: seguranca-digital
 tags: ["privacidade", "chatgpt", "gemini", "claude", "dados pessoais"]
 kicker: "Entenda"

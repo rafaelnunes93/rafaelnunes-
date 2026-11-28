@@ -1,7 +1,7 @@
 ---
 title: "Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira"
 description: "Sete cursos de inteligência artificial de instituições reconhecidas, do básico para iniciantes ao técnico para desenvolvedores, e como escolher o seu."
-pubDate: 2026-10-31T12:00:00-03:00
+pubDate: 2027-04-19T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["cursos", "educação", "carreira", "aprender ia"]
 kicker: "Comparativo"

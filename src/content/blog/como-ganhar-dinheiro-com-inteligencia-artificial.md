@@ -1,7 +1,7 @@
 ---
 title: "Como ganhar dinheiro com inteligência artificial em 2026 (sem cair em golpes)"
 description: "Formas reais de gerar renda com IA — serviços, produtividade, produtos digitais e automação —, o que exige de verdade e os sinais de promessas falsas."
-pubDate: 2026-10-31T17:20:00-03:00
+pubDate: 2027-02-17T09:00:00-03:00
 category: ia-para-negocios
 tags: ["renda extra", "freelancer", "empreendedorismo", "golpes", "carreira"]
 kicker: "Entenda"

@@ -1,7 +1,7 @@
 ---
 title: "Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes"
 description: "Passo a passo para usar as APIs da OpenAI e da Anthropic: chave de API, primeira chamada em Python, proteção da chave, controle de custos e erros comuns."
-pubDate: 2026-11-01T05:30:00-03:00
+pubDate: 2026-12-04T09:00:00-03:00
 category: programacao-com-ia
 tags: ["api", "openai", "anthropic", "claude", "python", "integração"]
 kicker: "Guia prático"
@@ -19,7 +19,7 @@ relatedServices: ["apis-e-integracoes", "desenvolvimento-full-stack"]
 source: manual
 ---
 
-Colocar IA dentro do seu próprio sistema é mais simples do que parece. Com algumas linhas de código, um aplicativo consegue resumir textos, classificar mensagens, responder perguntas ou extrair dados de documentos. O que separa um teste de uma integração confiável são os cuidados com segurança, custo e qualidade.
+Uso IA todos os dias no desenvolvimento e, quando o assunto é colocar um modelo dentro de um sistema, a primeira chamada à API é a parte fácil. Colocar IA dentro do seu próprio sistema é mais simples do que parece. Com algumas linhas de código, um aplicativo consegue resumir textos, classificar mensagens, responder perguntas ou extrair dados de documentos. O que separa um teste de uma integração confiável são os cuidados com segurança, custo e qualidade.
 
 Este guia mostra o caminho com as duas APIs mais usadas: a da **OpenAI** (modelos do ChatGPT) e a da **Anthropic** (modelos Claude).
 
@@ -156,6 +156,12 @@ O back-end guarda a chave, aplica as regras do negócio, registra o uso e proteg
 - Resumo automático de avaliações de clientes.
 - Extração de dados de textos para uma planilha.
 - Assistente que responde com base em uma base de conhecimento própria.
+
+## Minha visão
+
+Como desenvolvedor .NET, sempre penso numa integração com IA como penso em qualquer outra integração: a chave fica no back-end, toda chamada tem tratamento de erro e limite de tempo, e a resposta do modelo é tratada como dado de entrada não confiável, nunca como ordem. Essa disciplina evita a maioria dos problemas que aparecem depois.
+
+Outra coisa que aprendi é medir antes de escolher o modelo mais caro. Para classificar ou extrair informações de textos, um modelo menor costuma bastar e custa uma fração. O modelo mais avançado fica para o que realmente exige raciocínio.
 
 ## Conclusão
 

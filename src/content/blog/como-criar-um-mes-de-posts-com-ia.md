@@ -1,7 +1,7 @@
 ---
 title: "Como criar um mês de posts para redes sociais em 2 horas com IA"
 description: "Um método em 5 etapas para planejar e escrever um mês de conteúdo com IA: pilares, calendário, legendas, adaptação por rede e revisão para não soar genérico."
-pubDate: 2026-11-01T06:15:00-03:00
+pubDate: 2027-02-10T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["redes sociais", "calendário editorial", "marketing", "chatgpt", "produtividade"]
 kicker: "Guia prático"

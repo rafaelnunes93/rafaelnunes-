@@ -1,7 +1,7 @@
 ---
 title: "Como automatizar relatórios semanais com IA sem saber programar"
 description: "Passo a passo para montar um relatório semanal automático com planilhas, uma ferramenta de automação e IA para escrever o resumo — sem código."
-pubDate: 2026-10-31T09:20:00-03:00
+pubDate: 2026-12-30T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["automação", "relatórios", "planilhas", "no-code", "produtividade"]
 kicker: "Guia prático"

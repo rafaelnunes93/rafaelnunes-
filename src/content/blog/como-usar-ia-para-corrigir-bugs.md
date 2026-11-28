@@ -1,7 +1,7 @@
 ---
 title: "Como usar IA para encontrar e corrigir bugs mais rápido"
 description: "Um método prático para depurar com IA: como dar contexto, reproduzir o erro, pedir hipóteses, validar a correção com testes e evitar consertos que criam novos bugs."
-pubDate: 2026-10-31T06:20:00-03:00
+pubDate: 2026-12-18T09:00:00-03:00
 category: programacao-com-ia
 tags: ["debug", "bugs", "programação", "produtividade", "testes"]
 kicker: "Guia prático"

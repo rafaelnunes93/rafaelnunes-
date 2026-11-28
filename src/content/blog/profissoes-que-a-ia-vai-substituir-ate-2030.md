@@ -1,7 +1,7 @@
 ---
 title: "Quais profissões a IA vai substituir até 2030? O que dizem os estudos"
 description: "As funções que mais encolhem e as que mais crescem até 2030 segundo o Fórum Econômico Mundial e a OIT, e por que 'substituir' é a palavra errada."
-pubDate: 2026-10-31T10:20:00-03:00
+pubDate: 2027-03-08T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["profissões", "futuro do trabalho", "fórum econômico mundial", "oit", "carreira"]
 kicker: "Entenda"

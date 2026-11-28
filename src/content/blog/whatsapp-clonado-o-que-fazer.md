@@ -1,7 +1,7 @@
 ---
 title: "O que fazer se seu WhatsApp for clonado: guia de emergência"
 description: "Passo a passo para recuperar o WhatsApp clonado ou invadido, avisar contatos, acionar o suporte e o banco, e como evitar que aconteça de novo."
-pubDate: 2026-10-31T19:20:00-03:00
+pubDate: 2027-02-19T09:00:00-03:00
 category: seguranca-digital
 tags: ["whatsapp", "golpes", "conta clonada", "segurança"]
 kicker: "Guia prático"

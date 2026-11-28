@@ -1,7 +1,7 @@
 ---
 title: "NotebookLM: review da ferramenta do Google para estudar com IA"
 description: "O que é o NotebookLM, como ele responde com base nas suas fontes, os resumos em áudio, os limites do plano gratuito e como usar para estudar e trabalhar."
-pubDate: 2026-10-31T14:40:00-03:00
+pubDate: 2027-03-22T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["notebooklm", "google", "estudos", "review", "produtividade"]
 kicker: "Review"

@@ -1,7 +1,7 @@
 ---
 title: "O Google penaliza conteúdo feito com IA? O que diz a documentação oficial"
 description: "O que o Google realmente diz sobre conteúdo gerado por IA, o que é abuso de conteúdo em escala, o papel do E-E-A-T e como usar IA sem colocar o site em risco."
-pubDate: 2026-11-01T07:15:00-03:00
+pubDate: 2027-03-29T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["seo", "google", "conteúdo", "e-e-a-t", "spam"]
 kicker: "Entenda"

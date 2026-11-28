@@ -1,7 +1,7 @@
 ---
 title: "Quando vale a pena migrar do .NET Framework para o .NET 8"
 description: "Sinais de que é hora de modernizar um sistema em .NET Framework, os riscos de adiar e como migrar por partes sem parar a operação."
-pubDate: 2026-10-29T09:00:00-03:00
+pubDate: 2026-12-11T09:00:00-03:00
 category: arquitetura-e-backend
 tags: [".net", "migração", "legado", "arquitetura"]
 kicker: "Guia prático"
@@ -72,6 +72,12 @@ Levantar esses pontos logo no início deixa a estimativa muito mais realista.
 ## Testes como rede de segurança
 
 Antes de mover qualquer parte, vale escrever testes automatizados para as regras de negócio mais importantes. Eles garantem que o cálculo de um frete, de um imposto ou de uma comissão continua dando o mesmo resultado depois da migração. Sem eles, cada etapa vira uma aposta.
+
+## Minha visão
+
+Já trabalhei com sistemas em .NET Framework, MVC e Razor e com APIs em .NET 8, e a lição que levo é que a migração "big bang", reescrevendo tudo de uma vez, quase sempre é a mais arriscada. O sistema antigo continua recebendo correções enquanto o novo é escrito, e os dois nunca se encontram.
+
+Prefiro migrar por partes, começando pelo que muda mais ou pelo que mais dói, com testes cobrindo o comportamento atual antes de mexer. É mais lento no começo, mas o negócio continua funcionando durante toda a modernização, e cada etapa entrega valor por conta própria.
 
 ## Por onde começar
 

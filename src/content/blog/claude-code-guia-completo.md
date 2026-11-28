@@ -1,7 +1,7 @@
 ---
 title: "Guia completo do Claude Code: comandos, skills, MCPs e CLAUDE.md"
 description: "Como instalar e usar o Claude Code: principais comandos, gestão de sessões, CLAUDE.md, skills, MCPs, permissões, hooks, subagentes e um fluxo de trabalho seguro."
-pubDate: 2026-11-01T09:00:00-03:00
+pubDate: 2026-11-30T09:00:00-03:00
 category: programacao-com-ia
 tags: ["claude code", "skills", "mcp", "claude.md", "agentes de código"]
 kicker: "Guia prático"
@@ -19,9 +19,9 @@ relatedServices: ["desenvolvimento-full-stack"]
 source: manual
 ---
 
-O **Claude Code** é um agente de programação que trabalha direto no seu projeto: lê os arquivos, propõe e aplica alterações, roda testes e usa o Git, sempre dentro das permissões que você definir. Para quem aprende a configurá-lo, ele deixa de ser um chat e vira parte do fluxo de desenvolvimento.
+Trabalho numa empresa com cultura AI First, onde a IA faz parte de todo o ciclo de desenvolvimento, do entendimento dos requisitos à revisão do código. Nesse dia a dia, o **Claude Code** deixou de ser um chat para virar uma ferramenta de trabalho: ele lê o projeto, propõe e aplica alterações, roda testes e usa o Git, sempre dentro das permissões que eu defino.
 
-Este guia reúne o que você precisa para começar e tirar proveito da ferramenta. As informações foram conferidas na [documentação oficial](https://code.claude.com/docs/en/overview) em novembro de 2026. Como o produto muda rápido, use `/help` e a documentação para confirmar detalhes da sua versão.
+A diferença entre usá-lo bem e usá-lo mal está quase toda na configuração. Por isso escrevi este guia com o que considero essencial para começar. As informações foram conferidas na [documentação oficial](https://code.claude.com/docs/en/overview) em novembro de 2026. Como o produto muda rápido, use `/help` e a documentação para confirmar detalhes da sua versão.
 
 ## Instalação e primeira sessão
 
@@ -294,6 +294,12 @@ Para trabalhar em tarefas paralelas sem conflito, use `git worktree` e abra uma 
 - **Nunca limpar o contexto:** a qualidade cai em conversas longas e sem foco.
 - **Aceitar sem revisar:** código gerado pode ter falhas. Veja os [riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
 - **Instalar MCPs desconhecidos:** avalie a fonte e as permissões.
+
+## Minha visão
+
+O erro que mais vejo é tratar o agente como alguém que vai "fazer o projeto sozinho". Para mim, ele funciona melhor como um colega muito rápido que precisa de contexto e de limites claros: um CLAUDE.md curto com as regras do projeto, permissões restritas para comandos destrutivos e revisão de tudo antes do commit.
+
+Também não abro mão dos fundamentos. O agente acelera muito o trabalho repetitivo, mas quem decide a arquitetura, entende a regra de negócio e responde pelo código em produção continua sendo eu. Quando trato a ferramenta assim, o ganho de produtividade é real e não vem acompanhado de dívida técnica.
 
 ## Conclusão
 

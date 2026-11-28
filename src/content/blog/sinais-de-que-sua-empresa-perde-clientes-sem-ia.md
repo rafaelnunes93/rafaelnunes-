@@ -1,7 +1,7 @@
 ---
 title: "Sua empresa está perdendo clientes por não usar IA? Os sinais de alerta"
 description: "Os sinais de que a falta de automação e IA já está custando clientes — demora no atendimento, propostas lentas, dados ignorados — e por onde começar."
-pubDate: 2026-10-31T16:20:00-03:00
+pubDate: 2027-01-27T09:00:00-03:00
 category: ia-para-negocios
 tags: ["pequenas empresas", "atendimento", "vendas", "automação", "sebrae"]
 kicker: "Alerta"

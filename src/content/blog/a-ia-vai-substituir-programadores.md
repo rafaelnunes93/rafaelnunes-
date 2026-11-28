@@ -1,7 +1,7 @@
 ---
 title: "A IA vai substituir programadores? O que os dados mostram"
 description: "O que pesquisas do Stack Overflow, de Stanford, do METR e do Fórum Econômico Mundial dizem sobre IA e programação, e como a profissão está mudando de verdade."
-pubDate: 2026-10-31T05:00:00-03:00
+pubDate: 2026-12-23T09:00:00-03:00
 category: programacao-com-ia
 tags: ["programação", "carreira", "mercado de trabalho", "desenvolvedores", "ia"]
 kicker: "Entenda"

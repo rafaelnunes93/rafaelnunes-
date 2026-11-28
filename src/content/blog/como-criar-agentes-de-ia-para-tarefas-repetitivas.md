@@ -1,7 +1,7 @@
 ---
 title: "Como criar agentes de IA que executam tarefas repetitivas do negócio"
 description: "O que são agentes de IA, quais tarefas eles fazem bem, ferramentas para criar o seu (com e sem código) e as regras de segurança para não perder o controle."
-pubDate: 2026-10-31T18:40:00-03:00
+pubDate: 2026-12-25T09:00:00-03:00
 category: ia-para-negocios
 tags: ["agentes de ia", "automação", "n8n", "zapier", "produtividade"]
 kicker: "Guia prático"

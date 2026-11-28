@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Copilot no Office: vale a pena pagar? Review completo"
 description: "O que o Copilot faz no Word, Excel, PowerPoint, Outlook e Teams, os planos para uso pessoal e empresarial e para quem ele realmente compensa."
-pubDate: 2026-10-31T11:40:00-03:00
+pubDate: 2027-04-09T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["microsoft copilot", "microsoft 365", "office", "review", "produtividade"]
 kicker: "Review"

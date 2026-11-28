@@ -1,7 +1,7 @@
 ---
 title: "Conteúdo genérico de IA: por que seus posts não engajam (e como corrigir)"
 description: "Por que textos de IA sem revisão soam todos iguais, os sinais de conteúdo genérico e um método para usar IA sem perder a voz, a originalidade e a confiança do público."
-pubDate: 2026-11-01T06:45:00-03:00
+pubDate: 2027-03-05T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["conteúdo", "engajamento", "redes sociais", "copywriting", "marketing"]
 kicker: "Alerta"

@@ -1,7 +1,7 @@
 ---
 title: "Midjourney vs DALL·E vs Ideogram: qual o melhor gerador de imagens?"
 description: "Comparativo entre Midjourney, os geradores de imagem do ChatGPT (linha DALL·E) e Ideogram: qualidade visual, texto nas imagens, facilidade, planos e usos ideais."
-pubDate: 2026-11-01T07:30:00-03:00
+pubDate: 2027-04-07T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["midjourney", "dall-e", "ideogram", "imagens", "comparativo"]
 kicker: "Comparativo"

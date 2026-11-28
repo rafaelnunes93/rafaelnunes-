@@ -1,7 +1,7 @@
 ---
 title: "Como criar seu primeiro app sem saber programar usando IA"
 description: "Passo a passo para criar um aplicativo simples com plataformas de IA e no-code: da ideia ao protótipo publicado, com os limites e cuidados que ninguém conta."
-pubDate: 2026-10-31T05:40:00-03:00
+pubDate: 2027-01-11T09:00:00-03:00
 category: programacao-com-ia
 tags: ["no-code", "aplicativos", "ia", "protótipo", "iniciantes"]
 kicker: "Guia prático"

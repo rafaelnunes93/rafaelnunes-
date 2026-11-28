@@ -1,7 +1,7 @@
 ---
 title: "Perplexity vale a pena? Review do buscador com IA que desafia o Google"
 description: "Como o Perplexity funciona, o que oferece nos planos gratuito e Pro, pontos fortes e fracos e quando ele substitui o Google — e quando não."
-pubDate: 2026-10-31T14:20:00-03:00
+pubDate: 2027-03-10T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["perplexity", "buscador", "pesquisa", "review"]
 kicker: "Review"

@@ -1,7 +1,7 @@
 ---
 title: "Código gerado por IA: riscos de segurança que ninguém te conta"
 description: "As falhas de segurança mais comuns em código gerado por IA, o que dizem estudos como o da Veracode, e um checklist para revisar antes de colocar em produção."
-pubDate: 2026-10-31T06:00:00-03:00
+pubDate: 2026-12-09T09:00:00-03:00
 category: programacao-com-ia
 tags: ["segurança", "código gerado por ia", "owasp", "desenvolvimento", "vulnerabilidades"]
 kicker: "Alerta"
@@ -19,7 +19,7 @@ relatedServices: ["desenvolvimento-full-stack", "apis-e-integracoes"]
 source: manual
 ---
 
-Assistentes de código aceleram o desenvolvimento de forma impressionante. O problema é que **código que funciona não é o mesmo que código seguro**. A IA aprende com enormes volumes de código público — incluindo código com falhas — e tende a gerar a solução mais comum, não necessariamente a mais segura. Quem coloca código gerado em produção sem revisão está assumindo riscos que muitas vezes não enxerga.
+Trabalho numa cultura AI First e uso assistentes de código todos os dias. Eles aceleram o desenvolvimento de forma impressionante. O problema é que **código que funciona não é o mesmo que código seguro**. A IA aprende com enormes volumes de código público — incluindo código com falhas — e tende a gerar a solução mais comum, não necessariamente a mais segura. Quem coloca código gerado em produção sem revisão está assumindo riscos que muitas vezes não enxerga.
 
 ## O que os estudos mostram
 
@@ -109,6 +109,12 @@ CORS liberado para qualquer origem, modo de depuração ativado em produção, m
 ## E nos aplicativos criados sem programar?
 
 Plataformas que geram aplicativos inteiros a partir de texto também podem produzir falhas: bancos de dados acessíveis sem login, regras de acesso mal configuradas e chaves expostas no navegador. Se o seu app tem dados de usuários, revise as regras de acesso da plataforma e considere uma avaliação técnica. Veja [como criar um app sem saber programar](/blog/como-criar-app-sem-saber-programar-com-ia).
+
+## Minha visão
+
+O que mais me preocupa não é a IA errar, porque desenvolvedores também erram. É a confiança que o código bem formatado transmite. Um trecho gerado parece profissional, e isso faz muita gente revisar menos do que revisaria o código de um colega.
+
+No meu dia a dia, sigo uma regra simples: código gerado passa pelos mesmos critérios de qualquer outro código. Consultas parametrizadas, autorização verificada em cada operação, nada de segredos no repositório e testes antes do merge. Em sistemas que lidam com dados de pacientes ou de clientes, como os ERPs em que já trabalhei, essa revisão não é opcional.
 
 ## Conclusão
 

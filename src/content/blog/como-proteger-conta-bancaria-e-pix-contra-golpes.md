@@ -1,7 +1,7 @@
 ---
 title: "Como proteger sua conta bancária e o Pix contra golpes digitais"
 description: "Os golpes mais comuns com Pix e contas bancárias, as proteções do Banco Central — limite noturno, MED e botão de contestação — e um checklist de segurança."
-pubDate: 2026-10-31T19:40:00-03:00
+pubDate: 2027-03-03T09:00:00-03:00
 category: seguranca-digital
 tags: ["pix", "banco", "golpes", "segurança", "banco central"]
 kicker: "Guia prático"

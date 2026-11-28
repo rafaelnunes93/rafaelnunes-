@@ -1,7 +1,7 @@
 ---
 title: "Melhores ferramentas de IA para e-commerce: comparativo por tarefa"
 description: "As ferramentas de IA mais úteis para lojas virtuais organizadas por tarefa: descrições, fotos, atendimento, anúncios, avaliações e análise de vendas."
-pubDate: 2026-10-31T18:00:00-03:00
+pubDate: 2027-03-12T09:00:00-03:00
 category: ia-para-negocios
 tags: ["e-commerce", "loja virtual", "marketing", "ferramentas", "vendas online"]
 kicker: "Comparativo"

@@ -1,7 +1,7 @@
 ---
 title: "Como escrever artigos de blog com IA que ranqueiam no Google"
 description: "Um processo em 8 etapas para produzir artigos com IA: intenção de busca, pesquisa, ângulo próprio, estrutura, verificação de fatos, SEO on-page e atualização."
-pubDate: 2026-11-01T08:30:00-03:00
+pubDate: 2027-04-30T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["seo", "blog", "google", "redação", "conteúdo"]
 kicker: "Guia prático"

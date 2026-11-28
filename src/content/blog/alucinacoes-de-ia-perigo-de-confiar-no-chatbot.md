@@ -1,7 +1,7 @@
 ---
 title: "Alucinações de IA: o perigo de confiar cegamente nas respostas do chatbot"
 description: "O que são alucinações de IA, casos reais em que respostas inventadas custaram caro e um método simples para verificar o que o chatbot diz."
-pubDate: 2026-10-31T13:20:00-03:00
+pubDate: 2027-01-25T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["alucinação", "chatgpt", "riscos da ia", "verificação de fatos"]
 kicker: "Alerta"

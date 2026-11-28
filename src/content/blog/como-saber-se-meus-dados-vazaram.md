@@ -1,7 +1,7 @@
 ---
 title: "Como descobrir se seus dados vazaram e o que fazer em seguida"
 description: "Ferramentas para verificar se seu e-mail, senhas e CPF apareceram em vazamentos — como Have I Been Pwned e Registrato — e o passo a passo para se proteger depois."
-pubDate: 2026-10-31T22:00:00-03:00
+pubDate: 2027-04-26T09:00:00-03:00
 category: seguranca-digital
 tags: ["vazamento de dados", "cpf", "senhas", "registrato", "lgpd"]
 kicker: "Guia prático"

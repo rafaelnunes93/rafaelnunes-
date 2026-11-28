@@ -1,7 +1,7 @@
 ---
 title: "IA gratuita: as melhores opções sem pagar nada"
 description: "As melhores ferramentas de inteligência artificial gratuitas para texto, pesquisa, estudo, imagens e voz, com o que cada versão grátis oferece e seus limites."
-pubDate: 2026-10-31T14:00:00-03:00
+pubDate: 2027-02-26T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["ia gratuita", "chatgpt", "gemini", "claude", "ferramentas"]
 kicker: "Entenda"

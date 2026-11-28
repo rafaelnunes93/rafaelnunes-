@@ -43,7 +43,7 @@ export const BLOG_UI = {
     en: 'Full stack developer specialized in .NET with a postgraduate degree in .NET Systems Architecture from FIAP, experienced in logistics (TMS and EDI), APIs, integrations, SaaS, Flutter and React Native apps and Unity games. Uses AI in everyday development and writes about what he learns building software in production.',
   } as L,
   authorMore: { pt: 'Trajetória completa', en: 'Full journey' } as L,
-  continue: { pt: 'Continue lendo', en: 'Keep reading' } as L,
+  continue: { pt: 'Últimos posts', en: 'Latest posts' } as L,
   ad: { pt: 'Publicidade', en: 'Advertisement' } as L,
   seoTitle: { pt: 'Blog: inteligência artificial, segurança digital e software', en: 'Blog' } as L,
   seoDescription: {

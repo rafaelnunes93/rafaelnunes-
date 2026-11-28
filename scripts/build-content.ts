@@ -9,6 +9,15 @@ const POSTS_OUT = join(OUT, 'posts');
 
 const posts = getPublishedPosts();
 
+// Links para posts que ainda não foram publicados (agendados ou rascunhos) viram texto simples,
+// para não levar o leitor a uma página inexistente. O link volta no build em que o post for publicado.
+const published = new Set(posts.map((p) => p.slug));
+for (const p of posts) {
+  p.post.html = p.post.html.replace(/<a href="\/blog\/([a-z0-9-]+)\/?"[^>]*>([\s\S]*?)<\/a>/g, (tag, slug: string, text: string) =>
+    published.has(slug) ? tag : text,
+  );
+}
+
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(POSTS_OUT, { recursive: true });
 

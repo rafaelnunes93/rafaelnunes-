@@ -1,7 +1,7 @@
 ---
 title: "O que um TMS precisa ter para organizar a sua operação"
 description: "Os módulos essenciais de um sistema de gestão de transporte, do rastreio ao CT-e, e como decidir entre um TMS pronto e um sob medida."
-pubDate: 2026-10-22T09:00:00-03:00
+pubDate: 2026-12-16T09:00:00-03:00
 category: logistica-e-tms
 tags: ["tms", "logística", "ct-e", "mdf-e", "transporte"]
 kicker: "Entenda"

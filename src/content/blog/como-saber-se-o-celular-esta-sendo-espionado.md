@@ -1,7 +1,7 @@
 ---
 title: "Como saber se meu celular está sendo espionado?"
 description: "Os sinais de que pode haver um aplicativo espião no celular, como verificar permissões no Android e no iPhone e o que fazer para remover e se proteger."
-pubDate: 2026-10-31T20:20:00-03:00
+pubDate: 2027-03-26T09:00:00-03:00
 category: seguranca-digital
 tags: ["celular", "spyware", "privacidade", "android", "iphone"]
 kicker: "Entenda"

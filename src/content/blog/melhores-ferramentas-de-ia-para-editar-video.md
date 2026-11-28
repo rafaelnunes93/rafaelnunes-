@@ -1,7 +1,7 @@
 ---
 title: "Melhores ferramentas de IA para editar vídeo: comparativo prático"
 description: "Descript, CapCut, OpusClip, Runway, Premiere Pro e DaVinci Resolve: para que serve cada ferramenta de IA em vídeo, referências de preço e como escolher a sua."
-pubDate: 2026-11-01T08:00:00-03:00
+pubDate: 2027-04-23T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["vídeo", "edição", "descript", "capcut", "runway", "comparativo"]
 kicker: "Comparativo"

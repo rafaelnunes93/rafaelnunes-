@@ -1,7 +1,7 @@
 ---
 title: "Como montar um atendimento no WhatsApp com IA para pequenas empresas"
 description: "Passo a passo para criar um atendimento com IA no WhatsApp: API oficial, regras da Meta em 2026, base de conhecimento, passagem para humano e LGPD."
-pubDate: 2026-10-31T15:40:00-03:00
+pubDate: 2027-01-04T09:00:00-03:00
 category: ia-para-negocios
 tags: ["whatsapp", "atendimento", "chatbot", "pequenas empresas", "automação"]
 kicker: "Guia prático"

@@ -1,7 +1,7 @@
 ---
 title: "Quanto custa desenvolver um sistema web sob medida"
 description: "O que faz o preço de um sistema web variar, como comparar propostas e por que começar por um módulo costuma ser o caminho mais barato e seguro."
-pubDate: 2026-10-08T09:00:00-03:00
+pubDate: 2026-12-02T09:00:00-03:00
 category: custos-e-contratacao
 tags: ["custo", "orçamento", "sistema web", "contratação"]
 kicker: "Entenda"
@@ -66,6 +66,12 @@ Além do desenvolvimento, considere:
 - **Suporte e evolução** depois da entrega.
 
 Nada disso é motivo para assustar: costuma ser uma fração do custo de licenças por usuário de sistemas prontos. Mas precisa estar na conta desde o início.
+
+## Minha visão
+
+Desde que comecei, em 2019, analisando chamados e consultando bancos de dados para entender regras de negócio, aprendi que o custo de um sistema quase nunca está nas telas. Ele está nas exceções do processo: o pedido que precisa de aprovação especial, o cliente com regra diferente, a integração que ninguém documentou.
+
+Por isso prefiro começar pequeno. Um primeiro módulo bem escolhido mostra rapidamente se o investimento faz sentido e reduz o risco para os dois lados. Desconfio de orçamentos fechados para sistemas inteiros antes de entender o processo, porque normalmente alguém vai pagar pela incerteza, seja no preço, seja no prazo.
 
 ## Um aviso honesto
 

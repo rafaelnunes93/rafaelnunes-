@@ -1,7 +1,7 @@
 ---
 title: "O que é autenticação em dois fatores e como ativar em todas as contas"
 description: "Como funciona a autenticação em dois fatores, os tipos (SMS, app autenticador, chave de acesso e chave física), qual é mais segura e como ativar nas contas principais."
-pubDate: 2026-10-31T20:40:00-03:00
+pubDate: 2027-04-05T09:00:00-03:00
 category: seguranca-digital
 tags: ["autenticação em dois fatores", "2fa", "senhas", "passkeys", "segurança"]
 kicker: "Entenda"

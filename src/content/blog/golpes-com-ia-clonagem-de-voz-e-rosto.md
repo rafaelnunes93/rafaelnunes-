@@ -1,7 +1,7 @@
 ---
 title: "Golpes com IA: como criminosos clonam voz e rosto para enganar famílias"
 description: "Como funcionam os golpes com voz clonada e deepfake, os sinais de alerta e as medidas simples — como a palavra-código da família — que protegem você e seus parentes."
-pubDate: 2026-10-31T19:00:00-03:00
+pubDate: 2027-02-08T09:00:00-03:00
 category: seguranca-digital
 tags: ["golpes", "voz clonada", "deepfake", "segurança", "família"]
 kicker: "Alerta"

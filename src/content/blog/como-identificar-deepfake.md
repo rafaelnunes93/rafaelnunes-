@@ -1,7 +1,7 @@
 ---
 title: "Deepfake: como identificar vídeos falsos antes que seja tarde"
 description: "O que são deepfakes, os sinais visuais e de contexto que ajudam a identificá-los, ferramentas de verificação e o que fazer ao encontrar um vídeo falso."
-pubDate: 2026-10-31T20:00:00-03:00
+pubDate: 2027-03-15T09:00:00-03:00
 category: seguranca-digital
 tags: ["deepfake", "desinformação", "golpes", "verificação", "ia"]
 kicker: "Alerta"

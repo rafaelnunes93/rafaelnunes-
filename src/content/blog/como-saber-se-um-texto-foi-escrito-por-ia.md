@@ -1,7 +1,7 @@
 ---
 title: "Como saber se um texto foi escrito por IA? O que funciona de verdade"
 description: "Por que detectores de IA não são confiáveis, o que dizem os estudos, os sinais que levantam suspeita e as alternativas que funcionam melhor."
-pubDate: 2026-10-31T15:20:00-03:00
+pubDate: 2027-04-12T09:00:00-03:00
 category: ferramentas-de-ia
 tags: ["detector de ia", "educação", "texto gerado por ia", "synthid"]
 kicker: "Entenda"

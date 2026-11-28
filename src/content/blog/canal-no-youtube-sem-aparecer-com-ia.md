@@ -1,7 +1,7 @@
 ---
 title: "Como criar um canal no YouTube sem aparecer usando IA (e sem perder a monetização)"
 description: "Como montar um canal sem aparecer com IA: nicho, roteiro, narração e edição, além das regras do YouTube sobre conteúdo inautêntico e identificação de conteúdo sintético."
-pubDate: 2026-11-01T08:15:00-03:00
+pubDate: 2027-04-28T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["youtube", "canal dark", "monetização", "vídeo", "criadores"]
 kicker: "Guia prático"

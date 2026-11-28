@@ -1,7 +1,7 @@
 ---
 title: "Vale a pena aprender a programar com o avanço da IA?"
 description: "Por que aprender programação continua valendo a pena, o que muda no jeito de estudar com a IA como tutora e um roteiro prático para começar com o pé direito."
-pubDate: 2026-10-31T05:20:00-03:00
+pubDate: 2027-01-06T09:00:00-03:00
 category: programacao-com-ia
 tags: ["aprender programação", "carreira", "estudos", "iniciantes"]
 kicker: "Entenda"

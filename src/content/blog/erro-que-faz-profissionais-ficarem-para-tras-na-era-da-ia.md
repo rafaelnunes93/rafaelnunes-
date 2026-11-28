@@ -1,7 +1,7 @@
 ---
 title: "O erro que faz profissionais ficarem para trás na era da IA (e como evitar)"
 description: "Esperar a empresa oferecer treinamento é o erro mais comum. Veja o que os dados do Work Trend Index mostram e um plano prático para não ficar para trás."
-pubDate: 2026-10-31T10:00:00-03:00
+pubDate: 2027-02-24T09:00:00-03:00
 category: ia-no-trabalho
 tags: ["carreira", "aprendizado", "habilidades", "work trend index"]
 kicker: "Alerta"

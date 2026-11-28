@@ -1,7 +1,7 @@
 ---
 title: "Como transformar um vídeo longo em vários cortes com IA"
 description: "Passo a passo para gerar cortes de vídeos longos com IA: escolha dos trechos, ferramentas como OpusClip, CapCut e Descript, legendas, formato vertical e direitos."
-pubDate: 2026-11-01T06:30:00-03:00
+pubDate: 2027-02-22T09:00:00-03:00
 category: conteudo-com-ia
 tags: ["vídeo", "cortes", "shorts", "reels", "opusclip", "capcut"]
 kicker: "Guia prático"
