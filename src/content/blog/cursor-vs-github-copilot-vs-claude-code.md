@@ -19,9 +19,13 @@ relatedServices: ["desenvolvimento-full-stack"]
 source: manual
 ---
 
+Uso assistentes de código todos os dias, numa empresa com cultura AI First, e a pergunta que mais ouço de outros desenvolvedores é qual deles escolher. Minha resposta curta é que depende de como você trabalha, e este comparativo explica o porquê.
+
 Escolher um assistente de código deixou de ser uma curiosidade e virou decisão de produtividade. Segundo a [pesquisa do Stack Overflow de 2025](https://survey.stackoverflow.co/2025/ai), 84% dos desenvolvedores usam ou pretendem usar ferramentas de IA. Entre as mais citadas estão **GitHub Copilot**, **Cursor** e **Claude Code** — três produtos com filosofias bem diferentes.
 
 > **Como este comparativo foi feito:** a análise se baseia na documentação oficial e nas páginas públicas de cada produto. Planos, limites e modelos mudam com frequência, então os preços são apenas referência. Confira em [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://cursor.com/pricing) e [Claude Code](https://code.claude.com/docs/en/overview).
+
+![Resumo visual do artigo: Cursor vs GitHub Copilot vs Claude Code: qual o melhor assistente de código?](/blog/resumos/cursor-vs-github-copilot-vs-claude-code.png)
 
 ## As três filosofias
 
@@ -105,6 +109,12 @@ Escolher um assistente de código deixou de ser uma curiosidade e virou decisão
 - **Controle permissões:** agentes que executam comandos devem ter limites claros.
 - **Proteja segredos:** não deixe chaves e senhas acessíveis no contexto.
 - **Siga a política da empresa** sobre código proprietário.
+
+## Minha visão
+
+Para mim, a escolha começa pelo tipo de tarefa. No trabalho repetitivo do dia a dia, um bom autocompletar dentro do editor já economiza muito tempo. Em tarefas maiores, que passam por várias camadas de um sistema, como uma regra nova que mexe no banco, na API e na interface, um agente que lê o projeto inteiro faz mais diferença.
+
+O que não muda, seja qual for a ferramenta, é a revisão. Já vi código gerado passar nos testes e ainda assim estar errado para o negócio. Por isso não escolho pelo ranking do momento: escolho pela ferramenta que se encaixa no meu fluxo e mantenho o hábito de ler cada alteração antes do commit.
 
 ## Conclusão
 

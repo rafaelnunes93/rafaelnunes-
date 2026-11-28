@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Uso IA no meu trabalho todos os dias e, como qualquer profissional, também preciso aparecer nas redes. Tenho uma visão clara sobre isso: a IA é ótima para organizar, mas a voz precisa ser sua.
+
 Publicar com constância é uma das maiores dificuldades de quem cuida das próprias redes sociais. Não falta vontade: falta tempo e, muitas vezes, ideia. Com um bom processo, a IA reduz horas de trabalho a uma sessão concentrada — sem transformar o seu perfil em mais uma fonte de textos iguais.
 
 O tempo de duas horas é uma referência para quem já conhece bem o próprio negócio, e cobre o planejamento e os textos. Artes e vídeos podem exigir mais.
+
+![Resumo visual do artigo: Como criar um mês de posts para redes sociais em 2 horas com IA](/blog/resumos/como-criar-um-mes-de-posts-com-ia.png)
 
 ## Etapa 1: crie o documento de contexto (15 min)
 
@@ -102,6 +106,12 @@ Assim, o processo aprende com o seu público real, e não com regras genéricas.
 - **Só falar de si e do produto.**
 - **Inventar depoimentos ou resultados.** Além de antiético, pode gerar problemas legais.
 - **Sumir depois de publicar.** Comentários respondidos fortalecem o relacionamento.
+
+## Minha visão
+
+O que funciona para mim é usar a IA para planejar e para o primeiro rascunho, e reservar a maior parte do tempo para colocar o que só eu tenho: casos do trabalho, aprendizados e opiniões. É essa parte que faz alguém parar para ler.
+
+Também prefiro publicar com uma frequência que eu consiga manter a encher o calendário por um mês e sumir depois. Constância vale mais do que volume.
 
 ## Conclusão
 

@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Trabalho com tecnologia e uso IA todos os dias, e sempre desconfio das listas alarmistas sobre profissões que vão acabar. Por isso fui atrás do que dizem os estudos de verdade.
+
 Listas de "profissões que vão desaparecer" circulam há anos, quase sempre com números sem fonte. Este artigo faz o oposto: reúne o que dizem os dois estudos mais citados sobre o tema — do **Fórum Econômico Mundial (WEF)** e da **Organização Internacional do Trabalho (OIT)** — e explica como interpretar os dados.
+
+![Resumo visual do artigo: Quais profissões a IA vai substituir até 2030? O que dizem os estudos](/blog/resumos/profissoes-que-a-ia-vai-substituir-ate-2030.png)
 
 ## O panorama geral até 2030
 
@@ -89,6 +93,12 @@ Se quiser checar os sinais no seu dia a dia, veja [os sinais de que a IA já est
 2. **Identifique a parte rotineira do seu trabalho** e aprenda a automatizá-la antes que outra pessoa faça isso por você.
 3. **Invista em habilidades complementares à IA**: análise, comunicação, gestão de projetos e conhecimento profundo do negócio.
 4. **Acompanhe as vagas da sua área.** As descrições de vaga mostram, em tempo real, como o mercado está redefinindo cada função.
+
+## Minha visão
+
+Lendo os relatórios, minha leitura é que a palavra certa é transformação. As tarefas de rotina estão encolhendo, mas as funções que combinam conhecimento técnico, julgamento e relacionamento ganham espaço.
+
+Na minha própria área, vejo isso acontecendo: o trabalho repetitivo ficou mais rápido e o valor passou para quem entende o problema e toma decisões. Acredito que algo parecido vai acontecer na maioria das profissões.
 
 ## Conclusão
 

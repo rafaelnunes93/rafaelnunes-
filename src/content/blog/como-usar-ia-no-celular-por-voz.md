@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Uso IA no computador o dia inteiro no trabalho, mas foi no celular, por voz, que descobri alguns dos usos mais práticos para o dia a dia.
+
 Digitar no celular é lento. Falar é natural. Os assistentes de IA atuais entendem conversas em português com fluidez, respondem em voz em segundos e permitem interromper no meio da resposta, como numa conversa com uma pessoa. Isso abre uma série de usos práticos para o dia a dia — no carro, na cozinha, na caminhada ou quando as mãos estão ocupadas.
+
+![Resumo visual do artigo: Como usar IA no celular por voz para tarefas do dia a dia](/blog/resumos/como-usar-ia-no-celular-por-voz.png)
 
 ## Os principais assistentes de voz com IA
 
@@ -87,6 +91,12 @@ Peça um resumo rápido de um assunto antes de uma reunião ou uma explicação 
 - **Trânsito:** use apenas em modo mãos livres e sem tirar a atenção da direção.
 - **Ambientes públicos:** cuidado com o que você fala perto de outras pessoas.
 - **Golpes:** criminosos usam vozes geradas por IA para se passar por conhecidos. Desconfie de pedidos de dinheiro por áudio, mesmo com voz familiar.
+
+## Minha visão
+
+Para mim, a voz funciona muito bem para organizar ideias em movimento e para tirar dúvidas rápidas sem precisar digitar. Uso também para treinar inglês, que é essencial para quem lê documentação técnica.
+
+O cuidado que tomo é com o que falo perto de outras pessoas e com informações sensíveis. E, como em qualquer uso de IA, confiro antes de agir em qualquer coisa importante.
 
 ## Conclusão
 

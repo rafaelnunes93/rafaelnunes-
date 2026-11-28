@@ -19,9 +19,13 @@ relatedServices: ["landing-pages", "saas-ponta-a-ponta", "aplicativos-mobile"]
 source: manual
 ---
 
+Como desenvolvedor, acompanho essas plataformas com interesse, porque elas mudaram a forma como muitas ideias saem do papel. Neste comparativo, olho para elas com o olhar de quem também constrói sistemas do zero.
+
 Nunca foi tão fácil tirar uma ideia do papel. Plataformas no-code e geradores de aplicativos com IA prometem criar sites e sistemas a partir de uma descrição em texto. A oferta é grande e muda rápido, e nem toda ferramenta serve para todo projeto. Este comparativo organiza as principais opções por tipo de uso.
 
 > **Como este comparativo foi feito:** a análise se baseia na documentação e nas páginas oficiais das plataformas e em comparações públicas. Não é um teste de laboratório. Preços e recursos mudam com frequência, então confirme nos sites oficiais antes de decidir.
+
+![Resumo visual do artigo: Melhores plataformas para criar sites e apps com IA (no-code): comparativo](/blog/resumos/melhores-plataformas-no-code-com-ia.png)
 
 ## Dois tipos de plataforma
 
@@ -118,6 +122,12 @@ A maioria tem plano gratuito para testes, e muitos planos pagos individuais come
 ## Quando migrar para desenvolvimento sob medida
 
 Considere a migração quando o produto ganhar clientes pagantes, exigir integrações complexas, lidar com dados sensíveis ou esbarrar em limites de desempenho e custo. O protótipo terá cumprido o seu papel: validar a ideia e mostrar o que construir. Veja como funciona um [SaaS de ponta a ponta](/servicos/saas-ponta-a-ponta).
+
+## Minha visão
+
+Minha visão é que essas plataformas são ótimas para começar e validar, e eu mesmo indicaria uma delas para quem ainda está testando uma ideia. O ponto de atenção é saber como sair delas depois: se o código pode ser exportado e se os dados ficam acessíveis.
+
+Já vi projetos crescerem a ponto de a plataforma virar uma limitação, seja de custo, seja de desempenho. Pensar nisso desde o início evita uma migração difícil quando o produto der certo.
 
 ## Conclusão
 

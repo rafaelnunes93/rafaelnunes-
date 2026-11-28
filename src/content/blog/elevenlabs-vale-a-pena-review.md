@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho com tecnologia e acompanho de perto as ferramentas de voz por IA, tanto pelas possibilidades quanto pelos riscos que elas trazem.
+
 Vozes geradas por IA deixaram de soar como robôs. O **ElevenLabs** é uma das plataformas mais conhecidas dessa mudança, usada por criadores de vídeo, empresas de educação, editoras e desenvolvedores. A pergunta é se vale pagar por ela no seu caso.
 
 > **Como este review foi feito:** a análise se baseia nas informações públicas da empresa e em comparações disponíveis, não em um teste de laboratório. Preços, créditos e limites mudam com frequência; confira em [elevenlabs.io](https://elevenlabs.io/pricing).
+
+![Resumo visual do artigo: ElevenLabs vale a pena? Review do gerador de voz com IA](/blog/resumos/elevenlabs-vale-a-pena-review.png)
 
 ## O que o ElevenLabs faz
 
@@ -100,6 +104,12 @@ Criminosos já usam vozes clonadas para aplicar golpes. Entenda como se proteger
 3. Calcule o custo por minuto no seu volume.
 4. Confira os termos de uso comercial para a plataforma em que vai publicar.
 5. Assine por um mês antes de assumir um plano anual.
+
+## Minha visão
+
+Na minha visão, a voz sintética faz muito sentido para quem produz narração com frequência e quer ganhar tempo. Para algo pontual, gravar com a própria voz costuma ser mais simples e mais autêntico.
+
+O que eu nunca deixaria de lado é a autorização. Clonar a voz de alguém sem consentimento é um problema ético e legal, e essa mesma tecnologia alimenta golpes. Usar com transparência é o que separa uma ferramenta útil de um risco.
 
 ## Veredito
 

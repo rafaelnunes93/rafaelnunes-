@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Desenvolvo sites e sistemas para empresas, e a pergunta sobre usar imagens geradas por IA aparece cada vez mais. Não sou advogado, então reuni aqui o que as regras e os órgãos oficiais dizem, com a visão prática de quem constrói sites.
+
 Ferramentas como Midjourney, ChatGPT e Ideogram produzem imagens impressionantes em segundos. Para quem cria anúncios, posts, capas ou produtos, a pergunta é direta: posso usar isso para ganhar dinheiro? A resposta tem camadas, e confundir essas camadas é o erro mais comum.
 
 > **Aviso:** este artigo tem caráter informativo e não substitui orientação jurídica. O tema está em rápida evolução, com leis em discussão e processos em andamento.
+
+![Resumo visual do artigo: Posso usar imagens geradas por IA comercialmente? O que diz a lei](/blog/resumos/imagens-geradas-por-ia-uso-comercial.png)
 
 ## As três perguntas que você precisa separar
 
@@ -91,6 +95,12 @@ Mesmo com a autorização da ferramenta, você responde pelo que publica:
 7. **Para usos de alto valor, consulte um advogado.**
 
 Se a dúvida for qual ferramenta usar, veja o comparativo [Midjourney vs DALL·E vs Ideogram](/blog/midjourney-vs-dall-e-vs-ideogram).
+
+## Minha visão
+
+Na prática, eu separo os usos por risco. Para ilustrar um post de blog, uso imagem gerada sem muita preocupação, desde que respeite os termos da ferramenta. Para logotipo, embalagem ou qualquer coisa que represente a marca, prefiro trabalho humano e orientação jurídica.
+
+O que eu nunca faria é usar o rosto de uma pessoa real ou uma marca conhecida numa imagem gerada para fins comerciais. O risco não compensa o tempo economizado.
 
 ## Conclusão
 

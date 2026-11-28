@@ -1,6 +1,6 @@
 // Valida todos os posts de src/content/blog. Sai com código 1 se algum falhar (bloqueia o deploy).
 // Usado localmente (`npm run validate:posts`) e no CI antes de publicar posts gerados pelo n8n.
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { BLOG_DIR, countWords, loadAllPosts, type LoadedPost } from './content/load-posts';
 import { CASES } from '../src/app/data/cases';
@@ -203,7 +203,12 @@ function main(): void {
       if (h2 < 3) errs.push(`apenas ${h2} seções H2 (mínimo 3)`);
     }
 
-    for (const [, href] of p.body.matchAll(/\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
+    for (const [, bang, href] of p.body.matchAll(/(!?)\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
+      // Imagens: só confere se o arquivo existe em public/.
+      if (bang) {
+        if (href.startsWith('/') && !existsSync(join(process.cwd(), 'public', href))) errs.push(`imagem inexistente: ${href}`);
+        continue;
+      }
       if (/^https?:\/\//.test(href)) {
         const host = new URL(href).hostname.replace(/^www\./, '');
         if (!domainAllowed(host)) errs.push(`link para domínio não permitido: ${host}`);

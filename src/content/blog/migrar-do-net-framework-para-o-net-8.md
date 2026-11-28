@@ -23,6 +23,8 @@ Muitos sistemas que sustentam empresas há anos foram escritos em .NET Framework
 
 Passei boa parte da minha carreira trabalhando com .NET Framework e com .NET 8, muitas vezes no mesmo sistema. Estes são os sinais que eu observo.
 
+![Resumo visual do artigo: Quando vale a pena migrar do .NET Framework para o .NET 8](/blog/resumos/migrar-do-net-framework-para-o-net-8.png)
+
 ## Sinais de que está na hora
 
 - **Toda mudança demora demais.** Pequenas funcionalidades levam semanas porque o código é acoplado e frágil.

@@ -19,9 +19,13 @@ relatedServices: []
 source: manual
 ---
 
+Trabalho com tecnologia e uso IA todos os dias, e vejo muita gente vendendo a ideia de canais automáticos como dinheiro fácil. Minha visão é bem diferente.
+
 Nem todo mundo quer ou pode aparecer diante da câmera. Canais de curiosidades, educação, histórias e tutoriais de tela existem há anos sem mostrar o rosto de ninguém. A IA facilitou esse caminho, mas também gerou uma enxurrada de vídeos iguais e uma ideia perigosa: a de que dá para criar dezenas de vídeos automáticos e viver de renda passiva.
 
 Este guia mostra como fazer do jeito certo, respeitando as regras que definem se o canal pode ser monetizado.
+
+![Resumo visual do artigo: Como criar um canal no YouTube sem aparecer usando IA (e sem perder a monetização)](/blog/resumos/canal-no-youtube-sem-aparecer-com-ia.png)
 
 ## Primeiro, as regras do YouTube
 
@@ -114,6 +118,12 @@ Para entrar no [Programa de Parcerias do YouTube](https://support.google.com/you
 - [ ] Música licenciada.
 - [ ] Divulgação de conteúdo sintético, quando exigida.
 - [ ] Título e miniatura honestos.
+
+## Minha visão
+
+Na minha visão, a IA pode cuidar de muita coisa no processo, mas não da parte que faz um canal crescer: ter algo útil ou interessante a dizer, com pesquisa e um ponto de vista próprio.
+
+Se eu fosse começar um canal sem aparecer, escolheria um tema que conheço, usaria a IA para acelerar a produção e investiria o tempo economizado em pesquisa e qualidade. Canais de vídeos em massa são exatamente o que as plataformas deixam de monetizar.
 
 ## Conclusão
 

@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Uso IA profissionalmente todos os dias, e vejo muita promessa exagerada sobre ganhar dinheiro com ela. Minha visão é bem mais pé no chão.
+
 Basta abrir as redes sociais para encontrar promessas de "renda de cinco dígitos com IA trabalhando 2 horas por dia". A realidade é diferente, mas a oportunidade existe: a inteligência artificial realmente permite produzir mais, oferecer novos serviços e criar negócios. A diferença está entre usar IA para **entregar valor** e acreditar que a IA vai **gerar dinheiro sozinha**.
+
+![Resumo visual do artigo: Como ganhar dinheiro com inteligência artificial em 2026 (sem cair em golpes)](/blog/resumos/como-ganhar-dinheiro-com-inteligencia-artificial.png)
 
 ## A lógica que funciona
 
@@ -88,6 +92,12 @@ Antes de comprar um curso ou entrar numa oportunidade, pesquise o nome com "recl
 3. **Monte um portfólio** com 3 a 5 exemplos reais (podem ser projetos pessoais).
 4. **Ofereça a primeiros clientes** com preço de entrada e peça depoimentos.
 5. **Melhore o processo** e aumente o valor cobrado à medida que entrega resultados.
+
+## Minha visão
+
+No meu caso, a IA não criou uma renda do nada: ela me deixou mais produtivo naquilo que eu já sabia fazer, que é desenvolver sistemas. Esse, para mim, é o caminho mais sólido para a maioria das pessoas.
+
+Desconfio de qualquer promessa de renda rápida e passiva. Quem ganha dinheiro de verdade com IA está resolvendo problemas reais de alguém, com uma habilidade por trás. A ferramenta acelera, mas não substitui o trabalho de entregar valor.
 
 ## Conclusão
 

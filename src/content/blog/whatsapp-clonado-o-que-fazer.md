@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho com tecnologia e sou frequentemente a pessoa que amigos e família chamam quando algo assim acontece. Por isso reuni aqui o passo a passo que costumo recomendar.
+
 Clonagem de WhatsApp é um dos golpes mais comuns no Brasil. O criminoso assume o seu número e começa a pedir dinheiro aos seus contatos, se passando por você. Cada minuto conta: quanto mais rápido você agir, menos pessoas caem no golpe.
 
 Este guia mostra o que fazer, na ordem certa.
+
+![Resumo visual do artigo: O que fazer se seu WhatsApp for clonado: guia de emergência](/blog/resumos/whatsapp-clonado-o-que-fazer.png)
 
 ## Como saber se o WhatsApp foi clonado
 
@@ -93,6 +97,12 @@ Se você recebeu um pedido de dinheiro de um conhecido:
 2. Ligue para a pessoa no número que você já tinha.
 3. Avise que a conta dela pode ter sido clonada.
 4. Denuncie e bloqueie o contato falso no WhatsApp.
+
+## Minha visão
+
+Na minha visão, o mais importante é agir rápido e não ter vergonha de avisar os contatos. O golpe só funciona enquanto as pessoas acreditam que estão falando com você.
+
+E a prevenção é simples: confirmação em duas etapas ativada e a regra de nunca, em hipótese nenhuma, passar o código que chega por SMS. Costumo ajudar pessoas próximas a configurar isso, porque leva poucos minutos e evita muita dor de cabeça.
 
 ## Conclusão
 

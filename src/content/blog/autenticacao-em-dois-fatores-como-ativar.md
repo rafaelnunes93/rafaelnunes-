@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Trabalho com sistemas que exigem autenticação e controle de acesso, e a verificação em duas etapas é uma das proteções mais eficazes que conheço. É também uma das que mais recomendo para qualquer pessoa.
+
 Senhas vazam o tempo todo: em ataques a empresas, em páginas falsas, em aparelhos infectados. Por isso, depender apenas de uma senha é como trancar a porta e deixar a chave embaixo do tapete. A **autenticação em dois fatores** (também chamada de verificação em duas etapas ou 2FA) acrescenta uma segunda trava — e é uma das medidas de segurança mais eficazes que existem.
+
+![Resumo visual do artigo: O que é autenticação em dois fatores e como ativar em todas as contas](/blog/resumos/autenticacao-em-dois-fatores-como-ativar.png)
 
 ## Como funciona
 
@@ -90,6 +94,12 @@ Ao ativar a 2FA, muitos serviços mostram **códigos de recuperação** para usa
 - **Proteja o chip:** peça à operadora um PIN para o chip e uma senha de atendimento.
 - **Cadastre mais de um método** quando possível (por exemplo, passkey e app autenticador).
 - **Combine com senhas fortes e únicas.** A 2FA não substitui boas senhas; veja os [melhores gerenciadores de senha](/blog/melhores-gerenciadores-de-senha).
+
+## Minha visão
+
+Se eu tivesse que escolher uma única medida de segurança para recomendar, seria esta. Senhas vazam com frequência, e a segunda etapa impede que um vazamento vire uma invasão.
+
+Na minha visão, vale começar pelo e-mail e pelo WhatsApp, preferir aplicativo autenticador ou chave de acesso ao SMS e guardar os códigos de recuperação num lugar seguro. São poucos minutos de configuração para uma proteção muito grande.
 
 ## Conclusão
 

@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Como desenvolvedor, trabalho com sistemas que guardam dados de pessoas, e uso assistentes de IA todos os dias. Por isso sempre olho para essas ferramentas também pelo lado de quem armazena os dados.
+
 Muita gente conversa com chatbots como se estivesse num diário: conta problemas pessoais, cola documentos do trabalho, pede conselhos médicos e financeiros. Mas para onde vão essas conversas? Quem pode lê-las? Elas treinam a IA? As respostas variam por empresa e por tipo de conta — e as configurações fazem diferença.
 
 > **Atenção:** as políticas de privacidade dessas empresas mudam com frequência. As informações abaixo resumem o funcionamento geral divulgado pelas empresas; confira sempre as políticas e configurações atuais de cada serviço.
+
+![Resumo visual do artigo: A IA guarda minhas conversas? O que acontece com seus dados nos chatbots](/blog/resumos/a-ia-guarda-minhas-conversas.png)
 
 ## As três perguntas que importam
 
@@ -87,6 +91,12 @@ Sua conta no chatbot guarda todo o histórico. Use senha forte e ative a [autent
 ## Seus direitos
 
 Pela LGPD, você pode solicitar às empresas informações sobre o tratamento dos seus dados, correção e exclusão. As principais empresas de IA oferecem formulários ou opções nas configurações para exportar e apagar dados.
+
+## Minha visão
+
+O que eu levo em conta é que, para qualquer sistema, guardar dados é o comportamento padrão. Apagar, anonimizar e não usar para outra finalidade são escolhas que precisam ser feitas de propósito, e nos chatbots isso geralmente depende de você ajustar as configurações.
+
+No meu uso, separo bem as coisas: no trabalho, só ferramentas aprovadas pela empresa e sem dados de clientes desnecessários. No uso pessoal, desativo o que não preciso e evito colocar informações que eu não colocaria num documento compartilhado. Essa regra simples resolve a maior parte das preocupações.
 
 ## Conclusão
 

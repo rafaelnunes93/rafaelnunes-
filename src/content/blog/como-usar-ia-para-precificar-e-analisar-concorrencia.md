@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Desenvolvo sistemas para empresas e vejo com frequência negócios que vendem bem e lucram pouco porque o preço foi definido no olho. A IA pode ajudar a mudar isso, desde que usada do jeito certo.
+
 Precificar é uma das decisões mais importantes — e mais negligenciadas — de um pequeno negócio. Muitos empreendedores copiam o preço do concorrente ou aplicam uma margem "de olho", sem saber se estão lucrando de verdade. A inteligência artificial não decide o preço por você, mas ajuda a fazer as contas certas, organizar informações do mercado e testar cenários antes de arriscar.
+
+![Resumo visual do artigo: Como usar IA para precificar produtos e analisar a concorrência](/blog/resumos/como-usar-ia-para-precificar-e-analisar-concorrencia.png)
 
 ## Regra básica: IA para pensar, planilha para calcular
 
@@ -88,6 +92,12 @@ Defina uma rotina mensal: atualizar custos, revisar preços dos concorrentes e a
 - **Competir só por preço** quando há diferenciais que justificariam cobrar mais.
 - **Confiar em números da IA sem conferir.**
 - **Não revisar preços** quando os custos mudam.
+
+## Minha visão
+
+Na minha visão, o maior erro é pedir para a IA calcular o preço. Ela é ótima para estruturar o raciocínio e montar a planilha, mas os cálculos precisam de fórmulas confiáveis e os dados de concorrentes precisam ser coletados de verdade.
+
+Quando trabalho com regras de negócio em sistemas, aprendo sempre que os custos escondidos, como taxas, impostos e devoluções, fazem toda a diferença. Na precificação é igual: o detalhe que ninguém lembrou é o que come a margem.
 
 ## Conclusão
 

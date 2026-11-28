@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Desenvolvo sistemas para empresas, e muitas conversas começam com uma ideia ainda sem plano. A IA virou uma boa parceira para estruturar esse raciocínio, desde que não seja usada para inventar números.
+
 Um plano de negócios bem feito obriga você a responder perguntas difíceis antes de investir tempo e dinheiro: quem é o cliente, quanto ele paga, quanto custa entregar, quando o negócio se paga. O problema é que montar esse documento do zero costuma levar semanas. Com a IA como parceira, dá para chegar a uma primeira versão sólida em uma tarde — desde que você use a ferramenta para pensar, não para inventar.
+
+![Resumo visual do artigo: Como usar IA para criar um plano de negócios em uma tarde](/blog/resumos/como-criar-plano-de-negocios-com-ia.png)
 
 ## Antes de começar: a regra de ouro
 
@@ -95,6 +99,12 @@ Depois, leia o documento inteiro. Corte frases genéricas, confira todos os núm
 - **Projeções otimistas demais.** Peça cenários pessimista, realista e otimista.
 - **Plano genérico.** Se o plano serviria para qualquer empresa do setor, falta especificidade.
 - **Pular a validação.** O plano é uma hipótese. Converse com clientes reais antes de investir pesado.
+
+## Minha visão
+
+O que mais valorizo na IA nesse processo são as perguntas difíceis que ela ajuda a levantar. Quando se pede para ela agir como um investidor exigente, aparecem pontos fracos que a gente prefere não ver.
+
+Por outro lado, eu nunca confiaria nos números de mercado que ela gera sem fonte. Dados vêm de fontes reais, cálculos ficam numa planilha, e a IA ajuda a organizar e a revisar. Usada assim, ela economiza dias de trabalho sem tornar o plano menos honesto.
 
 ## Conclusão
 

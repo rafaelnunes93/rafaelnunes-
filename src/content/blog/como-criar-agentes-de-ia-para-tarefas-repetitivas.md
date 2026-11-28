@@ -19,9 +19,13 @@ relatedServices: ["apis-e-integracoes", "desenvolvimento-full-stack"]
 source: manual
 ---
 
+Trabalho com integrações e automação há anos, e agentes de IA são a evolução natural desse tipo de trabalho. Mas, como em qualquer integração, o que define o sucesso é o desenho do processo, não a ferramenta.
+
 Os chatbots respondem perguntas. Os **agentes de IA** vão além: recebem um objetivo, decidem os passos e executam tarefas usando ferramentas — ler e-mails, consultar planilhas, atualizar o CRM, criar documentos, enviar mensagens. Para negócios, isso abre a possibilidade de automatizar tarefas que antes dependiam de alguém interpretando informações.
 
 Este guia explica o que são agentes, onde eles funcionam bem e como criar o primeiro com segurança.
+
+![Resumo visual do artigo: Como criar agentes de IA que executam tarefas repetitivas do negócio](/blog/resumos/como-criar-agentes-de-ia-para-tarefas-repetitivas.png)
 
 ## O que é um agente de IA
 
@@ -100,6 +104,12 @@ Registre cada execução: entrada, decisão e ação. Revise uma amostra toda se
 - **Registro de tudo:** o que o agente leu, decidiu e fez.
 - **Proteção contra instruções maliciosas:** e-mails e documentos podem conter textos que tentam manipular o agente ("ignore suas instruções e..."). Trate conteúdo externo como dado, nunca como ordem.
 - **LGPD:** cuidado com dados pessoais processados pelo agente. Veja [LGPD e IA](/blog/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots).
+
+## Minha visão
+
+Minha regra para agentes é a mesma que uso em integrações: permissões mínimas, registro de tudo e aprovação humana para o que não tem volta. Um agente que lê e-mails e cria registros é ótimo. Um agente que envia propostas ou mexe em pagamentos sem ninguém revisar é um risco desnecessário.
+
+Também prefiro começar com uma tarefa pequena e bem definida, medir os acertos por algumas semanas e só então ampliar. Agentes impressionam rápido nas demonstrações, mas é o acompanhamento no dia a dia que mostra se eles são confiáveis.
 
 ## Conclusão
 

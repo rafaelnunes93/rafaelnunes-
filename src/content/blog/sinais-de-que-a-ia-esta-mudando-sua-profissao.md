@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho numa empresa com cultura AI First, então vejo de perto como a IA muda o dia a dia de uma profissão. No desenvolvimento de software, essa mudança já é realidade.
+
 "A IA vai acabar com o meu emprego?" é uma das perguntas mais buscadas por profissionais nos últimos anos. A resposta honesta é menos dramática do que as manchetes e mais urgente do que muita gente imagina: **para a maioria das pessoas, a IA não elimina o cargo — ela muda o que o cargo faz.** E essa mudança já começou.
 
 Neste artigo, você vai ver o que os principais estudos dizem, os sinais práticos de que a sua função está sendo transformada e o que fazer a respeito.
+
+![Resumo visual do artigo: Sua profissão está em risco? Os sinais de que a IA já está mudando seu cargo](/blog/resumos/sinais-de-que-a-ia-esta-mudando-sua-profissao.png)
 
 ## O que os dados dizem
 
@@ -87,6 +91,12 @@ Ao avaliar seu cargo, observe também o que protege a função:
 2. **Teste a IA nas tarefas mais repetitivas.** Use um assistente como ChatGPT, Gemini, Claude ou Copilot para executar ou acelerar essas atividades. Veja onde funciona e onde falha.
 3. **Reinvista o tempo ganho.** Use as horas liberadas em atividades de maior valor: análise, relacionamento, melhoria de processos.
 4. **Torne o aprendizado visível.** Documente resultados ("reduzi o fechamento do relatório de 4 para 1 hora") e leve isso para conversas com a liderança e para o seu currículo.
+
+## Minha visão
+
+Pelo que vivo, a mudança não chega de uma vez. Ela aparece primeiro nas tarefas repetitivas, que ficam muito mais rápidas, e depois muda o que se espera de cada profissional. Quem percebe cedo consegue usar a ferramenta a seu favor.
+
+O conselho que eu daria é olhar para as próprias tarefas com honestidade: o que a IA já faz bem, e o que depende do seu conhecimento, do seu julgamento e da sua relação com as pessoas. É nessa segunda parte que vale investir.
 
 ## Conclusão
 

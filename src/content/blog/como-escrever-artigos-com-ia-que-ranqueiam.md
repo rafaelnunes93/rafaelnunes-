@@ -19,9 +19,13 @@ relatedServices: ["landing-pages"]
 source: manual
 ---
 
+Uso IA para escrever no dia a dia e cuido do meu próprio blog, então este é um assunto que pratico, não só estudo. A principal lição que aprendi é que publicar muito não é o mesmo que publicar bem.
+
 A IA tornou fácil escrever artigos. Justamente por isso, publicar texto deixou de ser um diferencial. O que faz um artigo ganhar posições é resolver melhor a dúvida do leitor, com informação confiável e algo que os concorrentes não têm. O [Google afirma](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content) que avalia a qualidade do conteúdo, e não como ele foi produzido.
 
 Vale ser honesto: **ninguém pode garantir uma posição no Google**. O processo abaixo aumenta as suas chances e, mais importante, gera conteúdo que vale a pena ler.
+
+![Resumo visual do artigo: Como escrever artigos de blog com IA que ranqueiam no Google](/blog/resumos/como-escrever-artigos-com-ia-que-ranqueiam.png)
 
 ## Etapa 1: entenda a intenção de busca
 
@@ -117,6 +121,12 @@ Entenda o risco em [alucinações de IA](/blog/alucinacoes-de-ia-perigo-de-confi
 - **Inventar autores, depoimentos ou experiências.**
 - **Encher o texto de palavras-chave.**
 - **Não acompanhar os resultados.**
+
+## Minha visão
+
+Na minha visão, a IA é ótima para pesquisar, organizar e fazer o primeiro rascunho, mas o artigo só se destaca quando traz algo que só o autor tem: experiência, exemplos reais e opinião.
+
+No meu blog, prefiro publicar com uma frequência constante e cuidar de cada texto a encher o site de uma vez. Isso dá mais trabalho, mas é o que constrói confiança, tanto com os leitores quanto com os buscadores.
 
 ## Conclusão
 

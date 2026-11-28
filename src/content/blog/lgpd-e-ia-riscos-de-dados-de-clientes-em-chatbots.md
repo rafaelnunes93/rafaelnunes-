@@ -19,9 +19,13 @@ relatedServices: ["desenvolvimento-full-stack", "apis-e-integracoes"]
 source: manual
 ---
 
+Trabalho com sistemas que lidam com dados sensíveis, como um ERP para clínicas médicas e odontológicas, e numa cultura em que a IA faz parte do dia a dia. Por isso, a combinação de IA e LGPD é uma preocupação real no meu trabalho.
+
 A cena é comum em muitas empresas: um funcionário cola uma planilha de clientes no chatbot para "organizar os dados", ou envia um contrato com nome, CPF e endereço para a IA resumir. Parece inofensivo e economiza tempo. Mas, do ponto de vista da **Lei Geral de Proteção de Dados (LGPD)**, isso é tratamento de dados pessoais — e pode expor a empresa a riscos sérios.
 
 > **Aviso:** este artigo tem caráter informativo e não substitui orientação jurídica. Para situações específicas, consulte um advogado ou o encarregado de dados (DPO) da sua empresa.
+
+![Resumo visual do artigo: LGPD e IA: os riscos de colocar dados de clientes em chatbots](/blog/resumos/lgpd-e-ia-riscos-de-dados-de-clientes-em-chatbots.png)
 
 ## Por que a LGPD se aplica
 
@@ -106,6 +110,12 @@ Se a empresa usa um assistente de IA para atender clientes (no site ou no WhatsA
 - Garanta um canal para o cliente exercer seus direitos (acesso, correção, exclusão).
 
 Veja o passo a passo em [como montar um atendimento no WhatsApp com IA](/blog/atendimento-no-whatsapp-com-ia-para-pequenas-empresas).
+
+## Minha visão
+
+A regra que sigo é simples: dado de cliente só entra em ferramenta aprovada, com contrato de proteção de dados, e apenas o mínimo necessário para a tarefa. Para tirar uma dúvida técnica ou montar um modelo de texto, quase nunca preciso de nome, CPF ou dados de saúde reais.
+
+O maior risco que vejo nas empresas não é má-fé, e sim falta de orientação. Muita gente cola dados num chatbot pessoal porque ninguém explicou que não pode. Uma política interna curta e um treinamento com exemplos práticos resolvem boa parte do problema.
 
 ## Conclusão
 

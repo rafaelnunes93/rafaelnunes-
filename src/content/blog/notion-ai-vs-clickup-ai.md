@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho em equipes de desenvolvimento e já usei várias ferramentas de organização de projetos e documentação. A escolha entre elas tem muito mais a ver com o jeito da equipe trabalhar do que com a lista de recursos.
+
 Notion e ClickUp são duas das ferramentas de organização mais populares entre empresas e equipes. As duas incorporaram inteligência artificial e as duas prometem ser "o lugar onde tudo acontece". Mas elas nasceram com propostas diferentes — e é isso que define qual funciona melhor para você.
 
 > **Como este comparativo foi feito:** a análise se baseia na documentação e nas páginas de produto e preços das empresas. Planos e preços mudam com frequência; confira em [notion.com](https://www.notion.com/pricing) e [clickup.com](https://clickup.com/pricing).
+
+![Resumo visual do artigo: Notion AI vs ClickUp AI: qual organiza melhor sua empresa?](/blog/resumos/notion-ai-vs-clickup-ai.png)
 
 ## A diferença de origem
 
@@ -88,6 +92,12 @@ Na prática, o custo total depende do número de usuários e de quantos realment
 3. **Teste a IA nas tarefas reais:** resumir uma reunião, gerar o status de um projeto, encontrar um documento.
 4. **Calcule o custo total** com o número real de usuários.
 5. **Avalie a migração:** importar documentos e projetos existentes leva tempo.
+
+## Minha visão
+
+Na minha experiência, a melhor ferramenta é a que a equipe realmente usa. Já vi ferramentas cheias de recursos virarem um lugar abandonado porque ninguém mantinha as informações atualizadas.
+
+Por isso eu escolheria pelo problema principal: se a dor é encontrar informação, priorizo documentação; se é acompanhar prazos e responsáveis, priorizo gestão de projetos. A IA ajuda muito nos dois casos, mas só funciona sobre informação organizada.
 
 ## Conclusão
 

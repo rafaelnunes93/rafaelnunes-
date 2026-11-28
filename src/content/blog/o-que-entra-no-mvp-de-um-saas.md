@@ -16,7 +16,11 @@ relatedServices: ["saas-ponta-a-ponta", "aplicativos-mobile"]
 source: manual
 ---
 
+Já participei de produtos que precisaram crescer sobre uma base pensada no início, e por isso tenho uma opinião forte sobre MVP: ele precisa ser pequeno, mas não descartável.
+
 Quase todo SaaS começa com uma lista enorme de funcionalidades. E quase todo SaaS que demora a ser lançado sofre do mesmo problema: tentar acertar tudo antes de ouvir o primeiro cliente. O MVP existe para inverter essa lógica.
+
+![Resumo visual do artigo: O que entra (e o que não entra) no MVP de um SaaS](/blog/resumos/o-que-entra-no-mvp-de-um-saas.png)
 
 ## O núcleo: a dor principal
 
@@ -72,6 +76,12 @@ Defina desde o início duas ou três métricas simples: quantas empresas se cada
 ## Como saber se o MVP está pronto
 
 O MVP está pronto quando um cliente consegue resolver a dor principal sozinho, do cadastro ao resultado, e pagar por isso. Se ainda falta isso, não lance. Se já tem isso, lance — mesmo que a lista de funcionalidades pareça curta.
+
+## Minha visão
+
+O MVP que eu defendo tem poucas funcionalidades, mas faz bem a única coisa que o cliente paga para resolver. O resto, como relatórios avançados, integrações extras e personalizações, entra depois, guiado pelo uso real.
+
+Ao mesmo tempo, algumas decisões não podem ser adiadas: separar os dados de cada cliente, autenticação segura e uma estrutura de código que aguente evoluir. Cortar escopo é saudável. Cortar fundação costuma sair caro quando o produto começa a ter clientes.
 
 ## Por onde começar
 

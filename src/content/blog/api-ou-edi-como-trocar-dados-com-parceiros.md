@@ -21,6 +21,8 @@ source: n8n
 
 Boa parte da minha carreira foi em logística, trabalhando com sistemas de transporte (TMS), emissão de CT-e e MDF-e e uma plataforma EDI para a UPS. Por isso essa é uma pergunta que conheço bem. Toda empresa que cresce chega a um ponto em que digitar dados de um sistema para outro deixa de ser viável. Pedidos chegam por e-mail, status de entrega é copiado para planilhas, notas são lançadas duas vezes. A solução é integrar — e logo aparece a dúvida: **API ou EDI?**
 
+![Resumo visual do artigo: API ou EDI: como trocar dados com clientes e parceiros](/blog/resumos/api-ou-edi-como-trocar-dados-com-parceiros.png)
+
 ## O que é cada uma, sem jargão
 
 **API REST** é uma porta de comunicação que um sistema oferece para outro. O sistema A faz uma requisição ("me envie os pedidos de hoje" ou "registre esta entrega") e o sistema B responde na hora, normalmente em JSON. É o padrão da maioria dos softwares modernos.

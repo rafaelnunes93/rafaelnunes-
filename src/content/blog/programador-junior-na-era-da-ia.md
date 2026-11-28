@@ -19,7 +19,11 @@ relatedServices: []
 source: manual
 ---
 
+Comecei como estagiário em 2019 e passei por suporte, trainee e júnior antes de chegar a pleno. Por isso este tema me toca: o caminho que eu fiz está mudando, e quem começa agora precisa de outra estratégia.
+
 Se você está começando em tecnologia e sente que conseguir a primeira vaga ficou mais difícil, não é impressão. A inteligência artificial mudou o que as empresas esperam de um iniciante. Mas o caminho não fechou — ele mudou de forma. Entender o que aconteceu é o primeiro passo para se adaptar.
+
+![Resumo visual do artigo: Programador júnior na era da IA: por que o mercado mudou e como se adaptar](/blog/resumos/programador-junior-na-era-da-ia.png)
 
 ## O que os dados mostram
 
@@ -96,6 +100,12 @@ Contribuições em projetos de código aberto, posts sobre o que você aprendeu 
 - Pratique também **com IA**, porque outros permitem ou até incentivam.
 - Prepare um exemplo de quando a IA errou e como você percebeu.
 - Faça perguntas sobre como a equipe usa IA, revisa código e orienta iniciantes.
+
+## Minha visão
+
+Olhando para a minha própria trajetória, o que mais me ajudou no começo foi entender como os sistemas funcionavam de verdade: investigar chamados, consultar o banco de dados para entender uma regra, reproduzir um erro. Esse tipo de base é exatamente o que permite usar IA hoje sem ficar refém dela.
+
+Se eu estivesse começando agora, usaria a IA como professora, e não como atalho. Pediria explicações, revisaria tudo o que ela gera e construiria projetos completos, do banco ao deploy. É isso que diferencia um júnior que entrega valor de alguém que só copia respostas.
 
 ## Conclusão
 

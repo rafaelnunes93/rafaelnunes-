@@ -18,11 +18,15 @@ faq:
 source: manual
 ---
 
+Trabalho com desenvolvimento e lido com muitas contas, acessos e credenciais. Um gerenciador de senhas é uma das ferramentas que considero indispensáveis.
+
 A maioria das pessoas tem dezenas — às vezes centenas — de contas online. Ninguém consegue memorizar uma senha forte e diferente para cada uma. O resultado é a reutilização de senhas, que transforma um único vazamento numa invasão em cadeia. O **gerenciador de senhas** resolve esse problema: cria, guarda e preenche senhas únicas para cada site, e você só precisa lembrar de uma senha mestra.
 
 Este comparativo analisa três dos gerenciadores mais recomendados: **1Password**, **Bitwarden** e **Proton Pass**.
 
 > **Como este comparativo foi feito:** a análise se baseia na documentação, nas páginas de segurança e de preços oficiais das empresas. Preços e recursos mudam; confira em [1password.com](https://1password.com/), [bitwarden.com](https://bitwarden.com/) e [proton.me/pass](https://proton.me/pass).
+
+![Resumo visual do artigo: Melhores gerenciadores de senha: 1Password vs Bitwarden vs Proton Pass](/blog/resumos/melhores-gerenciadores-de-senha.png)
 
 ## O que todo bom gerenciador precisa ter
 
@@ -94,6 +98,12 @@ Em 2022, o LastPass, outro gerenciador popular, sofreu um ataque em que criminos
 5. **Importe as senhas** salvas no navegador.
 6. **Troque primeiro as senhas mais importantes:** e-mail, bancos, redes sociais.
 7. **Use o relatório de segurança** para trocar senhas repetidas e vazadas aos poucos.
+
+## Minha visão
+
+Na minha visão, o gerenciador perfeito importa menos do que começar a usar um. Qualquer opção confiável é muito melhor do que repetir a mesma senha em vários sites.
+
+O que eu sempre reforço é cuidar da senha mestra e ativar a verificação em duas etapas no próprio gerenciador. Ele protege todas as outras senhas, então precisa ser a conta mais bem protegida que você tem.
 
 ## Conclusão
 

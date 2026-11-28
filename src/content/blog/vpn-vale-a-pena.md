@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho com tecnologia e uso conexões seguras no trabalho remoto. Mesmo assim, vejo muita promessa exagerada sobre o que uma VPN faz, e quis explicar isso de forma direta.
+
 VPN virou uma das ferramentas de segurança mais anunciadas da internet, com promessas de "anonimato total" e "proteção contra hackers". A realidade é mais modesta — e mais útil de entender. Uma VPN resolve alguns problemas muito bem e não resolve outros. Este artigo explica o que ela faz, quando vale a pena e como escolher.
 
 > **Como este artigo foi feito:** baseado no funcionamento técnico das VPNs e nas informações públicas dos provedores citados. Preços e recursos mudam com frequência; consulte os sites oficiais.
+
+![Resumo visual do artigo: VPN vale a pena? O que ela protege, o que não protege e como escolher](/blog/resumos/vpn-vale-a-pena.png)
 
 ## Como uma VPN funciona
 
@@ -85,6 +89,12 @@ Entre os serviços mais citados por especialistas estão a **Proton VPN** (suí�
 ## VPN no Brasil
 
 O uso de VPN é legal no país. Ela é usada por empresas, profissionais em trabalho remoto e pessoas preocupadas com privacidade. O que é ilegal é usar qualquer ferramenta para cometer crimes ou descumprir decisões judiciais — em 2024, por exemplo, uma decisão do STF previu multa para quem usasse VPN para acessar uma rede social suspensa no país.
+
+## Minha visão
+
+Na minha visão, a VPN é uma boa ferramenta para quem usa muito redes públicas ou trabalha remotamente com informações sensíveis. Mas ela não substitui as proteções básicas, como senhas fortes, verificação em duas etapas e atenção a golpes.
+
+Se fosse escolher, eu evitaria VPNs gratuitas de empresas desconhecidas. Quando o serviço é gratuito e sem reputação, a pergunta é como ele ganha dinheiro, e a resposta muitas vezes envolve seus dados.
 
 ## Veredito
 

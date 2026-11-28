@@ -19,9 +19,13 @@ relatedServices: ["apis-e-integracoes"]
 source: manual
 ---
 
+Uso assistentes de IA todos os dias no desenvolvimento, e já testei os três principais em tarefas reais do meu trabalho. A conclusão que tirei é que a pergunta "qual é a melhor" não tem uma resposta única.
+
 "Qual é a melhor IA?" é provavelmente a pergunta mais frequente de quem começa a usar assistentes de inteligência artificial. A resposta curta é: **depende do que você vai fazer**. A resposta longa é este comparativo, que olha para o que realmente importa no uso diário — e não só para rankings de testes técnicos, que mudam a cada lançamento.
 
 > **Sobre versões:** OpenAI, Google e Anthropic lançam novos modelos várias vezes por ano. Por isso, este artigo compara as plataformas e seus pontos fortes consistentes, em vez de versões específicas que ficam desatualizadas em semanas.
+
+![Resumo visual do artigo: ChatGPT, Gemini ou Claude: qual a melhor IA em 2026?](/blog/resumos/chatgpt-gemini-ou-claude-qual-a-melhor-ia.png)
 
 ## Visão geral
 
@@ -90,6 +94,12 @@ O Claude, da Anthropic, ganhou reputação entre profissionais que escrevem, ana
 2. Faça o mesmo pedido, com o mesmo contexto, nas versões gratuitas dos três.
 3. Compare qualidade, tempo de ajuste e facilidade de uso.
 4. Assine apenas a que venceu na maioria das suas tarefas — e reavalie a cada seis meses, porque a disputa muda rápido.
+
+## Minha visão
+
+No meu uso, a escolha depende muito da tarefa. Para programar e analisar documentos longos, tenho preferido o Claude. Para quem vive no ecossistema Google, o Gemini é muito prático. O ChatGPT continua sendo o mais versátil para uso geral. Mas essa ordem muda a cada lançamento.
+
+O conselho que dou é não se prender a uma ferramenta. Aprenda a dar bons contextos e a revisar as respostas, porque essa habilidade vale para qualquer uma delas. E teste com as suas próprias tarefas antes de pagar.
 
 ## Conclusão
 

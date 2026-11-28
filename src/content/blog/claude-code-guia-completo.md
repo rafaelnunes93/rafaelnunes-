@@ -23,6 +23,8 @@ Trabalho numa empresa com cultura AI First, onde a IA faz parte de todo o ciclo 
 
 A diferença entre usá-lo bem e usá-lo mal está quase toda na configuração. Por isso escrevi este guia com o que considero essencial para começar. As informações foram conferidas na [documentação oficial](https://code.claude.com/docs/en/overview) em novembro de 2026. Como o produto muda rápido, use `/help` e a documentação para confirmar detalhes da sua versão.
 
+![Resumo visual do artigo: Guia completo do Claude Code: comandos, skills, MCPs e CLAUDE.md](/blog/resumos/claude-code-guia-completo.png)
+
 ## Instalação e primeira sessão
 
 Segundo o [guia de início rápido](https://code.claude.com/docs/en/quickstart):

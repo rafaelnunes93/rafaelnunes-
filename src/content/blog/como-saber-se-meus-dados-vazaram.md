@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Trabalho com sistemas que guardam dados de pessoas e sei como um vazamento pode acontecer. Por isso considero importante que todo mundo saiba verificar e reagir quando seus dados aparecem em um.
+
 Vazamentos de dados acontecem com frequência: empresas são atacadas, bancos de dados ficam expostos por erro e listas de e-mails, senhas e CPFs circulam em fóruns criminosos. É bem provável que algum dado seu já tenha aparecido em um vazamento. A boa notícia é que dá para verificar e, principalmente, reduzir os danos.
+
+![Resumo visual do artigo: Como descobrir se seus dados vazaram e o que fazer em seguida](/blog/resumos/como-saber-se-meus-dados-vazaram.png)
 
 ## Por que vazamentos são perigosos
 
@@ -92,6 +96,12 @@ Boletim de ocorrência, contato com a instituição envolvida e reclamação nos
 - Desconfie de sites que pedem seu CPF sem necessidade.
 
 O [CERT.br](https://cartilha.cert.br/) mantém a Cartilha de Segurança para Internet, com orientações gratuitas e atualizadas sobre vazamentos e proteção de dados.
+
+## Minha visão
+
+Na minha visão, o vazamento em si muitas vezes está fora do nosso controle, mas o estrago não precisa estar. Senhas únicas, verificação em duas etapas e atenção redobrada a contatos suspeitos reduzem muito o risco.
+
+Recomendo reservar meia hora para essa revisão: consultar o e-mail em serviços confiáveis, conferir o CPF no Registrato e trocar as senhas repetidas. É um dos melhores investimentos de tempo em segurança.
 
 ## Conclusão
 

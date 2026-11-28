@@ -19,7 +19,11 @@ relatedServices: ["landing-pages"]
 source: manual
 ---
 
+Uso IA para escrever no meu dia a dia e também cuido do meu próprio site. Por isso fui direto à documentação oficial do Google para entender o que realmente importa.
+
 Essa dúvida gera muito medo entre quem tem um site ou blog: se eu usar IA, o Google vai me punir? Circula muita opinião sobre o assunto, mas a posição oficial está documentada — e é mais clara do que parece.
+
+![Resumo visual do artigo: O Google penaliza conteúdo feito com IA? O que diz a documentação oficial](/blog/resumos/google-penaliza-conteudo-feito-com-ia.png)
 
 ## O que o Google diz oficialmente
 
@@ -94,6 +98,12 @@ Veja um processo completo em [como escrever artigos com IA que ranqueiam no Goog
 - **Atualizações do Google:** core updates e mudanças nas políticas são anunciadas oficialmente.
 
 Atenção a afirmações sobre "penalidades de IA" sem fonte: uma queda de tráfego após uma atualização pode ter outras causas, e correlação não prova punição.
+
+## Minha visão
+
+O que aprendi é que o Google olha para a qualidade e para a intenção, não para a ferramenta. Na minha visão, o risco está em usar IA para publicar muito e sem cuidado, e não em usar IA em si.
+
+No meu blog, a regra é publicar com constância e colocar em cada texto a minha visão de quem trabalha com desenvolvimento. A IA ajuda a escrever mais rápido, mas o que eu quero que o leitor encontre é experiência real.
 
 ## Conclusão
 

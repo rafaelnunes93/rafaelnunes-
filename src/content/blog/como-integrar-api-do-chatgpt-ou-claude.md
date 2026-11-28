@@ -23,6 +23,8 @@ Uso IA todos os dias no desenvolvimento e, quando o assunto é colocar um modelo
 
 Este guia mostra o caminho com as duas APIs mais usadas: a da **OpenAI** (modelos do ChatGPT) e a da **Anthropic** (modelos Claude).
 
+![Resumo visual do artigo: Como integrar a API do ChatGPT ou Claude no seu projeto: guia para iniciantes](/blog/resumos/como-integrar-api-do-chatgpt-ou-claude.png)
+
 ## O que você precisa saber antes
 
 - **API não é o mesmo que o aplicativo.** A assinatura do ChatGPT ou do Claude normalmente não inclui o uso da API, que é cobrado à parte.

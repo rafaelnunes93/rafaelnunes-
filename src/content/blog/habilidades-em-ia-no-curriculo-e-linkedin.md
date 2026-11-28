@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho numa empresa com cultura AI First e já passei por processos seletivos na área de tecnologia. Por isso tenho uma visão prática de como mostrar habilidades em IA de um jeito que convence.
+
 Habilidades em inteligência artificial passaram a aparecer em descrições de vagas de áreas muito diferentes — de marketing a jurídico, de finanças a atendimento. O [Work Trend Index 2024](https://news.microsoft.com/source/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/), da Microsoft e do LinkedIn, mostrou que 66% dos líderes não contratariam alguém sem habilidades em IA e que 71% prefeririam um candidato menos experiente com essas habilidades a um mais experiente sem elas.
 
 O problema é que muita gente comunica essas habilidades do jeito errado: uma lista de nomes de ferramentas que não diz nada sobre o que a pessoa sabe fazer. Este guia mostra como fazer diferente.
+
+![Resumo visual do artigo: Como colocar habilidades em IA no currículo e no LinkedIn](/blog/resumos/habilidades-em-ia-no-curriculo-e-linkedin.png)
 
 ## O que recrutadores querem saber
 
@@ -101,6 +105,12 @@ Tenha pronto pelo menos um caso completo para contar:
 5. **Aprendizado**: o que faria diferente.
 
 Se for possível, mostre um exemplo prático na própria entrevista (sem dados confidenciais).
+
+## Minha visão
+
+O que eu acho que mais convence é mostrar resultado, e não listar ferramentas. Dizer que usa ChatGPT não diferencia ninguém. Explicar como a IA te ajudou a resolver um problema real, com que cuidados e com que resultado, diferencia.
+
+E eu sempre estaria pronto para explicar qualquer coisa que coloquei no currículo. Em entrevistas técnicas, é comum pedirem para mostrar na prática como você trabalha com essas ferramentas.
 
 ## Conclusão
 

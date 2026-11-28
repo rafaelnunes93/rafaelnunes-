@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Concluí uma pós-graduação em Arquitetura de Sistemas .NET e sigo estudando, principalmente IA aplicada ao desenvolvimento. Por isso tenho uma visão prática sobre o que realmente ajuda a aprender.
+
 A oferta de cursos de inteligência artificial explodiu, e com ela a dificuldade de escolher. Há conteúdos excelentes e gratuitos convivendo com cursos caros que prometem transformar qualquer pessoa em "especialista em IA" em um fim de semana.
 
 Esta seleção reúne sete cursos de **instituições reconhecidas**, organizados por objetivo: entender o básico, aplicar no trabalho ou mergulhar na parte técnica. Preços e condições mudam, então confirme sempre na página oficial.
+
+![Resumo visual do artigo: Os 7 melhores cursos de IA online (gratuitos e pagos) para a carreira](/blog/resumos/melhores-cursos-de-ia-online.png)
 
 ## Para entender o básico (sem programar)
 
@@ -102,6 +106,12 @@ O [CS50 AI](https://cs50.harvard.edu/ai/) cobre busca, conhecimento, incerteza, 
 2. **Comece pelo gratuito.** Os cursos introdutórios gratuitos desta lista têm qualidade comparável à de muitos pagos.
 3. **Aplique enquanto estuda.** Cada módulo deve virar uma experiência prática no seu trabalho ou num projeto pessoal.
 4. **Desconfie de promessas exageradas.** Cursos que garantem emprego ou renda alta em poucas semanas raramente entregam.
+
+## Minha visão
+
+Na minha experiência, o curso importa menos do que aplicar o que foi aprendido. Eu aprendi mais usando IA em tarefas reais do trabalho do que assistindo a aulas sem praticar.
+
+Minha sugestão é começar pelos cursos gratuitos de instituições conhecidas e, a cada módulo, levar o aprendizado para um problema real. O certificado ajuda, mas o que convence no mercado é mostrar o que você consegue fazer.
 
 ## Conclusão
 

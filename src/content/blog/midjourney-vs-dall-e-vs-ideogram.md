@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Desenvolvo sites e preciso de imagens com frequência, então acompanho os geradores de imagem por IA com o olhar de quem precisa de resultado prático.
+
 Os geradores de imagem por IA evoluíram tanto que escolher entre eles já não é uma questão de "qual funciona", e sim de "qual funciona melhor para o que eu faço". **Midjourney**, a geração de imagens do **ChatGPT** (herdeira da linha DALL·E) e **Ideogram** são três das opções mais conhecidas, cada uma com um ponto forte.
 
 > **Como este comparativo foi feito:** a análise reúne a documentação das ferramentas e comparações públicas, que nem sempre concordam entre si. Não é um teste de laboratório. Modelos, preços e limites mudam com frequência; confira em [midjourney.com](https://www.midjourney.com/), [openai.com](https://openai.com/chatgpt/pricing/) e [ideogram.ai](https://ideogram.ai/).
+
+![Resumo visual do artigo: Midjourney vs DALL·E vs Ideogram: qual o melhor gerador de imagens?](/blog/resumos/midjourney-vs-dall-e-vs-ideogram.png)
 
 ## Midjourney: o foco na estética
 
@@ -122,6 +126,12 @@ Exemplo:
 - **Quero integrar a geração de imagens a um sistema:** avalie as APIs disponíveis.
 
 Faça o mesmo pedido nas ferramentas com teste disponível, usando imagens reais do seu trabalho como referência de qualidade. As diferenças ficam claras em poucos minutos.
+
+## Minha visão
+
+Na minha visão, a escolha depende do tipo de imagem que você mais produz. Para ilustrações e conceitos visuais, a estética pesa mais. Para peças com texto, como banners, a precisão das letras é o que importa.
+
+O que eu faço sempre é revisar os detalhes antes de publicar e evitar pessoas reais e marcas conhecidas. E, para ativos importantes de uma marca, prefiro finalizar com trabalho humano.
 
 ## Conclusão
 

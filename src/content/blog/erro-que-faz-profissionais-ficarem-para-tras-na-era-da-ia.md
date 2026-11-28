@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Trabalho numa empresa em que a IA faz parte de todo o processo de desenvolvimento, e por isso acompanho de perto quem se adapta e quem fica para trás.
+
 Em quase toda mudança tecnológica, os profissionais que ficam para trás não são os menos capazes. São os que esperaram. Com a inteligência artificial, esse padrão está se repetindo em velocidade maior — e os dados mostram exatamente onde está a armadilha.
+
+![Resumo visual do artigo: O erro que faz profissionais ficarem para trás na era da IA (e como evitar)](/blog/resumos/erro-que-faz-profissionais-ficarem-para-tras-na-era-da-ia.png)
 
 ## O erro: esperar alguém ensinar
 
@@ -80,6 +84,12 @@ Saber usar IA também inclui saber quando *não* usar:
 - Não cole dados confidenciais ou pessoais em ferramentas não aprovadas pela empresa.
 - Verifique fatos, números e citações antes de usar qualquer conteúdo gerado.
 - Assuma a autoria e a responsabilidade pelo que você entrega, mesmo que a IA tenha ajudado.
+
+## Minha visão
+
+Na minha visão, o maior erro é esperar. A tecnologia não vai ficar estável para alguém aprender com calma depois. Quem começa a usar nas próprias tarefas, mesmo em pequenas doses, aprende muito mais rápido do que quem espera um curso perfeito.
+
+O segundo erro é confiar demais. Usar IA bem também significa saber verificar e assumir a responsabilidade pelo que se entrega. Essa combinação, curiosidade com senso crítico, é o que eu considero mais valioso hoje.
 
 ## Conclusão
 

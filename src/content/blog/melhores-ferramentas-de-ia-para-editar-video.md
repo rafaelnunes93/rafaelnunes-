@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Mesmo atuando com desenvolvimento, acompanho as ferramentas de IA para vídeo, porque elas mudaram muito o trabalho de quem produz conteúdo.
+
 Editar vídeo sempre foi um dos gargalos da produção de conteúdo. A inteligência artificial mudou isso: legendas em segundos, cortes de silêncio automáticos, reenquadramento para o formato vertical e até geração de cenas a partir de texto. O desafio agora é outro: escolher a ferramenta certa, porque cada uma resolve um problema diferente.
 
 > **Como este comparativo foi feito:** a análise reúne documentação oficial e comparações públicas, e não é um teste de laboratório. Preços são referências em dólar, que mudam com frequência; confirme nos sites oficiais.
+
+![Resumo visual do artigo: Melhores ferramentas de IA para editar vídeo: comparativo prático](/blog/resumos/melhores-ferramentas-de-ia-para-editar-video.png)
 
 ## As categorias
 
@@ -118,6 +122,12 @@ O DaVinci Resolve, da Blackmagic Design, tem uma versão gratuita muito completa
 - **Rótulos:** plataformas como o YouTube pedem a identificação de conteúdo realista alterado ou sintético.
 - **Legendas:** revise sempre.
 - **Dados:** vídeos com clientes ou informações internas não devem ir para ferramentas sem verificar os termos.
+
+## Minha visão
+
+Na minha visão, a melhor escolha depende do tipo de vídeo que você mais produz, e muitas vezes a solução é combinar duas ferramentas em vez de procurar uma que faça tudo.
+
+O que eu não deixaria de fazer é revisar legendas e conferir o direito de uso de músicas e imagens. Esses detalhes, que parecem pequenos, são os que mais geram problemas depois da publicação.
 
 ## Conclusão
 

@@ -19,9 +19,13 @@ relatedServices: ["apis-e-integracoes", "desenvolvimento-full-stack"]
 source: manual
 ---
 
+Integração e automação de dados fazem parte do meu trabalho há anos, e relatórios repetitivos são um dos lugares onde mais vejo tempo sendo desperdiçado.
+
 Toda sexta-feira, a mesma cena se repete em milhares de empresas: alguém exporta dados de um sistema, cola numa planilha, ajusta fórmulas, monta gráficos e escreve um resumo para a diretoria. São horas de trabalho repetitivo que poderiam estar rodando sozinhas.
 
 Com as ferramentas atuais, dá para montar um relatório semanal automático **sem escrever uma linha de código**. Este guia mostra a arquitetura e o passo a passo, com as ferramentas mais comuns do mercado.
+
+![Resumo visual do artigo: Como automatizar relatórios semanais com IA sem saber programar](/blog/resumos/automatizar-relatorios-semanais-com-ia-sem-programar.png)
 
 ## As quatro peças de um relatório automático
 
@@ -93,6 +97,12 @@ Vale buscar ajuda técnica quando:
 - Existem dados sensíveis que exigem controle de acesso e conformidade com a LGPD.
 
 Nesses casos, uma [integração entre sistemas](/servicos/apis-e-integracoes) bem feita resolve a raiz do problema, e a automação do relatório fica trivial.
+
+## Minha visão
+
+A lição mais importante que aprendi com automações é que o problema quase nunca está na ferramenta, e sim nos dados de origem. Uma planilha com formatos diferentes a cada semana quebra qualquer automação, com ou sem IA.
+
+Por isso, antes de pensar em IA, eu organizaria a fonte de dados e deixaria os cálculos com fórmulas confiáveis. A IA entra no final, para transformar números em um texto claro. E, nas primeiras semanas, eu sempre revisaria o relatório antes de ele chegar à diretoria.
 
 ## Resumo
 

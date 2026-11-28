@@ -21,6 +21,8 @@ source: manual
 
 Trabalho numa cultura AI First e uso assistentes de código todos os dias. Eles aceleram o desenvolvimento de forma impressionante. O problema é que **código que funciona não é o mesmo que código seguro**. A IA aprende com enormes volumes de código público — incluindo código com falhas — e tende a gerar a solução mais comum, não necessariamente a mais segura. Quem coloca código gerado em produção sem revisão está assumindo riscos que muitas vezes não enxerga.
 
+![Resumo visual do artigo: Código gerado por IA: riscos de segurança que ninguém te conta](/blog/resumos/riscos-de-seguranca-do-codigo-gerado-por-ia.png)
+
 ## O que os estudos mostram
 
 O [relatório de segurança de código gerado por IA de 2025 da Veracode](https://www.veracode.com/) avaliou mais de 100 modelos de linguagem em 80 tarefas de programação. Os principais achados:

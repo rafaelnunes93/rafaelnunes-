@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Trabalho com IA todos os dias, e já perdi tempo por confiar numa resposta que parecia perfeita e estava errada. Por isso considero este um dos temas mais importantes para quem usa essas ferramentas.
+
 Os chatbots de IA escrevem com tanta fluência e segurança que é fácil esquecer um detalhe fundamental: **eles não sabem quando estão errados**. Uma resposta inventada vem com o mesmo tom confiante de uma resposta correta. Esse fenômeno tem nome — alucinação — e já causou prejuízos reais a profissionais e empresas.
+
+![Resumo visual do artigo: Alucinações de IA: o perigo de confiar cegamente nas respostas do chatbot](/blog/resumos/alucinacoes-de-ia-perigo-de-confiar-no-chatbot.png)
 
 ## O que é uma alucinação de IA
 
@@ -91,6 +95,12 @@ Se a sua empresa usa IA no atendimento:
 - Proíba que ele faça promessas sobre preços, prazos e políticas sem consultar fontes oficiais.
 - Encaminhe casos sensíveis para atendimento humano.
 - Monitore as conversas e corrija respostas erradas rapidamente.
+
+## Minha visão
+
+O que aprendi é que a IA erra com a mesma confiança com que acerta. Ela pode citar um método que não existe numa biblioteca, inventar um parâmetro de configuração ou afirmar algo sobre uma lei com total segurança.
+
+Minha postura hoje é tratar a resposta como um rascunho de um assistente muito rápido. Uso para ganhar tempo, mas confirmo na documentação oficial ou na fonte primária tudo o que for importante. Em código, rodo e testo antes de acreditar.
 
 ## Conclusão
 

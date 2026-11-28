@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho com .NET e com o ecossistema Microsoft há anos, e acompanho com interesse a chegada da IA às ferramentas de escritório que tanta gente usa todos os dias.
+
 O Microsoft Copilot é a aposta da Microsoft para levar IA generativa ao pacote Office — hoje chamado de Microsoft 365. A promessa é grande: rascunhos no Word, análises no Excel, apresentações automáticas no PowerPoint, resumos de e-mails e reuniões. Mas ele vale o custo? Este review analisa o que a ferramenta faz, quanto custa e para quem compensa.
 
 > **Como este review foi feito:** a análise se baseia na documentação oficial da Microsoft, nos anúncios de produto e nas características públicas dos planos. Preços e recursos mudam com frequência, por isso indicamos sempre a fonte para conferência.
+
+![Resumo visual do artigo: Microsoft Copilot no Office: vale a pena pagar? Review completo](/blog/resumos/microsoft-copilot-no-office-vale-a-pena.png)
 
 ## O que o Copilot faz em cada aplicativo
 
@@ -102,6 +106,12 @@ Se o seu foco é a caixa de entrada, veja também [como usar IA para reduzir o t
 ## Como testar antes de comprar em escala
 
 Para empresas, a melhor estratégia é um piloto: licencie um grupo pequeno de usuários com perfis diferentes por algumas semanas, defina indicadores (tempo em e-mails, tempo de preparação de documentos, satisfação) e compare. Assim a decisão de expandir é baseada em dados da própria empresa, não em promessas de marketing.
+
+## Minha visão
+
+Na minha visão, o Copilot rende mais para quem passa o dia em reuniões, e-mails e documentos dentro do Microsoft 365, e quando os arquivos da empresa estão organizados. Ele trabalha sobre o que encontra, e informação bagunçada gera resposta bagunçada.
+
+Antes de comprar para toda a equipe, eu faria um piloto com poucas pessoas e mediria o ganho real. E pediria para a área de TI revisar as permissões de pastas compartilhadas, porque o assistente encontra tudo o que cada usuário já pode acessar.
 
 ## Veredito
 

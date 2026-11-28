@@ -19,9 +19,13 @@ relatedServices: ["desenvolvimento-full-stack", "apis-e-integracoes"]
 source: manual
 ---
 
+Trabalhei com sistemas de gestão de transporte, emissão de CT-e e MDF-e e integrações EDI, e vi de perto como uma operação logística depende de informação certa no momento certo. Este artigo reúne o que considero essencial num TMS.
+
 Transportadoras e operações logísticas costumam crescer apoiadas em planilhas, grupos de mensagem e muita memória da equipe. Funciona — até não funcionar mais. Um TMS (Transport Management System) organiza essa operação em um só lugar. Mas o que ele precisa ter, de fato?
 
 Eu trabalhei no desenvolvimento e na sustentação de uma plataforma TMS completa, e o que segue é o que vi fazer diferença no dia a dia.
+
+![Resumo visual do artigo: O que um TMS precisa ter para organizar a sua operação](/blog/resumos/o-que-um-tms-precisa-ter.png)
 
 ## 1. Cadastro e planejamento das cargas
 
@@ -82,6 +86,12 @@ Com os dados organizados, o sistema passa a responder perguntas que antes exigia
 - Tempo médio entre coleta e entrega.
 
 Esses indicadores ajudam a negociar com clientes, rever rotas e identificar gargalos antes que virem reclamação.
+
+## Minha visão
+
+Na minha experiência, o que mais pesa num TMS não é a quantidade de telas, e sim a confiabilidade dos dados que circulam entre o sistema, os documentos fiscais e os parceiros. Um CT-e rejeitado ou um status de entrega que não atualiza param a operação na hora.
+
+Por isso eu priorizo três coisas: integração fiscal bem testada, registro de tudo o que entra e sai do sistema e rastreamento que o cliente consegue consultar sem ligar para a transportadora. Funcionalidades extras podem vir depois. Se essa base não for sólida, nenhuma tela bonita compensa.
 
 ## Por onde começar
 

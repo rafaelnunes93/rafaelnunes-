@@ -21,6 +21,8 @@ source: manual
 
 Essa é a primeira pergunta de quase toda conversa sobre um sistema novo — e é justa. O problema é que a resposta honesta começa com "depende", e isso frustra quem precisa montar um orçamento. Neste artigo eu explico **do que depende**, para que você consiga estimar a ordem de grandeza e comparar propostas com mais segurança.
 
+![Resumo visual do artigo: Quanto custa desenvolver um sistema web sob medida](/blog/resumos/quanto-custa-desenvolver-um-sistema-web-sob-medida.png)
+
 ## O que realmente define o preço
 
 Um sistema web não é cobrado por "tamanho de site". O que pesa no esforço — e portanto no preço — são quatro coisas.

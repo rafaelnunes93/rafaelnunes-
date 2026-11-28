@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Concluí uma pós-graduação em Arquitetura de Sistemas .NET e lido com muita documentação no trabalho. Ferramentas que ajudam a estudar a partir das próprias fontes chamam minha atenção, e o NotebookLM é uma delas.
+
 O NotebookLM é uma das ferramentas de IA mais subestimadas do Google. Enquanto chatbots como ChatGPT e Gemini respondem com base no que aprenderam no treinamento e em buscas na web, o NotebookLM faz algo diferente: **trabalha apenas com o material que você fornece**. Para estudantes, pesquisadores e profissionais que lidam com muitos documentos, isso muda o jogo.
 
 > **Como este review foi feito:** a análise se baseia na documentação oficial do Google e nos recursos públicos da ferramenta. Limites e recursos mudam com frequência — confira em [notebooklm.google](https://notebooklm.google/).
+
+![Resumo visual do artigo: NotebookLM: review da ferramenta do Google para estudar com IA](/blog/resumos/notebooklm-review-estudar-com-ia.png)
 
 ## O que é e como funciona
 
@@ -97,6 +101,12 @@ Se for usar documentos da empresa, prefira a versão corporativa disponível no 
 | Citações do seu material | Sim, por trecho | Variam |
 | Melhor para | Estudar e analisar documentos | Tarefas gerais e criação |
 | Resumo em áudio | Sim | Não é o foco |
+
+## Minha visão
+
+O que mais gosto nesse tipo de ferramenta é que as respostas apontam o trecho de onde vieram. Para estudar, isso muda tudo: dá para confirmar cada informação no material original, em vez de confiar na memória de um chatbot.
+
+Ainda assim, considero que ela é uma ajuda, não um substituto da leitura. Para entender de verdade um assunto difícil, continuo lendo as partes centrais com calma e usando a IA para revisar e testar o que aprendi.
 
 ## Veredito
 

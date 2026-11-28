@@ -19,7 +19,11 @@ relatedServices: ["desenvolvimento-full-stack"]
 source: manual
 ---
 
+Trabalho principalmente com C# e .NET, mas já usei TypeScript, Dart e outras linguagens em projetos diferentes. Essa experiência me ensinou que a primeira linguagem importa menos do que parece.
+
 Essa é uma das dúvidas mais comuns de quem começa — e uma das que mais faz gente perder tempo. Passar meses comparando linguagens não ensina nada. A boa notícia é que a escolha é mais simples do que parece, porque depende principalmente do que você quer construir.
+
+![Resumo visual do artigo: Qual linguagem de programação aprender primeiro em 2026?](/blog/resumos/qual-linguagem-de-programacao-aprender-primeiro.png)
 
 ## O que os rankings mostram
 
@@ -98,6 +102,12 @@ Leia mais em [vale a pena aprender a programar com o avanço da IA](/blog/vale-a
 - **Mês 1:** lógica, variáveis, condições, repetições e funções, com exercícios diários.
 - **Mês 2:** estruturas de dados, arquivos, bibliotecas e Git. Comece um projeto pequeno.
 - **Mês 3:** banco de dados e um projeto completo publicado, como portfólio.
+
+## Minha visão
+
+Se alguém me perguntasse hoje, eu diria para escolher pelo que você quer construir e ficar nela até conseguir fazer projetos sozinho. A segunda linguagem é sempre muito mais fácil, porque lógica, estruturas de dados e bancos de dados se transferem.
+
+Particularmente, gosto de C# para quem quer trabalhar com sistemas corporativos, por ser uma linguagem madura, bem documentada e muito usada em empresas. Mas Python e JavaScript são portas de entrada excelentes. O erro é passar meses comparando em vez de começar.
 
 ## Conclusão
 

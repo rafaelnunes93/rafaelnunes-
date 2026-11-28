@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho numa empresa com cultura AI First e uso assistentes de IA o dia inteiro. Configurar um assistente pessoal bem feito foi uma das coisas que mais melhoraram minha organização.
+
 Imagine começar o dia com alguém que conhece suas metas, seu estilo de trabalho e suas prioridades, e que ajuda você a decidir o que fazer primeiro, prepara rascunhos e lembra o que ficou pendente. Com os recursos de personalização das ferramentas de IA atuais, dá para montar algo bem próximo disso em menos de uma hora.
 
 Este guia mostra como criar um assistente pessoal útil de verdade — e não só mais uma janela de chat esquecida.
+
+![Resumo visual do artigo: Como criar um assistente de IA pessoal para organizar sua rotina de trabalho](/blog/resumos/como-criar-um-assistente-de-ia-pessoal.png)
 
 ## Escolha a base
 
@@ -98,6 +102,12 @@ Na primeira semana, observe onde o assistente erra ou responde de forma genéric
 - **O assistente não executa tarefas sozinho** por padrão: ele sugere e redige. Integrações com agenda e e-mail existem em algumas ferramentas, mas exigem autorização e cuidado.
 - **Ele pode errar e inventar informações.** Confira datas, nomes e números antes de agir.
 - **Privacidade importa.** Leia as configurações de dados da ferramenta e respeite a política da empresa.
+
+## Minha visão
+
+O que fez diferença para mim foi investir nas instruções fixas: dizer como eu trabalho, como quero as respostas e o que o assistente não deve fazer. Sem isso, cada conversa começa do zero e as respostas ficam genéricas.
+
+Também mantenho o assistente longe de dados sensíveis e confiro datas e compromissos antes de agir. Ele organiza e sugere, mas as decisões continuam sendo minhas.
 
 ## Conclusão
 

@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho com tecnologia e, de vez em quando, alguém próximo me pede ajuda porque sente que o celular está sendo monitorado. Este artigo reúne o que costumo verificar nesses casos.
+
 A sensação de que alguém sabe demais sobre você — onde esteve, com quem conversou, o que escreveu — pode ter explicação. Aplicativos espiões, também chamados de *spyware* ou *stalkerware*, existem e são vendidos abertamente como "controle parental" ou "monitoramento". Em muitos casos, são instalados por pessoas próximas, com acesso ao aparelho.
 
 Este artigo mostra os sinais de alerta, como verificar o seu celular e o que fazer.
+
+![Resumo visual do artigo: Como saber se meu celular está sendo espionado?](/blog/resumos/como-saber-se-o-celular-esta-sendo-espionado.png)
 
 ## Quem costuma espionar celulares
 
@@ -88,6 +92,12 @@ Muitas vezes, o espião não está no aparelho, mas nas contas:
 - Mantenha o sistema **atualizado**.
 - Desconfie de quem pede para você instalar um app "de suporte" ou "de segurança".
 - Revise permissões e dispositivos conectados a cada poucos meses.
+
+## Minha visão
+
+Na maioria dos casos que vejo, o problema não é um ataque sofisticado, e sim acesso indevido às contas ou ao aparelho por alguém próximo. Por isso começo sempre pelas contas: dispositivos conectados, sessões ativas e compartilhamento de localização.
+
+Também reforço que a segurança da pessoa vem antes da técnica. Se a suspeita envolve alguém próximo, remover um aplicativo pode alertar quem está espionando. Nesses casos, buscar apoio é tão importante quanto limpar o celular.
 
 ## Conclusão
 

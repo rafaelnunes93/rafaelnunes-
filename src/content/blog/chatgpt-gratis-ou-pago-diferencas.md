@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Uso IA todos os dias no desenvolvimento, e já passei pela dúvida entre ficar na versão gratuita ou pagar uma assinatura. Minha conclusão foi que a resposta depende de quanto a ferramenta faz parte do seu trabalho.
+
 O ChatGPT tem uma versão gratuita bastante capaz — e isso gera a dúvida: por que pagar? A resposta depende de **quanto** e **como** você usa. Este artigo explica o que muda entre os planos e ajuda a decidir se a assinatura faz sentido para você.
 
 > **Atenção a preços e limites:** a OpenAI muda planos, limites e modelos com frequência. Os valores citados aqui são referências; confira sempre a [página oficial de preços](https://openai.com/chatgpt/pricing/) antes de assinar.
+
+![Resumo visual do artigo: Qual a diferença entre o ChatGPT gratuito e o pago?](/blog/resumos/chatgpt-gratis-ou-pago-diferencas.png)
 
 ## Os planos em resumo
 
@@ -93,6 +97,12 @@ Independentemente do plano individual, é possível desativar o uso das conversa
 - Já tem acesso a outra IA paga pela empresa (como Copilot ou Gemini corporativos).
 
 **Uma estratégia sensata:** use o gratuito por duas semanas anotando quantas vezes esbarrou em limites. Se aconteceu com frequência e atrapalhou seu trabalho, assine um mês do plano que resolve o problema e avalie o ganho real antes de manter.
+
+## Minha visão
+
+Para mim, a assinatura passou a valer quando eu comecei a esbarrar nos limites no meio de uma tarefa importante. Perder o fio de uma análise porque a cota acabou custa mais tempo do que o valor do plano.
+
+Mas, para quem usa algumas vezes por semana, eu ficaria no gratuito sem culpa. A melhor forma de decidir é observar o próprio uso por algumas semanas antes de assinar, e não pela propaganda de cada lançamento.
 
 ## Conclusão
 

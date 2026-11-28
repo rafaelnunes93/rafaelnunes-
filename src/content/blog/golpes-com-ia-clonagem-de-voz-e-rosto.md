@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Trabalho com tecnologia e uso ferramentas de IA todos os dias, e justamente por conhecer o que elas conseguem fazer, levo a sério os golpes com voz e rosto clonados.
+
 O telefone toca. É a voz do seu filho, chorando, dizendo que sofreu um acidente e precisa de dinheiro urgente. A voz é idêntica. O desespero é real — mas a ligação não é. Golpes com **voz e rosto clonados por inteligência artificial** se espalharam porque as ferramentas ficaram baratas, fáceis de usar e assustadoramente convincentes.
 
 Este artigo explica como o golpe funciona e o que fazer para proteger você e sua família.
+
+![Resumo visual do artigo: Golpes com IA: como criminosos clonam voz e rosto para enganar famílias](/blog/resumos/golpes-com-ia-clonagem-de-voz-e-rosto.png)
 
 ## Como o golpe funciona
 
@@ -100,6 +104,12 @@ Idosos são alvos frequentes. Converse com seus pais e avós sobre esse golpe, e
 5. **Avise os contatos** para que ninguém mais caia.
 
 Veja mais detalhes em [como proteger sua conta bancária e o Pix contra golpes](/blog/como-proteger-conta-bancaria-e-pix-contra-golpes).
+
+## Minha visão
+
+O que mais me preocupa nesse tipo de golpe é que a qualidade do áudio deixou de ser um sinal confiável. Quem conhece a tecnologia sabe que imitar uma voz ficou fácil. Por isso eu não confio na voz, e sim no contexto e na confirmação.
+
+Na minha família, a medida mais simples foi combinar uma palavra-código e a regra de sempre desligar e ligar de volta para o número conhecido. Não exige conhecimento técnico nenhum e funciona contra golpes com ou sem IA.
 
 ## Conclusão
 

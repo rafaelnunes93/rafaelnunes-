@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+No desenvolvimento de software, lido com documentação extensa, especificações e contratos de integração. Usar IA para entender rápido um documento longo virou parte da minha rotina.
+
 Relatórios de 80 páginas, contratos extensos, editais, artigos científicos, manuais técnicos: todo profissional tem uma pilha de PDFs que deveria ler e não tem tempo. A IA não substitui a leitura atenta de partes críticas, mas consegue fazer em minutos o trabalho de mapear o documento, extrair o essencial e apontar onde está cada informação.
+
+![Resumo visual do artigo: Como fazer a IA ler e resumir PDFs longos em minutos](/blog/resumos/como-usar-ia-para-resumir-pdfs-longos.png)
 
 ## Ferramentas que leem PDFs
 
@@ -91,6 +95,12 @@ Abra o PDF nas páginas indicadas e confira as informações críticas. Citaçõ
 - **Tabelas e gráficos:** a IA pode interpretar mal tabelas complexas. Confira os números diretamente no documento.
 - **Omissões:** um resumo é, por definição, uma seleção. Se uma cláusula pode custar caro, leia a cláusula.
 - **Alucinações:** a IA pode afirmar que algo está no documento quando não está. Por isso, peça citações literais — e entenda o risco no artigo sobre [alucinações de IA](/blog/alucinacoes-de-ia-perigo-de-confiar-no-chatbot).
+
+## Minha visão
+
+O que eu faço sempre é pedir o resumo com um objetivo claro e com a página de cada informação. Isso me permite ir direto aos trechos importantes e conferir no original, em vez de confiar cegamente no resumo.
+
+Para documentos que envolvem dinheiro, prazos ou responsabilidades, o resumo serve para me orientar, não para decidir. A cláusula importante eu sempre leio inteira.
 
 ## Conclusão
 

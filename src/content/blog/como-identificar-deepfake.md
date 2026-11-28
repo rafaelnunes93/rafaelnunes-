@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Como trabalho com IA no dia a dia, sei o quanto as ferramentas de geração de imagem e vídeo evoluíram. E é justamente por isso que acho que identificar deepfakes ficou mais difícil do que parece.
+
 Um vídeo de um apresentador famoso recomendando um investimento. Um áudio de um político dizendo algo escandaloso. Uma videochamada do "diretor" pedindo uma transferência urgente. Todos podem ser **deepfakes** — conteúdos criados ou manipulados por inteligência artificial para parecer reais.
 
 As ferramentas que produzem esse tipo de conteúdo ficaram acessíveis e o resultado, cada vez mais convincente. Saber identificar sinais de manipulação virou uma habilidade básica de segurança digital.
+
+![Resumo visual do artigo: Deepfake: como identificar vídeos falsos antes que seja tarde](/blog/resumos/como-identificar-deepfake.png)
 
 ## O que é um deepfake
 
@@ -93,6 +97,12 @@ Se suspeitar de uma videochamada:
 2. **Denuncie** o conteúdo na plataforma.
 3. Se envolver golpe, **avise as pessoas próximas** que podem ser alvo.
 4. Se você for a vítima, **guarde provas**, registre boletim de ocorrência e procure orientação jurídica.
+
+## Minha visão
+
+Minha visão é que procurar falhas visuais funciona cada vez menos. As ferramentas melhoram rápido, e um deepfake bem feito pode não ter nenhum defeito aparente.
+
+Por isso confio mais no contexto do que na imagem: quem publicou, onde mais o conteúdo aparece e o que ele está pedindo de mim. Se um vídeo provoca emoção forte ou pede dinheiro, paro e confiro antes de acreditar ou compartilhar.
 
 ## Conclusão
 

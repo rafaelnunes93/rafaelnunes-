@@ -19,7 +19,11 @@ relatedServices: ["desenvolvimento-full-stack"]
 source: manual
 ---
 
+Programo profissionalmente desde 2019 e hoje uso IA todos os dias. Minha resposta para essa pergunta é um sim convicto, mas com um objetivo diferente do que existia antes.
+
 "Para que aprender a programar se a IA já escreve código?" Essa dúvida tem feito muita gente adiar ou desistir de estudar programação. É compreensível, mas parte de uma premissa errada: a de que programar é apenas digitar código. Nunca foi — e com a IA, isso fica ainda mais claro.
+
+![Resumo visual do artigo: Vale a pena aprender a programar com o avanço da IA?](/blog/resumos/vale-a-pena-aprender-a-programar-com-ia.png)
 
 ## O que mudou
 
@@ -84,6 +88,12 @@ Cursos gratuitos de qualidade, como o CS50 de Harvard e as trilhas do Microsoft 
 ## Para quem não quer ser desenvolvedor
 
 Se o seu objetivo é usar tecnologia no trabalho, sem seguir carreira em programação, aprender o básico ainda compensa: automatizar tarefas, analisar dados e conversar melhor com equipes técnicas. Plataformas no-code com IA também ajudam, mas quem entende os fundamentos vai mais longe com elas — veja [como criar um app sem saber programar](/blog/como-criar-app-sem-saber-programar-com-ia).
+
+## Minha visão
+
+Na prática, quanto mais eu entendo de programação, mais a IA me ajuda. Consigo pedir exatamente o que preciso, perceber rápido quando a resposta está errada e corrigir o que foi gerado. Quem não tem essa base fica sem saber se o código funciona por acaso ou porque está certo.
+
+Por isso eu diria para quem está pensando em começar: aprenda os fundamentos de verdade e use a IA como uma professora paciente, que explica e revisa. Não use como atalho para pular a parte difícil, porque é justamente ela que vai te diferenciar.
 
 ## Conclusão
 

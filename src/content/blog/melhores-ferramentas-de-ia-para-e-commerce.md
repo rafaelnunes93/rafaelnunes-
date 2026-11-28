@@ -19,9 +19,13 @@ relatedServices: ["landing-pages", "apis-e-integracoes"]
 source: manual
 ---
 
+Desenvolvo sites e sistemas, incluindo integrações com plataformas de venda, e vejo a IA ganhando espaço em quase todas as etapas de uma loja virtual.
+
 Quem tem loja virtual sabe que o trabalho nunca acaba: cadastrar produtos, escrever descrições, tratar fotos, responder clientes, criar anúncios, acompanhar vendas. A inteligência artificial já está presente em quase todas essas etapas — algumas vezes dentro das próprias plataformas que você usa. Este comparativo organiza as ferramentas por tarefa, para você saber onde começar.
 
 > **Como este comparativo foi feito:** a seleção considera ferramentas amplamente usadas e recursos documentados pelos fabricantes. Planos e preços mudam com frequência; confirme nos sites oficiais.
+
+![Resumo visual do artigo: Melhores ferramentas de IA para e-commerce: comparativo por tarefa](/blog/resumos/melhores-ferramentas-de-ia-para-e-commerce.png)
 
 ## 1. Descrições e títulos de produtos
 
@@ -95,6 +99,12 @@ As principais plataformas de e-commerce incorporaram IA. A [Shopify](https://www
 2. Verifique o que sua plataforma de loja já oferece com IA.
 3. Teste uma ferramenta por vez e meça o efeito (tempo economizado, conversão, devoluções).
 4. Crie um processo de revisão para tudo o que vai para o cliente.
+
+## Minha visão
+
+Na minha visão, o maior retorno para lojas pequenas costuma estar no atendimento rápido e em descrições de produto bem feitas, porque as duas coisas afetam direto a decisão de compra.
+
+O cuidado que eu sempre reforço é com a informação que chega ao cliente. Uma descrição com medida errada ou uma foto que não representa o produto geram devolução e reclamação. A IA acelera, mas a revisão é o que protege a loja.
 
 ## Conclusão
 

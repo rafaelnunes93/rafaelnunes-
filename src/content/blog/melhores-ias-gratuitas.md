@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Uso ferramentas de IA todos os dias, pagas e gratuitas, e sempre indico as versões gratuitas para quem está começando. Muitas delas já resolvem bastante coisa.
+
 Não é preciso pagar assinatura para aproveitar boa parte do que a inteligência artificial oferece. As versões gratuitas das principais ferramentas evoluíram muito e atendem bem a estudantes, profissionais com uso ocasional e qualquer pessoa que queira experimentar antes de assinar.
 
 Esta lista reúne as melhores opções gratuitas por tipo de tarefa. Como os limites e recursos mudam com frequência, use as descrições como guia e confirme os detalhes nos sites oficiais.
+
+![Resumo visual do artigo: IA gratuita: as melhores opções sem pagar nada](/blog/resumos/melhores-ias-gratuitas.png)
 
 ## Para conversar, escrever e tirar dúvidas
 
@@ -99,6 +103,12 @@ O Gemini Live e o modo de voz do ChatGPT oferecem conversas naturais em portugu�
 ## Cuidados com privacidade
 
 Serviços gratuitos podem usar suas conversas para melhorar os modelos, conforme as políticas de cada empresa. Em vários casos é possível desativar essa opção nas configurações. Regra prática: **não cole em uma IA gratuita nada que você não publicaria** — dados pessoais, documentos de clientes, senhas ou informações confidenciais da empresa.
+
+## Minha visão
+
+Minha sugestão é combinar ferramentas, em vez de procurar uma única IA perfeita. Um assistente geral para escrever e tirar dúvidas, um buscador com fontes para pesquisa e uma ferramenta de estudo para documentos já cobrem a maior parte das necessidades.
+
+O cuidado que eu sempre reforço é com dados. Ferramenta gratuita não combina com informação confidencial, seja da empresa, seja de clientes.
 
 ## Conclusão
 

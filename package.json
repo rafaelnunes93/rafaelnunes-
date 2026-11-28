@@ -15,7 +15,8 @@
     "deploy": "npm run build && npm run ghpages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "covers": "node scripts/generate-covers.mjs"
+    "covers": "node scripts/generate-covers.mjs",
+    "summaries": "node scripts/generate-summaries.mjs"
   },
   "private": true,
   "dependencies": {

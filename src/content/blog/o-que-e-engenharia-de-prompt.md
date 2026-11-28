@@ -19,7 +19,11 @@ relatedServices: ["apis-e-integracoes"]
 source: manual
 ---
 
+Escrevo prompts todos os dias no meu trabalho, numa empresa com cultura AI First, e tenho uma visão bem prática sobre engenharia de prompt: ela é menos sobre fórmulas e mais sobre saber explicar um problema.
+
 Quando os assistentes de IA se popularizaram, surgiu também um novo termo: **engenharia de prompt**. Para uns, é a habilidade mais valiosa da década; para outros, um modismo. A verdade está no meio — e entender o que ela é de fato ajuda a decidir quanto tempo investir.
+
+![Resumo visual do artigo: O que é engenharia de prompt e vale a pena aprender?](/blog/resumos/o-que-e-engenharia-de-prompt.png)
 
 ## O que é um prompt
 
@@ -90,6 +94,12 @@ Existem dois níveis bem diferentes da habilidade:
 2. Escolha três tarefas reais do seu trabalho e reescreva seus pedidos com contexto, exemplos e formato.
 3. Compare os resultados entre duas ferramentas diferentes.
 4. Monte uma biblioteca pessoal com os prompts que funcionaram melhor.
+
+## Minha visão
+
+Para mim, a parte mais valiosa da engenharia de prompt é algo que já fazia parte do desenvolvimento antes da IA: descrever bem um problema, com contexto, critérios de aceite e exemplos. Um bom prompt se parece muito com uma boa especificação de tarefa.
+
+Por isso não acredito em prompts mágicos. Acredito em contexto bem dado e em revisão crítica do resultado. Quem domina o assunto sobre o qual está pedindo sempre escreve prompts melhores do que quem só decorou fórmulas.
 
 ## Conclusão
 

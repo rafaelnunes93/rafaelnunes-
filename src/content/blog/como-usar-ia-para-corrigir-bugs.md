@@ -19,9 +19,13 @@ relatedServices: ["desenvolvimento-full-stack"]
 source: manual
 ---
 
+Comecei minha carreira reproduzindo falhas e investigando chamados, então depuração sempre fez parte do meu trabalho. Hoje uso IA nesse processo todos os dias, e aprendi que ela ajuda muito, desde que seja usada com método.
+
 Depurar costuma consumir uma parte enorme do tempo de quem desenvolve software. A IA pode acelerar muito esse trabalho — explicando mensagens de erro, levantando hipóteses e sugerindo correções. Mas usada sem método, ela também pode gerar "consertos" que escondem o problema ou criam bugs novos.
 
 Este guia mostra um método que funciona no dia a dia.
+
+![Resumo visual do artigo: Como usar IA para encontrar e corrigir bugs mais rápido](/blog/resumos/como-usar-ia-para-corrigir-bugs.png)
 
 ## O erro mais comum: "conserta pra mim"
 
@@ -104,6 +108,12 @@ Mesmo assim: revise cada alteração, rode os testes e não aceite mudanças que
 - **Respeite a política da empresa** sobre ferramentas de IA.
 - **Atenção à segurança:** correções sugeridas também podem introduzir vulnerabilidades — veja os [riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
 - **Meça de verdade:** um estudo do METR em 2025 mostrou que desenvolvedores experientes podem se sentir mais rápidos com IA mesmo quando não estão. Acompanhe o tempo real gasto.
+
+## Minha visão
+
+O que mudou para mim com a IA foi a velocidade de levantar hipóteses, não a necessidade de entender o problema. Quando colo um erro com contexto completo, recebo em segundos possibilidades que antes levaria muito mais tempo para mapear. Mas a confirmação continua sendo minha: reproduzo o bug, escrevo um teste que falha e só então corrijo.
+
+O erro que procuro evitar é aceitar a primeira correção que "faz o erro sumir". Muitas vezes ela esconde a causa real, e o problema volta de outro jeito semanas depois. Entender o porquê do bug ainda é a parte mais valiosa do trabalho.
 
 ## Conclusão
 

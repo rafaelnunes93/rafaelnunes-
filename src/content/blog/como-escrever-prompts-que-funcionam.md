@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Uso IA o dia inteiro no desenvolvimento de software, e a maior parte das respostas ruins que recebi tinha a mesma causa: um pedido vago da minha parte.
+
 Quem usa IA com frequência já passou por isso: você faz uma pergunta e recebe uma resposta genérica, fora do contexto ou simplesmente errada. Na maioria das vezes, o problema não é a ferramenta — é a combinação entre o que a IA consegue fazer e o modo como o pedido foi feito.
 
 Este guia explica por que as respostas saem erradas e mostra uma estrutura de prompt simples que melhora os resultados em qualquer assistente: ChatGPT, Gemini, Claude ou Copilot.
+
+![Resumo visual do artigo: Por que a IA dá respostas erradas? Como escrever prompts que funcionam](/blog/resumos/como-escrever-prompts-que-funcionam.png)
 
 ## Por que a IA erra
 
@@ -105,6 +109,12 @@ As próprias empresas que criam os modelos recomendam essas práticas em seus gu
 > **Material:** [cole aqui textos ou dados]
 > **Formato:** [tópicos/tabela/texto, tamanho, tom]
 > **Restrições:** use apenas as informações fornecidas; se faltar algo, pergunte antes de responder.
+
+## Minha visão
+
+O hábito que mais melhorou meus resultados foi escrever o pedido como se estivesse passando uma tarefa para um colega que acabou de chegar ao projeto: qual é o objetivo, qual é o contexto, onde estão os arquivos importantes e como saber se ficou certo.
+
+Outro hábito é pedir para a IA dizer quando não tem certeza. Isso não elimina os erros, mas reduz bastante as respostas inventadas. E continuo verificando números, datas e citações antes de usar qualquer resultado.
 
 ## Conclusão
 

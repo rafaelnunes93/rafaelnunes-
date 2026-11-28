@@ -19,9 +19,13 @@ relatedServices: ["apis-e-integracoes"]
 source: manual
 ---
 
+Trabalho numa empresa com cultura AI First, e uma das primeiras coisas em que a IA me ajudou foi lidar melhor com conversas longas e e-mails repetitivos.
+
 O e-mail continua sendo um dos maiores consumidores de tempo do trabalho de escritório. Um estudo clássico do [McKinsey Global Institute](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy) estimou que profissionais do conhecimento gastavam cerca de **28% da semana** lendo e respondendo mensagens. A pesquisa é de 2012, mas qualquer pessoa que abre a caixa de entrada na segunda-feira sabe que o problema não sumiu — só ganhou a companhia do WhatsApp e do Teams.
 
 A boa notícia é que a inteligência artificial é especialmente boa no tipo de tarefa que domina o e-mail: ler textos longos, extrair o essencial e escrever respostas educadas e objetivas. Este guia mostra um método em três etapas para cortar o tempo gasto com e-mails, usando ferramentas que você provavelmente já tem.
+
+![Resumo visual do artigo: Como usar IA para reduzir pela metade o tempo gasto com e-mails](/blog/resumos/como-usar-ia-para-reduzir-tempo-com-emails.png)
 
 ## Por que o e-mail consome tanto tempo
 
@@ -85,6 +89,12 @@ Antes de colar e-mails em qualquer ferramenta, verifique:
 - **A política da empresa.** Muitas organizações proíbem o uso de IA pessoal com dados de clientes.
 - **O tipo de conta.** Planos corporativos costumam ter compromissos contratuais de não usar seus dados para treinar modelos. Em contas pessoais gratuitas, as regras são outras — leia as configurações de privacidade.
 - **Dados sensíveis.** Contratos, dados pessoais de clientes e informações financeiras exigem cuidado redobrado, inclusive por causa da LGPD.
+
+## Minha visão
+
+Na minha rotina, o maior ganho não está em deixar a IA escrever tudo, e sim em usá-la para entender rápido uma conversa longa e preparar um primeiro rascunho. A decisão do que responder continua sendo minha.
+
+Também aprendi que nenhum assistente compensa a falta de processo. Reservar horários para o e-mail e ter modelos para as respostas repetidas economiza tanto tempo quanto a própria IA. Juntando as duas coisas, o e-mail deixa de interromper o trabalho que realmente importa.
 
 ## Um roteiro para começar amanhã
 

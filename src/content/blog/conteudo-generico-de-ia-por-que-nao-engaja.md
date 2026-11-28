@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Uso IA para escrever no dia a dia e percebi cedo uma coisa: quando deixo a ferramenta decidir o conteúdo, o texto sai correto e esquecível.
+
 Você pediu à IA um post sobre o seu tema, publicou e... nada. Poucas curtidas, nenhum comentário. A explicação costuma ser simples: se qualquer pessoa pode gerar aquele mesmo texto com um pedido de uma linha, por que alguém pararia para ler o seu?
 
 Conforme o volume de conteúdo gerado por IA cresce, o que é comum vira ruído. Isso não significa abandonar a ferramenta, e sim mudar a forma de usá-la.
+
+![Resumo visual do artigo: Conteúdo genérico de IA: por que seus posts não engajam (e como corrigir)](/blog/resumos/conteudo-generico-de-ia-por-que-nao-engaja.png)
 
 ## Por que o conteúdo sai genérico
 
@@ -98,6 +102,12 @@ Mesmo um ótimo texto rende pouco se você some depois de publicar. Responda aos
 ## O que vale também para blogs e SEO
 
 Buscadores seguem a mesma lógica. Segundo o Google, conteúdo útil e original pode ir bem, seja qual for a forma de produção, enquanto a produção em massa para manipular resultados viola as políticas. Veja [o Google penaliza conteúdo feito com IA?](/blog/google-penaliza-conteudo-feito-com-ia).
+
+## Minha visão
+
+O que funciona para mim é começar pela minha ideia e pela minha experiência, e usar a IA para organizar e revisar. Quando faço o contrário, o resultado parece com o que todo mundo publica.
+
+Por isso acredito que, quanto mais conteúdo gerado por IA existir, mais valor terá quem tem algo próprio a dizer. A ferramenta acelera a escrita, mas a originalidade continua vindo de quem escreve.
 
 ## Conclusão
 

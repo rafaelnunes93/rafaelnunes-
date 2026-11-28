@@ -19,9 +19,13 @@ relatedServices: ["aplicativos-mobile", "saas-ponta-a-ponta"]
 source: manual
 ---
 
+Já desenvolvi aplicativos e sistemas do zero, e vejo com bons olhos as plataformas que permitem criar apps sem programar, desde que se conheçam seus limites.
+
 Até pouco tempo atrás, transformar uma ideia de aplicativo em realidade exigia aprender a programar ou contratar um desenvolvedor. Hoje, plataformas com inteligência artificial geram aplicativos funcionais a partir de uma descrição em texto. Isso abriu a porta para empreendedores, profissionais e curiosos criarem protótipos e ferramentas simples em poucas horas.
 
 Este guia mostra como fazer isso — e onde estão os limites.
+
+![Resumo visual do artigo: Como criar seu primeiro app sem saber programar usando IA](/blog/resumos/como-criar-app-sem-saber-programar-com-ia.png)
 
 ## O que dá para criar (e o que não dá)
 
@@ -115,6 +119,12 @@ Considere apoio técnico quando o app:
 - Virar o centro do seu negócio.
 
 Nesse momento, o protótipo feito com IA vale ouro: ele mostra exatamente o que precisa ser construído. Saiba como funciona o [desenvolvimento de aplicativos mobile](/servicos/aplicativos-mobile) sob medida.
+
+## Minha visão
+
+Para validar uma ideia, eu acho essas ferramentas excelentes: em poucas horas dá para ter algo para mostrar a usuários reais e descobrir se a ideia faz sentido. Isso economiza muito dinheiro antes de qualquer desenvolvimento maior.
+
+O cuidado que eu sempre reforço é com segurança e dados. Apps gerados automaticamente podem expor informações se as regras de acesso não forem revisadas. Quando o app começa a ter usuários de verdade e dados importantes, é hora de alguém técnico olhar o que foi construído.
 
 ## Conclusão
 

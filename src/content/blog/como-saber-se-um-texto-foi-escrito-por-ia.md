@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Escrevo com ajuda de IA no meu dia a dia e já vi detectores de IA apontarem como artificial um texto que eu mesmo escrevi. Por isso tenho uma visão bem cética sobre essas ferramentas.
+
 Com a popularização do ChatGPT, professores, editores e recrutadores passaram a se perguntar: este texto foi escrito por uma pessoa ou por uma IA? Surgiram dezenas de "detectores de IA" prometendo a resposta. O problema é que os dados mostram que eles erram — e às vezes erram de forma injusta.
+
+![Resumo visual do artigo: Como saber se um texto foi escrito por IA? O que funciona de verdade](/blog/resumos/como-saber-se-um-texto-foi-escrito-por-ia.png)
 
 ## Os detectores funcionam?
 
@@ -86,6 +90,12 @@ Em escolas e processos seletivos, as abordagens mais sólidas avaliam como o tra
 - Use a IA para estruturar e revisar, mas coloque sua experiência, exemplos e opinião.
 - Verifique todos os fatos e referências.
 - Guarde rascunhos e histórico de versões, caso precise demonstrar seu processo.
+
+## Minha visão
+
+Na minha visão, usar um detector como prova é injusto, porque eles erram com frequência. Sinais de estilo podem levantar uma dúvida, mas não comprovam nada.
+
+Em vez de tentar descobrir a ferramenta usada, eu olharia para o que importa: o texto está correto, traz algo de útil e a pessoa consegue explicar o que escreveu? Uma boa conversa sobre o conteúdo diz mais do que qualquer porcentagem de detector.
 
 ## Conclusão
 

@@ -18,7 +18,11 @@ faq:
 source: manual
 ---
 
+Trabalho com desenvolvimento de sistemas e conheço de perto como golpistas exploram a pressa e a confiança das pessoas. No Pix, esse cuidado é ainda mais importante, porque o dinheiro sai na hora.
+
 O Pix revolucionou os pagamentos no Brasil: é instantâneo, gratuito para pessoas físicas e funciona 24 horas. Essas mesmas características o tornaram alvo preferido dos golpistas, porque o dinheiro sai na hora. A boa notícia é que existem proteções eficazes — algumas definidas pelo Banco Central, outras que dependem de hábitos simples.
+
+![Resumo visual do artigo: Como proteger sua conta bancária e o Pix contra golpes digitais](/blog/resumos/como-proteger-conta-bancaria-e-pix-contra-golpes.png)
 
 ## Os golpes mais comuns
 
@@ -95,6 +99,12 @@ A devolução não é garantida: depende de a fraude ser confirmada e de ainda h
 3. Use a localização remota do Android ou do iPhone para bloquear ou apagar o aparelho.
 4. Troque as senhas de e-mail e aplicativos importantes.
 5. Registre boletim de ocorrência.
+
+## Minha visão
+
+A medida que eu considero mais eficaz é também a mais simples: ajustar os limites do Pix ao que você realmente usa. Isso não impede o golpe, mas limita o prejuízo.
+
+E a regra de ouro que repito para as pessoas próximas é desligar e ligar de volta para o número oficial do banco sempre que alguém pedir senha, código ou transferência. Banco nenhum faz isso por telefone.
 
 ## Conclusão
 

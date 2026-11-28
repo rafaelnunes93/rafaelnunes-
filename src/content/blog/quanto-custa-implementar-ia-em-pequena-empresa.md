@@ -19,9 +19,13 @@ relatedServices: ["apis-e-integracoes", "saas-ponta-a-ponta"]
 source: manual
 ---
 
+Desenvolvo sistemas e integrações para empresas e uso IA no meu trabalho todos os dias, e quase sempre a primeira pergunta é sobre custo. A resposta honesta é que muitas empresas podem começar gastando muito pouco.
+
 "Quanto custa colocar IA na minha empresa?" A pergunta é justa, mas a resposta depende de algo anterior: **para que** a IA vai ser usada. Um assistente para a equipe escrever e-mails custa muito menos do que um chatbot integrado ao sistema de pedidos. Este artigo organiza os custos em quatro níveis, mostra os gastos que costumam ser esquecidos e ensina a calcular o retorno.
 
 > **Sobre os valores:** preços de ferramentas de IA mudam com frequência e muitos são cobrados em dólar. Use as referências como ordem de grandeza e consulte sempre as páginas oficiais.
+
+![Resumo visual do artigo: Quanto custa implementar IA em uma pequena empresa?](/blog/resumos/quanto-custa-implementar-ia-em-pequena-empresa.png)
 
 ## Nível 1: ferramentas gratuitas (custo zero)
 
@@ -96,6 +100,12 @@ Os números do exemplo são ilustrativos; o importante é medir os seus antes e 
 2. **Suba para o nível 2** nas funções em que a IA já provou valor.
 3. **Avalie plataformas prontas** (nível 3) para gargalos claros, como atendimento.
 4. **Parta para o sob medida** (nível 4) quando o volume ou a especificidade justificarem.
+
+## Minha visão
+
+O que eu recomendaria a uma pequena empresa é começar pelo gratuito, numa tarefa específica, e medir o resultado antes de qualquer investimento maior. Muitas vezes, uma ferramenta simples e um processo bem definido já resolvem o problema.
+
+O desenvolvimento sob medida faz sentido quando a IA precisa conversar com os sistemas da empresa, como estoque, pedidos ou agenda, ou quando o volume é alto. Nesse ponto, o custo maior não costuma ser a IA em si, e sim organizar os dados e integrar tudo de forma confiável.
 
 ## Conclusão
 

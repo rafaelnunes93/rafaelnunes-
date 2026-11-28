@@ -18,9 +18,13 @@ faq:
 source: manual
 ---
 
+Uso ferramentas de pesquisa com IA no meu trabalho, principalmente para encontrar documentação e entender temas novos rapidamente. O Perplexity é uma das que mais aparecem nessas conversas.
+
 O Perplexity se apresenta como um "mecanismo de respostas": em vez de mostrar uma lista de links, ele pesquisa na web, lê as páginas e entrega uma resposta em texto com as fontes numeradas. A proposta conquistou milhões de usuários e virou uma das principais alternativas ao jeito tradicional de buscar no Google. Mas vale a pena?
 
 > **Como este review foi feito:** a análise se baseia nas funcionalidades documentadas pela empresa e nas características públicas dos planos. Preços e limites mudam com frequência; confira em [perplexity.ai](https://www.perplexity.ai/).
+
+![Resumo visual do artigo: Perplexity vale a pena? Review do buscador com IA que desafia o Google](/blog/resumos/perplexity-vale-a-pena-review.png)
 
 ## Como funciona
 
@@ -89,6 +93,12 @@ Vale notar que o Google também passou a mostrar resumos com IA nos resultados, 
 - Abra as fontes das afirmações mais importantes.
 - Use as perguntas de acompanhamento para aprofundar.
 - Organize pesquisas recorrentes em Espaços.
+
+## Minha visão
+
+O que eu mais valorizo no Perplexity é mostrar as fontes. Isso facilita a conferência, que para mim é obrigatória. Já encontrei casos em que a fonte existia, mas não dizia exatamente o que o resumo afirmava.
+
+Por isso uso esse tipo de ferramenta como ponto de partida para pesquisa, nunca como palavra final. Para decisões técnicas, a documentação oficial continua sendo minha referência.
 
 ## Veredito
 

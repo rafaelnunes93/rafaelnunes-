@@ -19,9 +19,13 @@ relatedServices: ["desenvolvimento-full-stack"]
 source: manual
 ---
 
+Sou desenvolvedor e trabalho todos os dias com IA no meu fluxo. Então essa pergunta não é teórica para mim: é sobre a minha própria profissão.
+
 Poucas profissões foram tão impactadas pela IA generativa quanto a programação. Assistentes escrevem funções inteiras, agentes abrem pull requests e plataformas criam aplicativos a partir de uma descrição em texto. A pergunta é inevitável: ainda vai existir emprego para programadores?
 
 Como desenvolvedor que usa IA no dia a dia, posso dizer que a resposta curta é "sim, mas diferente". A resposta longa está nos dados.
+
+![Resumo visual do artigo: A IA vai substituir programadores? O que os dados mostram](/blog/resumos/a-ia-vai-substituir-programadores.png)
 
 ## O que os desenvolvedores dizem
 
@@ -83,6 +87,12 @@ O trabalho do programador está se deslocando de **escrever cada linha** para **
 - **Aprenda segurança:** código gerado por IA tem riscos específicos — veja [os riscos de segurança do código gerado por IA](/blog/riscos-de-seguranca-do-codigo-gerado-por-ia).
 - **Construa projetos reais**, do início ao deploy.
 - **Desenvolva habilidades de comunicação** e entendimento de negócio.
+
+## Minha visão
+
+Pelo que vivo no dia a dia, a IA não substituiu o trabalho de desenvolver software, mas mudou onde está o valor. Escrever código repetitivo ficou muito mais rápido. Entender o problema do cliente, decidir a arquitetura, revisar o que foi gerado e responder pelo sistema em produção continuam sendo trabalho humano, e ficaram ainda mais importantes.
+
+O que eu recomendo a quem está na área é não competir com a IA naquilo que ela faz bem. Use a ferramenta para ganhar velocidade e invista no que ela não faz: conhecimento do negócio, fundamentos sólidos e senso crítico para saber quando a resposta está errada.
 
 ## Conclusão
 

@@ -19,7 +19,11 @@ relatedServices: ["apis-e-integracoes", "saas-ponta-a-ponta"]
 source: manual
 ---
 
+Como desenvolvedor que trabalha com integrações, vejo o atendimento no WhatsApp como mais uma integração: ele só funciona bem quando conversa com os sistemas e as informações da empresa.
+
 O WhatsApp é o principal canal de contato entre clientes e pequenas empresas no Brasil. E é justamente aí que muitos negócios perdem vendas: mensagens respondidas horas depois, perguntas repetidas consumindo a equipe, clientes desistindo fora do horário comercial. Um atendimento com IA bem feito resolve boa parte disso — desde que seja montado do jeito certo.
+
+![Resumo visual do artigo: Como montar um atendimento no WhatsApp com IA para pequenas empresas](/blog/resumos/atendimento-no-whatsapp-com-ia-para-pequenas-empresas.png)
 
 ## Primeiro: as regras do jogo
 
@@ -93,6 +97,12 @@ Veja mais detalhes em [LGPD e IA: os riscos de colocar dados de clientes em chat
 
 - **Plataformas prontas** de atendimento com IA são rápidas de implantar e têm planos mensais. Indicadas para empresas com perguntas padronizadas.
 - **Integrações sob medida** fazem sentido quando o atendimento precisa consultar sistemas próprios (ERP, estoque, pedidos, agenda) ou tem regras específicas. Nesses casos, uma [integração com os sistemas da empresa](/servicos/apis-e-integracoes) evita respostas desatualizadas.
+
+## Minha visão
+
+O que eu mais recomendo a quem quer colocar IA no WhatsApp é começar pelas informações, não pela ferramenta. Uma base de conhecimento clara e atualizada vale mais do que o modelo mais avançado. Sem ela, o assistente responde com confiança coisas que não são verdade.
+
+Também considero essencial deixar a passagem para um atendente humano sempre fácil. Um cliente preso num robô que não resolve é pior do que um cliente esperando alguns minutos. A IA deve tirar da equipe o trabalho repetitivo, não afastar a empresa do cliente.
 
 ## Conclusão
 
